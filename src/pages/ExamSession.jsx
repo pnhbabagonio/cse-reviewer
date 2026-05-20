@@ -87,8 +87,8 @@ export default function ExamSession() {
   if (!session || !currentQuestion) return null
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-dark-bg pb-20">
-      <div className="max-w-md mx-auto px-4 py-4 space-y-4">
+    <div className="w-full">
+      <div className="max-w-2xl mx-auto space-y-4 lg:[&_.card>div.space-y-2]:grid lg:[&_.card>div.space-y-2]:grid-cols-2 lg:[&_.card>div.space-y-2]:gap-3 lg:[&_.card>div.space-y-2]:space-y-0">
         {/* Header */}
         <div className="flex justify-between items-center">
           <div>

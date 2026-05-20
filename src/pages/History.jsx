@@ -15,10 +15,35 @@ export default function History() {
     setShowClearModal(false)
   }
 
+  const toggleExpand = (id) => {
+    setExpandedId(expandedId === id ? null : id)
+  }
+
+  const formatDate = (date) => new Date(date).toLocaleString()
+
+  const ModeChip = ({ mode }) => (
+    <span className="text-xs px-2 py-0.5 bg-gray-100 dark:bg-gray-800 rounded capitalize">{mode}</span>
+  )
+
+  const CategoryChips = ({ cats }) => (
+    <div className="flex flex-wrap gap-1">
+      {cats.slice(0, 2).map(c => (
+        <span key={c} className="text-xs px-2 py-0.5 bg-gray-100 dark:bg-gray-800 rounded">{c}</span>
+      ))}
+      {cats.length > 2 && <span className="text-xs text-gray-500">+{cats.length - 2}</span>}
+    </div>
+  )
+
+  const PassFailChip = ({ passed }) => (
+    <span className={`text-xs font-semibold px-2 py-1 rounded ${passed ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>
+      {passed ? 'PASSED' : 'FAILED'}
+    </span>
+  )
+
   if (sessions.length === 0) {
     return (
-      <div className="max-w-md mx-auto px-4 py-12 text-center">
-        <div className="text-6xl mb-4">📊</div>
+      <div className="w-full max-w-2xl mx-auto py-12 text-center">
+        <div className="text-6xl mb-4">History</div>
         <h2 className="text-xl font-bold mb-2">No Exam History Yet</h2>
         <p className="text-gray-500 mb-6">Take your first exam to see your progress here!</p>
         <button onClick={() => window.location.href = '/'} className="btn-primary">Take Exam</button>
@@ -27,21 +52,21 @@ export default function History() {
   }
 
   return (
-    <div className="max-w-md mx-auto px-4 py-6 space-y-4">
+    <div className="w-full space-y-4">
       <div className="flex justify-between items-center">
         <h1 className="text-2xl font-bold text-navy dark:text-white">Exam History</h1>
         <button onClick={() => setShowClearModal(true)} className="text-red-600 text-sm">Clear All</button>
       </div>
 
-      <div className="space-y-3">
+      <div className="space-y-3 lg:hidden">
         {sortedSessions.map(session => (
           <div key={session.id} className="card">
             <div className="flex justify-between items-start">
               <div>
-                <p className="text-sm text-gray-500">{new Date(session.date).toLocaleString()}</p>
+                <p className="text-sm text-gray-500">{formatDate(session.date)}</p>
                 <div className="flex gap-1 mt-1 flex-wrap">
-                  <span className="text-xs px-2 py-0.5 bg-gray-100 rounded">{session.mode}</span>
-                  {session.categories.slice(0,2).map(c => <span key={c} className="text-xs px-2 py-0.5 bg-gray-100 rounded">{c}</span>)}
+                  <ModeChip mode={session.mode} />
+                  <CategoryChips cats={session.categories} />
                 </div>
               </div>
               <div className="text-right">
@@ -53,13 +78,13 @@ export default function History() {
             </div>
             <ProgressBar value={session.score} max={session.totalQuestions} className="mt-2" />
             <button
-              onClick={() => setExpandedId(expandedId === session.id ? null : session.id)}
+              onClick={() => toggleExpand(session.id)}
               className="mt-2 text-xs text-gold"
             >
               {expandedId === session.id ? 'Hide details' : 'Show details'}
             </button>
             {expandedId === session.id && session.categoryBreakdown && (
-              <div className="mt-3 pt-2 border-t border-gray-200">
+              <div className="mt-3 pt-2 border-t border-gray-200 dark:border-gray-700">
                 <p className="text-sm font-semibold mb-1">Category Breakdown:</p>
                 {Object.entries(session.categoryBreakdown).map(([cat, data]) => (
                   <div key={cat} className="flex justify-between text-xs">
@@ -71,6 +96,37 @@ export default function History() {
             )}
           </div>
         ))}
+      </div>
+
+      <div className="hidden lg:block card overflow-hidden">
+        <table className="w-full text-sm border-collapse table-fixed">
+          <thead className="bg-gray-50 dark:bg-gray-800">
+            <tr>
+              <th className="text-left px-2 py-3 font-medium text-gray-600 dark:text-gray-400">Date</th>
+              <th className="text-left px-2 py-3 font-medium text-gray-600 dark:text-gray-400">Mode</th>
+              <th className="text-left px-2 py-3 font-medium text-gray-600 dark:text-gray-400">Categories</th>
+              <th className="text-left px-2 py-3 font-medium text-gray-600 dark:text-gray-400">Questions</th>
+              <th className="text-left px-2 py-3 font-medium text-gray-600 dark:text-gray-400">Score</th>
+              <th className="text-left px-2 py-3 font-medium text-gray-600 dark:text-gray-400">Result</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
+            {sortedSessions.map(session => (
+              <tr
+                key={session.id}
+                className="hover:bg-gray-50 dark:hover:bg-gray-800/50 cursor-pointer"
+                onClick={() => toggleExpand(session.id)}
+              >
+                <td className="px-2 py-3 break-words">{formatDate(session.date)}</td>
+                <td className="px-2 py-3"><ModeChip mode={session.mode} /></td>
+                <td className="px-2 py-3"><CategoryChips cats={session.categories} /></td>
+                <td className="px-2 py-3">{session.totalQuestions}</td>
+                <td className="px-2 py-3">{session.percentage.toFixed(1)}%</td>
+                <td className="px-2 py-3"><PassFailChip passed={session.passed} /></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
 
       <Modal isOpen={showClearModal} onClose={() => setShowClearModal(false)} title="Clear History">

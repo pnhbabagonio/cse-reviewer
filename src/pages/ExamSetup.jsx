@@ -75,7 +75,6 @@ export default function ExamSetup() {
     ))
   }, [selectedCategories])
 
-  // Filter questions based on selection
   useEffect(() => {
     let filtered = allQuestions
     if (retryWrongIds) {
@@ -92,7 +91,6 @@ export default function ExamSetup() {
       }
     }
     setAvailableCount(filtered.length)
-    // Auto-adjust question count if needed
     const maxAvailable = Math.min(questionCount, filtered.length)
     if (maxAvailable < questionCount && filtered.length > 0) {
       setQuestionCount(filtered.length)
@@ -101,7 +99,7 @@ export default function ExamSetup() {
 
   const toggleCategory = (catId) => {
     if (selectedCategories.includes(catId)) {
-      if (selectedCategories.length === 1) return // Keep at least one
+      if (selectedCategories.length === 1) return
       setSelectedCategories(selectedCategories.filter(c => c !== catId))
     } else {
       setSelectedCategories([...selectedCategories, catId])
@@ -135,165 +133,165 @@ export default function ExamSetup() {
   const customQuestionCount = availableCount > 0 && !questionCounts.includes(questionCount)
 
   return (
-    <div className="max-w-md mx-auto px-4 py-6 space-y-6">
+    <div className="w-full space-y-6">
       <div>
         <h1 className="text-2xl font-bold text-navy dark:text-white">Exam Setup</h1>
         <p className="text-sm text-gray-500 dark:text-gray-400">
-          {mode === 'timed' ? '⏱️ Timed Exam' : '📚 Practice Mode'}
+          {mode === 'timed' ? 'Timed Exam' : 'Practice Mode'}
         </p>
       </div>
 
       {retryWrongIds && (
         <div className="bg-blue-50 dark:bg-blue-900/20 p-3 rounded-lg text-sm">
-          🔄 Retrying only your previously wrong answers ({retryWrongIds.length} questions)
+          Retrying only your previously wrong answers ({retryWrongIds.length} questions)
         </div>
       )}
 
-      {/* Categories */}
-      <div className="space-y-2">
-        <label className="font-semibold">Categories</label>
-        <div className="flex flex-wrap gap-2">
-          {categories.map(cat => (
-            <button
-              key={cat.id}
-              onClick={() => toggleCategory(cat.id)}
-              className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-medium transition-all ${
-                selectedCategories.includes(cat.id)
-                  ? 'bg-navy text-white dark:bg-gold dark:text-navy'
-                  : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300'
-              }`}
-            >
-              <span>{cat.label}</span>
-              <span className={`text-[11px] px-1.5 py-0.5 rounded-full ${
-                selectedCategories.includes(cat.id)
-                  ? 'bg-white/20 dark:bg-navy/10'
-                  : 'bg-white dark:bg-gray-700'
-              }`}>
-                {categoryCounts[cat.id] || 0}
-              </span>
-            </button>
-          ))}
-        </div>
-      </div>
-
-      {/* Subcategories */}
-      {!retryWrongIds && subcategoryGroups.length > 0 && (
-        <div className="space-y-3">
-          <div className="flex items-center justify-between gap-3">
-            <label className="font-semibold">Subcategories</label>
-            {selectedSubcategoryKeys.length > 0 && (
-              <button
-                type="button"
-                onClick={() => setSelectedSubcategoryKeys([])}
-                className="text-xs font-medium text-gold"
-              >
-                All
-              </button>
-            )}
+      <div className="lg:grid lg:grid-cols-2 lg:gap-8">
+        <div className="space-y-6">
+          <div className="space-y-2">
+            <label className="font-semibold">Categories</label>
+            <div className="flex flex-wrap gap-2">
+              {categories.map(cat => (
+                <button
+                  key={cat.id}
+                  onClick={() => toggleCategory(cat.id)}
+                  className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-medium transition-all ${
+                    selectedCategories.includes(cat.id)
+                      ? 'bg-navy text-white dark:bg-gold dark:text-navy'
+                      : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300'
+                  }`}
+                >
+                  <span>{cat.label}</span>
+                  <span className={`text-[11px] px-1.5 py-0.5 rounded-full ${
+                    selectedCategories.includes(cat.id)
+                      ? 'bg-white/20 dark:bg-navy/10'
+                      : 'bg-white dark:bg-gray-700'
+                  }`}>
+                    {categoryCounts[cat.id] || 0}
+                  </span>
+                </button>
+              ))}
+            </div>
           </div>
 
-          {subcategoryGroups.map(group => (
-            <div key={group.id} className="space-y-2">
-              <p className="text-xs font-semibold uppercase text-gray-500 dark:text-gray-400">
-                {group.label} ({group.total})
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {group.subcategories.map(subcategory => {
-                  const isSelected = selectedSubcategoryKeys.includes(subcategory.key)
-                  return (
-                    <button
-                      key={subcategory.key}
-                      type="button"
-                      onClick={() => toggleSubcategory(subcategory.key)}
-                      className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-medium transition-all ${
-                        isSelected
-                          ? 'bg-navy text-white dark:bg-gold dark:text-navy'
-                          : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300'
-                      }`}
-                    >
-                      <span>{subcategory.label}</span>
-                      <span className={`text-[11px] px-1.5 py-0.5 rounded-full ${
-                        isSelected
-                          ? 'bg-white/20 dark:bg-navy/10'
-                          : 'bg-white dark:bg-gray-700'
-                      }`}>
-                        {subcategory.total}
-                      </span>
-                    </button>
-                  )
-                })}
+          {!retryWrongIds && subcategoryGroups.length > 0 && (
+            <div className="space-y-3">
+              <div className="flex items-center justify-between gap-3">
+                <label className="font-semibold">Subcategories</label>
+                {selectedSubcategoryKeys.length > 0 && (
+                  <button
+                    type="button"
+                    onClick={() => setSelectedSubcategoryKeys([])}
+                    className="text-xs font-medium text-gold"
+                  >
+                    All
+                  </button>
+                )}
               </div>
+
+              {subcategoryGroups.map(group => (
+                <div key={group.id} className="space-y-2">
+                  <p className="text-xs font-semibold uppercase text-gray-500 dark:text-gray-400">
+                    {group.label} ({group.total})
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {group.subcategories.map(subcategory => {
+                      const isSelected = selectedSubcategoryKeys.includes(subcategory.key)
+                      return (
+                        <button
+                          key={subcategory.key}
+                          type="button"
+                          onClick={() => toggleSubcategory(subcategory.key)}
+                          className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-medium transition-all ${
+                            isSelected
+                              ? 'bg-navy text-white dark:bg-gold dark:text-navy'
+                              : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300'
+                          }`}
+                        >
+                          <span>{subcategory.label}</span>
+                          <span className={`text-[11px] px-1.5 py-0.5 rounded-full ${
+                            isSelected
+                              ? 'bg-white/20 dark:bg-navy/10'
+                              : 'bg-white dark:bg-gray-700'
+                          }`}>
+                            {subcategory.total}
+                          </span>
+                        </button>
+                      )
+                    })}
+                  </div>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
-      )}
-
-      {/* Difficulty */}
-      <div className="space-y-2">
-        <label className="font-semibold">Difficulty</label>
-        <div className="flex flex-wrap gap-2">
-          {difficulties.map(diff => (
-            <button
-              key={diff}
-              onClick={() => setDifficulty(diff)}
-              className={`px-3 py-1.5 rounded-full text-sm font-medium capitalize transition-all ${
-                difficulty === diff
-                  ? 'bg-navy text-white dark:bg-gold dark:text-navy'
-                  : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300'
-              }`}
-            >
-              {diff}
-            </button>
-          ))}
-        </div>
-      </div>
-
-      {/* Question Count */}
-      <div className="space-y-2">
-        <label className="font-semibold">Number of Questions</label>
-        <div className="flex flex-wrap gap-2">
-          {questionCounts.map(count => (
-            <button
-              key={count}
-              onClick={() => setQuestionCount(count)}
-              disabled={count > availableCount}
-              className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${
-                questionCount === count
-                  ? 'bg-navy text-white dark:bg-gold dark:text-navy'
-                  : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300'
-              } ${count > availableCount ? 'opacity-50 cursor-not-allowed' : ''}`}
-            >
-              {count}
-            </button>
-          ))}
-          {customQuestionCount && (
-            <button
-              type="button"
-              className="px-4 py-1.5 rounded-full text-sm font-medium bg-navy text-white dark:bg-gold dark:text-navy"
-            >
-              {questionCount}
-            </button>
           )}
         </div>
-        <p className="text-xs text-gray-500">{availableCount} questions available</p>
+
+        <div className="space-y-6 mt-6 lg:mt-0">
+          <div className="space-y-2">
+            <label className="font-semibold">Difficulty</label>
+            <div className="flex flex-wrap gap-2">
+              {difficulties.map(diff => (
+                <button
+                  key={diff}
+                  onClick={() => setDifficulty(diff)}
+                  className={`px-3 py-1.5 rounded-full text-sm font-medium capitalize transition-all ${
+                    difficulty === diff
+                      ? 'bg-navy text-white dark:bg-gold dark:text-navy'
+                      : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300'
+                  }`}
+                >
+                  {diff}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="space-y-2">
+            <label className="font-semibold">Number of Questions</label>
+            <div className="flex flex-wrap gap-2">
+              {questionCounts.map(count => (
+                <button
+                  key={count}
+                  onClick={() => setQuestionCount(count)}
+                  disabled={count > availableCount}
+                  className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${
+                    questionCount === count
+                      ? 'bg-navy text-white dark:bg-gold dark:text-navy'
+                      : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300'
+                  } ${count > availableCount ? 'opacity-50 cursor-not-allowed' : ''}`}
+                >
+                  {count}
+                </button>
+              ))}
+              {customQuestionCount && (
+                <button
+                  type="button"
+                  className="px-4 py-1.5 rounded-full text-sm font-medium bg-navy text-white dark:bg-gold dark:text-navy"
+                >
+                  {questionCount}
+                </button>
+              )}
+            </div>
+            <p className="text-xs text-gray-500">{availableCount} questions available</p>
+          </div>
+
+          {mode === 'timed' && (
+            <div className="bg-gray-100 dark:bg-gray-800 p-3 rounded-lg text-center">
+              <p className="text-sm text-gray-600 dark:text-gray-400">Estimated time</p>
+              <p className="text-2xl font-bold text-navy dark:text-gold">
+                {minutes}:{seconds.toString().padStart(2, '0')} minutes
+              </p>
+              <p className="text-xs text-gray-500">1.5 mins per question (CSC standard)</p>
+            </div>
+          )}
+        </div>
       </div>
 
-      {/* Timer Preview */}
-      {mode === 'timed' && (
-        <div className="bg-gray-100 dark:bg-gray-800 p-3 rounded-lg text-center">
-          <p className="text-sm text-gray-600 dark:text-gray-400">Estimated time</p>
-          <p className="text-2xl font-bold text-navy dark:text-gold">
-            {minutes}:{seconds.toString().padStart(2, '0')} minutes
-          </p>
-          <p className="text-xs text-gray-500">1.5 mins per question (CSC standard)</p>
-        </div>
-      )}
-
-      {/* Start Button */}
       <button
         onClick={handleStart}
         disabled={availableCount === 0}
-        className="w-full btn-primary disabled:opacity-50 disabled:cursor-not-allowed"
+        className="w-full lg:max-w-xs lg:mx-auto mt-6 block btn-primary disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {mode === 'practice' ? 'Start Practice' : 'Start Exam'}
       </button>

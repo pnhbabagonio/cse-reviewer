@@ -43,58 +43,64 @@ export default function Settings() {
   }
 
   return (
-    <div className="max-w-md mx-auto px-4 py-6 space-y-6">
+    <div className="w-full space-y-6">
       <h1 className="text-2xl font-bold text-navy dark:text-white">Settings</h1>
 
-      <div className="card space-y-4">
-        <h2 className="font-semibold text-lg">Appearance</h2>
-        <div className="flex justify-between items-center">
-          <span>Dark Mode</span>
-          <button
-            onClick={toggleDarkMode}
-            className="w-12 h-6 rounded-full bg-gray-300 dark:bg-navy relative transition-colors"
-          >
-            <div className={`absolute top-0.5 w-5 h-5 rounded-full bg-white transition-transform ${darkMode ? 'translate-x-6' : 'translate-x-0.5'}`} />
-          </button>
-        </div>
-      </div>
+      <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
+        <div className="space-y-6">
+          <div className="card space-y-4">
+            <h2 className="font-semibold text-lg">Appearance</h2>
+            <div className="flex justify-between items-center">
+              <span>Dark Mode</span>
+              <button
+                onClick={toggleDarkMode}
+                className="w-12 h-6 rounded-full bg-gray-300 dark:bg-navy relative transition-colors"
+              >
+                <div className={`absolute top-0.5 w-5 h-5 rounded-full bg-white transition-transform ${darkMode ? 'translate-x-6' : 'translate-x-0.5'}`} />
+              </button>
+            </div>
+          </div>
 
-      <div className="card space-y-4">
-        <h2 className="font-semibold text-lg">Exam Settings</h2>
-        <div className="flex justify-between items-center">
-          <span>Timer Sound Alerts</span>
-          <button
-            onClick={toggleTimerSound}
-            className="w-12 h-6 rounded-full bg-gray-300 dark:bg-navy relative transition-colors"
-          >
-            <div className={`absolute top-0.5 w-5 h-5 rounded-full bg-white transition-transform ${timerSound ? 'translate-x-6' : 'translate-x-0.5'}`} />
-          </button>
-        </div>
-      </div>
-
-      <div className="card space-y-3">
-        <h2 className="font-semibold text-lg">Question Bank</h2>
-        <div className="text-sm">
-          <p>Total questions: {totalQuestions}</p>
-          <div className="grid grid-cols-2 gap-1 mt-2">
-            {Object.entries(categoryMeta).map(([cat, meta]) => (
-              <div key={cat} className="flex justify-between"><span className="capitalize">{cat}:</span><span>{meta.total}</span></div>
-            ))}
+          <div className="card space-y-4">
+            <h2 className="font-semibold text-lg">Exam Settings</h2>
+            <div className="flex justify-between items-center">
+              <span>Timer Sound Alerts</span>
+              <button
+                onClick={toggleTimerSound}
+                className="w-12 h-6 rounded-full bg-gray-300 dark:bg-navy relative transition-colors"
+              >
+                <div className={`absolute top-0.5 w-5 h-5 rounded-full bg-white transition-transform ${timerSound ? 'translate-x-6' : 'translate-x-0.5'}`} />
+              </button>
+            </div>
           </div>
         </div>
-        <div>
-          <label className="btn-outline inline-block cursor-pointer text-sm px-4 py-2">Import JSON
-            <input type="file" accept=".json" onChange={handleImport} className="hidden" />
-          </label>
-          {importStatus && (
-            <p className={`text-sm mt-2 ${importStatus.success ? 'text-green-600' : 'text-red-600'}`}>{importStatus.message}</p>
-          )}
-        </div>
-      </div>
 
-      <div className="card space-y-3">
-        <h2 className="font-semibold text-lg">Data Management</h2>
-        <button onClick={() => setShowResetModal(true)} className="text-red-600 text-sm">Reset All Progress</button>
+        <div className="space-y-6 mt-6 lg:mt-0">
+          <div className="card space-y-3">
+            <h2 className="font-semibold text-lg">Question Bank</h2>
+            <div className="text-sm">
+              <p>Total questions: {totalQuestions}</p>
+              <div className="grid grid-cols-2 gap-1 mt-2">
+                {Object.entries(categoryMeta).map(([cat, meta]) => (
+                  <div key={cat} className="flex justify-between"><span className="capitalize">{cat}:</span><span>{meta.total}</span></div>
+                ))}
+              </div>
+            </div>
+            <div>
+              <label className="btn-outline inline-block cursor-pointer text-sm px-4 py-2">Import JSON
+                <input type="file" accept=".json" onChange={handleImport} className="hidden" />
+              </label>
+              {importStatus && (
+                <p className={`text-sm mt-2 ${importStatus.success ? 'text-green-600' : 'text-red-600'}`}>{importStatus.message}</p>
+              )}
+            </div>
+          </div>
+
+          <div className="card space-y-3">
+            <h2 className="font-semibold text-lg">Data Management</h2>
+            <button onClick={() => setShowResetModal(true)} className="text-red-600 text-sm">Reset All Progress</button>
+          </div>
+        </div>
       </div>
 
       <div className="card text-center text-sm text-gray-500">
