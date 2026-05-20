@@ -105,7 +105,7 @@ export default function Settings() {
 
       <div className="card text-center text-sm text-gray-500">
         <p>CSE Pro Reviewer v1.0</p>
-        <p>Made for Filipino examinees</p>
+        <p>Made By Philip the Great</p>
       </div>
 
       <Modal isOpen={showResetModal} onClose={() => setShowResetModal(false)} title="Reset Progress">
