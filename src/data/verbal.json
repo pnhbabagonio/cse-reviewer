@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "Verbal Ability",
+    "category": "verbal",
+    "version": "1.0",
+    "created": "2026-05-01",
+    "total": 4
+  },
+  "questions": [
+    {
+      "id": "verbal-1",
+      "category": "verbal",
+      "subcategory": "vocabulary",
+      "difficulty": "average",
+      "question": "What is the meaning of the word 'UBIQUITOUS'?",
+      "choices": {
+        "a": "Rare and scarce",
+        "b": "Present everywhere",
+        "c": "Hidden from view",
+        "d": "Difficult to understand"
+      },
+      "answer": "b",
+      "explanation": "Ubiquitous means appearing or being present everywhere at the same time.",
+      "source": "CSE Verbal Reviewer"
+    },
+    {
+      "id": "verbal-2",
+      "category": "verbal",
+      "subcategory": "grammar",
+      "difficulty": "average",
+      "question": "Choose the correct sentence:",
+      "choices": {
+        "a": "Neither of the boys are coming.",
+        "b": "Neither of the boys is coming.",
+        "c": "Neither of the boys were coming.",
+        "d": "Neither of the boys have coming."
+      },
+      "answer": "b",
+      "explanation": "'Neither' is singular, so it takes a singular verb 'is'.",
+      "source": "CSE Grammar"
+    },
+    {
+      "id": "verbal-3",
+      "category": "verbal",
+      "subcategory": "reading",
+      "difficulty": "average",
+      "question": "If 'all writers are artists' and 'some artists are painters', which is true?",
+      "choices": {
+        "a": "All writers are painters",
+        "b": "Some painters are writers",
+        "c": "Some writers are painters",
+        "d": "Cannot be determined"
+      },
+      "answer": "d",
+      "explanation": "The statements don't establish any direct relationship between writers and painters.",
+      "source": "CSE Analytical"
+    },
+    {
+      "id": "verbal-4",
+      "category": "verbal",
+      "subcategory": "analogies",
+      "difficulty": "difficult",
+      "question": "HOSPITAL : PATIENT :: SCHOOL : ?",
+      "choices": {
+        "a": "Teacher",
+        "b": "Student",
+        "c": "Principal",
+        "d": "Classroom"
+      },
+      "answer": "b",
+      "explanation": "A hospital serves patients; a school serves students.",
+      "source": "CSE Verbal"
+    }
+  ]
+}

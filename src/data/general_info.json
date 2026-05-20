@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "General Information",
+    "category": "general_info",
+    "version": "1.0",
+    "created": "2026-05-01",
+    "total": 4
+  },
+  "questions": [
+    {
+      "id": "general-1",
+      "category": "general_info",
+      "subcategory": "philippine history",
+      "difficulty": "average",
+      "question": "Who is known as the 'Father of the Philippine Revolution'?",
+      "choices": {
+        "a": "Jose Rizal",
+        "b": "Andres Bonifacio",
+        "c": "Emilio Aguinaldo",
+        "d": "Apolinario Mabini"
+      },
+      "answer": "b",
+      "explanation": "Andres Bonifacio founded the Katipunan and led the revolution against Spain.",
+      "source": "Philippine History"
+    },
+    {
+      "id": "general-2",
+      "category": "general_info",
+      "subcategory": "constitution",
+      "difficulty": "difficult",
+      "question": "How many articles does the 1987 Philippine Constitution have?",
+      "choices": {
+        "a": "16",
+        "b": "18",
+        "c": "20",
+        "d": "22"
+      },
+      "answer": "b",
+      "explanation": "The 1987 Constitution has 18 articles.",
+      "source": "Philippine Constitution"
+    },
+    {
+      "id": "general-3",
+      "category": "general_info",
+      "subcategory": "current events",
+      "difficulty": "average",
+      "question": "What is the official national language of the Philippines?",
+      "choices": {
+        "a": "English",
+        "b": "Spanish",
+        "c": "Tagalog",
+        "d": "Filipino"
+      },
+      "answer": "d",
+      "explanation": "Filipino is the national language, based on Tagalog.",
+      "source": "General Info"
+    },
+    {
+      "id": "general-4",
+      "category": "general_info",
+      "subcategory": "geography",
+      "difficulty": "easy",
+      "question": "What is the largest island in the Philippines?",
+      "choices": {
+        "a": "Mindanao",
+        "b": "Luzon",
+        "c": "Visayas",
+        "d": "Palawan"
+      },
+      "answer": "b",
+      "explanation": "Luzon is the largest and most populous island.",
+      "source": "Geography"
+    }
+  ]
+}

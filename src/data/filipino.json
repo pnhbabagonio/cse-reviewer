@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "Filipino",
+    "category": "filipino",
+    "version": "1.0",
+    "created": "2026-05-01",
+    "total": 4
+  },
+  "questions": [
+    {
+      "id": "filipino-1",
+      "category": "filipino",
+      "subcategory": "talasalitaan",
+      "difficulty": "average",
+      "question": "Ano ang kahulugan ng 'mapagkumbaba'?",
+      "choices": {
+        "a": "Mayabang",
+        "b": "Mapagpakumbaba",
+        "c": "Masipag",
+        "d": "Matapang"
+      },
+      "answer": "b",
+      "explanation": "Ang mapagkumbaba ay nangangahulugang hindi mayabang, mapagpakumbaba.",
+      "source": "Filipino Reviewer"
+    },
+    {
+      "id": "filipino-2",
+      "category": "filipino",
+      "subcategory": "gramatika",
+      "difficulty": "average",
+      "question": "Piliin ang tamang pangungusap:",
+      "choices": {
+        "a": "Kumain ako ng mangga.",
+        "b": "Kinain ako ng mangga.",
+        "c": "Magkain ako ng mangga.",
+        "d": "Mangangain ako ng mangga."
+      },
+      "answer": "a",
+      "explanation": "'Kumain ako ng mangga' ay tamang gamit ng pandiwa.",
+      "source": "Filipino Grammar"
+    },
+    {
+      "id": "filipino-3",
+      "category": "filipino",
+      "subcategory": "kasabihan",
+      "difficulty": "difficult",
+      "question": "Ano ang ibig sabihin ng 'Ang hindi lumingon sa pinanggalingan ay hindi makararating sa paroroonan'?",
+      "choices": {
+        "a": "Dapat laging tumingin sa likod",
+        "b": "Mahalagang alalahanin ang pinagmulan",
+        "c": "Huwag lumingon sa nakaraan",
+        "d": "Pahalagahan ang kinabukasan"
+      },
+      "answer": "b",
+      "explanation": "Dapat nating pahalagahan at alalahanin ang ating pinagmulan upang magtagumpay.",
+      "source": "Filipino Salawikain"
+    },
+    {
+      "id": "filipino-4",
+      "category": "filipino",
+      "subcategory": "talasalitaan",
+      "difficulty": "easy",
+      "question": "Ano ang kasingkahulugan ng 'masaya'?",
+      "choices": {
+        "a": "Malungkot",
+        "b": "Galak",
+        "c": "Lungkot",
+        "d": "Takot"
+      },
+      "answer": "b",
+      "explanation": "Ang 'galak' ay kasingkahulugan ng kasiyahan.",
+      "source": "Filipino Vocabulary"
+    }
+  ]
+}

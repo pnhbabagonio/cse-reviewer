@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "Analytical Ability",
+    "category": "analytical",
+    "version": "1.0",
+    "created": "2026-05-01",
+    "total": 4
+  },
+  "questions": [
+    {
+      "id": "analytical-1",
+      "category": "analytical",
+      "subcategory": "logic",
+      "difficulty": "average",
+      "question": "If 5 apples cost 20 pesos, how much do 8 apples cost?",
+      "choices": {
+        "a": "28 pesos",
+        "b": "30 pesos",
+        "c": "32 pesos",
+        "d": "36 pesos"
+      },
+      "answer": "c",
+      "explanation": "Each apple costs 4 pesos (20/5=4). 8 apples cost 32 pesos.",
+      "source": "CSE Numerical"
+    },
+    {
+      "id": "analytical-2",
+      "category": "analytical",
+      "subcategory": "pattern",
+      "difficulty": "difficult",
+      "question": "What number comes next: 2, 6, 12, 20, ?",
+      "choices": {
+        "a": "28",
+        "b": "30",
+        "c": "32",
+        "d": "36"
+      },
+      "answer": "b",
+      "explanation": "Pattern: +4, +6, +8, next +10 → 30.",
+      "source": "CSE Numerical"
+    },
+    {
+      "id": "analytical-3",
+      "category": "analytical",
+      "subcategory": "logic",
+      "difficulty": "easy",
+      "question": "All roses are flowers. Some flowers fade quickly. Therefore:",
+      "choices": {
+        "a": "All roses fade quickly",
+        "b": "Some roses fade quickly",
+        "c": "No roses fade quickly",
+        "d": "Cannot be determined"
+      },
+      "answer": "d",
+      "explanation": "Roses are flowers but may not be part of those that fade quickly.",
+      "source": "CSE Logic"
+    },
+    {
+      "id": "analytical-4",
+      "category": "analytical",
+      "subcategory": "data",
+      "difficulty": "average",
+      "question": "If a number is divisible by 6, it is also divisible by:",
+      "choices": {
+        "a": "4",
+        "b": "3",
+        "c": "9",
+        "d": "12"
+      },
+      "answer": "b",
+      "explanation": "6 = 2 × 3, so any number divisible by 6 is divisible by 3.",
+      "source": "CSE Math"
+    }
+  ]
+}
