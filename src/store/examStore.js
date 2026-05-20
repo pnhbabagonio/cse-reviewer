@@ -39,6 +39,10 @@ const getBundledQuestionPool = (selectedCategories = []) => {
   return selectedCategories.flatMap(cat => questionsByCategory[cat] ?? [])
 }
 
+const getSubcategoryKey = (question) => (
+  `${question.category}::${question.subcategory || 'uncategorized'}`
+)
+
 const getMergedQuestionPool = (selectedCategories = []) => {
   const importedQuestions = getImportedQuestions()
   const importedPool = selectedCategories.length === 0
@@ -82,7 +86,7 @@ const useExamStore = create(
       },
 
       startSession: (config) => {
-        const { mode, categories, difficulty, questionCount, retryWrongIds } = config
+        const { mode, categories, difficulty, questionCount, retryWrongIds, subcategoryKeys } = config
         let pool = retryWrongIds
           ? getMergedQuestionPool()
           : getMergedQuestionPool(categories || [])
@@ -90,6 +94,9 @@ const useExamStore = create(
         if (retryWrongIds) {
           pool = pool.filter(q => retryWrongIds.includes(q.id))
         } else {
+          if (subcategoryKeys && subcategoryKeys.length) {
+            pool = pool.filter(q => subcategoryKeys.includes(getSubcategoryKey(q)))
+          }
           if (difficulty) pool = pool.filter(q => q.difficulty === difficulty)
         }
         const shuffled = shuffleArray(pool)
@@ -100,6 +107,7 @@ const useExamStore = create(
           id: createSessionId(),
           mode,
           categories: categories || [],
+          subcategoryKeys: subcategoryKeys || [],
           difficulty: difficulty || 'all',
           totalQuestions: questions.length,
           questions,

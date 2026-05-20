@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import useExamStore from '../store/examStore'
 
@@ -13,6 +13,16 @@ const categories = [
 const questionCounts = [10, 20, 30, 50, 100]
 const difficulties = ['all', 'easy', 'average', 'difficult']
 
+const getSubcategoryKey = (question) => (
+  `${question.category}::${question.subcategory || 'uncategorized'}`
+)
+
+const formatSubcategory = (value) => (
+  (value || 'uncategorized')
+    .replace(/_/g, ' ')
+    .replace(/\b\w/g, char => char.toUpperCase())
+)
+
 export default function ExamSetup() {
   const location = useLocation()
   const navigate = useNavigate()
@@ -22,9 +32,48 @@ export default function ExamSetup() {
   const { allQuestions, startSession } = useExamStore()
 
   const [selectedCategories, setSelectedCategories] = useState(categories.map(c => c.id))
+  const [selectedSubcategoryKeys, setSelectedSubcategoryKeys] = useState([])
   const [difficulty, setDifficulty] = useState('all')
   const [questionCount, setQuestionCount] = useState(30)
   const [availableCount, setAvailableCount] = useState(0)
+
+  const categoryCounts = useMemo(() => {
+    return categories.reduce((counts, category) => {
+      counts[category.id] = allQuestions.filter(q => q.category === category.id).length
+      return counts
+    }, {})
+  }, [allQuestions])
+
+  const subcategoryGroups = useMemo(() => {
+    return categories
+      .filter(category => selectedCategories.includes(category.id))
+      .map(category => {
+        const counts = new Map()
+        allQuestions.forEach(question => {
+          if (question.category !== category.id) return
+          const subcategory = question.subcategory || 'uncategorized'
+          counts.set(subcategory, (counts.get(subcategory) || 0) + 1)
+        })
+
+        return {
+          ...category,
+          total: categoryCounts[category.id] || 0,
+          subcategories: Array.from(counts, ([id, total]) => ({
+            id,
+            key: `${category.id}::${id}`,
+            label: formatSubcategory(id),
+            total,
+          })),
+        }
+      })
+      .filter(group => group.subcategories.length > 0)
+  }, [allQuestions, categoryCounts, selectedCategories])
+
+  useEffect(() => {
+    setSelectedSubcategoryKeys(currentKeys => (
+      currentKeys.filter(key => selectedCategories.includes(key.split('::')[0]))
+    ))
+  }, [selectedCategories])
 
   // Filter questions based on selection
   useEffect(() => {
@@ -34,6 +83,9 @@ export default function ExamSetup() {
     } else {
       if (selectedCategories.length > 0) {
         filtered = filtered.filter(q => selectedCategories.includes(q.category))
+      }
+      if (selectedSubcategoryKeys.length > 0) {
+        filtered = filtered.filter(q => selectedSubcategoryKeys.includes(getSubcategoryKey(q)))
       }
       if (difficulty !== 'all') {
         filtered = filtered.filter(q => q.difficulty === difficulty)
@@ -45,7 +97,7 @@ export default function ExamSetup() {
     if (maxAvailable < questionCount && filtered.length > 0) {
       setQuestionCount(filtered.length)
     }
-  }, [selectedCategories, difficulty, allQuestions, retryWrongIds, questionCount])
+  }, [selectedCategories, selectedSubcategoryKeys, difficulty, allQuestions, retryWrongIds, questionCount])
 
   const toggleCategory = (catId) => {
     if (selectedCategories.includes(catId)) {
@@ -56,10 +108,19 @@ export default function ExamSetup() {
     }
   }
 
+  const toggleSubcategory = (key) => {
+    setSelectedSubcategoryKeys(currentKeys => (
+      currentKeys.includes(key)
+        ? currentKeys.filter(currentKey => currentKey !== key)
+        : [...currentKeys, key]
+    ))
+  }
+
   const handleStart = () => {
     const config = {
       mode,
       categories: selectedCategories,
+      subcategoryKeys: selectedSubcategoryKeys,
       difficulty: difficulty === 'all' ? null : difficulty,
       questionCount,
       retryWrongIds: retryWrongIds || null,
@@ -96,17 +157,76 @@ export default function ExamSetup() {
             <button
               key={cat.id}
               onClick={() => toggleCategory(cat.id)}
-              className={`px-3 py-1.5 rounded-full text-sm font-medium transition-all ${
+              className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-medium transition-all ${
                 selectedCategories.includes(cat.id)
                   ? 'bg-navy text-white dark:bg-gold dark:text-navy'
                   : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300'
               }`}
             >
-              {cat.label}
+              <span>{cat.label}</span>
+              <span className={`text-[11px] px-1.5 py-0.5 rounded-full ${
+                selectedCategories.includes(cat.id)
+                  ? 'bg-white/20 dark:bg-navy/10'
+                  : 'bg-white dark:bg-gray-700'
+              }`}>
+                {categoryCounts[cat.id] || 0}
+              </span>
             </button>
           ))}
         </div>
       </div>
+
+      {/* Subcategories */}
+      {!retryWrongIds && subcategoryGroups.length > 0 && (
+        <div className="space-y-3">
+          <div className="flex items-center justify-between gap-3">
+            <label className="font-semibold">Subcategories</label>
+            {selectedSubcategoryKeys.length > 0 && (
+              <button
+                type="button"
+                onClick={() => setSelectedSubcategoryKeys([])}
+                className="text-xs font-medium text-gold"
+              >
+                All
+              </button>
+            )}
+          </div>
+
+          {subcategoryGroups.map(group => (
+            <div key={group.id} className="space-y-2">
+              <p className="text-xs font-semibold uppercase text-gray-500 dark:text-gray-400">
+                {group.label} ({group.total})
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {group.subcategories.map(subcategory => {
+                  const isSelected = selectedSubcategoryKeys.includes(subcategory.key)
+                  return (
+                    <button
+                      key={subcategory.key}
+                      type="button"
+                      onClick={() => toggleSubcategory(subcategory.key)}
+                      className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-medium transition-all ${
+                        isSelected
+                          ? 'bg-navy text-white dark:bg-gold dark:text-navy'
+                          : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300'
+                      }`}
+                    >
+                      <span>{subcategory.label}</span>
+                      <span className={`text-[11px] px-1.5 py-0.5 rounded-full ${
+                        isSelected
+                          ? 'bg-white/20 dark:bg-navy/10'
+                          : 'bg-white dark:bg-gray-700'
+                      }`}>
+                        {subcategory.total}
+                      </span>
+                    </button>
+                  )
+                })}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
 
       {/* Difficulty */}
       <div className="space-y-2">
