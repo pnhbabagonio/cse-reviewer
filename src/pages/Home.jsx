@@ -7,6 +7,11 @@ import ProgressBar from '../components/ProgressBar'
 import CategoryBadge from '../components/CategoryBadge'
 import useSettingsStore from '../store/settingsStore'
 
+const formatPercentage = (value) => {
+  if (!Number.isFinite(value)) return '0.00'
+  return value.toFixed(2)
+}
+
 export default function Home() {
   const navigate = useNavigate()
   const { sessions, getStats, getCategoryStats } = useProgressStore()
@@ -55,7 +60,7 @@ export default function Home() {
               <div key={key} className="space-y-1">
                 <div className="flex justify-between text-sm">
                   <span>{label}</span>
-                  <span>{catStat.accuracy}% ({catStat.total} qs)</span>
+                  <span>{formatPercentage(catStat.accuracy)}% ({catStat.total} qs)</span>
                 </div>
                 <ProgressBar value={catStat.accuracy} max={100} color={color} />
               </div>
