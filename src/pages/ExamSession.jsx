@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import useExamStore from '../store/examStore'
 import useProgressStore from '../store/progressStore'
 import useTimer from '../hooks/useTimer'
+import { useStudyTimer } from '../hooks/useStudyTimer'
 import QuestionCard from '../components/QuestionCard'
 import ProgressBar from '../components/ProgressBar'
 import { ArrowLeft, ArrowRight, Pause, Play, Clock } from 'lucide-react'
@@ -14,6 +15,9 @@ export default function ExamSession() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isPaused, setIsPaused] = useState(false)
   const isTimed = session?.mode === 'timed'
+  const { isPaused: isStudyTimerPaused } = useStudyTimer({
+    categories: session?.categories ?? [],
+  })
 
   useEffect(() => {
     if (!session) {
@@ -107,6 +111,7 @@ export default function ExamSession() {
                 <Clock className="w-4 h-4" />
                 {formatTime(timeLeft)}
               </div>
+              {isStudyTimerPaused && <span className="text-xs text-amber-500">Study paused</span>}
             </div>
           )}
         </div>

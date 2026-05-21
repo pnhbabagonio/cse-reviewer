@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom'
-import { CheckCircle, Calendar, BookOpen, Moon, Sun } from 'lucide-react'
+import { CheckCircle, Calendar, BookOpen, Clock, Moon, Sun } from 'lucide-react'
 import useProgressStore from '../store/progressStore'
+import { useStudyTimeStore } from '../store/studyTimeStore'
 import ScoreRing from '../components/ScoreRing'
 import StatCard from '../components/StatCard'
 import ProgressBar from '../components/ProgressBar'
@@ -13,12 +14,36 @@ const formatPercentage = (value) => {
   return value.toFixed(2)
 }
 
+const formatDuration = (totalSeconds) => {
+  const hrs = Math.floor(totalSeconds / 3600)
+  const min = Math.floor((totalSeconds % 3600) / 60)
+  if (hrs === 0) return `${min} min`
+  if (min === 0) return `${hrs} hr`
+  return `${hrs} hr ${min} min`
+}
+
 export default function Home() {
   const navigate = useNavigate()
   const { sessions, getStats, getCategoryStats } = useProgressStore()
+  const {
+    dailyGoalMinutes,
+    getTotalSeconds,
+    getTodaySeconds,
+    getLast7DaysData,
+    getCategoryBreakdown,
+  } = useStudyTimeStore()
   const { darkMode, toggleDarkMode } = useSettingsStore()
   const stats = getStats()
   const categoryStats = getCategoryStats()
+  const totalStudySeconds = getTotalSeconds()
+  const todayStudySeconds = getTodaySeconds()
+  const last7DaysData = getLast7DaysData().map(day => ({
+    ...day,
+    minutes: Math.round(day.totalSeconds / 60),
+    label: new Date(day.date + 'T00:00:00').toLocaleDateString('en-PH', { weekday: 'short' }),
+  }))
+  const maxStudyMinutes = Math.max(...last7DaysData.map(day => day.minutes), 1)
+  const categoryTimeBreakdown = getCategoryBreakdown()
 
   const recentSessions = sessions.slice(0, 5)
 
@@ -72,10 +97,80 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-4">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-4">
         <StatCard label="Total Answered" value={stats.totalQuestions} icon={BookOpen} />
         <StatCard label="Exams Taken" value={sessions.length} icon={CheckCircle} />
         <StatCard label="Current Streak" value={stats.streak} icon={Calendar} />
+        <StatCard label="Study Time" value={formatDuration(totalStudySeconds)} icon={Clock} />
+      </div>
+
+      {dailyGoalMinutes && (() => {
+        const goalSeconds = dailyGoalMinutes * 60
+        const pct = Math.min(100, Math.round((todayStudySeconds / goalSeconds) * 100))
+        const isComplete = pct >= 100
+        return (
+          <div className="rounded-xl bg-white dark:bg-gray-800 p-4 shadow-sm">
+            <div className="flex justify-between items-center gap-3 mb-2">
+              <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                Daily Study Goal
+              </span>
+              <span className={`text-sm font-semibold text-right ${isComplete ? 'text-green-500' : 'text-[#1e3a5f] dark:text-amber-400'}`}>
+                {formatDuration(todayStudySeconds)} / {formatDuration(goalSeconds)}
+                {isComplete && ' ✓'}
+              </span>
+            </div>
+            <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
+              <div
+                className={`h-2.5 rounded-full transition-all duration-500 ${isComplete ? 'bg-green-500' : 'bg-amber-400'}`}
+                style={{ width: `${pct}%` }}
+              />
+            </div>
+          </div>
+        )
+      })()}
+
+      <div className="rounded-xl bg-white dark:bg-gray-800 p-4 shadow-sm">
+        <h3 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-4">
+          Study Time — Last 7 Days
+        </h3>
+        <div className="h-40 grid grid-cols-7 gap-2">
+          {last7DaysData.map(day => {
+            const height = day.minutes === 0
+              ? '2px'
+              : `${Math.max(8, Math.round((day.minutes / maxStudyMinutes) * 100))}%`
+            return (
+              <div key={day.date} className="h-full min-w-0 flex flex-col items-center justify-end gap-2">
+                <span className="text-[10px] text-gray-500 dark:text-gray-400">
+                  {day.minutes}
+                </span>
+                <div className="h-24 w-full flex items-end justify-center">
+                  <div
+                    className={`w-full max-w-[40px] rounded-t transition-all duration-500 ${day.minutes > 0 ? 'bg-amber-400' : 'bg-gray-200 dark:bg-gray-700'}`}
+                    style={{ height }}
+                    title={`${day.minutes} min`}
+                  />
+                </div>
+                <span className="text-[11px] text-gray-500 dark:text-gray-400">{day.label}</span>
+              </div>
+            )
+          })}
+        </div>
+      </div>
+
+      <div className="rounded-xl bg-white dark:bg-gray-800 p-4 shadow-sm">
+        <h3 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3">
+          Time by Category
+        </h3>
+        <div className="space-y-2">
+          {Object.entries(categoryTimeBreakdown).map(([cat, seconds]) => (
+            <div key={cat} className="flex items-center justify-between">
+              <CategoryBadge category={cat} />
+              <span className="text-sm text-gray-600 dark:text-gray-400">
+                {seconds > 0 ? formatDuration(seconds) : '—'}
+              </span>
+            </div>
+          ))}
+        </div>
       </div>
 
       {recentSessions.length > 0 && (
