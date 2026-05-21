@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { CheckCircle, Calendar, BookOpen, Clock, Moon, Sun } from 'lucide-react'
 import useProgressStore from '../store/progressStore'
@@ -22,14 +23,22 @@ const formatDuration = (totalSeconds) => {
   return `${hrs} hr ${min} min`
 }
 
+const RANGES = [
+  { label: '7D', value: 7 },
+  { label: '30D', value: 30 },
+  { label: '60D', value: 60 },
+  { label: '90D', value: 90 },
+]
+
 export default function Home() {
   const navigate = useNavigate()
+  const [chartRange, setChartRange] = useState(7)
   const { sessions, getStats, getCategoryStats } = useProgressStore()
   const {
     dailyGoalMinutes,
     getTotalSeconds,
     getTodaySeconds,
-    getLast7DaysData,
+    getChartData,
     getCategoryBreakdown,
   } = useStudyTimeStore()
   const { darkMode, toggleDarkMode } = useSettingsStore()
@@ -37,12 +46,11 @@ export default function Home() {
   const categoryStats = getCategoryStats()
   const totalStudySeconds = getTotalSeconds()
   const todayStudySeconds = getTodaySeconds()
-  const last7DaysData = getLast7DaysData().map(day => ({
+  const chartData = getChartData(chartRange).map(day => ({
     ...day,
     minutes: Math.round(day.totalSeconds / 60),
-    label: new Date(day.date + 'T00:00:00').toLocaleDateString('en-PH', { weekday: 'short' }),
   }))
-  const maxStudyMinutes = Math.max(...last7DaysData.map(day => day.minutes), 1)
+  const maxChartMinutes = Math.max(...chartData.map(day => day.minutes), 1)
   const categoryTimeBreakdown = getCategoryBreakdown()
 
   const recentSessions = sessions.slice(0, 5)
@@ -130,31 +138,69 @@ export default function Home() {
       })()}
 
       <div className="rounded-xl bg-white dark:bg-gray-800 p-4 shadow-sm">
-        <h3 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-4">
-          Study Time — Last 7 Days
-        </h3>
-        <div className="h-40 grid grid-cols-7 gap-2">
-          {last7DaysData.map(day => {
-            const height = day.minutes === 0
-              ? '2px'
-              : `${Math.max(8, Math.round((day.minutes / maxStudyMinutes) * 100))}%`
-            return (
-              <div key={day.date} className="h-full min-w-0 flex flex-col items-center justify-end gap-2">
-                <span className="text-[10px] text-gray-500 dark:text-gray-400">
-                  {day.minutes}
-                </span>
-                <div className="h-24 w-full flex items-end justify-center">
-                  <div
-                    className={`w-full max-w-[40px] rounded-t transition-all duration-500 ${day.minutes > 0 ? 'bg-amber-400' : 'bg-gray-200 dark:bg-gray-700'}`}
-                    style={{ height }}
-                    title={`${day.minutes} min`}
-                  />
-                </div>
-                <span className="text-[11px] text-gray-500 dark:text-gray-400">{day.label}</span>
-              </div>
-            )
-          })}
+        <div className="flex items-center justify-between gap-3 mb-4">
+          <h3 className="text-sm font-semibold text-gray-700 dark:text-gray-300">
+            Study Time
+          </h3>
+          <div className="flex gap-1">
+            {RANGES.map(range => (
+              <button
+                key={range.value}
+                onClick={() => setChartRange(range.value)}
+                className={`px-2.5 py-1 rounded-md text-xs font-medium transition-colors ${
+                  chartRange === range.value
+                    ? 'bg-[#1e3a5f] text-white dark:bg-amber-400 dark:text-gray-900'
+                    : 'text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700'
+                }`}
+              >
+                {range.label}
+              </button>
+            ))}
+          </div>
         </div>
+
+        <div className="overflow-x-auto pb-1">
+          <div
+            className="h-40 grid gap-2"
+            style={{
+              gridTemplateColumns: `repeat(${chartData.length}, minmax(0, 1fr))`,
+              minWidth: `${Math.max(320, chartData.length * 48)}px`,
+            }}
+          >
+            {chartData.map(day => {
+              const height = day.minutes === 0
+                ? '2px'
+                : `${Math.max(8, Math.round((day.minutes / maxChartMinutes) * 100))}%`
+              return (
+                <div key={day.label} className="h-full min-w-0 flex flex-col items-center justify-end gap-2">
+                  <span className="text-[10px] text-gray-500 dark:text-gray-400">
+                    {day.minutes}
+                  </span>
+                  <div className="h-24 w-full flex items-end justify-center">
+                    <div
+                      className={`w-full max-w-[40px] rounded-t transition-all duration-500 ${day.minutes > 0 ? 'bg-amber-400' : 'bg-gray-200 dark:bg-gray-700'}`}
+                      style={{ height }}
+                      title={`${day.label}: ${day.minutes} min`}
+                    />
+                  </div>
+                  {day.startLabel && day.endLabel ? (
+                    <span className="h-8 text-[10px] leading-tight text-gray-500 dark:text-gray-400 text-center">
+                      <span className="block">{day.startLabel}</span>
+                      <span className="block">{day.endLabel}</span>
+                    </span>
+                  ) : (
+                    <span className="h-8 text-[11px] text-gray-500 dark:text-gray-400 text-center">
+                      {day.label}
+                    </span>
+                  )}
+                </div>
+              )
+            })}
+          </div>
+        </div>
+        <p className="text-xs text-gray-400 dark:text-gray-500 text-center mt-2">
+          {chartRange === 7 ? 'Last 7 days' : `Last ${chartRange} days (grouped by date range)`}
+        </p>
       </div>
 
       <div className="rounded-xl bg-white dark:bg-gray-800 p-4 shadow-sm">

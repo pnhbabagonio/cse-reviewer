@@ -17,7 +17,9 @@ export function useStudyTimer({ categories = [] } = {}) {
   const pausedRef = useRef(false)
   const categoriesRef = useRef(categories)
 
-  categoriesRef.current = categories
+  if (Array.isArray(categories) && categories.length > 0) {
+    categoriesRef.current = categories
+  }
 
   useEffect(() => {
     const handleVisibility = () => {

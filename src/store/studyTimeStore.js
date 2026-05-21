@@ -15,6 +15,27 @@ const getLocalDateString = (date = new Date()) => {
   return `${year}-${month}-${day}`
 }
 
+const formatRangeDate = (dateStr) => (
+  new Date(dateStr + 'T00:00:00').toLocaleDateString('en-PH', {
+    month: 'short',
+    day: 'numeric',
+  })
+)
+
+const formatDateRangeLabel = (dateStrings) => {
+  const start = dateStrings[0]
+  const end = dateStrings[dateStrings.length - 1]
+  if (!start || !end) return ''
+  if (start === end) return formatRangeDate(start)
+  return `${formatRangeDate(start)} - ${formatRangeDate(end)}`
+}
+
+const WEEK_COUNTS_BY_RANGE = {
+  30: 4,
+  60: 8,
+  90: 13,
+}
+
 const normalizeState = (state) => ({
   records: Array.isArray(state?.records) ? state.records : [],
   dailyGoalMinutes: state?.dailyGoalMinutes ?? null,
@@ -60,18 +81,50 @@ export const useStudyTimeStore = create((set, get) => ({
       .reduce((sum, r) => sum + r.durationSeconds, 0)
   },
 
-  getLast7DaysData: () => {
-    const days = []
-    for (let i = 6; i >= 0; i--) {
+  getChartData: (range) => {
+    const records = get().records
+
+    if (range === 7) {
+      const days = []
+      for (let i = 6; i >= 0; i--) {
+        const date = new Date()
+        date.setDate(date.getDate() - i)
+        const dateStr = getLocalDateString(date)
+        const totalSeconds = records
+          .filter(r => r.date === dateStr)
+          .reduce((sum, r) => sum + r.durationSeconds, 0)
+        const label = date.toLocaleDateString('en-PH', { weekday: 'short' })
+        days.push({ label, totalSeconds })
+      }
+      return days
+    }
+
+    const weekCount = WEEK_COUNTS_BY_RANGE[range] ?? Math.ceil(range / 7)
+    const dateStrings = []
+    for (let i = range - 1; i >= 0; i--) {
       const date = new Date()
       date.setDate(date.getDate() - i)
-      const dateStr = getLocalDateString(date)
-      const totalSeconds = get().records
-        .filter(r => r.date === dateStr)
-        .reduce((sum, r) => sum + r.durationSeconds, 0)
-      days.push({ date: dateStr, totalSeconds })
+      dateStrings.push(getLocalDateString(date))
     }
-    return days
+
+    const daysPerGroup = Math.ceil(range / weekCount)
+    const weeks = []
+    for (let index = 0; index < weekCount; index++) {
+      const groupDates = dateStrings.slice(index * daysPerGroup, (index + 1) * daysPerGroup)
+      const totalSeconds = groupDates.reduce((sum, dateStr) => {
+        return sum + records
+          .filter(r => r.date === dateStr)
+          .reduce((recordSum, r) => recordSum + r.durationSeconds, 0)
+      }, 0)
+      weeks.push({
+        label: formatDateRangeLabel(groupDates),
+        startLabel: formatRangeDate(groupDates[0]),
+        endLabel: formatRangeDate(groupDates[groupDates.length - 1]),
+        totalSeconds,
+      })
+    }
+
+    return weeks
   },
 
   getCategoryBreakdown: () => {
