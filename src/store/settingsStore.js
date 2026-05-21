@@ -1,14 +1,32 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
+import { getItem, setItem } from '../utils/storage'
+
+const savedSettings = getItem('settings', {}) || {}
 
 const useSettingsStore = create(
   persist(
     (set, get) => ({
       darkMode: false,
       timerSound: true,
+      examCountdown: savedSettings.examCountdown ?? null,
 
       toggleDarkMode: () => set((state) => ({ darkMode: !state.darkMode })),
       toggleTimerSound: () => set((state) => ({ timerSound: !state.timerSound })),
+
+      setExamCountdown: (examName, examDate) => {
+        const countdown = { examName, examDate }
+        set({ examCountdown: countdown })
+        const current = getItem('settings', {}) || {}
+        setItem('settings', { ...current, examCountdown: countdown })
+      },
+
+      clearExamCountdown: () => {
+        set({ examCountdown: null })
+        const current = getItem('settings', {}) || {}
+        const { examCountdown, ...rest } = current
+        setItem('settings', rest)
+      },
 
       importQuestions: (newQuestions) => {
         const existing = localStorage.getItem('cse_imported_bank')

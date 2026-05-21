@@ -5,6 +5,7 @@ import ScoreRing from '../components/ScoreRing'
 import StatCard from '../components/StatCard'
 import ProgressBar from '../components/ProgressBar'
 import CategoryBadge from '../components/CategoryBadge'
+import CountdownCard from '../components/CountdownCard'
 import useSettingsStore from '../store/settingsStore'
 
 const formatPercentage = (value) => {
@@ -31,6 +32,8 @@ export default function Home() {
 
   return (
     <div className="w-full space-y-6">
+      <CountdownCard />
+
       <div className="flex justify-between items-center">
         <div>
           <h1 className="text-2xl font-bold text-navy dark:text-white">CSE Pro</h1>
