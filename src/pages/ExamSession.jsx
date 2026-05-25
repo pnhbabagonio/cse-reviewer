@@ -10,9 +10,8 @@ import { ArrowLeft, ArrowRight, Pause, Play, Clock } from 'lucide-react'
 
 export default function ExamSession() {
   const navigate = useNavigate()
-  const { session, submitAnswer, completeSession, bookmarkQuestion, isBookmarked } = useExamStore()
+  const { session, currentQuestionIndex, setCurrentQuestionIndex, submitAnswer, completeSession, bookmarkQuestion, isBookmarked } = useExamStore()
   const { addSession } = useProgressStore()
-  const [currentIndex, setCurrentIndex] = useState(0)
   const [isPaused, setIsPaused] = useState(false)
   const isTimed = session?.mode === 'timed'
   const { isPaused: isStudyTimerPaused } = useStudyTimer({
@@ -26,7 +25,7 @@ export default function ExamSession() {
     }
   }, [session, navigate])
 
-  const currentQuestion = session?.questions[currentIndex]
+  const currentQuestion = session?.questions[currentQuestionIndex]
   const totalQuestions = session?.questions.length || 0
   const selectedAnswer = session?.answers[currentQuestion?.id]
 
@@ -45,8 +44,8 @@ export default function ExamSession() {
   const handleNext = () => {
     if (!session) return
 
-    if (currentIndex < totalQuestions - 1) {
-      setCurrentIndex(currentIndex + 1)
+    if (currentQuestionIndex < totalQuestions - 1) {
+      setCurrentQuestionIndex(currentQuestionIndex + 1)
     } else {
       // Complete exam
       const completedSession = completeSession()
@@ -58,7 +57,7 @@ export default function ExamSession() {
   }
 
   const handlePrevious = () => {
-    if (currentIndex > 0) setCurrentIndex(currentIndex - 1)
+    if (currentQuestionIndex > 0) setCurrentQuestionIndex(currentQuestionIndex - 1)
   }
 
   const timePerQuestion = 1.5 * 60 // 1.5 minutes in seconds
@@ -96,7 +95,7 @@ export default function ExamSession() {
         {/* Header */}
         <div className="flex justify-between items-center">
           <div>
-            <span className="text-sm text-gray-500">Question {currentIndex + 1} of {totalQuestions}</span>
+            <span className="text-sm text-gray-500">Question {currentQuestionIndex + 1} of {totalQuestions}</span>
             <h2 className="text-lg font-semibold">CSE Exam</h2>
           </div>
           {isTimed && (
@@ -116,7 +115,7 @@ export default function ExamSession() {
           )}
         </div>
 
-        <ProgressBar value={currentIndex + 1} max={totalQuestions} />
+        <ProgressBar value={currentQuestionIndex + 1} max={totalQuestions} />
 
         <QuestionCard
           question={currentQuestion}
@@ -132,7 +131,7 @@ export default function ExamSession() {
         <div className="flex gap-3 pt-4">
           <button
             onClick={handlePrevious}
-            disabled={currentIndex === 0}
+            disabled={currentQuestionIndex === 0}
             className="flex-1 py-2 rounded-lg border border-gray-300 dark:border-gray-600 disabled:opacity-50"
           >
             <ArrowLeft className="w-4 h-4 inline mr-1" /> Previous
@@ -141,7 +140,7 @@ export default function ExamSession() {
             onClick={handleNext}
             className="flex-1 py-2 rounded-lg bg-navy text-white"
           >
-            {currentIndex === totalQuestions - 1 ? 'Finish' : 'Next'} <ArrowRight className="w-4 h-4 inline ml-1" />
+            {currentQuestionIndex === totalQuestions - 1 ? 'Finish' : 'Next'} <ArrowRight className="w-4 h-4 inline ml-1" />
           </button>
         </div>
       </div>

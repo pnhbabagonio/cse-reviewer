@@ -2942,8 +2942,8 @@
         "c": "puzzle : answer",
         "d": "decipherable : comprehensible"
       },
-      "answer": "d",
-      "explanation": "Abattoir is a synonym for slaughterhouse. Decipherable is a synonym for comprehensible. Answer key shows 3.d. I'll follow key.",
+      "answer": "a",
+      "explanation": "Abattoir is a synonym for slaughterhouse. Quay is a synonym for wharf. A quay is a type of wharf/dock",
       "source": "CSE Professional Reviewer - Verbal Ability"
     },
     {
@@ -3294,8 +3294,8 @@
         "c": "destitute : shanty",
         "d": "bees : beehive"
       },
-      "answer": "c",
-      "explanation": "Eskimos live in igloos. Kings live in palaces. Answer is b. Answer key shows 25.c (destitute:shanty). I'll follow key.",
+      "answer": "b",
+      "explanation": "The relationship in the original pair is Dwelling : Inhabitant. An igloo is the traditional dwelling of an Eskimo. Kings live in palaces. Looking at the options, only 'b' follows this exact same word order",
       "source": "CSE Professional Reviewer - Verbal Ability"
     },
     {
@@ -3342,8 +3342,8 @@
         "c": "attic : chimney",
         "d": "toilet : bath"
       },
-      "answer": "b",
-      "explanation": "Tavern is a synonym for bar. Inn is a synonym for hotel. Answer is a. Answer key shows 28.b (condominium:office). I'll follow key.",
+      "answer": "a",
+      "explanation": "Tavern is a synonym for bar. Inn is a synonym for hotel. Answer is a.",
       "source": "CSE Professional Reviewer - Verbal Ability"
     },
     {
@@ -3925,8 +3925,8 @@
         "d": "informative as well as entertaining",
         "e": "No error"
       },
-      "answer": "a",
-      "explanation": "The error is 'I'. The correct pronoun is 'me' (object of preposition 'for'). Answer is a.",
+      "answer": "b",
+      "explanation": "The error is 'I'. The correct pronoun is 'me' (object of preposition 'for'). Answer is b.",
       "source": "CSE Professional Reviewer - Verbal Ability"
     },
     {
@@ -5138,8 +5138,8 @@
         "c": "burned out",
         "d": "burned over"
       },
-      "answer": "b",
-      "explanation": "The correct phrasal verb is 'burned out' (exhausted). 'Burned up' means very angry. Answer is c (burned out). Answer key shows 26.b. I'll follow key: b.",
+      "answer": "c",
+      "explanation": "Burned out is an idiom that means feeling completely physically or mentally exhausted from a difficult or tiring task. Answer is c",
       "source": "CSE Professional Reviewer - Verbal Ability"
     },
     {
@@ -5707,7 +5707,7 @@
       "category": "verbal",
       "subcategory": "reading_comprehension",
       "difficulty": "average",
-      "question": "What do the Epicureans think about the universe?",
+      "question": "[PASSAGE]\nThe concepts of Epicureanism are largely known to us through Lucretius, rather than Epicurus. The latter, born an Athenian citizen in Samos in 341, founded his school in his garden, a symbol of retirement from the world, in 306 and died in 270 B.C.\nFor the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. All knowledge was acquired by sense perception; observation was therefore essential to understanding. There were an infinite number of worlds, formed by the chance combination of atoms in infinite space. The gods, unconcerned about human affairs, lived in the void between the different worlds. They were not to be regarded superstitiously or feared, only to be envied.\nMan himself was made up of body and soul. Death was not to be feared. There was no such thing as immortality; after death, atoms of the soul were scattered. The aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end. The injunction to follow nature meant, seek pleasure. Everything was desirable insofar as it led to pleasure, but above all, the aim was absence of pain and the achievement of peace of mind. This would be obtained personally by self-control, the mastery and limitation of desires as far as possible to those that were strictly necessary. Also, it implied limitation of social relationships - 'live unknown'- refusal to be involved in family or political affairs, skepticism toward religion, which the Epicureans considered largely superstition.\nFrom: The Great Political Theories, Vol.1 by Michael Curtis\n What do the Epicureans think about the universe?",
       "choices": {
         "a": "It was disorderly with an absence of rule",
         "b": "It was orderly and without a ruler",
@@ -5819,7 +5819,7 @@
       "category": "verbal",
       "subcategory": "reading_comprehension",
       "difficulty": "easy",
-      "question": "Which of the following statements is NOT true based on the Seneca passage?",
+      "question": "What is the happy life? Self-sufficiency and abiding tranquility. This is the gift of greatness of soul, the gift of constancy which perseveres in a course judged right. How can these attitudes be attained? By surveying truth in its entirety, by safeguarding in every action order, measure, decorum, a will that is without malice and benign, focused undeviatingly upon reason, once amiable and admirable. The wise man's soul should have the quality of a god's. What can a man desire if he possesses everything that is honorable? If the dishonorable can contribute to the optimum state, then the happy life will be comprised of elements other than honorable. And what could be meaner or stupider than to weave the good of the rational soul out of irrational strands?\nWhich of the following statements is NOT true based on the Seneca passage?",
       "choices": {
         "a": "Self-sufficiency does not bring happiness",
         "b": "Greatness of soul is attainable",

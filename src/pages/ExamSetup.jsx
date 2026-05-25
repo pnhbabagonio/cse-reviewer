@@ -35,6 +35,7 @@ export default function ExamSetup() {
   const [selectedSubcategoryKeys, setSelectedSubcategoryKeys] = useState([])
   const [difficulty, setDifficulty] = useState('all')
   const [questionCount, setQuestionCount] = useState(30)
+  const [answerAll, setAnswerAll] = useState(false)
   const [availableCount, setAvailableCount] = useState(0)
 
   const categoryCounts = useMemo(() => {
@@ -91,11 +92,16 @@ export default function ExamSetup() {
       }
     }
     setAvailableCount(filtered.length)
-    const maxAvailable = Math.min(questionCount, filtered.length)
-    if (maxAvailable < questionCount && filtered.length > 0) {
+    
+    if (answerAll) {
       setQuestionCount(filtered.length)
+    } else {
+      const maxAvailable = Math.min(questionCount, filtered.length)
+      if (maxAvailable < questionCount && filtered.length > 0) {
+        setQuestionCount(filtered.length)
+      }
     }
-  }, [selectedCategories, selectedSubcategoryKeys, difficulty, allQuestions, retryWrongIds, questionCount])
+  }, [selectedCategories, selectedSubcategoryKeys, difficulty, allQuestions, retryWrongIds, answerAll, questionCount])
 
   const toggleCategory = (catId) => {
     if (selectedCategories.includes(catId)) {
@@ -250,13 +256,30 @@ export default function ExamSetup() {
           <div className="space-y-2">
             <label className="font-semibold">Number of Questions</label>
             <div className="flex flex-wrap gap-2">
+              <button
+                key="all"
+                onClick={() => {
+                  setAnswerAll(true)
+                  setQuestionCount(availableCount)
+                }}
+                className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${
+                  answerAll
+                    ? 'bg-navy text-white dark:bg-gold dark:text-navy'
+                    : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300'
+                }`}
+              >
+                All
+              </button>
               {questionCounts.map(count => (
                 <button
                   key={count}
-                  onClick={() => setQuestionCount(count)}
+                  onClick={() => {
+                    setAnswerAll(false)
+                    setQuestionCount(count)
+                  }}
                   disabled={count > availableCount}
                   className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${
-                    questionCount === count
+                    !answerAll && questionCount === count
                       ? 'bg-navy text-white dark:bg-gold dark:text-navy'
                       : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300'
                   } ${count > availableCount ? 'opacity-50 cursor-not-allowed' : ''}`}
@@ -264,7 +287,7 @@ export default function ExamSetup() {
                   {count}
                 </button>
               ))}
-              {customQuestionCount && (
+              {customQuestionCount && !answerAll && (
                 <button
                   type="button"
                   className="px-4 py-1.5 rounded-full text-sm font-medium bg-navy text-white dark:bg-gold dark:text-navy"

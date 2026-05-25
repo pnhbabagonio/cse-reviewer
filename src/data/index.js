@@ -43,4 +43,14 @@ export const categoryMeta = Object.fromEntries(
   ])
 )
 
+// Enable HMR for data files to prevent full app reset on data changes
+if (import.meta.hot) {
+  import.meta.hot.accept((module) => {
+    // When data files change, trigger a custom event to reload questions in the store
+    window.dispatchEvent(new CustomEvent('data-refresh', { 
+      detail: { timestamp: Date.now() }
+    }))
+  })
+}
+
 export default allQuestions

@@ -60,6 +60,7 @@ const useExamStore = create(
       allQuestions: [],      // merged bundled + imported
       bookmarks: [],         // array of question IDs
       session: null,         // active session object
+      currentQuestionIndex: 0, // track current question index
 
       loadQuestions: (selectedCategories = []) => {
         set({ allQuestions: getMergedQuestionPool(selectedCategories) })
@@ -115,8 +116,12 @@ const useExamStore = create(
           startTime: Date.now(),
           config,
         }
-        set({ session: sessionObj })
+        set({ session: sessionObj, currentQuestionIndex: 0 })
         return sessionObj
+      },
+
+      setCurrentQuestionIndex: (index) => {
+        set({ currentQuestionIndex: index })
       },
 
       submitAnswer: (questionId, answer) => {
@@ -189,15 +194,19 @@ const useExamStore = create(
           results,
           categoryBreakdown,
         }
-        set({ session: null })
+        set({ session: null, currentQuestionIndex: 0 })
         return completed
       },
 
-      clearSession: () => set({ session: null }),
+      clearSession: () => set({ session: null, currentQuestionIndex: 0 }),
     }),
     {
       name: 'cse_exam_store',
-      partialize: (state) => ({ bookmarks: state.bookmarks }), // only persist bookmarks
+      partialize: (state) => ({ 
+        bookmarks: state.bookmarks,
+        session: state.session,
+        currentQuestionIndex: state.currentQuestionIndex,
+      }),
     }
   )
 )

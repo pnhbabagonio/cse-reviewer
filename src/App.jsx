@@ -14,7 +14,7 @@ import useExamStore from './store/examStore'
 
 function App() {
   const { darkMode } = useSettingsStore()
-  const { loadAllQuestions } = useExamStore()
+  const { loadAllQuestions, session, clearSession } = useExamStore()
 
   useEffect(() => {
     if (darkMode) {
@@ -26,13 +26,28 @@ function App() {
 
   useEffect(() => {
     loadAllQuestions()
-  }, [])
+  }, [loadAllQuestions])
+
+  // Listen for data file changes and reload questions
+  useEffect(() => {
+    const handleDataRefresh = () => {
+      console.log('Data files changed, reloading questions...')
+      // Clear any active session to prevent stale question data
+      if (session) {
+        clearSession()
+      }
+      loadAllQuestions()
+    }
+
+    window.addEventListener('data-refresh', handleDataRefresh)
+    return () => window.removeEventListener('data-refresh', handleDataRefresh)
+  }, [loadAllQuestions, session, clearSession])
 
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route index element={session ? <Navigate to="/exam" replace /> : <Home />} />
           <Route path="setup" element={<ExamSetup />} />
           <Route path="exam" element={<ExamSession />} />
           <Route path="results" element={<Results />} />
