@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
-import { allQuestions, questionsByCategory } from '../data/index.js'
+import { getAllQuestions, getQuestionsByCategory } from '../data/index.js'
 import { shuffleArray } from '../utils/shuffle'
 
 const createSessionId = () => {
@@ -34,9 +34,12 @@ const getImportedQuestions = () => {
 }
 
 const getBundledQuestionPool = (selectedCategories = []) => {
-  if (selectedCategories.length === 0) return allQuestions
+  const questionsData = getQuestionsByCategory()
+  const allQs = getAllQuestions()
+  
+  if (selectedCategories.length === 0) return allQs
 
-  return selectedCategories.flatMap(cat => questionsByCategory[cat] ?? [])
+  return selectedCategories.flatMap(cat => questionsData[cat] ?? [])
 }
 
 const getSubcategoryKey = (question) => (
@@ -210,5 +213,19 @@ const useExamStore = create(
     }
   )
 )
+
+// Listen for data changes and reload questions automatically
+if (typeof window !== 'undefined') {
+  window.addEventListener('data-refresh', () => {
+    // Reload all questions without categories to refresh the data
+    useExamStore.getState().loadQuestions()
+    
+    // If there's an active session, close it and return to dashboard
+    const currentSession = useExamStore.getState().session
+    if (currentSession) {
+      useExamStore.getState().clearSession()
+    }
+  })
+}
 
 export default useExamStore
