@@ -54,40 +54,30 @@ const getSubcategoryKey = (question) => (
 )
 
 // UI filter needs to include passage-group subcategories that don't exist in allQuestions (standalone-only).
-// Return a flattened list of "filterable" question-shaped objects:
-// - standalone questions: use as-is
-// - passage groups: represented as synthetic objects with category/subcategory/difficulty so ExamSetup chips can be generated.
+// This returns a flattened list of "filterable" question-shaped objects for ExamSetup counts.
+// IMPORTANT: Do NOT dedupe, because ExamSetup shows actual question counts.
+// - standalone questions: use as-is (each item is one question)
+// - passage groups: expand into N synthetic items, where N = number of questions in that group
+//   so that subcategory totals match the real passage-group question counts.
 const getFilterableQuestionsForSubcategoryUI = () => {
   const standalone = getMergedQuestionPool()
 
-  const passageAsSynthetic = (allPassageGroups ?? []).map((g) => ({
-    // stable-ish id for UI usage; actual session pool uses expanded passage_question IDs
-    id: `pg-ui::${g.id}`,
-    category: g.category,
-    subcategory: g.subcategory || 'uncategorized',
-    difficulty: g.difficulty,
-  }))
+  const passageExpanded = (allPassageGroups ?? []).flatMap((g) => {
+    const groupQuestionCount = g?.questions?.length ?? 0
+    if (groupQuestionCount <= 0) return []
 
-  // Deduplicate by a composite of (category, subcategory, difficulty) so chip totals/counts don't explode.
-  // Keep standalone questions too because ExamSetup's availableCount uses filtering at the chip level.
-  const seen = new Set()
-  const out = []
+    // One synthetic UI item per question in the passage group
+    return Array.from({ length: groupQuestionCount }, (_, idx) => ({
+      // unique/stable-ish id for UI filtering (retry mode uses ids too, but retryWrongIds
+      // only targets real question ids; this selector is only for chip counts/options)
+      id: `pg-ui::${g.id}::q${idx}`,
+      category: g.category,
+      subcategory: g.subcategory || 'uncategorized',
+      difficulty: g.difficulty,
+    }))
+  })
 
-  for (const q of standalone) {
-    const key = `${q.category}::${q.subcategory || 'uncategorized'}::${q.difficulty || 'all'}::standalone`
-    if (seen.has(key)) continue
-    seen.add(key)
-    out.push(q)
-  }
-
-  for (const gq of passageAsSynthetic) {
-    const key = `${gq.category}::${gq.subcategory || 'uncategorized'}::${gq.difficulty || 'all'}::passage`
-    if (seen.has(key)) continue
-    seen.add(key)
-    out.push(gq)
-  }
-
-  return out
+  return [...standalone, ...passageExpanded]
 }
 
 const getMergedQuestionPool = (selectedCategories = []) => {
