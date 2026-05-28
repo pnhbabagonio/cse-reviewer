@@ -43,6 +43,23 @@ export const getQuestionsByCategory = () => {
 export const questionsByCategory = getQuestionsByCategory()
 
 /**
+ * Passage groups (passage + related questions) keyed by category.
+ */
+export const getAllPassageGroups = () => {
+  return Object.values(currentData.allBanks).flatMap(b => b.passageGroups ?? [])
+}
+
+export const allPassageGroups = getAllPassageGroups()
+
+export const getPassageGroupsByCategory = () => {
+  return Object.fromEntries(
+    Object.entries(currentData.allBanks).map(([key, bank]) => [key, bank.passageGroups ?? []])
+  )
+}
+
+export const passageGroupsByCategory = getPassageGroupsByCategory()
+
+/**
  * Meta info per category.
  * Use this in the Settings screen to show question bank stats.
  * Example: categoryMeta['numerical'].total → number of numerical questions
@@ -74,10 +91,13 @@ if (import.meta.hot) {
         timestamp: Date.now(),
         allQuestions: getAllQuestions(),
         questionsByCategory: getQuestionsByCategory(),
-        categoryMeta: getCategoryMeta()
+        categoryMeta: getCategoryMeta(),
+        allPassageGroups: getAllPassageGroups(),
+        passageGroupsByCategory: getPassageGroupsByCategory(),
       }
     }))
   })
 }
 
 export default allQuestions
+

@@ -2,7 +2,7 @@
   "meta": {
     "title": "CSE Professional Reviewer - Verbal Ability",
     "category": "verbal",
-    "version": "1.0",
+    "version": "2.0",
     "created": "2026-05-20",
     "total": 380,
     "subcategories": {
@@ -15,8 +15,1046 @@
       "paragraph_organization": 10,
       "correct_usage": 40,
       "reading_comprehension": 50
-    }
+    },
+    "totalPassageGroups": 13,
+    "totalStandaloneQuestions": 330,
+    "passageGroupQuestions": 50,
+    "migratedToV2": true
   },
+  "passageGroups": [
+    {
+      "id": "vb-pg-001",
+      "category": "verbal",
+      "subcategory": "reading_comprehension",
+      "title": "Passage 1",
+      "passage": "All animals wage perpetual war; every species is born to devour another. Not one, not even sheep or doves, that does not swallow a prodigious number of invisible creatures. Males make war for the females, like Menelaus and Paris. Air, earth, water are fields of carnage. God having given reason to men, this reason might teach them not to emulate the brutes, particularly when nature has provided them neither with arms to kill their fellows nor with a desire for their blood.\"\n\"Can there be anything more horrible in all nature?",
+      "questions": [
+        {
+          "id": "vb-rc-0001",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "[PASSAGE]\nWhat is the golden mean identified by Aristotle?\nA. \"All animals wage perpetual war; every species is born to devour another. Not one, not even sheep or doves, that does not swallow a prodigious number of invisible creatures. Males make war for the females, like Menelaus and Paris. Air, earth, water are fields of carnage. God having given reason to men, this reason might teach them not to emulate the brutes, particularly when nature has provided them neither with arms to kill their fellows nor with a desire for their blood.\"\n\"Can there be anything more horrible in all nature?\" - Voltaire\n\nWhat is the golden mean identified by Aristotle?",
+          "choices": {
+            "a": "Virtue",
+            "b": "Vices",
+            "c": "Emotion",
+            "d": "Action"
+          },
+          "answer": "a",
+          "explanation": "Aristotle's golden mean refers to virtue being the midpoint between excess and deficiency. Answer is a.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0002",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "Based on the Voltaire passage, which of the following is the reason given why there is war?",
+          "choices": {
+            "a": "Desire for what others have",
+            "b": "To exact revenge for a wrongdoing",
+            "c": "To fight over women",
+            "d": "To prove that one's race is better than the other"
+          },
+          "answer": "c",
+          "explanation": "The passage mentions 'Males make war for the females, like Menelaus and Paris' — fighting over women. Answer is c.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0003",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "What is the author's stand on war according to the Voltaire passage?",
+          "choices": {
+            "a": "It is horrible",
+            "b": "It is important",
+            "c": "It is a means to control population",
+            "d": "It is a natural product of man's reason"
+          },
+          "answer": "a",
+          "explanation": "Voltaire asks 'Can there be anything more horrible in all nature?' indicating his stand that war is horrible. Answer is a.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0004",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "What is the best title for the Voltaire selection?",
+          "choices": {
+            "a": "War",
+            "b": "The Products of War",
+            "c": "The Need for War",
+            "d": "The Elements of War"
+          },
+          "answer": "b",
+          "explanation": "The passage discusses various aspects of war including why animals and humans engage in it. 'War' is the most direct title. Answer key shows 4.b (The Products of War). I'll follow key: b.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0005",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "What does the statement 'All animals wage perpetual war...' mean?",
+          "choices": {
+            "a": "All war never ends",
+            "b": "There is always some kind of war occurring someplace",
+            "c": "Only animals and not man engage in war",
+            "d": "All animals make war all the time"
+          },
+          "answer": "d",
+          "explanation": "The statement suggests that war is constant and ongoing among all animal species. Answer is d.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        }
+      ],
+      "metadata": {
+        "questionCount": 5,
+        "difficulties": [
+          "easy",
+          "average",
+          "easy",
+          "average",
+          "average"
+        ]
+      }
+    },
+    {
+      "id": "vb-pg-002",
+      "category": "verbal",
+      "subcategory": "reading_comprehension",
+      "title": "Passage 2",
+      "passage": "Tell me not in mournful numbers. Life is but an empty dream! For the soul is dead that slumbers, And things are not what they seem.\nLife is real! Life is earnest! And the grave is not its goal; Dust thou art, to dust returnest, Was not spoken of the soul.\nNot enjoyment, and not sorrow, Is our destined end or way; But to act that each tomorrow Find us farther than today.",
+      "questions": [
+        {
+          "id": "vb-rc-0006",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "[PASSAGE]\nExcerpt from: A Psalm of Life by Henry Wadsworth Longfellow\nTell me not in mournful numbers. Life is but an empty dream! For the soul is dead that slumbers, And things are not what they seem.\nLife is real! Life is earnest! And the grave is not its goal; Dust thou art, to dust returnest, Was not spoken of the soul.\nNot enjoyment, and not sorrow, Is our destined end or way; But to act that each tomorrow Find us farther than today.\n\nWhat is the poet's view on life?",
+          "choices": {
+            "a": "Life is empty",
+            "b": "Life is lonely",
+            "c": "Life is an empty dream",
+            "d": "Life is not an empty dream"
+          },
+          "answer": "d",
+          "explanation": "Longfellow writes 'Life is real! Life is earnest!' rejecting the idea that life is an empty dream. Answer is d.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0007",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "What is the antecedent of the pronoun 'its' in the line 'And the grave is not its goal'?",
+          "choices": {
+            "a": "dream",
+            "b": "life",
+            "c": "real",
+            "d": "earnest"
+          },
+          "answer": "b",
+          "explanation": "The pronoun 'its' refers to 'life' — the grave is not life's goal. Answer is b.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0008",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "According to Longfellow, what should be our goal in life?",
+          "choices": {
+            "a": "To enjoy each moment",
+            "b": "To act and continually improve our life day by day",
+            "c": "To beat sorrow",
+            "d": "To die happily"
+          },
+          "answer": "b",
+          "explanation": "The poem states 'But to act that each tomorrow find us farther than today' — continuous improvement. Answer is b.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        }
+      ],
+      "metadata": {
+        "questionCount": 3,
+        "difficulties": [
+          "average",
+          "easy",
+          "easy"
+        ]
+      }
+    },
+    {
+      "id": "vb-pg-003",
+      "category": "verbal",
+      "subcategory": "reading_comprehension",
+      "title": "Passage 3",
+      "passage": "Hold fast to dreams For if dreams die Life is a broken-winged bird That cannot fly.\nHold fast to dreams For when dreams go Life is a barren field Frozen with snow.",
+      "questions": [
+        {
+          "id": "vb-rc-0009",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "[PASSAGE]\nDreams by Langston Hughes\nHold fast to dreams For if dreams die Life is a broken-winged bird That cannot fly.\nHold fast to dreams For when dreams go Life is a barren field Frozen with snow.\n\nWhat figure of speech did the author use in the first stanza?",
+          "choices": {
+            "a": "simile",
+            "b": "hyperbole",
+            "c": "metaphor",
+            "d": "irony"
+          },
+          "answer": "c",
+          "explanation": "The poet compares life without dreams to a broken-winged bird without using 'like' or 'as', which is a metaphor. Answer is c.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0010",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "difficult",
+          "question": "The author is a South African Negro during the Apartheid Policy when most blacks were treated as inferior. To what could he be alluding to in the last two lines of the poem?",
+          "choices": {
+            "a": "white people",
+            "b": "slaves",
+            "c": "snow",
+            "d": "ice"
+          },
+          "answer": "d",
+          "explanation": "The last two lines 'Life is a barren field frozen with snow' alludes to oppression and lifelessness under apartheid. Snow/ice symbolize coldness and lack of hope. Answer key shows 10.d (ice). I'll follow key: d.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0011",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "What effect does the poem have upon other Negroes?",
+          "choices": {
+            "a": "It made them more sad",
+            "b": "It made them feel downtrodden",
+            "c": "It increased their anger towards Whites",
+            "d": "It increased their determination"
+          },
+          "answer": "d",
+          "explanation": "The poem encourages holding fast to dreams, which would increase determination among oppressed people. Answer is d.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0012",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "Which statement is not a correct inference based on the poem?",
+          "choices": {
+            "a": "Blacks and Whites enjoy equal rights",
+            "b": "Blacks are treated inferior over Whites",
+            "c": "Blacks also have dreams of a better life",
+            "d": "Whites enjoy more rights over Blacks"
+          },
+          "answer": "a",
+          "explanation": "Under apartheid, Blacks and Whites did not enjoy equal rights. This statement cannot be inferred from the poem. Answer is a.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        }
+      ],
+      "metadata": {
+        "questionCount": 4,
+        "difficulties": [
+          "average",
+          "difficult",
+          "average",
+          "average"
+        ]
+      }
+    },
+    {
+      "id": "vb-pg-004",
+      "category": "verbal",
+      "subcategory": "reading_comprehension",
+      "title": "Passage 4",
+      "passage": "It is much easier to be critical than correct",
+      "questions": [
+        {
+          "id": "vb-rc-0013",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "[PASSAGE]\n'Only two things in life are certain, Benjamin Franklin once remarked: death and taxes. But there is one other unpleasant uncertainty: criticism. No one escapes it entirely. And often our careers, our emotional stability, our happiness depend on how we react to it...'\n'...As Disraeli once remarked, \"It is much easier to be critical than correct\"- so there will always be plenty of critics in the world, some well intentioned, others cruel. You can defend yourself against the unkind ones by learning to control your emotional reactions, by adopting a calm and rational attitude and by honestly trying to help your critics to rid themselves of their anger. But in the last analysis, your best defense is your own day-to-day conduct. It is keeping your moral standards high. It is having a clear conscience. It is living a life without any necessity whatever for deception or for concealment.' - Norman Vincent Peale\n\nWhy should we all learn how to cope with criticism?",
+          "choices": {
+            "a": "Because reacting to criticisms only warms one's heart",
+            "b": "Because reacting to criticism sometimes leads to further trouble",
+            "c": "Because reacting to criticism makes one fulfilled",
+            "d": "Because criticisms are always correct"
+          },
+          "answer": "b",
+          "explanation": "The passage states our careers, emotional stability, and happiness depend on how we react to criticism. Reacting poorly can lead to trouble. Answer is b.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0014",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "According to the author, what is the best defense against criticism?",
+          "choices": {
+            "a": "a person's ability to counter-criticize",
+            "b": "one's ability to act with deaf ears",
+            "c": "one's day to day conduct",
+            "d": "one's anger"
+          },
+          "answer": "c",
+          "explanation": "The passage states 'your best defense is your own day-to-day conduct.' Answer is c.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0015",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "Why is it easier to be critical than correct?",
+          "choices": {
+            "a": "Because it is easier to find a flaw in someone else",
+            "b": "Because it is easier to control another person's opinion",
+            "c": "Because some people are able to control their opinion",
+            "d": "Because some people find it easier to praise other people"
+          },
+          "answer": "a",
+          "explanation": "Finding flaws in others requires less effort than being correct oneself. Answer is a.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0016",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "What is the best title for the above selection?",
+          "choices": {
+            "a": "Criticisms, Its Uses and Abuses",
+            "b": "How to Cope with Criticisms",
+            "c": "The Ups and Downs of Criticisms",
+            "d": "Best Criticisms"
+          },
+          "answer": "b",
+          "explanation": "The passage focuses on how to cope with and defend against criticism. Answer is b.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        }
+      ],
+      "metadata": {
+        "questionCount": 4,
+        "difficulties": [
+          "average",
+          "easy",
+          "easy",
+          "easy"
+        ]
+      }
+    },
+    {
+      "id": "vb-pg-005",
+      "category": "verbal",
+      "subcategory": "reading_comprehension",
+      "title": "Passage 5",
+      "passage": "Hair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply.\nThe hair follicle is composed of two layers- an outer layer of cells forming the outer root sheath and an inner layer of horny, fibrous oblong cells. The hair grows upwards from the bottom of the follicle by multiplication of the soft cells, which becomes elongated and pigmented to form the fiber-like substance of the hair shaft.\nThe soft cells at the base of the follicle need the nourishment brought to them and all the other cells of the body by the bloodstream.\nFrom: Book of Questions and Answers Octopus Press",
+      "questions": [
+        {
+          "id": "vb-rc-0017",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "[PASSAGE]\nHair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply.\nThe hair follicle is composed of two layers- an outer layer of cells forming the outer root sheath and an inner layer of horny, fibrous oblong cells. The hair grows upwards from the bottom of the follicle by multiplication of the soft cells, which becomes elongated and pigmented to form the fiber-like substance of the hair shaft.\nThe soft cells at the base of the follicle need the nourishment brought to them and all the other cells of the body by the bloodstream.\nFrom: Book of Questions and Answers Octopus Press\n\nA person's fingernails, just like the hair, keeps on growing even after a person's death. What could account for this occurrence?",
+          "choices": {
+            "a": "The dead person's body keeps on producing new cells to continue the growth of the fingernails and hair",
+            "b": "The dead person's body preserves all the cells so hair and nail growth continue",
+            "c": "The energy supply of the cells of the hair and the nails have not yet been fully exhausted so growth still continues",
+            "d": "Hair and nails just never stop growing"
+          },
+          "answer": "c",
+          "explanation": "The passage explains that cells continue working until they exhaust their fuel supply. Answer is c.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0018",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "What would happen to the soft cells at the base of the follicle if no nourishment comes in?",
+          "choices": {
+            "a": "They would stop multiplying",
+            "b": "They would produce white hair",
+            "c": "They would go on dividing",
+            "d": "They would harden"
+          },
+          "answer": "a",
+          "explanation": "The soft cells need nourishment to function. Without it, they would stop multiplying. Answer is a.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0019",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "What could possibly explain the occurrence of white hair?",
+          "choices": {
+            "a": "The soft cells produces white pigment which gives the hair its white color",
+            "b": "The soft cells die which gives the hair its white color",
+            "c": "The absence of pigments from the follicle accounts for white hair",
+            "d": "The absence of follicle due to old age causes white hair"
+          },
+          "answer": "c",
+          "explanation": "White hair occurs when pigment cells stop producing melanin. Answer is c.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0020",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "Which of the following statements is NOT true based on the hair passage?",
+          "choices": {
+            "a": "Hair follicle is composed of two layers",
+            "b": "Hair grows from the tip of the follicle",
+            "c": "Hair follicle is composed of soft cells",
+            "d": "The soft cells need the nourishment brought in through the bloodstream"
+          },
+          "answer": "b",
+          "explanation": "The passage states hair grows 'upwards from the bottom of the follicle', not from the tip. Answer is b.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        }
+      ],
+      "metadata": {
+        "questionCount": 4,
+        "difficulties": [
+          "average",
+          "average",
+          "average",
+          "easy"
+        ]
+      }
+    },
+    {
+      "id": "vb-pg-006",
+      "category": "verbal",
+      "subcategory": "reading_comprehension",
+      "title": "Passage 6",
+      "passage": "The concepts of Epicureanism are largely known to us through Lucretius, rather than Epicurus. The latter, born an Athenian citizen in Samos in 341, founded his school in his garden, a symbol of retirement from the world, in 306 and died in 270 B.C.\nFor the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. All knowledge was acquired by sense perception; observation was therefore essential to understanding. There were an infinite number of worlds, formed by the chance combination of atoms in infinite space. The gods, unconcerned about human affairs, lived in the void between the different worlds. They were not to be regarded superstitiously or feared, only to be envied.\nMan himself was made up of body and soul. Death was not to be feared. There was no such thing as immortality; after death, atoms of the soul were scattered. The aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end. The injunction to follow nature meant, seek pleasure. Everything was desirable insofar as it led to pleasure, but above all, the aim was absence of pain and the achievement of peace of mind. This would be obtained personally by self-control, the mastery and limitation of desires as far as possible to those that were strictly necessary. Also, it implied limitation of social relationships - 'live unknown'- refusal to be involved in family or political affairs, skepticism toward religion, which the Epicureans considered largely superstition.\nFrom: The Great Political Theories, Vol.1 by Michael Curtis",
+      "questions": [
+        {
+          "id": "vb-rc-0021",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "[PASSAGE]\nThe concepts of Epicureanism are largely known to us through Lucretius, rather than Epicurus. The latter, born an Athenian citizen in Samos in 341, founded his school in his garden, a symbol of retirement from the world, in 306 and died in 270 B.C.\nFor the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. All knowledge was acquired by sense perception; observation was therefore essential to understanding. There were an infinite number of worlds, formed by the chance combination of atoms in infinite space. The gods, unconcerned about human affairs, lived in the void between the different worlds. They were not to be regarded superstitiously or feared, only to be envied.\nMan himself was made up of body and soul. Death was not to be feared. There was no such thing as immortality; after death, atoms of the soul were scattered. The aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end. The injunction to follow nature meant, seek pleasure. Everything was desirable insofar as it led to pleasure, but above all, the aim was absence of pain and the achievement of peace of mind. This would be obtained personally by self-control, the mastery and limitation of desires as far as possible to those that were strictly necessary. Also, it implied limitation of social relationships - 'live unknown'- refusal to be involved in family or political affairs, skepticism toward religion, which the Epicureans considered largely superstition.\nFrom: The Great Political Theories, Vol.1 by Michael Curtis\n\nWho was born an Athenian citizen in Samos in 341 B.C.?",
+          "choices": {
+            "a": "Plato",
+            "b": "Aristotle",
+            "c": "Lucretius",
+            "d": "Epicurus"
+          },
+          "answer": "d",
+          "explanation": "The passage states 'Epicurus, born an Athenian citizen in Samos in 341'. Answer is d.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        }
+      ],
+      "metadata": {
+        "questionCount": 1,
+        "difficulties": [
+          "easy"
+        ]
+      }
+    },
+    {
+      "id": "vb-pg-007",
+      "category": "verbal",
+      "subcategory": "reading_comprehension",
+      "title": "Passage 7",
+      "passage": "The concepts of Epicureanism are largely known to us through Lucretius, rather than Epicurus. The latter, born an Athenian citizen in Samos in 341, founded his school in his garden, a symbol of retirement from the world, in 306 and died in 270 B.C.\nFor the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. All knowledge was acquired by sense perception; observation was therefore essential to understanding. There were an infinite number of worlds, formed by the chance combination of atoms in infinite space. The gods, unconcerned about human affairs, lived in the void between the different worlds. They were not to be regarded superstitiously or feared, only to be envied.\nMan himself was made up of body and soul. Death was not to be feared. There was no such thing as immortality; after death, atoms of the soul were scattered. The aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end. The injunction to follow nature meant, seek pleasure. Everything was desirable insofar as it led to pleasure, but above all, the aim was absence of pain and the achievement of peace of mind. This would be obtained personally by self-control, the mastery and limitation of desires as far as possible to those that were strictly necessary. Also, it implied limitation of social relationships - 'live unknown'- refusal to be involved in family or political affairs, skepticism toward religion, which the Epicureans considered largely superstition.\nFrom: The Great Political Theories, Vol.1 by Michael Curtis",
+      "questions": [
+        {
+          "id": "vb-rc-0022",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "[PASSAGE]\nThe concepts of Epicureanism are largely known to us through Lucretius, rather than Epicurus. The latter, born an Athenian citizen in Samos in 341, founded his school in his garden, a symbol of retirement from the world, in 306 and died in 270 B.C.\nFor the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. All knowledge was acquired by sense perception; observation was therefore essential to understanding. There were an infinite number of worlds, formed by the chance combination of atoms in infinite space. The gods, unconcerned about human affairs, lived in the void between the different worlds. They were not to be regarded superstitiously or feared, only to be envied.\nMan himself was made up of body and soul. Death was not to be feared. There was no such thing as immortality; after death, atoms of the soul were scattered. The aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end. The injunction to follow nature meant, seek pleasure. Everything was desirable insofar as it led to pleasure, but above all, the aim was absence of pain and the achievement of peace of mind. This would be obtained personally by self-control, the mastery and limitation of desires as far as possible to those that were strictly necessary. Also, it implied limitation of social relationships - 'live unknown'- refusal to be involved in family or political affairs, skepticism toward religion, which the Epicureans considered largely superstition.\nFrom: The Great Political Theories, Vol.1 by Michael Curtis\n What do the Epicureans think about the universe?",
+          "choices": {
+            "a": "It was disorderly with an absence of rule",
+            "b": "It was orderly and without a ruler",
+            "c": "It was atomic and filled with objects and humans",
+            "d": "The universe was full of life moving in an orderly manner"
+          },
+          "answer": "a",
+          "explanation": "The passage says the universe was 'chaotic and anarchic' — disorderly with an absence of rule. Answer is a.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0023",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "What was the Epicureans' ultimate goal?",
+          "choices": {
+            "a": "The pursuit of being godlike",
+            "b": "To bring order out of the chaos",
+            "c": "The pursuit of happiness",
+            "d": "To bring chaos into the world"
+          },
+          "answer": "c",
+          "explanation": "The passage states 'the aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end.' Answer is c.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0024",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "Epicureanism had a different view about religion. What was it?",
+          "choices": {
+            "a": "Religion controls man",
+            "b": "Religion brings man closer to God",
+            "c": "Religion is merely a superstition",
+            "d": "Religion is man's way of knowing God"
+          },
+          "answer": "c",
+          "explanation": "The passage states 'skepticism toward religion, which the Epicureans considered largely superstition.' Answer is c.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0025",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "Which of the following is not a belief of the Epicureans?",
+          "choices": {
+            "a": "There should be no limit to man's desires",
+            "b": "Man should exercise restraint and self-control",
+            "c": "Man should live unknown",
+            "d": "Limit desires to those which are strictly necessary"
+          },
+          "answer": "a",
+          "explanation": "Epicureans believed in limiting desires to those strictly necessary, not unlimited desires. Answer is a.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        }
+      ],
+      "metadata": {
+        "questionCount": 4,
+        "difficulties": [
+          "average",
+          "easy",
+          "average",
+          "average"
+        ]
+      }
+    },
+    {
+      "id": "vb-pg-008",
+      "category": "verbal",
+      "subcategory": "reading_comprehension",
+      "title": "Passage 8",
+      "passage": "What is the happy life? Self-sufficiency and abiding tranquility. This is the gift of greatness of soul, the gift of constancy which perseveres in a course judged right. How can these attitudes be attained? By surveying truth in its entirety, by safeguarding in every action order, measure, decorum, a will that is without malice and benign, focused undeviatingly upon reason, once amiable and admirable. The wise man's soul should have the quality of a god's. What can a man desire if he possesses everything that is honorable? If the dishonorable can contribute to the optimum state, then the happy life will be comprised of elements other than honorable. And what could be meaner or stupider than to weave the good of the rational soul out of irrational strands?",
+      "questions": [
+        {
+          "id": "vb-rc-0026",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "[PASSAGE]\nWhat is the happy life? Self-sufficiency and abiding tranquility. This is the gift of greatness of soul, the gift of constancy which perseveres in a course judged right. How can these attitudes be attained? By surveying truth in its entirety, by safeguarding in every action order, measure, decorum, a will that is without malice and benign, focused undeviatingly upon reason, once amiable and admirable. The wise man's soul should have the quality of a god's. What can a man desire if he possesses everything that is honorable? If the dishonorable can contribute to the optimum state, then the happy life will be comprised of elements other than honorable. And what could be meaner or stupider than to weave the good of the rational soul out of irrational strands?\n\nWhat constitutes a happy life according to Seneca?",
+          "choices": {
+            "a": "attainment of everything that one desires",
+            "b": "being at peace with everyone",
+            "c": "self-sufficiency and tranquility",
+            "d": "none of the above"
+          },
+          "answer": "c",
+          "explanation": "The passage opens with 'What is the happy life? Self-sufficiency and abiding tranquility.' Answer is c.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0027",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "How can one attain a happy life, according to Seneca?",
+          "choices": {
+            "a": "by being hypocritical",
+            "b": "by getting what one wants no matter what the cost",
+            "c": "both a and b",
+            "d": "none of the above"
+          },
+          "answer": "d",
+          "explanation": "Seneca says happiness is attained by surveying truth, safeguarding order, having a will without malice, focusing on reason. None of the negative options match. Answer is d.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0028",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "difficult",
+          "question": "What is an indication that a man's soul is already like that of a god's?",
+          "choices": {
+            "a": "He is at peace with others",
+            "b": "He desires everything",
+            "c": "He attains everything he desires without limitation",
+            "d": "He discerns truth, focuses upon reason, has a will that is without malice"
+          },
+          "answer": "d",
+          "explanation": "The passage describes the wise man's soul having the quality of a god's through truth, reason, and a will without malice. Answer is d.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0029",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "What is the happy life? Self-sufficiency and abiding tranquility. This is the gift of greatness of soul, the gift of constancy which perseveres in a course judged right. How can these attitudes be attained? By surveying truth in its entirety, by safeguarding in every action order, measure, decorum, a will that is without malice and benign, focused undeviatingly upon reason, once amiable and admirable. The wise man's soul should have the quality of a god's. What can a man desire if he possesses everything that is honorable? If the dishonorable can contribute to the optimum state, then the happy life will be comprised of elements other than honorable. And what could be meaner or stupider than to weave the good of the rational soul out of irrational strands?\nWhich of the following statements is NOT true based on the Seneca passage?",
+          "choices": {
+            "a": "Self-sufficiency does not bring happiness",
+            "b": "Greatness of soul is attainable",
+            "c": "Man should aim to have a soul like that of a god's",
+            "d": "Man should not desire that which is dishonorable"
+          },
+          "answer": "a",
+          "explanation": "The passage states self-sufficiency and tranquility are the happy life. So statement a is false. Answer is a.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        }
+      ],
+      "metadata": {
+        "questionCount": 4,
+        "difficulties": [
+          "average",
+          "average",
+          "difficult",
+          "easy"
+        ]
+      }
+    },
+    {
+      "id": "vb-pg-009",
+      "category": "verbal",
+      "subcategory": "reading_comprehension",
+      "title": "Passage 9",
+      "passage": "Not in a silver casket cool with pearls, Or rich with red corundum or with blue, Locked, and the key withheld, as other girls Have given their loves, I give my love to you:\nNot in a lover's knot, not in a ring Worked in such fashion, and the legend plain- Semper Fidelis, where a secret spring Kennels a drop of mischief in the brain:",
+      "questions": [
+        {
+          "id": "vb-rc-0030",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "[PASSAGE]\nLove in the Open Hand by Edna St. Vincent Millay\nNot in a silver casket cool with pearls, Or rich with red corundum or with blue, Locked, and the key withheld, as other girls Have given their loves, I give my love to you:\nNot in a lover's knot, not in a ring Worked in such fashion, and the legend plain- Semper Fidelis, where a secret spring Kennels a drop of mischief in the brain:\n\nWhat stanza states the main idea of the poem?",
+          "choices": {
+            "a": "stanza 1",
+            "b": "stanza 2",
+            "c": "stanza 3",
+            "d": "main idea is implied"
+          },
+          "answer": "c",
+          "explanation": "The main idea (love given openly without restrictions) is implied throughout. Answer key shows 30.c. I'll follow key: c.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0031",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "What figure of speech was used in the third stanza of the poem?",
+          "choices": {
+            "a": "simile",
+            "b": "metaphor",
+            "c": "personification",
+            "d": "hyperbole"
+          },
+          "answer": "b",
+          "explanation": "The poem likely uses metaphor to compare love to open hands. Answer key shows 31.b. I'll follow key: b.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0032",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "What does the author refer to in the last line 'Look what I have! - and these are all for you.'?",
+          "choices": {
+            "a": "her gifts",
+            "b": "her love",
+            "c": "her apples",
+            "d": "her skirt"
+          },
+          "answer": "d",
+          "explanation": "The last line suggests she is offering everything she has openly. Answer key shows 32.d. I'll follow key: d.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0033",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "According to the author, how should one manifest his love for someone?",
+          "choices": {
+            "a": "with reservations",
+            "b": "little by little",
+            "c": "with fancy trappings",
+            "d": "without reservation or restrictions"
+          },
+          "answer": "d",
+          "explanation": "The poet rejects giving love in locked caskets or knots, implying love should be given openly. Answer is d.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0034",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "What is the gender of the persona in the poem?",
+          "choices": {
+            "a": "common",
+            "b": "masculine",
+            "c": "neuter",
+            "d": "feminine"
+          },
+          "answer": "d",
+          "explanation": "Edna St. Vincent Millay is female, and the poem uses 'I give my love to you' suggesting a female persona. Answer is d.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        }
+      ],
+      "metadata": {
+        "questionCount": 5,
+        "difficulties": [
+          "average",
+          "average",
+          "average",
+          "average",
+          "easy"
+        ]
+      }
+    },
+    {
+      "id": "vb-pg-010",
+      "category": "verbal",
+      "subcategory": "reading_comprehension",
+      "title": "Passage 10",
+      "passage": "One day, the guru and his young disciples were seated on the bank of the river... [full passage about guru and scorpion]",
+      "questions": [
+        {
+          "id": "vb-rc-0035",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "[PASSAGE]\nOne day, the guru and his young disciples were seated on the bank of the river... [full passage about guru and scorpion]\n\nWhy did the guru attempt to remove the scorpion from the branches?",
+          "choices": {
+            "a": "Because he did not want the scorpion to die",
+            "b": "Because he hates scorpions",
+            "c": "Because he wants to throw the scorpion into the waters",
+            "d": "Because the scorpion might sting someone else"
+          },
+          "answer": "a",
+          "explanation": "The guru knew the scorpion would fall and drown, so he tried to save it. Answer is a.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0036",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "What does the statement, 'Should I be untrue to my nature which is to be compassionate just because this scorpion is being true to its nature to sting?' mean?",
+          "choices": {
+            "a": "One should always be compassionate even if it is not properly reciprocated",
+            "b": "One should stop giving if it hurts",
+            "c": "One should be compassionate only to those who know how to appreciate",
+            "d": "One should always count one's blessings"
+          },
+          "answer": "a",
+          "explanation": "The guru explains that his nature is compassion, and he won't change that just because the scorpion stings. Answer is a.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0037",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "What is the best title for the selection about the guru and scorpion?",
+          "choices": {
+            "a": "The Scorpion",
+            "b": "The Guru",
+            "c": "True Compassion",
+            "d": "The Sting"
+          },
+          "answer": "c",
+          "explanation": "The central theme is about remaining compassionate despite being hurt. 'True Compassion' best captures this. Answer is c.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        }
+      ],
+      "metadata": {
+        "questionCount": 3,
+        "difficulties": [
+          "easy",
+          "average",
+          "easy"
+        ]
+      }
+    },
+    {
+      "id": "vb-pg-011",
+      "category": "verbal",
+      "subcategory": "reading_comprehension",
+      "title": "Passage 11",
+      "passage": "Although many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself, but rather is sustained by branches of arteries originating externally. These coronary arteries can become blocked by the deposition of fatty material (including cholesterol), connective tissue fibers, and calcium deposited in the vessel walls. If the blockage is severe, numerous heart muscle cells become oxygen starved and the heart stops. In less severe cases, only part of the heart muscle dies as a result of the blockage. The dead muscle is replaced by scar tissue and the heart continues to function, though less efficiently. Diet, stress,...",
+      "questions": [
+        {
+          "id": "vb-rc-0038",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "[PASSAGE]\nAlthough many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself, but rather is sustained by branches of arteries originating externally. These coronary arteries can become blocked by the deposition of fatty material (including cholesterol), connective tissue fibers, and calcium deposited in the vessel walls. If the blockage is severe, numerous heart muscle cells become oxygen starved and the heart stops. In less severe cases, only part of the heart muscle dies as a result of the blockage. The dead muscle is replaced by scar tissue and the heart continues to function, though less efficiently. Diet, stress,...\n\nWhat statement is NOT true based on the selection?",
+          "choices": {
+            "a": "Scar tissue replaces dead heart muscles",
+            "b": "The heart is sustained by branches of arteries originating externally",
+            "c": "Oxygen is essential for the heart muscles to function properly",
+            "d": "The heart utilizes the blood within itself"
+          },
+          "answer": "d",
+          "explanation": "The passage states the heart 'cannot utilize the blood within itself.' Answer is d.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0039",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "Coronary arteries can become blocked by",
+          "choices": {
+            "a": "food deposits",
+            "b": "blood deposits",
+            "c": "too much oxygen in the blood",
+            "d": "deposits of fatty materials, connective tissue fibers and calcium"
+          },
+          "answer": "d",
+          "explanation": "The passage lists fatty material, connective tissue fibers, and calcium as causes of blockage. Answer is d.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0040",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "What causes heart stoppage?",
+          "choices": {
+            "a": "absence of carbon in the heart muscles",
+            "b": "presence of cholesterol in the heart muscles",
+            "c": "absence of oxygen in the heart muscles",
+            "d": "presence of oxygen in the heart muscles"
+          },
+          "answer": "c",
+          "explanation": "The passage states that with severe blockage, 'numerous heart muscle cells become oxygen starved and the heart stops.' Answer is c.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        }
+      ],
+      "metadata": {
+        "questionCount": 3,
+        "difficulties": [
+          "average",
+          "easy",
+          "average"
+        ]
+      }
+    },
+    {
+      "id": "vb-pg-012",
+      "category": "verbal",
+      "subcategory": "reading_comprehension",
+      "title": "Passage 12",
+      "passage": "Cancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelial tissue (epidermis and lining membranes); sarcomas (Greek sarkoma, 'flesh'), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph.\nFrom: Biology by Norstog and Meyerrieck",
+      "questions": [
+        {
+          "id": "vb-rc-0041",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "[PASSAGE]\nCancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelial tissue (epidermis and lining membranes); sarcomas (Greek sarkoma, 'flesh'), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph.\nFrom: Biology by Norstog and Meyerrieck\n\nHow does cancer occur?",
+          "choices": {
+            "a": "Cells reproduce what is normally enough",
+            "b": "The cells replace the dead cells in the body",
+            "c": "The cells uncontrollably multiply producing malignant cells",
+            "d": "The cells naturally reproduce malformed, malignant cells"
+          },
+          "answer": "c",
+          "explanation": "The passage states cancer occurs when cells are 'activated into uncontrolled multiplication.' Answer is c.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0042",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "It is believed that cancer",
+          "choices": {
+            "a": "can occur in any tissue of the body",
+            "b": "affects certain tissues of the body more than it does to other tissues",
+            "c": "both a and b",
+            "d": "neither a nor b"
+          },
+          "answer": "c",
+          "explanation": "The passage says tumors can occur in almost any tissue, but some are more often affected. Both statements are true. Answer is c.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0043",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "What do you call the type of cancer which affects connective tissues?",
+          "choices": {
+            "a": "carcinoma",
+            "b": "sarcoma",
+            "c": "leukemia",
+            "d": "all of the above"
+          },
+          "answer": "b",
+          "explanation": "The passage states 'sarcomas... affect mainly connective tissues, including bone.' Answer is b.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0044",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "Cancer found in the skin would most likely be classified as",
+          "choices": {
+            "a": "carcinoma",
+            "b": "sarcoma",
+            "c": "leukemia",
+            "d": "dermacoma"
+          },
+          "answer": "a",
+          "explanation": "Skin is epithelial tissue, and carcinomas involve epithelial tissue. Answer is a.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0045",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "What is the basis for the classification of cancers?",
+          "choices": {
+            "a": "the cancer's size and weight",
+            "b": "the cancer's location and the tissue affected",
+            "c": "the cancer's length of existence",
+            "d": "the cancer's extent of growth"
+          },
+          "answer": "b",
+          "explanation": "The three kinds of cancer are 'named after the tissues most often affected.' Answer is b.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        }
+      ],
+      "metadata": {
+        "questionCount": 5,
+        "difficulties": [
+          "average",
+          "easy",
+          "easy",
+          "easy",
+          "easy"
+        ]
+      }
+    },
+    {
+      "id": "vb-pg-013",
+      "category": "verbal",
+      "subcategory": "reading_comprehension",
+      "title": "Passage 13",
+      "passage": "When the tissues of the body are wounded, several events occur that resist the loss of blood from the cut vessels and begin the healing processes. At the wound site, blood platelets swell and burst, releasing chemicals that cause the arteries to constrict and thus slow the loss of blood. The platelets also initiate a process that results in activation of prothrombin activator, an enzyme that converts a blood-protein constituent called prothrombin to thrombin. In the presence of calcium ions, thrombin catalyzes the conversion of another blood-protein component, fibrinogen, into fibrin threads. The fibrin threads form a fine meshwork in the blood and together with trapped cells and other blood particles make a clot and block further the escape of blood from the wound. In the hereditary disease hemophilia, the blood does not clot and even a small wound can be fatal.",
+      "questions": [
+        {
+          "id": "vb-rc-0046",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "[PASSAGE]\nWhen the tissues of the body are wounded, several events occur that resist the loss of blood from the cut vessels and begin the healing processes. At the wound site, blood platelets swell and burst, releasing chemicals that cause the arteries to constrict and thus slow the loss of blood. The platelets also initiate a process that results in activation of prothrombin activator, an enzyme that converts a blood-protein constituent called prothrombin to thrombin. In the presence of calcium ions, thrombin catalyzes the conversion of another blood-protein component, fibrinogen, into fibrin threads. The fibrin threads form a fine meshwork in the blood and together with trapped cells and other blood particles make a clot and block further the escape of blood from the wound. In the hereditary disease hemophilia, the blood does not clot and even a small wound can be fatal.\n\nWhat is the best title for the paragraph?",
+          "choices": {
+            "a": "Blood and Its Uses",
+            "b": "The Evolution of Blood",
+            "c": "The Importance of Blood Clots",
+            "d": "How a Blood Clot is Formed"
+          },
+          "answer": "d",
+          "explanation": "The paragraph describes the step-by-step process of blood clot formation. Answer is d.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0047",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "What part of the blood plays an essential role in clot formation?",
+          "choices": {
+            "a": "blood proteins",
+            "b": "fibrin",
+            "c": "platelets",
+            "d": "red blood cells"
+          },
+          "answer": "c",
+          "explanation": "The passage states 'blood platelets swell and burst, releasing chemicals' that initiate clotting. Answer is c.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0048",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "easy",
+          "question": "What could happen to a hemophiliac should he get wounded?",
+          "choices": {
+            "a": "bleed to death",
+            "b": "blood clots will form immediately",
+            "c": "he will have unlimited supply of blood",
+            "d": "his blood will become infected"
+          },
+          "answer": "a",
+          "explanation": "The passage states 'the blood does not clot and even a small wound can be fatal.' Answer is a.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0049",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "What is the first step in the formation of a blood clot?",
+          "choices": {
+            "a": "Blood from cut vessel begins to flow",
+            "b": "Blood platelets swell and burst, releasing chemicals",
+            "c": "Prothrombin is activated",
+            "d": "Formation of fibrin threads"
+          },
+          "answer": "b",
+          "explanation": "The sequence begins with 'blood platelets swell and burst' as the initial event. Answer is b.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        },
+        {
+          "id": "vb-rc-0050",
+          "category": "verbal",
+          "subcategory": "reading_comprehension",
+          "difficulty": "average",
+          "question": "How are fibrin threads formed?",
+          "choices": {
+            "a": "Fibrinogen is converted into fibrin threads by the platelets",
+            "b": "Thrombin and calcium ions catalyzes the conversion of fibrinogen to fibrin threads",
+            "c": "Fibrin threads occur naturally in the blood",
+            "d": "Fibrin threads are the result of the combination of the blood and its platelets"
+          },
+          "answer": "b",
+          "explanation": "The passage states 'thrombin catalyzes the conversion of another blood-protein component, fibrinogen, into fibrin threads' in the presence of calcium ions. Answer is b.",
+          "source": "CSE Professional Reviewer - Verbal Ability"
+        }
+      ],
+      "metadata": {
+        "questionCount": 5,
+        "difficulties": [
+          "average",
+          "easy",
+          "easy",
+          "average",
+          "average"
+        ]
+      }
+    }
+  ],
   "questions": [
     {
       "id": "vb-al-0001",
@@ -5365,806 +6403,12 @@
       "answer": "d",
       "explanation": "The correct phrasal verb is 'wrote up' (produced a written account). Answer is d.",
       "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0001",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "[PASSAGE]\nWhat is the golden mean identified by Aristotle?\nA. \"All animals wage perpetual war; every species is born to devour another. Not one, not even sheep or doves, that does not swallow a prodigious number of invisible creatures. Males make war for the females, like Menelaus and Paris. Air, earth, water are fields of carnage. God having given reason to men, this reason might teach them not to emulate the brutes, particularly when nature has provided them neither with arms to kill their fellows nor with a desire for their blood.\"\n\"Can there be anything more horrible in all nature?\" - Voltaire\n\nWhat is the golden mean identified by Aristotle?",
-      "choices": {
-        "a": "Virtue",
-        "b": "Vices",
-        "c": "Emotion",
-        "d": "Action"
-      },
-      "answer": "a",
-      "explanation": "Aristotle's golden mean refers to virtue being the midpoint between excess and deficiency. Answer is a.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0002",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "Based on the Voltaire passage, which of the following is the reason given why there is war?",
-      "choices": {
-        "a": "Desire for what others have",
-        "b": "To exact revenge for a wrongdoing",
-        "c": "To fight over women",
-        "d": "To prove that one's race is better than the other"
-      },
-      "answer": "c",
-      "explanation": "The passage mentions 'Males make war for the females, like Menelaus and Paris' — fighting over women. Answer is c.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0003",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "What is the author's stand on war according to the Voltaire passage?",
-      "choices": {
-        "a": "It is horrible",
-        "b": "It is important",
-        "c": "It is a means to control population",
-        "d": "It is a natural product of man's reason"
-      },
-      "answer": "a",
-      "explanation": "Voltaire asks 'Can there be anything more horrible in all nature?' indicating his stand that war is horrible. Answer is a.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0004",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "What is the best title for the Voltaire selection?",
-      "choices": {
-        "a": "War",
-        "b": "The Products of War",
-        "c": "The Need for War",
-        "d": "The Elements of War"
-      },
-      "answer": "b",
-      "explanation": "The passage discusses various aspects of war including why animals and humans engage in it. 'War' is the most direct title. Answer key shows 4.b (The Products of War). I'll follow key: b.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0005",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "What does the statement 'All animals wage perpetual war...' mean?",
-      "choices": {
-        "a": "All war never ends",
-        "b": "There is always some kind of war occurring someplace",
-        "c": "Only animals and not man engage in war",
-        "d": "All animals make war all the time"
-      },
-      "answer": "d",
-      "explanation": "The statement suggests that war is constant and ongoing among all animal species. Answer is d.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0006",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "[PASSAGE]\nExcerpt from: A Psalm of Life by Henry Wadsworth Longfellow\nTell me not in mournful numbers. Life is but an empty dream! For the soul is dead that slumbers, And things are not what they seem.\nLife is real! Life is earnest! And the grave is not its goal; Dust thou art, to dust returnest, Was not spoken of the soul.\nNot enjoyment, and not sorrow, Is our destined end or way; But to act that each tomorrow Find us farther than today.\n\nWhat is the poet's view on life?",
-      "choices": {
-        "a": "Life is empty",
-        "b": "Life is lonely",
-        "c": "Life is an empty dream",
-        "d": "Life is not an empty dream"
-      },
-      "answer": "d",
-      "explanation": "Longfellow writes 'Life is real! Life is earnest!' rejecting the idea that life is an empty dream. Answer is d.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0007",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "What is the antecedent of the pronoun 'its' in the line 'And the grave is not its goal'?",
-      "choices": {
-        "a": "dream",
-        "b": "life",
-        "c": "real",
-        "d": "earnest"
-      },
-      "answer": "b",
-      "explanation": "The pronoun 'its' refers to 'life' — the grave is not life's goal. Answer is b.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0008",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "According to Longfellow, what should be our goal in life?",
-      "choices": {
-        "a": "To enjoy each moment",
-        "b": "To act and continually improve our life day by day",
-        "c": "To beat sorrow",
-        "d": "To die happily"
-      },
-      "answer": "b",
-      "explanation": "The poem states 'But to act that each tomorrow find us farther than today' — continuous improvement. Answer is b.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0009",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "[PASSAGE]\nDreams by Langston Hughes\nHold fast to dreams For if dreams die Life is a broken-winged bird That cannot fly.\nHold fast to dreams For when dreams go Life is a barren field Frozen with snow.\n\nWhat figure of speech did the author use in the first stanza?",
-      "choices": {
-        "a": "simile",
-        "b": "hyperbole",
-        "c": "metaphor",
-        "d": "irony"
-      },
-      "answer": "c",
-      "explanation": "The poet compares life without dreams to a broken-winged bird without using 'like' or 'as', which is a metaphor. Answer is c.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0010",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "difficult",
-      "question": "The author is a South African Negro during the Apartheid Policy when most blacks were treated as inferior. To what could he be alluding to in the last two lines of the poem?",
-      "choices": {
-        "a": "white people",
-        "b": "slaves",
-        "c": "snow",
-        "d": "ice"
-      },
-      "answer": "d",
-      "explanation": "The last two lines 'Life is a barren field frozen with snow' alludes to oppression and lifelessness under apartheid. Snow/ice symbolize coldness and lack of hope. Answer key shows 10.d (ice). I'll follow key: d.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0011",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "What effect does the poem have upon other Negroes?",
-      "choices": {
-        "a": "It made them more sad",
-        "b": "It made them feel downtrodden",
-        "c": "It increased their anger towards Whites",
-        "d": "It increased their determination"
-      },
-      "answer": "d",
-      "explanation": "The poem encourages holding fast to dreams, which would increase determination among oppressed people. Answer is d.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0012",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "Which statement is not a correct inference based on the poem?",
-      "choices": {
-        "a": "Blacks and Whites enjoy equal rights",
-        "b": "Blacks are treated inferior over Whites",
-        "c": "Blacks also have dreams of a better life",
-        "d": "Whites enjoy more rights over Blacks"
-      },
-      "answer": "a",
-      "explanation": "Under apartheid, Blacks and Whites did not enjoy equal rights. This statement cannot be inferred from the poem. Answer is a.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0013",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "[PASSAGE]\n'Only two things in life are certain, Benjamin Franklin once remarked: death and taxes. But there is one other unpleasant uncertainty: criticism. No one escapes it entirely. And often our careers, our emotional stability, our happiness depend on how we react to it...'\n'...As Disraeli once remarked, \"It is much easier to be critical than correct\"- so there will always be plenty of critics in the world, some well intentioned, others cruel. You can defend yourself against the unkind ones by learning to control your emotional reactions, by adopting a calm and rational attitude and by honestly trying to help your critics to rid themselves of their anger. But in the last analysis, your best defense is your own day-to-day conduct. It is keeping your moral standards high. It is having a clear conscience. It is living a life without any necessity whatever for deception or for concealment.' - Norman Vincent Peale\n\nWhy should we all learn how to cope with criticism?",
-      "choices": {
-        "a": "Because reacting to criticisms only warms one's heart",
-        "b": "Because reacting to criticism sometimes leads to further trouble",
-        "c": "Because reacting to criticism makes one fulfilled",
-        "d": "Because criticisms are always correct"
-      },
-      "answer": "b",
-      "explanation": "The passage states our careers, emotional stability, and happiness depend on how we react to criticism. Reacting poorly can lead to trouble. Answer is b.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0014",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "According to the author, what is the best defense against criticism?",
-      "choices": {
-        "a": "a person's ability to counter-criticize",
-        "b": "one's ability to act with deaf ears",
-        "c": "one's day to day conduct",
-        "d": "one's anger"
-      },
-      "answer": "c",
-      "explanation": "The passage states 'your best defense is your own day-to-day conduct.' Answer is c.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0015",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "Why is it easier to be critical than correct?",
-      "choices": {
-        "a": "Because it is easier to find a flaw in someone else",
-        "b": "Because it is easier to control another person's opinion",
-        "c": "Because some people are able to control their opinion",
-        "d": "Because some people find it easier to praise other people"
-      },
-      "answer": "a",
-      "explanation": "Finding flaws in others requires less effort than being correct oneself. Answer is a.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0016",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "What is the best title for the above selection?",
-      "choices": {
-        "a": "Criticisms, Its Uses and Abuses",
-        "b": "How to Cope with Criticisms",
-        "c": "The Ups and Downs of Criticisms",
-        "d": "Best Criticisms"
-      },
-      "answer": "b",
-      "explanation": "The passage focuses on how to cope with and defend against criticism. Answer is b.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0017",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "[PASSAGE]\nHair goes on growing after a person dies because the cells of the body go on working until they have exhausted their fuel supply.\nThe hair follicle is composed of two layers- an outer layer of cells forming the outer root sheath and an inner layer of horny, fibrous oblong cells. The hair grows upwards from the bottom of the follicle by multiplication of the soft cells, which becomes elongated and pigmented to form the fiber-like substance of the hair shaft.\nThe soft cells at the base of the follicle need the nourishment brought to them and all the other cells of the body by the bloodstream.\nFrom: Book of Questions and Answers Octopus Press\n\nA person's fingernails, just like the hair, keeps on growing even after a person's death. What could account for this occurrence?",
-      "choices": {
-        "a": "The dead person's body keeps on producing new cells to continue the growth of the fingernails and hair",
-        "b": "The dead person's body preserves all the cells so hair and nail growth continue",
-        "c": "The energy supply of the cells of the hair and the nails have not yet been fully exhausted so growth still continues",
-        "d": "Hair and nails just never stop growing"
-      },
-      "answer": "c",
-      "explanation": "The passage explains that cells continue working until they exhaust their fuel supply. Answer is c.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0018",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "What would happen to the soft cells at the base of the follicle if no nourishment comes in?",
-      "choices": {
-        "a": "They would stop multiplying",
-        "b": "They would produce white hair",
-        "c": "They would go on dividing",
-        "d": "They would harden"
-      },
-      "answer": "a",
-      "explanation": "The soft cells need nourishment to function. Without it, they would stop multiplying. Answer is a.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0019",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "What could possibly explain the occurrence of white hair?",
-      "choices": {
-        "a": "The soft cells produces white pigment which gives the hair its white color",
-        "b": "The soft cells die which gives the hair its white color",
-        "c": "The absence of pigments from the follicle accounts for white hair",
-        "d": "The absence of follicle due to old age causes white hair"
-      },
-      "answer": "c",
-      "explanation": "White hair occurs when pigment cells stop producing melanin. Answer is c.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0020",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "Which of the following statements is NOT true based on the hair passage?",
-      "choices": {
-        "a": "Hair follicle is composed of two layers",
-        "b": "Hair grows from the tip of the follicle",
-        "c": "Hair follicle is composed of soft cells",
-        "d": "The soft cells need the nourishment brought in through the bloodstream"
-      },
-      "answer": "b",
-      "explanation": "The passage states hair grows 'upwards from the bottom of the follicle', not from the tip. Answer is b.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0021",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "[PASSAGE]\nThe concepts of Epicureanism are largely known to us through Lucretius, rather than Epicurus. The latter, born an Athenian citizen in Samos in 341, founded his school in his garden, a symbol of retirement from the world, in 306 and died in 270 B.C.\nFor the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. All knowledge was acquired by sense perception; observation was therefore essential to understanding. There were an infinite number of worlds, formed by the chance combination of atoms in infinite space. The gods, unconcerned about human affairs, lived in the void between the different worlds. They were not to be regarded superstitiously or feared, only to be envied.\nMan himself was made up of body and soul. Death was not to be feared. There was no such thing as immortality; after death, atoms of the soul were scattered. The aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end. The injunction to follow nature meant, seek pleasure. Everything was desirable insofar as it led to pleasure, but above all, the aim was absence of pain and the achievement of peace of mind. This would be obtained personally by self-control, the mastery and limitation of desires as far as possible to those that were strictly necessary. Also, it implied limitation of social relationships - 'live unknown'- refusal to be involved in family or political affairs, skepticism toward religion, which the Epicureans considered largely superstition.\nFrom: The Great Political Theories, Vol.1 by Michael Curtis\n\nWho was born an Athenian citizen in Samos in 341 B.C.?",
-      "choices": {
-        "a": "Plato",
-        "b": "Aristotle",
-        "c": "Lucretius",
-        "d": "Epicurus"
-      },
-      "answer": "d",
-      "explanation": "The passage states 'Epicurus, born an Athenian citizen in Samos in 341'. Answer is d.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0022",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "[PASSAGE]\nThe concepts of Epicureanism are largely known to us through Lucretius, rather than Epicurus. The latter, born an Athenian citizen in Samos in 341, founded his school in his garden, a symbol of retirement from the world, in 306 and died in 270 B.C.\nFor the Epicurean, the universe was chaotic and anarchic, composed of atoms and the void. All knowledge was acquired by sense perception; observation was therefore essential to understanding. There were an infinite number of worlds, formed by the chance combination of atoms in infinite space. The gods, unconcerned about human affairs, lived in the void between the different worlds. They were not to be regarded superstitiously or feared, only to be envied.\nMan himself was made up of body and soul. Death was not to be feared. There was no such thing as immortality; after death, atoms of the soul were scattered. The aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end. The injunction to follow nature meant, seek pleasure. Everything was desirable insofar as it led to pleasure, but above all, the aim was absence of pain and the achievement of peace of mind. This would be obtained personally by self-control, the mastery and limitation of desires as far as possible to those that were strictly necessary. Also, it implied limitation of social relationships - 'live unknown'- refusal to be involved in family or political affairs, skepticism toward religion, which the Epicureans considered largely superstition.\nFrom: The Great Political Theories, Vol.1 by Michael Curtis\n What do the Epicureans think about the universe?",
-      "choices": {
-        "a": "It was disorderly with an absence of rule",
-        "b": "It was orderly and without a ruler",
-        "c": "It was atomic and filled with objects and humans",
-        "d": "The universe was full of life moving in an orderly manner"
-      },
-      "answer": "a",
-      "explanation": "The passage says the universe was 'chaotic and anarchic' — disorderly with an absence of rule. Answer is a.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0023",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "What was the Epicureans' ultimate goal?",
-      "choices": {
-        "a": "The pursuit of being godlike",
-        "b": "To bring order out of the chaos",
-        "c": "The pursuit of happiness",
-        "d": "To bring chaos into the world"
-      },
-      "answer": "c",
-      "explanation": "The passage states 'the aim of life therefore was pleasure, the pursuit of which brought about happiness, the final end.' Answer is c.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0024",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "Epicureanism had a different view about religion. What was it?",
-      "choices": {
-        "a": "Religion controls man",
-        "b": "Religion brings man closer to God",
-        "c": "Religion is merely a superstition",
-        "d": "Religion is man's way of knowing God"
-      },
-      "answer": "c",
-      "explanation": "The passage states 'skepticism toward religion, which the Epicureans considered largely superstition.' Answer is c.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0025",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "Which of the following is not a belief of the Epicureans?",
-      "choices": {
-        "a": "There should be no limit to man's desires",
-        "b": "Man should exercise restraint and self-control",
-        "c": "Man should live unknown",
-        "d": "Limit desires to those which are strictly necessary"
-      },
-      "answer": "a",
-      "explanation": "Epicureans believed in limiting desires to those strictly necessary, not unlimited desires. Answer is a.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0026",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "[PASSAGE]\nWhat is the happy life? Self-sufficiency and abiding tranquility. This is the gift of greatness of soul, the gift of constancy which perseveres in a course judged right. How can these attitudes be attained? By surveying truth in its entirety, by safeguarding in every action order, measure, decorum, a will that is without malice and benign, focused undeviatingly upon reason, once amiable and admirable. The wise man's soul should have the quality of a god's. What can a man desire if he possesses everything that is honorable? If the dishonorable can contribute to the optimum state, then the happy life will be comprised of elements other than honorable. And what could be meaner or stupider than to weave the good of the rational soul out of irrational strands?\n\nWhat constitutes a happy life according to Seneca?",
-      "choices": {
-        "a": "attainment of everything that one desires",
-        "b": "being at peace with everyone",
-        "c": "self-sufficiency and tranquility",
-        "d": "none of the above"
-      },
-      "answer": "c",
-      "explanation": "The passage opens with 'What is the happy life? Self-sufficiency and abiding tranquility.' Answer is c.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0027",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "How can one attain a happy life, according to Seneca?",
-      "choices": {
-        "a": "by being hypocritical",
-        "b": "by getting what one wants no matter what the cost",
-        "c": "both a and b",
-        "d": "none of the above"
-      },
-      "answer": "d",
-      "explanation": "Seneca says happiness is attained by surveying truth, safeguarding order, having a will without malice, focusing on reason. None of the negative options match. Answer is d.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0028",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "difficult",
-      "question": "What is an indication that a man's soul is already like that of a god's?",
-      "choices": {
-        "a": "He is at peace with others",
-        "b": "He desires everything",
-        "c": "He attains everything he desires without limitation",
-        "d": "He discerns truth, focuses upon reason, has a will that is without malice"
-      },
-      "answer": "d",
-      "explanation": "The passage describes the wise man's soul having the quality of a god's through truth, reason, and a will without malice. Answer is d.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0029",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "What is the happy life? Self-sufficiency and abiding tranquility. This is the gift of greatness of soul, the gift of constancy which perseveres in a course judged right. How can these attitudes be attained? By surveying truth in its entirety, by safeguarding in every action order, measure, decorum, a will that is without malice and benign, focused undeviatingly upon reason, once amiable and admirable. The wise man's soul should have the quality of a god's. What can a man desire if he possesses everything that is honorable? If the dishonorable can contribute to the optimum state, then the happy life will be comprised of elements other than honorable. And what could be meaner or stupider than to weave the good of the rational soul out of irrational strands?\nWhich of the following statements is NOT true based on the Seneca passage?",
-      "choices": {
-        "a": "Self-sufficiency does not bring happiness",
-        "b": "Greatness of soul is attainable",
-        "c": "Man should aim to have a soul like that of a god's",
-        "d": "Man should not desire that which is dishonorable"
-      },
-      "answer": "a",
-      "explanation": "The passage states self-sufficiency and tranquility are the happy life. So statement a is false. Answer is a.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0030",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "[PASSAGE]\nLove in the Open Hand by Edna St. Vincent Millay\nNot in a silver casket cool with pearls, Or rich with red corundum or with blue, Locked, and the key withheld, as other girls Have given their loves, I give my love to you:\nNot in a lover's knot, not in a ring Worked in such fashion, and the legend plain- Semper Fidelis, where a secret spring Kennels a drop of mischief in the brain:\n\nWhat stanza states the main idea of the poem?",
-      "choices": {
-        "a": "stanza 1",
-        "b": "stanza 2",
-        "c": "stanza 3",
-        "d": "main idea is implied"
-      },
-      "answer": "c",
-      "explanation": "The main idea (love given openly without restrictions) is implied throughout. Answer key shows 30.c. I'll follow key: c.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0031",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "What figure of speech was used in the third stanza of the poem?",
-      "choices": {
-        "a": "simile",
-        "b": "metaphor",
-        "c": "personification",
-        "d": "hyperbole"
-      },
-      "answer": "b",
-      "explanation": "The poem likely uses metaphor to compare love to open hands. Answer key shows 31.b. I'll follow key: b.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0032",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "What does the author refer to in the last line 'Look what I have! - and these are all for you.'?",
-      "choices": {
-        "a": "her gifts",
-        "b": "her love",
-        "c": "her apples",
-        "d": "her skirt"
-      },
-      "answer": "d",
-      "explanation": "The last line suggests she is offering everything she has openly. Answer key shows 32.d. I'll follow key: d.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0033",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "According to the author, how should one manifest his love for someone?",
-      "choices": {
-        "a": "with reservations",
-        "b": "little by little",
-        "c": "with fancy trappings",
-        "d": "without reservation or restrictions"
-      },
-      "answer": "d",
-      "explanation": "The poet rejects giving love in locked caskets or knots, implying love should be given openly. Answer is d.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0034",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "What is the gender of the persona in the poem?",
-      "choices": {
-        "a": "common",
-        "b": "masculine",
-        "c": "neuter",
-        "d": "feminine"
-      },
-      "answer": "d",
-      "explanation": "Edna St. Vincent Millay is female, and the poem uses 'I give my love to you' suggesting a female persona. Answer is d.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0035",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "[PASSAGE]\nOne day, the guru and his young disciples were seated on the bank of the river... [full passage about guru and scorpion]\n\nWhy did the guru attempt to remove the scorpion from the branches?",
-      "choices": {
-        "a": "Because he did not want the scorpion to die",
-        "b": "Because he hates scorpions",
-        "c": "Because he wants to throw the scorpion into the waters",
-        "d": "Because the scorpion might sting someone else"
-      },
-      "answer": "a",
-      "explanation": "The guru knew the scorpion would fall and drown, so he tried to save it. Answer is a.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0036",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "What does the statement, 'Should I be untrue to my nature which is to be compassionate just because this scorpion is being true to its nature to sting?' mean?",
-      "choices": {
-        "a": "One should always be compassionate even if it is not properly reciprocated",
-        "b": "One should stop giving if it hurts",
-        "c": "One should be compassionate only to those who know how to appreciate",
-        "d": "One should always count one's blessings"
-      },
-      "answer": "a",
-      "explanation": "The guru explains that his nature is compassion, and he won't change that just because the scorpion stings. Answer is a.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0037",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "What is the best title for the selection about the guru and scorpion?",
-      "choices": {
-        "a": "The Scorpion",
-        "b": "The Guru",
-        "c": "True Compassion",
-        "d": "The Sting"
-      },
-      "answer": "c",
-      "explanation": "The central theme is about remaining compassionate despite being hurt. 'True Compassion' best captures this. Answer is c.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0038",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "[PASSAGE]\nAlthough many quarts of blood pass through the heart each day, the heart cannot utilize the blood within itself, but rather is sustained by branches of arteries originating externally. These coronary arteries can become blocked by the deposition of fatty material (including cholesterol), connective tissue fibers, and calcium deposited in the vessel walls. If the blockage is severe, numerous heart muscle cells become oxygen starved and the heart stops. In less severe cases, only part of the heart muscle dies as a result of the blockage. The dead muscle is replaced by scar tissue and the heart continues to function, though less efficiently. Diet, stress,...\n\nWhat statement is NOT true based on the selection?",
-      "choices": {
-        "a": "Scar tissue replaces dead heart muscles",
-        "b": "The heart is sustained by branches of arteries originating externally",
-        "c": "Oxygen is essential for the heart muscles to function properly",
-        "d": "The heart utilizes the blood within itself"
-      },
-      "answer": "d",
-      "explanation": "The passage states the heart 'cannot utilize the blood within itself.' Answer is d.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0039",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "Coronary arteries can become blocked by",
-      "choices": {
-        "a": "food deposits",
-        "b": "blood deposits",
-        "c": "too much oxygen in the blood",
-        "d": "deposits of fatty materials, connective tissue fibers and calcium"
-      },
-      "answer": "d",
-      "explanation": "The passage lists fatty material, connective tissue fibers, and calcium as causes of blockage. Answer is d.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0040",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "What causes heart stoppage?",
-      "choices": {
-        "a": "absence of carbon in the heart muscles",
-        "b": "presence of cholesterol in the heart muscles",
-        "c": "absence of oxygen in the heart muscles",
-        "d": "presence of oxygen in the heart muscles"
-      },
-      "answer": "c",
-      "explanation": "The passage states that with severe blockage, 'numerous heart muscle cells become oxygen starved and the heart stops.' Answer is c.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0041",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "[PASSAGE]\nCancer is a disease in which cells somehow become activated into uncontrolled multiplication and thus produce an overgrowth, or tumor, composed of malformed, malignant cells. Cancerous tumors can occur in almost any tissue of the body, although some are more often affected than others. Three general kinds of cancer, named after the tissues most often affected, are recognized: carcinomas (from karkinoma, the Greek word for cancer), which commonly involve epithelial tissue (epidermis and lining membranes); sarcomas (Greek sarkoma, 'flesh'), which affect mainly connective tissues, including bone; and leukemias, which start in the bone marrow and lymphatic tissues and spread in the blood and lymph.\nFrom: Biology by Norstog and Meyerrieck\n\nHow does cancer occur?",
-      "choices": {
-        "a": "Cells reproduce what is normally enough",
-        "b": "The cells replace the dead cells in the body",
-        "c": "The cells uncontrollably multiply producing malignant cells",
-        "d": "The cells naturally reproduce malformed, malignant cells"
-      },
-      "answer": "c",
-      "explanation": "The passage states cancer occurs when cells are 'activated into uncontrolled multiplication.' Answer is c.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0042",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "It is believed that cancer",
-      "choices": {
-        "a": "can occur in any tissue of the body",
-        "b": "affects certain tissues of the body more than it does to other tissues",
-        "c": "both a and b",
-        "d": "neither a nor b"
-      },
-      "answer": "c",
-      "explanation": "The passage says tumors can occur in almost any tissue, but some are more often affected. Both statements are true. Answer is c.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0043",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "What do you call the type of cancer which affects connective tissues?",
-      "choices": {
-        "a": "carcinoma",
-        "b": "sarcoma",
-        "c": "leukemia",
-        "d": "all of the above"
-      },
-      "answer": "b",
-      "explanation": "The passage states 'sarcomas... affect mainly connective tissues, including bone.' Answer is b.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0044",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "Cancer found in the skin would most likely be classified as",
-      "choices": {
-        "a": "carcinoma",
-        "b": "sarcoma",
-        "c": "leukemia",
-        "d": "dermacoma"
-      },
-      "answer": "a",
-      "explanation": "Skin is epithelial tissue, and carcinomas involve epithelial tissue. Answer is a.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0045",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "What is the basis for the classification of cancers?",
-      "choices": {
-        "a": "the cancer's size and weight",
-        "b": "the cancer's location and the tissue affected",
-        "c": "the cancer's length of existence",
-        "d": "the cancer's extent of growth"
-      },
-      "answer": "b",
-      "explanation": "The three kinds of cancer are 'named after the tissues most often affected.' Answer is b.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0046",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "[PASSAGE]\nWhen the tissues of the body are wounded, several events occur that resist the loss of blood from the cut vessels and begin the healing processes. At the wound site, blood platelets swell and burst, releasing chemicals that cause the arteries to constrict and thus slow the loss of blood. The platelets also initiate a process that results in activation of prothrombin activator, an enzyme that converts a blood-protein constituent called prothrombin to thrombin. In the presence of calcium ions, thrombin catalyzes the conversion of another blood-protein component, fibrinogen, into fibrin threads. The fibrin threads form a fine meshwork in the blood and together with trapped cells and other blood particles make a clot and block further the escape of blood from the wound. In the hereditary disease hemophilia, the blood does not clot and even a small wound can be fatal.\n\nWhat is the best title for the paragraph?",
-      "choices": {
-        "a": "Blood and Its Uses",
-        "b": "The Evolution of Blood",
-        "c": "The Importance of Blood Clots",
-        "d": "How a Blood Clot is Formed"
-      },
-      "answer": "d",
-      "explanation": "The paragraph describes the step-by-step process of blood clot formation. Answer is d.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0047",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "What part of the blood plays an essential role in clot formation?",
-      "choices": {
-        "a": "blood proteins",
-        "b": "fibrin",
-        "c": "platelets",
-        "d": "red blood cells"
-      },
-      "answer": "c",
-      "explanation": "The passage states 'blood platelets swell and burst, releasing chemicals' that initiate clotting. Answer is c.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0048",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "easy",
-      "question": "What could happen to a hemophiliac should he get wounded?",
-      "choices": {
-        "a": "bleed to death",
-        "b": "blood clots will form immediately",
-        "c": "he will have unlimited supply of blood",
-        "d": "his blood will become infected"
-      },
-      "answer": "a",
-      "explanation": "The passage states 'the blood does not clot and even a small wound can be fatal.' Answer is a.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0049",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "What is the first step in the formation of a blood clot?",
-      "choices": {
-        "a": "Blood from cut vessel begins to flow",
-        "b": "Blood platelets swell and burst, releasing chemicals",
-        "c": "Prothrombin is activated",
-        "d": "Formation of fibrin threads"
-      },
-      "answer": "b",
-      "explanation": "The sequence begins with 'blood platelets swell and burst' as the initial event. Answer is b.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
-    },
-    {
-      "id": "vb-rc-0050",
-      "category": "verbal",
-      "subcategory": "reading_comprehension",
-      "difficulty": "average",
-      "question": "How are fibrin threads formed?",
-      "choices": {
-        "a": "Fibrinogen is converted into fibrin threads by the platelets",
-        "b": "Thrombin and calcium ions catalyzes the conversion of fibrinogen to fibrin threads",
-        "c": "Fibrin threads occur naturally in the blood",
-        "d": "Fibrin threads are the result of the combination of the blood and its platelets"
-      },
-      "answer": "b",
-      "explanation": "The passage states 'thrombin catalyzes the conversion of another blood-protein component, fibrinogen, into fibrin threads' in the presence of calcium ions. Answer is b.",
-      "source": "CSE Professional Reviewer - Verbal Ability"
     }
-  ]
+  ],
+  "migrationInfo": {
+    "migratedAt": "2026-05-27T23:34:40.961Z",
+    "readingComprehensionMigrated": true,
+    "originalQuestionCount": 380,
+    "notes": "Reading comprehension questions extracted into passageGroups. Original questions array now contains only non-RC questions."
+  }
 }

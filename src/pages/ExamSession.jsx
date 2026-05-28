@@ -6,7 +6,9 @@ import useTimer from '../hooks/useTimer'
 import { useStudyTimer } from '../hooks/useStudyTimer'
 import QuestionCard from '../components/QuestionCard'
 import ProgressBar from '../components/ProgressBar'
+import PassagePanel from '../components/PassagePanel'
 import { ArrowLeft, ArrowRight, Pause, Play, Clock } from 'lucide-react'
+
 
 export default function ExamSession() {
   const navigate = useNavigate()
@@ -117,8 +119,18 @@ export default function ExamSession() {
 
         <ProgressBar value={currentQuestionIndex + 1} max={totalQuestions} />
 
+        {currentQuestion?.type === 'passage_question' && (
+          <PassagePanel
+            title={currentQuestion.passageTitle}
+            passageText={currentQuestion.passageText}
+            groupIndex={currentQuestion.groupIndex}
+            groupSize={currentQuestion.groupSize}
+          />
+        )}
+
         <QuestionCard
           question={currentQuestion}
+
           selectedAnswer={selectedAnswer}
           onSelectAnswer={handleSelectAnswer}
           mode={session.mode}

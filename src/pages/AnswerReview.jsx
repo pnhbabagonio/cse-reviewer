@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import { Navigate, useLocation, useNavigate } from 'react-router-dom'
 import useExamStore from '../store/examStore'
+import PassagePanel from '../components/PassagePanel'
+
 
 export default function AnswerReview() {
   const { state } = useLocation()
@@ -37,6 +39,21 @@ export default function AnswerReview() {
 
   const QuestionReviewCard = ({ question }) => (
     <div className="card">
+      {question.type === 'passage_question' && question.isFirstInGroup && (
+        <PassagePanel
+          title={question.passageTitle}
+          passageText={question.passageText}
+          groupIndex={question.groupIndex}
+          groupSize={question.groupSize}
+        />
+      )}
+
+      {question.type === 'passage_question' && !question.isFirstInGroup && (
+        <p className="text-xs text-blue-500 dark:text-blue-400 italic mb-3">
+          This question refers to the passage shown above.
+        </p>
+      )}
+
       <div className="flex justify-between items-start mb-2">
         <span className={`text-xs font-bold px-2 py-1 rounded ${question.isCorrect ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>
           {question.isCorrect ? 'Correct' : 'Incorrect'}

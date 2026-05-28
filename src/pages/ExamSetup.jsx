@@ -29,7 +29,11 @@ export default function ExamSetup() {
   const mode = location.state?.mode || 'timed'
   const retryWrongIds = location.state?.wrongQuestionIds || null
 
-  const { allQuestions, startSession } = useExamStore()
+  const {
+    allQuestions,
+    startSession,
+    getFilterableQuestionsForSubcategoryUI,
+  } = useExamStore()
 
   const [selectedCategories, setSelectedCategories] = useState(categories.map(c => c.id))
   const [selectedSubcategoryKeys, setSelectedSubcategoryKeys] = useState([])
@@ -38,19 +42,26 @@ export default function ExamSetup() {
   const [answerAll, setAnswerAll] = useState(false)
   const [availableCount, setAvailableCount] = useState(0)
 
+  const filterableQuestions = useMemo(() => {
+    return typeof getFilterableQuestionsForSubcategoryUI === 'function'
+      ? getFilterableQuestionsForSubcategoryUI()
+      : allQuestions
+  }, [getFilterableQuestionsForSubcategoryUI, allQuestions])
+
   const categoryCounts = useMemo(() => {
     return categories.reduce((counts, category) => {
-      counts[category.id] = allQuestions.filter(q => q.category === category.id).length
+      counts[category.id] = filterableQuestions.filter(q => q.category === category.id).length
       return counts
     }, {})
-  }, [allQuestions])
+  }, [filterableQuestions])
 
   const subcategoryGroups = useMemo(() => {
     return categories
       .filter(category => selectedCategories.includes(category.id))
       .map(category => {
         const counts = new Map()
-        allQuestions.forEach(question => {
+
+        filterableQuestions.forEach(question => {
           if (question.category !== category.id) return
           const subcategory = question.subcategory || 'uncategorized'
           counts.set(subcategory, (counts.get(subcategory) || 0) + 1)
@@ -62,13 +73,13 @@ export default function ExamSetup() {
           subcategories: Array.from(counts, ([id, total]) => ({
             id,
             key: `${category.id}::${id}`,
-            label: formatSubcategory(id),
+            label: id === 'reading_comprehension' ? 'Reading comprehension' : formatSubcategory(id),
             total,
           })),
         }
       })
       .filter(group => group.subcategories.length > 0)
-  }, [allQuestions, categoryCounts, selectedCategories])
+  }, [filterableQuestions, categoryCounts, selectedCategories])
 
   useEffect(() => {
     setSelectedSubcategoryKeys(currentKeys => (
@@ -77,9 +88,9 @@ export default function ExamSetup() {
   }, [selectedCategories])
 
   useEffect(() => {
-    let filtered = allQuestions
+    let filtered = filterableQuestions
     if (retryWrongIds) {
-      filtered = allQuestions.filter(q => retryWrongIds.includes(q.id))
+      filtered = filterableQuestions.filter(q => retryWrongIds.includes(q.id))
     } else {
       if (selectedCategories.length > 0) {
         filtered = filtered.filter(q => selectedCategories.includes(q.category))
@@ -92,7 +103,7 @@ export default function ExamSetup() {
       }
     }
     setAvailableCount(filtered.length)
-    
+
     if (answerAll) {
       setQuestionCount(filtered.length)
     } else {
@@ -101,7 +112,15 @@ export default function ExamSetup() {
         setQuestionCount(filtered.length)
       }
     }
-  }, [selectedCategories, selectedSubcategoryKeys, difficulty, allQuestions, retryWrongIds, answerAll, questionCount])
+  }, [
+    selectedCategories,
+    selectedSubcategoryKeys,
+    difficulty,
+    filterableQuestions,
+    retryWrongIds,
+    answerAll,
+    questionCount,
+  ])
 
   const toggleCategory = (catId) => {
     if (selectedCategories.includes(catId)) {

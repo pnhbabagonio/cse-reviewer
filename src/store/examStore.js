@@ -1,7 +1,14 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
-import { getAllQuestions, getQuestionsByCategory } from '../data/index.js'
-import { shuffleArray } from '../utils/shuffle'
+import {
+  getAllQuestions,
+  getQuestionsByCategory,
+  allPassageGroups,
+  passageGroupsByCategory,
+} from '../data/index.js'
+
+import { buildExamPool } from '../utils/examBuilder'
+
 
 const createSessionId = () => {
   if (typeof crypto !== 'undefined' && crypto.randomUUID) {
@@ -46,6 +53,43 @@ const getSubcategoryKey = (question) => (
   `${question.category}::${question.subcategory || 'uncategorized'}`
 )
 
+// UI filter needs to include passage-group subcategories that don't exist in allQuestions (standalone-only).
+// Return a flattened list of "filterable" question-shaped objects:
+// - standalone questions: use as-is
+// - passage groups: represented as synthetic objects with category/subcategory/difficulty so ExamSetup chips can be generated.
+const getFilterableQuestionsForSubcategoryUI = () => {
+  const standalone = getMergedQuestionPool()
+
+  const passageAsSynthetic = (allPassageGroups ?? []).map((g) => ({
+    // stable-ish id for UI usage; actual session pool uses expanded passage_question IDs
+    id: `pg-ui::${g.id}`,
+    category: g.category,
+    subcategory: g.subcategory || 'uncategorized',
+    difficulty: g.difficulty,
+  }))
+
+  // Deduplicate by a composite of (category, subcategory, difficulty) so chip totals/counts don't explode.
+  // Keep standalone questions too because ExamSetup's availableCount uses filtering at the chip level.
+  const seen = new Set()
+  const out = []
+
+  for (const q of standalone) {
+    const key = `${q.category}::${q.subcategory || 'uncategorized'}::${q.difficulty || 'all'}::standalone`
+    if (seen.has(key)) continue
+    seen.add(key)
+    out.push(q)
+  }
+
+  for (const gq of passageAsSynthetic) {
+    const key = `${gq.category}::${gq.subcategory || 'uncategorized'}::${gq.difficulty || 'all'}::passage`
+    if (seen.has(key)) continue
+    seen.add(key)
+    out.push(gq)
+  }
+
+  return out
+}
+
 const getMergedQuestionPool = (selectedCategories = []) => {
   const importedQuestions = getImportedQuestions()
   const importedPool = selectedCategories.length === 0
@@ -75,6 +119,11 @@ const useExamStore = create(
 
       getQuestions: () => get().allQuestions,
 
+      // Used by ExamSetup to build the subcategory chip list including passage-group derived subcategories.
+      getFilterableQuestionsForSubcategoryUI: () => {
+        return getFilterableQuestionsForSubcategoryUI()
+      },
+
       getQuestionStats: () => {
         const questions = get().allQuestions
         const categoryCounts = questions.reduce((counts, question) => {
@@ -90,38 +139,84 @@ const useExamStore = create(
       },
 
       startSession: (config) => {
-        const { mode, categories, difficulty, questionCount, retryWrongIds, subcategoryKeys } = config
-        let pool = retryWrongIds
-          ? getMergedQuestionPool()
-          : getMergedQuestionPool(categories || [])
+        const {
+          mode,
+          categories,
+          difficulty,
+          questionCount,
+          retryWrongIds,
+          subcategoryKeys,
+        } = config
 
-        if (retryWrongIds) {
-          pool = pool.filter(q => retryWrongIds.includes(q.id))
-        } else {
-          if (subcategoryKeys && subcategoryKeys.length) {
-            pool = pool.filter(q => subcategoryKeys.includes(getSubcategoryKey(q)))
+        // Apply existing subcategory filtering to standalone questions.
+        // Passage groups do not have subcategoryKeys inside their questions,
+        // so we approximate by group.subcategory.
+        const selectedCategories = categories || []
+        const selectedDiff = difficulty || 'all'
+
+        const standaloneQuestions = retryWrongIds
+          ? getMergedQuestionPool().filter((q) => retryWrongIds.includes(q.id))
+          : getMergedQuestionPool(selectedCategories).filter((q) => {
+              const catOk = selectedCategories.length === 0 || selectedCategories.includes(q.category)
+              const diffOk = selectedDiff === 'all' || q.difficulty === selectedDiff
+              const subOk =
+                !subcategoryKeys ||
+                subcategoryKeys.length === 0 ||
+                subcategoryKeys.includes(getSubcategoryKey(q))
+              return catOk && diffOk && subOk
+            })
+
+        const passageGroups = retryWrongIds
+          ? (selectedCategories.length === 0 ? allPassageGroups : selectedCategories.flatMap((cat) => passageGroupsByCategory[cat] ?? []))
+          : (selectedCategories.length === 0
+              ? allPassageGroups
+              : selectedCategories.flatMap((cat) => passageGroupsByCategory[cat] ?? []))
+
+        // Difficulty filter for passage groups
+        const filteredPassageGroups = (passageGroups ?? []).filter((g) => {
+          const diffOk = selectedDiff === 'all' || g.difficulty === selectedDiff
+          const subOk =
+            !subcategoryKeys ||
+            subcategoryKeys.length === 0 ||
+            subcategoryKeys.includes(`${g.category}::${g.subcategory || 'uncategorized'}`)
+
+          if (retryWrongIds) {
+            // Retry mode: keep only groups that contain at least one question in retryWrongIds
+            const hasAny = (g.questions ?? []).some((q) => retryWrongIds.includes(q.id))
+            return hasAny && diffOk && subOk
           }
-          if (difficulty) pool = pool.filter(q => q.difficulty === difficulty)
-        }
-        const shuffled = shuffleArray(pool)
-        const questions = shuffled.slice(0, questionCount)
-        if (questions.length === 0) return null
+
+          const catOk = selectedCategories.length === 0 || selectedCategories.includes(g.category)
+          return catOk && diffOk && subOk
+        })
+
+        const pool = buildExamPool({
+          questions: standaloneQuestions,
+          passageGroups: filteredPassageGroups,
+          categories: selectedCategories,
+          difficulty: selectedDiff,
+          count: questionCount,
+          specificIds: retryWrongIds || [],
+        })
+
+        if (pool.length === 0) return null
 
         const sessionObj = {
           id: createSessionId(),
           mode,
-          categories: categories || [],
+          categories: selectedCategories,
           subcategoryKeys: subcategoryKeys || [],
-          difficulty: difficulty || 'all',
-          totalQuestions: questions.length,
-          questions,
-          answers: {}, // { questionId: answerLetter }
+          difficulty: selectedDiff,
+          totalQuestions: pool.length,
+          questions: pool,
+          answers: {},
           startTime: Date.now(),
           config,
         }
         set({ session: sessionObj, currentQuestionIndex: 0 })
         return sessionObj
       },
+
 
       setCurrentQuestionIndex: (index) => {
         set({ currentQuestionIndex: index })
