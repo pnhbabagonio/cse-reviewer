@@ -10,7 +10,7 @@ const buildPassageQuestion = ({ group, groupIndex, q, questionIndexWithinGroup }
     id: q.id,
     category: group.category,
     subcategory: group.subcategory,
-    difficulty: group.difficulty,
+    difficulty: q.difficulty,
     source: group.source,
 
     passageId: group.id,

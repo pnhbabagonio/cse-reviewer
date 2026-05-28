@@ -15,7 +15,7 @@ export default function ChoiceButton({ letter, text, selected, isCorrect, isWron
     >
       <div className="flex gap-3">
         <span className="font-bold text-navy dark:text-gold w-6">{letter}</span>
-        <span className="flex-1">{text}</span>
+        <span className="flex-1 whitespace-pre-wrap">{text}</span>
       </div>
     </button>
   )

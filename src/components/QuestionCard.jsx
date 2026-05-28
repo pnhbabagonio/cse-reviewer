@@ -33,7 +33,7 @@ export default function QuestionCard({
         </button>
       </div>
 
-      <p className="text-lg font-medium leading-relaxed">{question.question}</p>
+      <div className="text-lg font-medium leading-relaxed whitespace-pre-wrap">{question.question}</div>
 
       <div className="space-y-2">
         {Object.entries(question.choices).map(([key, value]) => (
@@ -53,7 +53,7 @@ export default function QuestionCard({
       {mode === 'practice' && showExplanation && (
         <div className={`p-4 rounded-lg ${isCorrect ? 'bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800' : 'bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800'}`}>
           <p className="font-semibold mb-1">{isCorrect ? '✅ Correct!' : '❌ Incorrect'}</p>
-          <p className="text-sm text-gray-700 dark:text-gray-300">{question.explanation}</p>
+          <p className="text-sm text-gray-700 dark:text-gray-300 whitespace-pre-wrap">{question.explanation}</p>
         </div>
       )}
     </div>

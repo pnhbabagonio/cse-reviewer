@@ -16,19 +16,15 @@ export default function PassagePanel({ title, passageText, groupIndex, groupSize
         <div className="flex items-center gap-2">
           <BookOpen className="w-4 h-4 text-blue-500 dark:text-blue-400 shrink-0" />
           <div>
-            <p className="text-xs font-semibold text-blue-600 dark:text-blue-400 uppercase tracking-wide">
-              Reading Passage
-            </p>
             {title && (
-              <p className="text-sm font-medium text-gray-800 dark:text-gray-200 mt-0.5">{title}</p>
+              <p className="text-sm font-medium text-gray-800 dark:text-gray-200">
+                {title} <span className="text-xs text-gray-500 dark:text-gray-400">(Question {groupIndex + 1} of {groupSize})</span>
+              </p>
             )}
           </div>
         </div>
 
         <div className="flex items-center gap-3">
-          <span className="text-xs text-gray-500 dark:text-gray-400">
-            Question {groupIndex + 1} of {groupSize}
-          </span>
 
           <button
             onClick={() => setCollapsed((c) => !c)}
