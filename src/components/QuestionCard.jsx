@@ -1,6 +1,7 @@
 import ChoiceButton from './ChoiceButton'
 import CategoryBadge from './CategoryBadge'
 import DifficultyBadge from './DifficultyBadge'
+import FormattedText from './FormattedText'
 import { Bookmark, BookmarkCheck } from 'lucide-react'
 
 export default function QuestionCard({
@@ -33,7 +34,7 @@ export default function QuestionCard({
         </button>
       </div>
 
-      <div className="text-lg font-medium leading-relaxed whitespace-pre-wrap">{question.question}</div>
+      <FormattedText text={question.question} className="text-lg font-medium leading-relaxed whitespace-pre-wrap" as="div" />
 
       <div className="space-y-2">
         {Object.entries(question.choices).map(([key, value]) => (

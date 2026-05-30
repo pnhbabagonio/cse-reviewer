@@ -1,3 +1,5 @@
+import FormattedText from './FormattedText'
+
 export default function ChoiceButton({ letter, text, selected, isCorrect, isWrong, onClick, disabled }) {
   let bgColor = 'bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700'
   if (isCorrect) bgColor = 'bg-green-100 dark:bg-green-900/30 border-green-500'
@@ -15,7 +17,7 @@ export default function ChoiceButton({ letter, text, selected, isCorrect, isWron
     >
       <div className="flex gap-3">
         <span className="font-bold text-navy dark:text-gold w-6">{letter}</span>
-        <span className="flex-1 whitespace-pre-wrap">{text}</span>
+        <FormattedText text={text} className="flex-1 whitespace-pre-wrap" />
       </div>
     </button>
   )

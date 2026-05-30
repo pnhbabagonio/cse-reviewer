@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Navigate, useLocation, useNavigate } from 'react-router-dom'
 import useExamStore from '../store/examStore'
 import PassagePanel from '../components/PassagePanel'
+import FormattedText from '../components/FormattedText'
 
 
 export default function AnswerReview() {
@@ -65,7 +66,7 @@ export default function AnswerReview() {
           {isBookmarked(question.id) ? 'Bookmarked' : 'Bookmark'}
         </button>
       </div>
-      <p className="font-medium mb-3">{question.question}</p>
+      <p className="font-medium mb-3"><FormattedText text={question.question} /></p>
       <div className="space-y-1 text-sm">
         {Object.entries(question.choices).map(([key, text]) => {
           let className = ''
@@ -74,7 +75,7 @@ export default function AnswerReview() {
           else className = 'bg-gray-50 dark:bg-gray-800'
           return (
             <div key={key} className={`p-2 rounded border ${className}`}>
-              <strong>{key.toUpperCase()}</strong> {text}
+              <strong>{key.toUpperCase()}</strong> <FormattedText text={text} />
             </div>
           )
         })}
