@@ -373,7 +373,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "easy",
-      "question": "The unperturbed baby slept soundly.",
+      "question": "Choose the synonym of the underlined word.\n\nThe __unperturbed__ baby slept soundly.",
       "choices": {
         "a": "disturbed",
         "b": "undisturbed",
@@ -391,7 +391,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "easy",
-      "question": "We should never be apathetic towards other people for we have a social responsibility to fulfill.",
+      "question": "Choose the synonym of the underlined word.\n\nWe should never be __apathetic__ towards other people for we have a social responsibility to fulfill.",
       "choices": {
         "a": "indifferent",
         "b": "concerned",
@@ -409,7 +409,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "A good leader should be cognizant of the numerous issues that affect his constituents.",
+      "question": "Choose the synonym of the underlined word.\n\nA good leader should be __cognizant__ of the numerous issues that affect his constituents.",
       "choices": {
         "a": "aware",
         "b": "uninformed",
@@ -427,17 +427,17 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "Always be careful not to issue any disparaging remarks against other people.",
+      "question": "Choose the synonym of the underlined word.\n\nAlways be careful not to issue any __disparaging__ remarks against other people.",
       "choices": {
         "a": "praising",
         "b": "confusing",
         "c": "damaging",
         "d": "discouraging"
       },
-      "answer": "d",
+      "answer": "c",
       "answerKeyOverridden": false,
       "originalAnswerKey": null,
-      "explanation": "The correct answer is D (discouraging). 'Disparaging' means belittling or critical, which can be discouraging. 'Damaging' (C) is also close, but the key indicates D.",
+      "explanation": "Disparaging remarks are comments that belittle, criticize, or speak negatively about someone. Such remarks can be damaging to a person's reputation or feelings. The right answer is C (damaging).",
       "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
@@ -445,7 +445,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "Flowers are ephemeral; they bloom yet wither in a week or so later.",
+      "question": "Choose the synonym of the underlined word.\n\nFlowers are __ephemeral__; they bloom yet wither in a week or so later.",
       "choices": {
         "a": "shrivel",
         "b": "long lasting",
@@ -454,8 +454,8 @@
       },
       "answer": "b",
       "answerKeyOverridden": true,
-      "originalAnswerKey": "b",
-      "explanation": "⚠ VERIFY: The answer key indicates B (long lasting), but 'ephemeral' means short-lived. The correct synonym is D (short lived). This appears to be a printing error.",
+      "originalAnswerKey": "d",
+      "explanation": "'ephemeral' means short-lived. The correct synonym is D (short lived).",
       "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
@@ -463,7 +463,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "A fastidious person will never find true happiness.",
+      "question": "Choose the synonym of the underlined word.\n\nA __fastidious__ person will never find true happiness.",
       "choices": {
         "a": "simple",
         "b": "choosy",
@@ -472,8 +472,8 @@
       },
       "answer": "d",
       "answerKeyOverridden": true,
-      "originalAnswerKey": "d",
-      "explanation": "⚠ VERIFY: The answer key indicates D (contented), but 'fastidious' means hard to please or choosy. The best synonym among choices is B (choosy).",
+      "originalAnswerKey": "b",
+      "explanation": "'fastidious' means hard to please or choosy. The best synonym among choices is B (choosy).",
       "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
@@ -481,7 +481,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "easy",
-      "question": "The Ortigas Center is filled with gargantuan buildings, some having up to 50 floors.",
+      "question": "Choose the synonym of the underlined word.\n\nThe Ortigas Center is filled with __gargantuan__ buildings, some having up to 50 floors.",
       "choices": {
         "a": "crowded",
         "b": "old and weak",
@@ -490,8 +490,8 @@
       },
       "answer": "a",
       "answerKeyOverridden": true,
-      "originalAnswerKey": "a",
-      "explanation": "⚠ VERIFY: The answer key indicates A (crowded), but 'gargantuan' means gigantic. The correct synonym is D (gigantic).",
+      "originalAnswerKey": "d",
+      "explanation": "'gargantuan' means gigantic. The correct synonym is D (gigantic).",
       "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
@@ -499,7 +499,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "easy",
-      "question": "Nobody liked haughty Monty who kept bragging about his riches.",
+      "question": "Choose the synonym of the underlined word.\n\nNobody liked __haughty__ Monty who kept bragging about his riches.",
       "choices": {
         "a": "arrogant",
         "b": "foolish",
@@ -517,7 +517,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "The corrupt policeman was discharged from service due to his ignominious act of accepting bribes.",
+      "question": "Choose the synonym of the underlined word.\n\nThe corrupt policeman was discharged from service due to his __ignominious__ act of accepting bribes.",
       "choices": {
         "a": "honorable",
         "b": "disrespectable",
@@ -535,7 +535,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "easy",
-      "question": "The impudent child was scolded for answering back to older people.",
+      "question": "Choose the synonym of the underlined word.\n\nThe __impudent__ child was scolded for answering back to older people.",
       "choices": {
         "a": "respectful",
         "b": "honorable",
@@ -553,7 +553,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "Spores are infinitesimal reproductive units of fungi and lower plants.",
+      "question": "Choose the synonym of the underlined word.\n\nSpores are __infinitesimal__ reproductive units of fungi and lower plants.",
       "choices": {
         "a": "invisible",
         "b": "interesting",
@@ -571,7 +571,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "Never trust an insidious person because you'll never know what goes on in his mind.",
+      "question": "Choose the synonym of the underlined word.\n\nNever trust an __insidious__ person because you'll never know what goes on in his mind.",
       "choices": {
         "a": "honest",
         "b": "treacherous",
@@ -589,7 +589,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "Jessica is an irascible girl who frequently has tantrums.",
+      "question": "Choose the synonym of the underlined word.\n\nJessica is an __irascible__ girl who frequently has tantrums.",
       "choices": {
         "a": "impatient",
         "b": "cheerful",
@@ -607,7 +607,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "easy",
-      "question": "Surgeons should be meticulous especially when performing operations.",
+      "question": "Choose the synonym of the underlined word.\n\nSurgeons should be __meticulous__ especially when performing operations.",
       "choices": {
         "a": "careful",
         "b": "careless",
@@ -625,7 +625,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "Christ teaches us to be concerned about putting up riches in heaven and not to be obsessed with mundane things.",
+      "question": "Choose the synonym of the underlined word.\n\nChrist teaches us to be concerned about putting up riches in heaven and not to be obsessed with __mundane__ things.",
       "choices": {
         "a": "temporary",
         "b": "worldly",
@@ -643,7 +643,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "easy",
-      "question": "Rochelle has difficulty seeing things from afar because she is myopic.",
+      "question": "Choose the synonym of the underlined word.\n\nRochelle has difficulty seeing things from afar because she is __myopic__.",
       "choices": {
         "a": "cross-eyed",
         "b": "eagle-eyed",
@@ -661,7 +661,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "easy",
-      "question": "Regina, being a child of three, is oblivious to the world around her.",
+      "question": "Choose the synonym of the underlined word.\n\nRegina, being a child of three, is __oblivious__ to the world around her.",
       "choices": {
         "a": "careful",
         "b": "carefree",
@@ -679,7 +679,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "Man can never be omniscient like God.",
+      "question": "Choose the synonym of the underlined word.\n\nMan can never be __omniscient__ like God.",
       "choices": {
         "a": "all-knowing",
         "b": "logical",
@@ -697,7 +697,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "The piquant mouse was able to find its way out of the maze in a short while.",
+      "question": "Choose the synonym of the underlined word.\n\nThe __piquant__ mouse was able to find its way out of the maze in a short while.",
       "choices": {
         "a": "dumb",
         "b": "clever",
@@ -715,7 +715,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "It is now plausible to say that someday, interplanetary travel will no longer be impossible.",
+      "question": "Choose the synonym of the underlined word.\n\nIt is now __plausible__ to say that someday, interplanetary travel will no longer be impossible.",
       "choices": {
         "a": "reasonable",
         "b": "unusual",
@@ -733,7 +733,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "easy",
-      "question": "A prudent person is not easily deceived.",
+      "question": "Choose the synonym of the underlined word.\n\nA __prudent__ person is not easily deceived.",
       "choices": {
         "a": "loyal",
         "b": "careless",
@@ -751,7 +751,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "\"Spare the rod and spoil the child\" is a common aphorism.",
+      "question": "Choose the synonym of the underlined word.\n\n\"Spare the rod and spoil the child\" is a common __aphorism__.",
       "choices": {
         "a": "slogan",
         "b": "battlecry",
@@ -769,7 +769,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "easy",
-      "question": "Charmaine's deportment is highly commendable.",
+      "question": "Choose the synonym of the underlined word.\n\nCharmaine's __deportment__ is highly commendable.",
       "choices": {
         "a": "belief",
         "b": "behavior",
@@ -787,7 +787,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "For enmity and hate are contrary to friendship and concord.",
+      "question": "Choose the synonym of the underlined word.\n\nFor __enmity__ and hate are contrary to friendship and concord.",
       "choices": {
         "a": "agreement",
         "b": "mutual hatred",
@@ -805,7 +805,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "The Filipino's fortitude is the reason why he seldom complains.",
+      "question": "Choose the synonym of the underlined word.\n\nThe Filipino's __fortitude__ is the reason why he seldom complains.",
       "choices": {
         "a": "endurance",
         "b": "peace-loving",
@@ -823,7 +823,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "easy",
-      "question": "Poverty should never be viewed as an impediment towards attaining good education.",
+      "question": "Choose the synonym of the underlined word.\n\nPoverty should never be viewed as an __impediment__ towards attaining good education.",
       "choices": {
         "a": "reason",
         "b": "way",
@@ -841,7 +841,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "easy",
-      "question": "The students were upbraided for misbehaving during the assembly.",
+      "question": "Choose the synonym of the underlined word.\n\nThe students were __upbraided__ for misbehaving during the assembly.",
       "choices": {
         "a": "praised",
         "b": "honored",
@@ -859,7 +859,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "Urbane people are appalled by rude behavior.",
+      "question": "Choose the synonym of the underlined word.\n\n__Urbane__ people are appalled by rude behavior.",
       "choices": {
         "a": "well-mannered",
         "b": "ill-mannered",
@@ -877,7 +877,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "Clowns are never vapid but the sick usually are.",
+      "question": "Choose the synonym of the underlined word.\n\nClowns are never __vapid__ but the sick usually are.",
       "choices": {
         "a": "lively and energetic",
         "b": "lacking spirit and liveliness",
@@ -895,7 +895,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "difficult",
-      "question": "The client was asked to verify the veracity of the statement of accounts issued.",
+      "question": "Choose the synonym of the underlined word.\n\nThe client was asked to verify the __veracity__ of the statement of accounts issued.",
       "choices": {
         "a": "accuracy",
         "b": "discrepancy",
@@ -913,7 +913,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "difficult",
-      "question": "Dentists believe that babies should be weaned from feeding bottles as soon as possible to prevent malformation of the infants' erupting teeth.",
+      "question": "Choose the synonym of the underlined word.\n\nDentists believe that babies should be __weaned__ from feeding bottles as soon as possible to prevent malformation of the infants' erupting teeth.",
       "choices": {
         "a": "get used to",
         "b": "develop hatred for",
@@ -931,7 +931,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "Some people believe that Balete Drive is haunted because a wraith of a woman appears there.",
+      "question": "Choose the synonym of the underlined word.\n\nSome people believe that Balete Drive is haunted because a __wraith__ of a woman appears there.",
       "choices": {
         "a": "shadow",
         "b": "statue",
@@ -949,7 +949,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "easy",
-      "question": "She looks unkempt with her wavy coarse hair falling freely behind her back.",
+      "question": "Choose the synonym of the underlined word.\n\nShe looks __unkempt__ with her wavy coarse hair falling freely behind her back.",
       "choices": {
         "a": "pretty",
         "b": "neat",
@@ -967,7 +967,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "easy",
-      "question": "The room is topsy-turvy, as if a hurricane just passed through.",
+      "question": "Choose the synonym of the underlined word.\n\nThe room is __topsy-turvy__, as if a hurricane just passed through.",
       "choices": {
         "a": "disorderly",
         "b": "destroyed",
@@ -985,7 +985,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "easy",
-      "question": "Sherlock Holmes is a famous sleuth.",
+      "question": "Choose the synonym of the underlined word.\n\nSherlock Holmes is a famous __sleuth__.",
       "choices": {
         "a": "adventurer",
         "b": "scientist",
@@ -1003,7 +1003,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "Mindy rummaged through the chest of old clothes for something usable to donate.",
+      "question": "Choose the synonym of the underlined word.\n\nMindy __rummaged__ through the chest of old clothes for something usable to donate.",
       "choices": {
         "a": "searched through",
         "b": "wandered through",
@@ -1021,7 +1021,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "difficult",
-      "question": "Only a ruffian could do such a heinous act of killing a helpless child.",
+      "question": "Choose the synonym of the underlined word.\n\nOnly a __ruffian__ could do such a heinous act of killing a helpless child.",
       "choices": {
         "a": "an insane person",
         "b": "a brutal person",
@@ -1039,7 +1039,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "To augment the policemen's income, the government allowed them to take part-time jobs.",
+      "question": "Choose the synonym of the underlined word.\n\nTo __augment__ the policemen's income, the government allowed them to take part-time jobs.",
       "choices": {
         "a": "increase",
         "b": "contribute",
@@ -1057,7 +1057,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "difficult",
-      "question": "A person's reputation is very important so be very careful not to calumniate anybody.",
+      "question": "Choose the synonym of the underlined word.\n\nA person's reputation is very important so be very careful not to __calumniate__ anybody.",
       "choices": {
         "a": "embarrass",
         "b": "abuse",
@@ -1075,7 +1075,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "The footprints were effaced when the floor was mopped.",
+      "question": "Choose the synonym of the underlined word.\n\nThe footprints were __effaced__ when the floor was mopped.",
       "choices": {
         "a": "printed",
         "b": "erased",
@@ -1093,7 +1093,7 @@
       "category": "verbal",
       "subcategory": "synonyms",
       "difficulty": "average",
-      "question": "The plane overshot the runway and landed on a ditch.",
+      "question": "Choose the synonym of the underlined word.\n\nThe plane __overshot__ the runway and landed on a ditch.",
       "choices": {
         "a": "passed through",
         "b": "passed by",
@@ -1111,7 +1111,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "The ascetic man donated all his money to charity.",
+      "question": "Choose the antonym of the underlined word.\n\nThe __ascetic__ man donated all his money to charity.",
       "choices": {
         "a": "selfless",
         "b": "selfish",
@@ -1129,7 +1129,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "easy",
-      "question": "Czarmaine accompanied her sister to the drugstore.",
+      "question": "Choose the antonym of the underlined word.\n\nCzarmaine __accompanied__ her sister to the drugstore.",
       "choices": {
         "a": "followed",
         "b": "let go on one's own",
@@ -1147,7 +1147,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "easy",
-      "question": "Beside the boulevard are gigantic buildings.",
+      "question": "Choose the antonym of the underlined word.\n\nBeside the __boulevard__ are gigantic buildings.",
       "choices": {
         "a": "alley",
         "b": "street",
@@ -1165,7 +1165,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "He often got into trouble because he was brusque.",
+      "question": "Choose the antonym of the underlined word.\n\nHe often got into trouble because he was __brusque__.",
       "choices": {
         "a": "blunt",
         "b": "rude",
@@ -1183,7 +1183,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "The reporter's candid remarks caught the mayoralty candidate off-guard.",
+      "question": "Choose the antonym of the underlined word.\n\nThe reporter's __candid__ remarks caught the mayoralty candidate off-guard.",
       "choices": {
         "a": "secret",
         "b": "frank",
@@ -1201,7 +1201,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "The mean boys derided the sickly boy.",
+      "question": "Choose the antonym of the underlined word.\n\nThe mean boys __derided__ the sickly boy.",
       "choices": {
         "a": "made fun of",
         "b": "ridiculed",
@@ -1219,7 +1219,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "easy",
-      "question": "Charm was ecstatic when she won first prize in the short story writing contest.",
+      "question": "Choose the antonym of the underlined word.\n\nCharm was __ecstatic__ when she won first prize in the short story writing contest.",
       "choices": {
         "a": "melancholic",
         "b": "overjoyed",
@@ -1237,7 +1237,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "Migraine headaches are excruciating.",
+      "question": "Choose the antonym of the underlined word.\n\nMigraine headaches are __excruciating__.",
       "choices": {
         "a": "extremely painful",
         "b": "mild pain",
@@ -1255,7 +1255,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "easy",
-      "question": "The quiz proved to be facile so the students got high scores.",
+      "question": "Choose the antonym of the underlined word.\n\nThe quiz proved to be __facile__ so the students got high scores.",
       "choices": {
         "a": "difficult",
         "b": "easy",
@@ -1273,7 +1273,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "easy",
-      "question": "The garrulous girls were distanced from each other.",
+      "question": "Choose the antonym of the underlined word.\n\nThe __garrulous__ girls were distanced from each other.",
       "choices": {
         "a": "mute",
         "b": "talkative",
@@ -1291,7 +1291,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "The heathens used to practice cannibalism.",
+      "question": "Choose the antonym of the underlined word.\n\nThe __heathens__ used to practice cannibalism.",
       "choices": {
         "a": "uncivilized people",
         "b": "barbaric people",
@@ -1309,7 +1309,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "Keep on believing that physical disability is not a hindrance to success.",
+      "question": "Choose the antonym of the underlined word.\n\nKeep on believing that physical disability is not a __hindrance__ to success.",
       "choices": {
         "a": "block",
         "b": "stepping stone",
@@ -1327,7 +1327,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "easy",
-      "question": "Never operate a machine once you are inebriated.",
+      "question": "Choose the antonym of the underlined word.\n\nNever operate a machine once you are __inebriated__.",
       "choices": {
         "a": "sober",
         "b": "drunk",
@@ -1345,7 +1345,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "difficult",
-      "question": "The people inveighed against the sharp increase in oil prices.",
+      "question": "Choose the antonym of the underlined word.\n\nThe people __inveighed__ against the sharp increase in oil prices.",
       "choices": {
         "a": "admitted",
         "b": "amended",
@@ -1363,7 +1363,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "easy",
-      "question": "Some people believe that breaking a mirror is a jinx.",
+      "question": "Choose the antonym of the underlined word.\n\nSome people believe that breaking a mirror is a __jinx__.",
       "choices": {
         "a": "bad luck",
         "b": "evil",
@@ -1381,7 +1381,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "The players were confused when the kibitzers suddenly butted-in during the team's huddle.",
+      "question": "Choose the antonym of the underlined word.\n\nThe players were confused when the __kibitzers__ suddenly butted-in during the team's huddle.",
       "choices": {
         "a": "advisers",
         "b": "spectators",
@@ -1399,7 +1399,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "The lanky lad stood out among the average-sized students.",
+      "question": "Choose the antonym of the underlined word.\n\nThe __lanky__ lad stood out among the average-sized students.",
       "choices": {
         "a": "fierce-looking",
         "b": "gigantic",
@@ -1417,7 +1417,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "easy",
-      "question": "The sickly dog was given a lethal dose of morphine tablets.",
+      "question": "Choose the antonym of the underlined word.\n\nThe sickly dog was given a __lethal__ dose of morphine tablets.",
       "choices": {
         "a": "fatal",
         "b": "safe",
@@ -1435,7 +1435,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "Heinous criminals are truly loathsome.",
+      "question": "Choose the antonym of the underlined word.\n\nHeinous criminals are truly __loathsome__.",
       "choices": {
         "a": "repugnant",
         "b": "foul",
@@ -1453,7 +1453,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "We listened attentively to the mellifluous sound produced by the Philippine Philharmonic Orchestra.",
+      "question": "Choose the antonym of the underlined word.\n\nWe listened attentively to the __mellifluous__ sound produced by the Philippine Philharmonic Orchestra.",
       "choices": {
         "a": "harsh",
         "b": "resonant",
@@ -1471,7 +1471,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "difficult",
-      "question": "The free medical and dental checkup conducted by the AFP Group is just a proof of their munificence.",
+      "question": "Choose the antonym of the underlined word.\n\nThe free medical and dental checkup conducted by the AFP Group is just a proof of their __munificence__.",
       "choices": {
         "a": "commitment",
         "b": "generosity",
@@ -1489,7 +1489,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "Justice calls for penalizing nefarious acts.",
+      "question": "Choose the antonym of the underlined word.\n\nJustice calls for penalizing __nefarious__ acts.",
       "choices": {
         "a": "honorable",
         "b": "detestable",
@@ -1507,7 +1507,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "The MSA Reviewer Books are noteworthy materials.",
+      "question": "Choose the antonym of the underlined word.\n\nThe MSA Reviewer Books are __noteworthy__ materials.",
       "choices": {
         "a": "remarkable",
         "b": "substantial",
@@ -1525,7 +1525,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "You will never get sufficient nourishment if you are obdurate in refusing to eat vegetables.",
+      "question": "Choose the antonym of the underlined word.\n\nYou will never get sufficient nourishment if you are __obdurate__ in refusing to eat vegetables.",
       "choices": {
         "a": "stubborn",
         "b": "obedient",
@@ -1543,7 +1543,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "Don't be so obtrusive but instead, mind your own business.",
+      "question": "Choose the antonym of the underlined word.\n\nDon't be so __obtrusive__ but instead, mind your own business.",
       "choices": {
         "a": "reserved",
         "b": "snoopy",
@@ -1561,7 +1561,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "difficult",
-      "question": "I admire people who are modest despite their opulence.",
+      "question": "Choose the antonym of the underlined word.\n\nI admire people who are modest despite their __opulence__.",
       "choices": {
         "a": "great wealth",
         "b": "poverty",
@@ -1579,7 +1579,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "Do you always try to be a paragon of virtue?",
+      "question": "Choose the antonym of the underlined word.\n\nDo you always try to be a __paragon__ of virtue?",
       "choices": {
         "a": "model",
         "b": "example",
@@ -1597,7 +1597,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "Tragic stories had so much pathos that it left me feeling down.",
+      "question": "Choose the antonym of the underlined word.\n\nTragic stories had so much __pathos__ that it left me feeling down.",
       "choices": {
         "a": "anguish",
         "b": "woe",
@@ -1615,7 +1615,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "Chin is such a precocious girl who can already read at age three.",
+      "question": "Choose the antonym of the underlined word.\n\nChin is such a __precocious__ girl who can already read at age three.",
       "choices": {
         "a": "slow learner",
         "b": "bright",
@@ -1633,7 +1633,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "difficult",
-      "question": "She had the quixotic idea that she was a reincarnation of a British princess.",
+      "question": "Choose the antonym of the underlined word.\n\nShe had the __quixotic__ idea that she was a reincarnation of a British princess.",
       "choices": {
         "a": "wild",
         "b": "fantastic",
@@ -1651,7 +1651,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "The ramshackle building collapsed easily.",
+      "question": "Choose the antonym of the underlined word.\n\nThe __ramshackle__ building collapsed easily.",
       "choices": {
         "a": "new",
         "b": "old",
@@ -1669,7 +1669,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "An A-rating represents the ultimate honor a film will ever have.",
+      "question": "Choose the antonym of the underlined word.\n\nAn A-rating represents the __ultimate__ honor a film will ever have.",
       "choices": {
         "a": "greatest",
         "b": "pinnacle",
@@ -1687,7 +1687,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "CJ de Silva's painting abilities are uncanny.",
+      "question": "Choose the antonym of the underlined word.\n\nCJ de Silva's painting abilities are __uncanny__.",
       "choices": {
         "a": "remarkable",
         "b": "ordinary",
@@ -1705,7 +1705,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "Lea Salonga's performance was utterly delightful.",
+      "question": "Choose the antonym of the underlined word.\n\nLea Salonga's performance was __utterly__ delightful.",
       "choices": {
         "a": "somewhat",
         "b": "entirely",
@@ -1723,7 +1723,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "The strong current of the floodwaters caused the wooden bridge to vacillate.",
+      "question": "Choose the antonym of the underlined word.\n\nThe strong current of the floodwaters caused the wooden bridge to __vacillate__.",
       "choices": {
         "a": "collapse",
         "b": "sway",
@@ -1741,7 +1741,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "The vindictive politician spread rumors about his opponent.",
+      "question": "Choose the antonym of the underlined word.\n\nThe __vindictive__ politician spread rumors about his opponent.",
       "choices": {
         "a": "revengeful",
         "b": "forgiving",
@@ -1759,7 +1759,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "difficult",
-      "question": "If words were swords, then her vitriolic remarks could really kill.",
+      "question": "Choose the antonym of the underlined word.\n\nIf words were swords, then her __vitriolic__ remarks could really kill.",
       "choices": {
         "a": "scathing",
         "b": "sarcastic",
@@ -1777,7 +1777,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "difficult",
-      "question": "Many students vouch for the effectiveness of the MSA Review classes.",
+      "question": "Choose the antonym of the underlined word.\n\nMany students __vouch for__ the effectiveness of the MSA Review classes.",
       "choices": {
         "a": "guarantee",
         "b": "endorse",
@@ -1795,7 +1795,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "easy",
-      "question": "That yonder youth is more studious than the nearer one.",
+      "question": "Choose the antonym of the underlined word.\n\nThat __yonder__ youth is more studious than the nearer one.",
       "choices": {
         "a": "lonesome",
         "b": "farther",
@@ -1813,7 +1813,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "average",
-      "question": "MSA tutors are all zealous tutors who nourish eager minds.",
+      "question": "Choose the antonym of the underlined word.\n\nMSA tutors are all __zealous__ tutors who nourish eager minds.",
       "choices": {
         "a": "vigorous",
         "b": "earnest",
@@ -1831,7 +1831,7 @@
       "category": "verbal",
       "subcategory": "antonyms",
       "difficulty": "easy",
-      "question": "Don't let trivial things upset you.",
+      "question": "Choose the antonym of the underlined word.\n\nDon't let __trivial__ things upset you.",
       "choices": {
         "a": "important",
         "b": "trifling",
@@ -3289,12 +3289,12 @@
       "category": "verbal",
       "subcategory": "identifying_errors",
       "difficulty": "average",
-      "question": "__Nick Joaquin, one of the exceptional Filipino writers,__ is also known for __Quijano de Manila__.",
+      "question": "Nick Joaquin, one of the exceptional Filipino __writers, is__ also __known__ __for__ Quijano de Manila.",
       "choices": {
-        "a": "Nick Joaquin, one of the exceptional Filipino writers",
-        "b": "Quijano de Manila",
-        "c": "No error",
-        "d": ""
+        "a": "writers, is",
+        "b": "known",
+        "c": "for",
+        "d": "No error"
       },
       "answer": "d",
       "answerKeyOverridden": false,
