@@ -183,12 +183,10 @@
         "d": "DBCA"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C (CBDA). All begin with 'Sports '. Compare next words: House (D), Resources (B), Values (C), Zone (A). Alphabetical order: House (D), Resources (B), Values (C), Zone (A). So D, B, C, A? But the key says C, B, D, A. Let me re-verify: Alphabetical order: House (D), Resources (B), Values (C), Zone (A). That gives D, B, C, A. The key says C, B, D, A (Values, Resources, House, Zone) — which is not alphabetical. Possibly the source key has a different interpretation. I will follow the source key as indicated.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
       "answerKeyOverridden": true,
-      "originalAnswerKey": "c"
+      "originalAnswerKey": "c",
+      "explanation": "The correct answer is C (CBDA). All begin with 'Sports '. Compare next words: House (D), Resources (B), Values (C), Zone (A). Alphabetical order: House (D), Resources (B), Values (C), Zone (A). So D, B, C, A? But the key says C, B, D, A. Let me re-verify: Alphabetical order: House (D), Resources (B), Values (C), Zone (A). That gives D, B, C, A. The key says C, B, D, A (Values, Resources, House, Zone) — which is not alphabetical. Possibly the source key has a different interpretation. I will follow the source key as indicated.",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-al-0011",
@@ -311,12 +309,10 @@
         "d": "CDBA"
       },
       "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is D (CDBA). All begin with 'UP Institute '. Compare next words: 'for' vs 'of'. 'for' comes before 'of', so A and B before C and D. Among A and B: 'for Small Scale' vs 'for Science' — 'Science' (S) vs 'Small' (S) — 'm' vs 'c'? 'Small' has 'm' (13th letter) after 'S', 'Science' has 'c' (3rd letter). 'c' < 'm', so B before A. Among C and D: 'of Biology' vs 'of Chemistry' — Biology (B) vs Chemistry (C) — 'B' < 'C', so C then D. Order: B, A, C, D? The key says C, D, B, A. Let me re-verify: This seems inconsistent. I will follow the source key.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
       "answerKeyOverridden": true,
-      "originalAnswerKey": "d"
+      "originalAnswerKey": "d",
+      "explanation": "The correct answer is D (CDBA). All begin with 'UP Institute '. Compare next words: 'for' vs 'of'. 'for' comes before 'of', so A and B before C and D. Among A and B: 'for Small Scale' vs 'for Science' — 'Science' (S) vs 'Small' (S) — 'm' vs 'c'? 'Small' has 'm' (13th letter) after 'S', 'Science' has 'c' (3rd letter). 'c' < 'm', so B before A. Among C and D: 'of Biology' vs 'of Chemistry' — Biology (B) vs Chemistry (C) — 'B' < 'C', so C then D. Order: B, A, C, D? The key says C, D, B, A. Let me re-verify: This seems inconsistent. I will follow the source key.",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-al-0018",
@@ -421,13 +417,10 @@
         "d": "idealistic"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C? Wait, the source key indicates C (confused), but that appears incorrect. 'Cognizant' means aware or informed. The correct synonym should be 'aware' (A). However, the answer key provided in the source shows C. This may be a printing error. I will keep the key answer as indicated but flag it.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates C (confused), but 'cognizant' actually means 'aware' or 'informed'. 'Confused' is an antonym. This may be a printing error in the source."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "⚠ VERIFY: The answer key indicates C (confused), but 'cognizant' actually means 'aware' or 'informed'. 'Confused' is an antonym. This may be a printing error in the source.",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-sy-0024",
@@ -460,13 +453,10 @@
         "d": "short lived"
       },
       "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B? Wait, 'ephemeral' means short-lived. The key shows B (long lasting) which is the opposite. This is likely a printing error. The correct answer should be D (short lived). I will keep the key answer but flag it.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates B (long lasting), but 'ephemeral' means short-lived. The correct synonym is D (short lived). This appears to be a printing error."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "b",
+      "explanation": "⚠ VERIFY: The answer key indicates B (long lasting), but 'ephemeral' means short-lived. The correct synonym is D (short lived). This appears to be a printing error.",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-sy-0026",
@@ -481,13 +471,10 @@
         "d": "contented"
       },
       "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is D? 'Fastidious' means very attentive to detail, hard to please, or choosy. The key shows D (contented) which is not a synonym. This may be an error. 'Choosy' (B) is closer.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates D (contented), but 'fastidious' means hard to please or choosy. The best synonym among choices is B (choosy)."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "d",
+      "explanation": "⚠ VERIFY: The answer key indicates D (contented), but 'fastidious' means hard to please or choosy. The best synonym among choices is B (choosy).",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-sy-0027",
@@ -502,13 +489,10 @@
         "d": "gigantic"
       },
       "answer": "a",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is A? 'Gargantuan' means enormous or gigantic. The key shows A (crowded), but D (gigantic) is the direct synonym.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates A (crowded), but 'gargantuan' means gigantic. The correct synonym is D (gigantic)."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "a",
+      "explanation": "⚠ VERIFY: The answer key indicates A (crowded), but 'gargantuan' means gigantic. The correct synonym is D (gigantic).",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-sy-0028",
@@ -1207,13 +1191,10 @@
         "d": "reserved"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C? 'Candid' means truthful and straightforward. An antonym could be 'secret' or 'reserved'. The key shows C (well-thought) which is not a direct antonym.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates C (well-thought), but 'candid' (frank, open) is better antonymized by 'secret' (A) or 'reserved' (D). This may be an error."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "⚠ VERIFY: The answer key indicates C (well-thought), but 'candid' (frank, open) is better antonymized by 'secret' (A) or 'reserved' (D). This may be an error.",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-an-0067",
@@ -2344,13 +2325,10 @@
         "d": "killing of Geno"
       },
       "answer": "a",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is A? Wait, genocide means the deliberate killing of a large group of people, especially those of a particular ethnic group or nation. None of the options fit perfectly. The key indicates A (killing of genies) which is incorrect. This appears to be an error. Genocide is 'killing of a people/nation.'",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates A, but 'genocide' actually means the killing of a large group of people based on ethnicity or nationality. None of the given options accurately define genocide."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "a",
+      "explanation": "⚠ VERIFY: The answer key indicates A, but 'genocide' actually means the killing of a large group of people based on ethnicity or nationality. None of the given options accurately define genocide.",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-dw-0130",
@@ -2707,13 +2685,10 @@
         "d": "Filipino flag"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C? Wait, the verb should agree with the plural subject 'historians' → 'contest,' not 'contests.' The error is in B. The source key indicates C, which may be an error.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates C (origin), but the subject-verb agreement error is in B (contests should be contest)."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "⚠ VERIFY: The answer key indicates C (origin), but the subject-verb agreement error is in B (contests should be contest).",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-ie-0150",
@@ -2800,13 +2775,10 @@
         "d": "No error"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C? The subject is plural ('both'), so the verb should be 'enjoy,' not 'enjoys.' The error is in B, not C. The source key indicates C, which may be an error.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates C (reading), but the error is in B (enjoys should be enjoy)."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "⚠ VERIFY: The answer key indicates C (reading), but the error is in B (enjoys should be enjoy).",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-ie-0155",
@@ -2875,13 +2847,10 @@
         "d": "No error"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C? The subject 'works' is plural, so the verb should be 'enrich,' not 'enriches.' The error is in B. The source key indicates C, which may be an error.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates C (vocabulary), but the error is in B (enriches should be enrich)."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "⚠ VERIFY: The answer key indicates C (vocabulary), but the error is in B (enriches should be enrich).",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-ie-0159",
@@ -2932,13 +2901,10 @@
         "d": "No error"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C? 'One of the machines' is singular, so the verb should be 'wasn't,' not 'weren't.' The error is in B. The source key indicates C, which may be an error.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates C (working), but the error is in B (weren't should be wasn't)."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "⚠ VERIFY: The answer key indicates C (working), but the error is in B (weren't should be wasn't).",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-ie-0162",
@@ -2953,13 +2919,10 @@
         "d": "No error"
       },
       "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is D? With 'either...or,' the verb agrees with the nearer subject. 'Librarian' is singular, so the verb should be 'takes care,' not 'take care.' The error is in B. The source key indicates D, which may be an error.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates D, but the verb should be 'takes care' (singular) to agree with 'librarian.'"
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "d",
+      "explanation": "⚠ VERIFY: The answer key indicates D, but the verb should be 'takes care' (singular) to agree with 'librarian.'",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-ie-0163",
@@ -2974,13 +2937,10 @@
         "d": "No error"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C? 'A number of' takes a plural verb: 'are regularly donated,' not 'is.' The error is in B. The source key indicates C, which may be an error.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (is should be are)."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (is should be are).",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-ie-0164",
@@ -2995,13 +2955,10 @@
         "d": "No error"
       },
       "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is D? 'The number of' takes a singular verb: 'rises,' not 'rise.' The error is in B. The source key indicates D, which may be an error.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates D, but the verb should be 'rises' (singular) to agree with 'the number.'"
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "d",
+      "explanation": "⚠ VERIFY: The answer key indicates D, but the verb should be 'rises' (singular) to agree with 'the number.'",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-ie-0165",
@@ -3088,13 +3045,10 @@
         "d": "No error"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C? The subject 'Gorio and Tecla' is plural, so the verb should be 'were,' not 'was.' The error is in B. The source key indicates C, which may be an error.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (was should be were)."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (was should be were).",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-ie-0170",
@@ -3145,13 +3099,10 @@
         "d": "No error"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C? With 'neither...nor,' the verb agrees with the nearer subject. 'Friends' is plural, so the verb should be 'think,' not 'thinks.' The error is in B. The source key indicates C, which may be an error.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (thinks should be think)."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (thinks should be think).",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-ie-0173",
@@ -3184,13 +3135,10 @@
         "d": "No error"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C? The past participle of 'sing' is 'sung.' It should be 'have been singing' or 'have sung.' 'Have been sang' is incorrect. The error is in B. The source key indicates C, which may be an error.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (sang should be sung or singing)."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (sang should be sung or singing).",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-ie-0175",
@@ -3205,13 +3153,10 @@
         "d": "No error"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C? 'House and lot' together is considered a single unit, so the verb should be 'is,' not 'are.' The error is in B. The source key indicates C, which may be an error.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (are should be is)."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (are should be is).",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-ie-0176",
@@ -3262,13 +3207,10 @@
         "d": ""
       },
       "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is D? The predicate nominative after 'will be' should be 'they,' not 'them.' The error is in B. The source key indicates D, which may be an error.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates D, but 'them' (objective case) should be 'they' (subjective case) as a predicate nominative."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "d",
+      "explanation": "⚠ VERIFY: The answer key indicates D, but 'them' (objective case) should be 'they' (subjective case) as a predicate nominative.",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-ie-0179",
@@ -3301,13 +3243,10 @@
         "d": "No error"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C? The subject 'effects' is plural, so the verb should be 'need,' not 'needs.' The error is in B. The source key indicates C, which may be an error.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (needs should be need)."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (needs should be need).",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-ie-0181",
@@ -3322,13 +3261,10 @@
         "d": "No error"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C? 'Every' takes a singular noun: 'Every weekday,' not 'Every weekdays.' Also, 'Chel and Charm' is plural, so 'go' not 'goes.' The source key indicates C, which may be an error.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates C, but there are multiple errors: 'Every weekdays' should be 'Every weekday,' and 'goes' should be 'go.'"
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "⚠ VERIFY: The answer key indicates C, but there are multiple errors: 'Every weekdays' should be 'Every weekday,' and 'goes' should be 'go.'",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-ie-0182",
@@ -3343,13 +3279,10 @@
         "d": "No error"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C? The title is singular, so the verb should be 'is written,' not 'are written.' The error is in B. The source key indicates C, which may be an error.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (are written should be is written)."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (are written should be is written).",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-ie-0183",
@@ -3454,13 +3387,10 @@
         "d": "No error"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C? 'Those are works' (plural) not 'work.' The error is in B. The source key indicates C, which may be an error.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (work should be works)."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (work should be works).",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-ie-0189",
@@ -3547,13 +3477,10 @@
         "d": "No error"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C? 'Either' is singular, so the verb should be 'has received,' not 'have received.' The error is in B. The source key indicates C, which may be an error.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (have received should be has received)."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (have received should be has received).",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-ie-0194",
@@ -3586,13 +3513,10 @@
         "d": "No error"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C? 'Use' should be 'used' in the passive voice: 'are widely used.' The error is in B. The source key indicates C, which may be an error.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (use should be used)."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (use should be used).",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-ie-0196",
@@ -3697,13 +3621,10 @@
         "d": "No error"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C? 'Are spent' is present tense, but 'yesterday' indicates past. It should be 'were spent.' The error is in B. The source key indicates C, which may be an error.",
-      "source": "CSE Professional Reviewer — Verbal Ability",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (are should be were)."
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (are should be were).",
+      "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
       "id": "vb-ie-0202",

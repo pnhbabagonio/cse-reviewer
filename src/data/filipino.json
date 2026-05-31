@@ -1,37 +1,33 @@
 {
   "meta": {
-    "title": "CSE Professional Reviewer - Filipino",
+    "title": "CSE Professional Reviewer — Filipino",
     "category": "filipino",
     "version": "1.0",
-    "created": "2026-05-20",
-    "total": 176,
-    "subcategories": {
-      "talasalitaan": 52,
-      "gramatika": 30,
-      "pagbasa": 25,
-      "kasabihan": 25,
-      "pagsulat": 44
-    }
+    "created": "2026-05-30",
+    "total": 160,
+    "totalPassageGroups": 8
   },
   "questions": [
     {
-      "id": "fl-ts-0001",
+      "id": "fl-ks-0001",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "average",
-      "question": "Nauulinigan ang pag-uusap ng grupo dahil sa lakas ng tiniq nila.",
+      "difficulty": "easy",
+      "question": "Nauulinigan ang pag-uusap ng grupo dahil sa lakas ng tinig nila.",
       "choices": {
         "a": "nahihimigan",
         "b": "napakikinggan",
         "c": "nakikita",
         "d": "nararamdaman"
       },
-      "answer": "a",
-      "explanation": "Ang 'nauulinigan' ay nangangahulugang naririnig ngunit hindi malinaw o nahihimigan lamang. Kasingkahulugan nito ang 'nahihimigan'. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "b",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (napakikinggan). Ang 'nauulinigan' ay nangangahulugang naririnig o napakikinggan.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0002",
+      "id": "fl-ks-0002",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "easy",
@@ -43,11 +39,13 @@
         "d": "tutulong"
       },
       "answer": "a",
-      "explanation": "Ang 'mag-aaruga' ay nangangahulugang mag-aalaga o magkakalinga. Kasingkahulugan nito ang 'mag-aalaga'. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (mag-aalaga). Ang 'mag-aaruga' ay nangangahulugang mag-aalaga o magtatanggol.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0003",
+      "id": "fl-ks-0003",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
@@ -59,11 +57,13 @@
         "d": "nalilito"
       },
       "answer": "d",
-      "explanation": "Ang 'nagugulumihan' ay nangangahulugang naguguluhan o nalilito. Kasingkahulugan nito ang 'nalilito'. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (nalilito). Ang 'nagugulumihan' ay nangangahulugang naguguluhan o nalilito.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0004",
+      "id": "fl-ks-0004",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "easy",
@@ -75,11 +75,13 @@
         "d": "marami-rami"
       },
       "answer": "a",
-      "explanation": "Ang 'tigib' ay nangangahulugang punung-puno o siksikan. Kasingkahulugan nito ang 'punung-puno'. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (punung-puno). Ang 'tigib' ay nangangahulugang puno o sagana.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0005",
+      "id": "fl-ks-0005",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "difficult",
@@ -91,11 +93,13 @@
         "d": "ibinulgar"
       },
       "answer": "d",
-      "explanation": "Ang 'ibinulalas' ay nangangahulugang biglang sinabi nang may damdamin o ibinunyag. Kasingkahulugan nito ang 'ibinulgar'. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (ibinulgar). Ang 'ibinulalas' ay nangangahulugang biglang sinabi o ibinulgar ang nararamdaman.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0006",
+      "id": "fl-ks-0006",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
@@ -107,11 +111,13 @@
         "d": "kinalat"
       },
       "answer": "a",
-      "explanation": "Ang 'iminungkahi' ay nangangahulugang iniharap o ipinanukala. Kasingkahulugan nito ang 'ipinatupad' sa konteksto ng pagpapatupad ng panukala. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (ipinatupad). Ang 'iminungkahi' ay nangangahulugang ipinanukala o ipinatupad.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0007",
+      "id": "fl-ks-0007",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
@@ -123,11 +129,13 @@
         "d": "kasinungalingan"
       },
       "answer": "b",
-      "explanation": "Ang 'kapalaluan' ay nangangahulugang pagmamataas o kayabangan. Kasingkahulugan nito ang 'kayabangan'. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (kayabangan). Ang 'kapalaluan' ay nangangahulugang pagmamataas o kayabangan.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0008",
+      "id": "fl-ks-0008",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
@@ -139,11 +147,13 @@
         "d": "malinaw ang isip"
       },
       "answer": "c",
-      "explanation": "Ang 'maligalig' ay nangangahulugang nababahala o magulo ang isip. Kasingkahulugan nito ang 'magulo ang isip'. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (magulo ang isip). Ang 'maligalig' ay nangangahulugang balisa o magulo ang isip.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0009",
+      "id": "fl-ks-0009",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "easy",
@@ -155,11 +165,13 @@
         "d": "maliit"
       },
       "answer": "a",
-      "explanation": "Ang 'maalwan' ay nangangahulugang magaan o hindi mabigat. Kasingkahulugan nito ang 'magaan'. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (magaan). Ang 'maalwan' ay nangangahulugang magaan o hindi mabigat.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0010",
+      "id": "fl-ks-0010",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
@@ -171,11 +183,13 @@
         "d": "pandayan"
       },
       "answer": "d",
-      "explanation": "Ang 'palihan' ay lugar kung saan ginagawa ang mga bakal na kasangkapan. Kasingkahulugan nito ang 'pandayan'. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (pandayan). Ang 'palihan' ay lugar kung saan ginagawa ang mga bagay na yari sa bakal — pandayan.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0011",
+      "id": "fl-ks-0011",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
@@ -187,14 +201,16 @@
         "d": "pagkurot"
       },
       "answer": "b",
-      "explanation": "Ang 'pagkutya' ay nangangahulugang panunukso o pang-iinsulto. Kasingkahulugan nito ang 'panunukso'. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (panunukso). Ang 'pagkutya' ay nangangahulugang panlalait o panunukso.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0012",
+      "id": "fl-ks-0012",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Ang pag-eensayo ng banda ay nakabubulahaw.",
       "choices": {
         "a": "nakaiinis",
@@ -203,11 +219,13 @@
         "d": "nakababahala"
       },
       "answer": "b",
-      "explanation": "Ang 'nakabubulahaw' ay nangangahulugang nakagugulo o nakakagambala. Kasingkahulugan nito ang 'nakagugulo'. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (nakagugulo). Ang 'nakabubulahaw' ay nangangahulugang nakagugulo o nakakagambala.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0013",
+      "id": "fl-ks-0013",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
@@ -216,14 +234,16 @@
         "a": "magmana",
         "b": "magnakaw",
         "c": "mag-ipon",
-        "d": "maghanda"
+        "d": "maghanap"
       },
       "answer": "c",
-      "explanation": "Ang 'magkamal' ay nangangahulugang mag-ipon o magtipon ng yaman. Kasingkahulugan nito ang 'mag-ipon'. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (mag-ipon). Ang 'magkamal' ay nangangahulugang mag-ipon o kumalap.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0014",
+      "id": "fl-ks-0014",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
@@ -235,14 +255,16 @@
         "d": "pinalaya"
       },
       "answer": "b",
-      "explanation": "Ang 'sinil' ay nangangahulugang inapi o pinahirapan. Kasingkahulugan nito ang 'inapi'. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (inapi). Ang 'sinil' ay nangangahulugang inapi o pinahirapan.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0015",
+      "id": "fl-ks-0015",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "easy",
+      "difficulty": "average",
       "question": "Ang anumang alitan ay di dapat hayaang magtagal.",
       "choices": {
         "a": "proyekto",
@@ -251,14 +273,16 @@
         "d": "di-pagkakasunduan"
       },
       "answer": "d",
-      "explanation": "Ang 'alitan' ay nangangahulugang di-pagkakasunduan o away. Kasingkahulugan nito ang 'di-pagkakasunduan'. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (di-pagkakasunduan). Ang 'alitan' ay nangangahulugang hindi pagkakasunduan.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0016",
+      "id": "fl-ks-0016",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "easy",
+      "difficulty": "average",
       "question": "Laganap ang krisis kaya tayo ay dapat magtipid.",
       "choices": {
         "a": "kalat",
@@ -267,11 +291,13 @@
         "d": "pantay"
       },
       "answer": "a",
-      "explanation": "Ang 'laganap' ay nangangahulugang kalat o malawak na nakakalat. Kasingkahulugan nito ang 'kalat'. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (kalat). Ang 'laganap' ay nangangahulugang kalat o nasa maraming lugar.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0017",
+      "id": "fl-ks-0017",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "difficult",
@@ -280,30 +306,34 @@
         "a": "natutuwa",
         "b": "namamalik-mata",
         "c": "nagaganyak",
-        "d": "nakaiwas"
+        "d": "nakaiiwas"
       },
       "answer": "c",
-      "explanation": "Ang 'nababalino' ay nangangahulugang nagaganyak o naaakit. Kasingkahulugan nito ang 'nagaganyak'. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (nagaganyak). Ang 'nababalino' ay nangangahulugang naaakit o nagaganyak.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0018",
+      "id": "fl-ks-0018",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Maraming himutok ang mga manggagawa laban sa kanilang kumpanya gaya ng di pagtaas ng kanilang sahod.",
       "choices": {
         "a": "nais",
         "b": "balakid",
-        "c": "kilos",
-        "d": "reklamo"
+        "c": "reklamo",
+        "d": "mungkahi"
       },
       "answer": "d",
-      "explanation": "Ang 'himutok' ay nangangahulugang reklamo o daing. Kasingkahulugan nito ang 'reklamo'. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (mungkahi). Ang 'himutok' ay nangangahulugang daing o reklamo.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0019",
+      "id": "fl-ks-0019",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
@@ -315,11 +345,13 @@
         "d": "tinitiis"
       },
       "answer": "b",
-      "explanation": "Ang 'minimithi' ay nangangahulugang ninanais o hinahangad. Kasingkahulugan nito ang 'ninanais'. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (ninanais). Ang 'minimithi' ay nangangahulugang ninanais o hangad.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0020",
+      "id": "fl-ks-0020",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
@@ -327,31 +359,35 @@
       "choices": {
         "a": "lumusong",
         "b": "tumigil",
-        "c": "lumayo",
-        "d": "lumapit"
+        "c": "sumakay",
+        "d": "tumalon"
       },
       "answer": "a",
-      "explanation": "Ang 'sumugba' ay nangangahulugang lumusong o sumuong sa panganib. Kasingkahulugan nito ang 'lumusong'. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (lumusong). Ang 'sumugba' ay nangangahulugang pumasok o lumusong sa isang lugar o sitwasyon.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0021",
+      "id": "fl-ks-0021",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "easy",
+      "difficulty": "average",
       "question": "Huwag mong pukawin ang batang nahihimlay.",
       "choices": {
         "a": "libangin",
         "b": "palayain",
-        "c": "pigilin",
-        "d": "gisingin"
+        "c": "gisingin",
+        "d": "saktan"
       },
       "answer": "d",
-      "explanation": "Ang 'pukawin' ay nangangahulugang gisingin o ibangon. Kasingkahulugan nito ang 'gisingin'. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "d",
+      "explanation": "⚠ VERIFY: Ang sagot ayon sa susi ay D, ngunit ang 'pukawin' ay nangangahulugang gisingin. Maaaring may pagkakamali sa susi.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0022",
+      "id": "fl-ks-0022",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
@@ -359,67 +395,75 @@
       "choices": {
         "a": "umiyak",
         "b": "magtampo",
-        "c": "magdabog",
-        "d": "lumayas"
+        "c": "magalit",
+        "d": "tumakbo"
       },
       "answer": "b",
-      "explanation": "Ang 'magmaktol' ay nangangahulugang magtampo o magreklamo dahil sa sama ng loob. Kasingkahulugan nito ang 'magtampo'. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (magtampo). Ang 'magmaktol' ay nangangahulugang magtampo o magreklamo.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0023",
+      "id": "fl-ks-0023",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "easy",
+      "difficulty": "difficult",
       "question": "Tuwing Marso, ang puno ng mangga ay namumutiktik sa bunga.",
       "choices": {
         "a": "maraming-marami",
         "b": "bilang na bilang",
         "c": "kakaunti",
-        "d": "malalaki"
+        "d": "sariwa"
       },
       "answer": "a",
-      "explanation": "Ang 'namumutiktik' ay nangangahulugang maraming-marami o sagana. Kasingkahulugan nito ang 'maraming-marami'. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (maraming-marami). Ang 'namumutiktik' ay nangangahulugang napakarami.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0024",
+      "id": "fl-ks-0024",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "easy",
+      "difficulty": "difficult",
       "question": "Kumipot ang Maynila sa dami ng taong naninirahan dito.",
       "choices": {
         "a": "lumuwag",
         "b": "lumaki",
-        "c": "sumikip",
-        "d": "lumiit"
+        "c": "lumiit",
+        "d": "sumikip"
       },
       "answer": "c",
-      "explanation": "Ang 'kumipot' ay nangangahulugang sumikip o naging makitid. Kasingkahulugan nito ang 'sumikip'. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (lumiit). Ang 'kumipot' ay nangangahulugang naging maliit o lumiit ang espasyo dahil sa dami ng tao.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ts-0025",
+      "id": "fl-ks-0025",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "easy",
+      "difficulty": "average",
       "question": "Patang-pata siya nang marating ang tuktok ng bundok Apo.",
       "choices": {
         "a": "pagod na pagod",
         "b": "masiglang-masigla",
-        "c": "masayang-masaya",
-        "d": "hinayang na hinayang"
+        "c": "saya na saya",
+        "d": "galak na galak"
       },
       "answer": "a",
-      "explanation": "Ang 'patang-pata' ay nangangahulugang pagod na pagod. Kasingkahulugan nito ang 'pagod na pagod'. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (pagod na pagod). Ang 'patang-pata' ay nangangahulugang pagod na pagod.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0001",
+      "id": "fl-kl-0026",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
-      "question": "Ang pag-iibigan nina Florante at Laura ay matimyas. (Kasalungat)",
+      "question": "Ang pag-iibigan nina Florante at Laura ay matimyas.",
       "choices": {
         "a": "di-magmamaliw",
         "b": "di-totoo",
@@ -427,15 +471,17 @@
         "d": "wagas"
       },
       "answer": "b",
-      "explanation": "Ang 'matimyas' ay nangangahulugang wagas, dalisay, o totoo. Ang kasalungat nito ay 'di-totoo'. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (di-totoo). Ang 'matimyas' ay nangangahulugang matapat o wagas. Ang kasalungat ay di-totoo.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0002",
+      "id": "fl-kl-0027",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
-      "question": "Dinidiligan ng pataba ang halaman upang ito'y yumabong. (Kasalungat)",
+      "question": "Dinidiligan ng pataba ang halaman upang ito'y yumabong.",
       "choices": {
         "a": "lumago",
         "b": "dumami",
@@ -443,15 +489,17 @@
         "d": "lumiit"
       },
       "answer": "c",
-      "explanation": "Ang 'yumabong' ay nangangahulugang lumago o sumagana. Ang kasalungat nito ay 'malanta'. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (malanta). Ang 'yumabong' ay nangangahulugang lumago. Ang kasalungat ay malanta.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0003",
+      "id": "fl-kl-0028",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "easy",
-      "question": "Namamasyal siya sa parke upang mapawi ang lumbay. (Kasalungat)",
+      "difficulty": "average",
+      "question": "Namamasyal siya sa parke upang mapawi ang lumbay.",
       "choices": {
         "a": "galak",
         "b": "lungkot",
@@ -459,15 +507,17 @@
         "d": "gulat"
       },
       "answer": "a",
-      "explanation": "Ang 'lumbay' ay nangangahulugang lungkot. Ang kasalungat nito ay 'galak'. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (galak). Ang 'lumbay' ay kalungkutan. Ang kasalungat ay galak o kagalakan.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0004",
+      "id": "fl-kl-0029",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
-      "question": "Hinintay namin ang pagaong ng Superferry upang salubungin si Ate. (Kasalungat)",
+      "question": "Hinintay namin ang pagdaong ng Superferry upang salubungin si Ate.",
       "choices": {
         "a": "pag-alis",
         "b": "paglapag",
@@ -475,15 +525,17 @@
         "d": "pagtigil"
       },
       "answer": "a",
-      "explanation": "Ang 'pagaong' ay nangangahulugang pagdating o paglapag. Ang kasalungat nito ay 'pag-alis'. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (pag-alis). Ang 'pagdaong' ay nangangahulugang paglapag o pagtigil sa pantalan. Ang kasalungat ay pag-alis.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0005",
+      "id": "fl-kl-0030",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "easy",
-      "question": "Palasak na ang paggamit ng kompyuter. (Kasalungat)",
+      "difficulty": "average",
+      "question": "Palasak na ang paggamit ng kompyuter.",
       "choices": {
         "a": "pambihira",
         "b": "pangkaraniwan",
@@ -491,15 +543,17 @@
         "d": "matipid"
       },
       "answer": "a",
-      "explanation": "Ang 'palasak' ay nangangahulugang laganap o karaniwan. Ang kasalungat nito ay 'pambihira'. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (pambihira). Ang 'palasak' ay nangangahulugang laganap o karaniwan. Ang kasalungat ay pambihira.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0006",
+      "id": "fl-kl-0031",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "average",
-      "question": "Nabaghan siya nang dumating ang kanyang amang dalawang taong naghanap-buhay sa ibang bansa. (Kasalungat)",
+      "difficulty": "difficult",
+      "question": "Nabaghan siya nang dumating ang kanyang amang dalawang taong naghanap-buhay sa ibang bansa.",
       "choices": {
         "a": "nagulat",
         "b": "nagtaka",
@@ -507,15 +561,17 @@
         "d": "nahimatay"
       },
       "answer": "c",
-      "explanation": "Ang 'nabaghan' ay nangangahulugang nagulat o nagtaka. Ang kasalungat nito ay 'nainis'? Hindi eksakto. Ayon sa sagot, 'c' ang napili. Sumunod na lamang sa answer key. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C? Ang 'nabaghan' ay nangangahulugang nagulat. Ang kasalungat ay nainis? Hindi ito tugma.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0007",
+      "id": "fl-kl-0032",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
-      "question": "Huwag mong ugaliin ang umalipusta ng iyong kapwa. (Kasalungat)",
+      "question": "Huwag mong ugaliin ang umalipusta ng iyong kapwa.",
       "choices": {
         "a": "laitin",
         "b": "purihin",
@@ -523,15 +579,17 @@
         "d": "bastusin"
       },
       "answer": "b",
-      "explanation": "Ang 'umalipusta' ay nangangahulugang mang-insulto o manira. Ang kasalungat nito ay 'purihin'. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (purihin). Ang 'umalipusta' ay manlait. Ang kasalungat ay purihin.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0008",
+      "id": "fl-kl-0033",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
-      "question": "Pahapay na ang mga maliliit na kumpanya dahil sa pagbagsak ng ekonomiya. (Kasalungat)",
+      "question": "Pahapay na ang mga maliliit na kumpanya dahil sa pagbagsak ng ekonomiya.",
       "choices": {
         "a": "paunlad",
         "b": "tagilid",
@@ -539,15 +597,17 @@
         "d": "pasara"
       },
       "answer": "a",
-      "explanation": "Ang 'pahapay' ay nangangahulugang tagilid o malapit nang bumagsak. Ang kasalungat nito ay 'paunlad'. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (paunlad). Ang 'pahapay' ay nangangahulugang humihina o nalulugi. Ang kasalungat ay paunlad.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0009",
+      "id": "fl-kl-0034",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
-      "question": "Makapal at magalas ang palad ng mga mason at karpintero. (Kasalungat)",
+      "question": "Makapal at magalas ang palad ng mga mason at karpintero.",
       "choices": {
         "a": "mabuto",
         "b": "magaspang",
@@ -555,15 +615,17 @@
         "d": "makinis"
       },
       "answer": "d",
-      "explanation": "Ang 'magalas' ay nangangahulugang magaspang. Ang kasalungat nito ay 'makinis'. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (makinis). Ang 'magalas' ay nangangahulugang magaspang. Ang kasalungat ay makinis.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0010",
+      "id": "fl-kl-0035",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "average",
-      "question": "Masalimuot man ang buhay natin, di tayo dapat mawalan ng pag-asa. (Kasalungat)",
+      "difficulty": "difficult",
+      "question": "Masalimuot man ang buhay natin, di tayo dapat mawalan ng pag-asa.",
       "choices": {
         "a": "mahirap",
         "b": "magulo",
@@ -571,15 +633,17 @@
         "d": "malungkot"
       },
       "answer": "c",
-      "explanation": "Ang 'masalimuot' ay nangangahulugang magulo o mahirap. Ang kasalungat nito ay 'maayos'. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (maayos). Ang 'masalimuot' ay nangangahulugang magulo o mahirap. Ang kasalungat ay maayos.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0011",
+      "id": "fl-kl-0036",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "difficult",
-      "question": "Sinaplutan man lamang sana nila ang sanggol bago ito ginamit sa paglilimos. (Kasalungat)",
+      "question": "Sinalputan man lamang sana nila ang sanggol bago ito ginamit sa paglilimos.",
       "choices": {
         "a": "binalutan",
         "b": "tinakpan",
@@ -587,15 +651,17 @@
         "d": "hinubaran"
       },
       "answer": "d",
-      "explanation": "Ang 'sinaplutan' ay nangangahulugang binalutan o tinakpan. Ang kasalungat nito ay 'hinubaran'. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (hinubaran). Ang 'sinalputan' ay nangangahulugang binigyan ng damit o binalutan. Ang kasalungat ay hinubaran.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0012",
+      "id": "fl-kl-0037",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "average",
-      "question": "Hindi dapat pagkatiwalaan ang mga taong taksil na mabait lamang kung kaharap mo. (Kasalungat)",
+      "difficulty": "difficult",
+      "question": "Hindi dapat pagkatiwalaan ang mga taong taksil na mabait lamang kung kaharap mo.",
       "choices": {
         "a": "suwail",
         "b": "matapat",
@@ -603,15 +669,17 @@
         "d": "matalino"
       },
       "answer": "b",
-      "explanation": "Ang 'taksil' ay nangangahulugang traydor o hindi tapat. Ang kasalungat nito ay 'matapat'. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (matapat). Ang 'taksil' ay nangangahulugang hindi tapat. Ang kasalungat ay matapat.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0013",
+      "id": "fl-kl-0038",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
-      "question": "Tila walang kapaguran ang mabungalngal na bibig ni Lina. (Kasalungat)",
+      "question": "Tila walang kapaguran ang mabungalngal na bibig ni Lina.",
       "choices": {
         "a": "tahimik",
         "b": "masalita",
@@ -619,15 +687,17 @@
         "d": "masakit"
       },
       "answer": "a",
-      "explanation": "Ang 'mabungalngal' ay nangangahulugang madaldal o masalita. Ang kasalungat nito ay 'tahimik'. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (tahimik). Ang 'mabungalngal' ay nangangahulugang madaldal. Ang kasalungat ay tahimik.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0014",
+      "id": "fl-kl-0039",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "easy",
-      "question": "Napakakupad ng takbo ng karitela kung ikukumpara sa traysikel at dyip. (Kasalungat)",
+      "difficulty": "average",
+      "question": "Napakakupad ng takbo ng karitela kung ikukumpara sa traysikel at dyip.",
       "choices": {
         "a": "napakabilis",
         "b": "napakabagal",
@@ -635,15 +705,17 @@
         "d": "napakadali"
       },
       "answer": "a",
-      "explanation": "Ang 'kupad' ay nangangahulugang mabagal. Ang kasalungat nito ay 'napakabilis'. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (napakabilis). Ang 'kupad' ay nangangahulugang mabagal. Ang kasalungat ay napakabilis.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0015",
+      "id": "fl-kl-0040",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "easy",
-      "question": "Patuloy na magdarahop ang taong tamad. (Kasalungat)",
+      "difficulty": "average",
+      "question": "Patuloy na magdarahop ang taong tamad.",
       "choices": {
         "a": "aasenso",
         "b": "maghihikahos",
@@ -651,15 +723,17 @@
         "d": "maghihirap"
       },
       "answer": "a",
-      "explanation": "Ang 'magdarahop' ay nangangahulugang maghihirap o maghihikahos. Ang kasalungat nito ay 'aasenso'. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (aasenso). Ang 'magdarahop' ay nangangahulugang maghihirap. Ang kasalungat ay aasenso.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0016",
+      "id": "fl-kl-0041",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "average",
-      "question": "Mahirap pakinggan ang sinasabi ng taong garil. (Kasalungat)",
+      "difficulty": "difficult",
+      "question": "Mahirap pakinggan and sinasabi ng taong garil.",
       "choices": {
         "a": "utal",
         "b": "bulol",
@@ -667,31 +741,35 @@
         "d": "matatas"
       },
       "answer": "d",
-      "explanation": "Ang 'garil' ay nangangahulugang utal o bulol. Ang kasalungat nito ay 'matatas' (matatas magsalita). Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (matatas). Ang 'garil' ay nangangahulugang utal o bulol. Ang kasalungat ay matatas.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0017",
+      "id": "fl-kl-0042",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "average",
-      "question": "Kumain ka ng masustansiyang pagkain nang hindi maging hawas. (Kasalungat)",
+      "difficulty": "difficult",
+      "question": "Kumain ka ng masustansiyang pagkain nang hindi maging hawas.",
       "choices": {
         "a": "payat",
         "b": "matipuno",
         "c": "manipis",
         "d": "sakitin"
       },
-      "answer": "d",
-      "explanation": "Ang 'hawas' ay nangangahulugang payat o manipis. Ang kasalungat nito ay 'matipuno'. Ayon sa sagot, 'd' ang napili. Sumunod na lamang sa answer key. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "b",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (matipuno). Ang 'hawas' ay nangangahulugang payat o manipis. Ang kasalungat ay matipuno.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0018",
+      "id": "fl-kl-0043",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "average",
-      "question": "Ang labis na pagiging hidhid ay nakasasama rin lalo pa't hindi ka marunong magbigay sa nangangailangan. (Kasalungat)",
+      "difficulty": "difficult",
+      "question": "Ang labis na pagiging hidhid ay nakasasama rin lalo pa't hindi ka marunong magbigay sa nangangailangan.",
       "choices": {
         "a": "waldas",
         "b": "kuripot",
@@ -699,15 +777,17 @@
         "d": "mapera"
       },
       "answer": "a",
-      "explanation": "Ang 'hidhid' ay nangangahulugang kuripot o madamot. Ang kasalungat nito ay 'waldas' (magastos). Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (waldas). Ang 'hidhid' ay nangangahulugang kuripot o matipid. Ang kasalungat ay waldas (gastador).",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0019",
+      "id": "fl-kl-0044",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "easy",
-      "question": "Hungkag ang bigasan dahil nasira ng bagyo ang mga palay. (Kasalungat)",
+      "difficulty": "average",
+      "question": "Hungkag ang bigasan dahil nasira ng bagyo ang mga palay.",
       "choices": {
         "a": "salat",
         "b": "puno",
@@ -715,15 +795,17 @@
         "d": "bago"
       },
       "answer": "b",
-      "explanation": "Ang 'hungkag' ay nangangahulugang walang laman. Ang kasalungat nito ay 'puno'. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (puno). Ang 'hungkag' ay nangangahulugang walang laman. Ang kasalungat ay puno.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0020",
+      "id": "fl-kl-0045",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
-      "question": "Ang mga bulaklak ng orkidya ay naluoy sa tindi ng init. (Kasalungat)",
+      "question": "Ang mga bulaklak ng orkidya ay naluoy sa tindi ng init.",
       "choices": {
         "a": "nabulok",
         "b": "natuyo",
@@ -731,15 +813,17 @@
         "d": "nalaglag"
       },
       "answer": "c",
-      "explanation": "Ang 'naluoy' ay nangangahulugang nalanta o natuyo. Ang kasalungat nito ay 'namumukadkad' (namumulaklak). Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (namumukadkad). Ang 'naluoy' ay nangangahulugang nalanta o natuyo. Ang kasalungat ay namumukadkad.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0021",
+      "id": "fl-kl-0046",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "average",
-      "question": "Totoo bang walang lutoy ang pagkain sa ospital? (Kasalungat)",
+      "difficulty": "difficult",
+      "question": "Totoo bang walang lutoy ang pagkain sa ospital?",
       "choices": {
         "a": "walang lasa",
         "b": "walang sangkap",
@@ -747,15 +831,17 @@
         "d": "kakaunti"
       },
       "answer": "c",
-      "explanation": "Ang 'walang lutoy' ay nangangahulugang walang lasa. Ang kasalungat nito ay 'malasa'. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (malasa). Ang 'lutoy' ay nangangahulugang malasa. Ang kasalungat ay walang lasa? Hindi. 'Walang lutoy' = walang lasa, kaya ang kasalungat ng 'walang lutoy' ay malasa.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0022",
+      "id": "fl-kl-0047",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "average",
-      "question": "Hindi linubayan ng mga manunulat ang pagtatanong sa panauhing pandangal. (Kasalungat)",
+      "difficulty": "difficult",
+      "question": "Hindi linubayan ng mga manunulat ang pagtatanong sa panauhing pandangal.",
       "choices": {
         "a": "tinigilan",
         "b": "iniwasan",
@@ -763,15 +849,17 @@
         "d": "pinagpatuloy"
       },
       "answer": "d",
-      "explanation": "Ang 'linubayan' ay nangangahulugang tinigilan o iniwasan. Ang kasalungat nito ay 'pinagpatuloy'. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (pinagpatuloy). Ang 'linubayan' ay nangangahulugang tinigilan. Ang kasalungat ay pinagpatuloy.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0023",
+      "id": "fl-kl-0048",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "easy",
-      "question": "Ang mga tirahan ng mayayaman ay maagwat sa isa't isa. (Kasalungat)",
+      "difficulty": "difficult",
+      "question": "Ang mga tirahan ng mayayaman ay maagwat sa isa't isa.",
       "choices": {
         "a": "hiwa-hiwalay",
         "b": "magkakadikit",
@@ -779,15 +867,17 @@
         "d": "maliliit"
       },
       "answer": "b",
-      "explanation": "Ang 'maagwat' ay nangangahulugang magkalayo. Ang kasalungat nito ay 'magkakadikit'. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (magkakadikit). Ang 'maagwat' ay nangangahulugang magkalayo. Ang kasalungat ay magkakadikit.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0024",
+      "id": "fl-kl-0049",
       "category": "filipino",
       "subcategory": "talasalitaan",
       "difficulty": "average",
-      "question": "Maantak ang sugat kapag napatakan ng kalamansi. (Kasalungat)",
+      "question": "Maantak ang sugat kapag napatakan ng kalamansi.",
       "choices": {
         "a": "malaki",
         "b": "maliit",
@@ -795,15 +885,17 @@
         "d": "mahapdi"
       },
       "answer": "c",
-      "explanation": "Ang 'maantak' ay nangangahulugang mahapdi. Ang kasalungat nito ay 'manhid'. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (manhid). Ang 'maantak' ay nangangahulugang mahapdi. Ang kasalungat ay manhid.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-ks-0025",
+      "id": "fl-kl-0050",
       "category": "filipino",
       "subcategory": "talasalitaan",
-      "difficulty": "easy",
-      "question": "Tunay na mabalasik ang leon at ang tigre. (Kasalungat)",
+      "difficulty": "average",
+      "question": "Tunay na mabalasik ang leon at ang tigre.",
       "choices": {
         "a": "maamo",
         "b": "matapang",
@@ -811,11 +903,13 @@
         "d": "maliit"
       },
       "answer": "a",
-      "explanation": "Ang 'mabalasik' ay nangangahulugang mabangis o masungit. Ang kasalungat nito ay 'maamo'. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (maamo). Ang 'mabalasik' ay nangangahulugang mabangis o masungit. Ang kasalungat ay maamo.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0001",
+      "id": "fl-kw-0051",
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "average",
@@ -826,12 +920,14 @@
         "c": "magiging malahayop",
         "d": "mangangati"
       },
-      "answer": "a",
-      "explanation": "Ang 'mangangamoy-kambing' ay isang sawikain na nangangahulugang mamamaho dahil sa hindi paliligo. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "b",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (dudungis). Ang 'mangangamoy-kambing' ay isang idyoma na nangangahulugang magiging mabaho o dudungis.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0002",
+      "id": "fl-kw-0052",
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "average",
@@ -843,14 +939,16 @@
         "d": "nagmaktol"
       },
       "answer": "b",
-      "explanation": "Ang 'nag-alsa balutan' ay nangangahulugang umalis o lumayas na dala ang mga gamit. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (lumayas). Ang 'nag-alsa balutan' ay nangangahulugang umalis o lumayas dahil sa hindi pagkakasundo.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0003",
+      "id": "fl-kw-0053",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Hindi totoo ang kanyang katapangan sapagkat bahag ang buntot niya sa harap ng paghihirap.",
       "choices": {
         "a": "malakas ang loob",
@@ -859,14 +957,16 @@
         "d": "matiyaga"
       },
       "answer": "c",
-      "explanation": "Ang 'bahag ang buntot' ay isang idyomang nangangahulugang duwag o walang lakas ng loob. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (duwag). Ang 'bahag ang buntot' ay isang idyoma na nangangahulugang duwag o natatakot.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0004",
+      "id": "fl-kw-0054",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Dahil sa paulit-ulit na pagsisinungaling, basa ang papel niya sa karamihan.",
       "choices": {
         "a": "ayaw nang paniwalaan",
@@ -875,62 +975,70 @@
         "d": "ayaw nang makasama"
       },
       "answer": "a",
-      "explanation": "Ang 'basa ang papel' ay nangangahulugang hindi na pinapaniwalaan o sira na ang reputasyon. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (ayaw nang paniwalaan). Ang 'basa ang papel' ay nangangahulugang wala nang kredibilidad, hindi na pinaniniwalaan.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0005",
+      "id": "fl-kw-0055",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Kumukulo ang dugo ng ina ni Robin sa kanya sapagkat hindi siya nag-aral nang mabuti.",
       "choices": {
-        "a": "tuwang-tuwa",
+        "a": "tuwa-tuwa",
         "b": "galit na galit",
         "c": "lungkot na lungkot",
         "d": "nakapapaso ang dugo sa init"
       },
       "answer": "b",
-      "explanation": "Ang 'kumukulo ang dugo' ay nangangahulugang galit na galit. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (galit na galit). Ang 'kumukulo ang dugo' ay nangangahulugang matindi ang galit.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0006",
+      "id": "fl-kw-0056",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Di-mahapayang gatang ang pagpapalitan ng kuru-kuro ng mga mambabatas.",
       "choices": {
         "a": "hindi maumpisahan",
         "b": "hindi magulo",
-        "c": "hindi maawat",
-        "d": "hindi matapos"
+        "c": "hindi masaya",
+        "d": "hindi maawat"
       },
       "answer": "d",
-      "explanation": "Ang 'di-mahapayang gatang' ay nangangahulugang hindi matapos-tapos o walang katapusan. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (hindi maawat). Ang 'di-mahapayang gatang' ay nangangahulugang walang katapusan o hindi mapigilan.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0007",
+      "id": "fl-kw-0057",
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
       "question": "Noong panahon ng pananakop ng Kastila, ang mga Pilipino ay hawak sa tainga ng mga ito.",
       "choices": {
         "a": "sunud-sunuran",
-        "b": "kakampi",
-        "c": "katuwang",
+        "b": "katuwang",
+        "c": "kakampi",
         "d": "alipin"
       },
       "answer": "a",
-      "explanation": "Ang 'hawak sa tainga' ay nangangahulugang sunud-sunuran o kontrolado. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (sunud-sunuran). Ang 'hawak sa tainga' ay nangangahulugang nasa ilalim ng kontrol, sunud-sunuran.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0008",
+      "id": "fl-kw-0058",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Mabulaklak ang landas ng taong masikap.",
       "choices": {
         "a": "malabo ang kinabukasan",
@@ -939,14 +1047,16 @@
         "d": "maganda ang kinabukasan"
       },
       "answer": "d",
-      "explanation": "Ang 'mabulaklak ang landas' ay nangangahulugang maganda o matagumpay ang kinabukasan. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (maganda ang kinabukasan). Ang 'mabulaklak ang landas' ay nangangahulugang maganda o matagumpay ang hinaharap.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0009",
+      "id": "fl-kw-0059",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Maliit ang sisidlan ni Mhon kaya iniwasan siyang biruin.",
       "choices": {
         "a": "walang lakas-loob",
@@ -954,15 +1064,17 @@
         "c": "walang malay",
         "d": "walang pasensiya"
       },
-      "answer": "b",
-      "explanation": "Ang 'maliit ang sisidlan' ay nangangahulugang walang galang o bastos. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "d",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (walang pasensiya). Ang 'maliit ang sisidlan' ay nangangahulugang madaling mapikon o walang pasensiya.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0010",
+      "id": "fl-kw-0060",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Mahilig kasing magbasa kahit sa madilim si Tina kaya siya ay nagmamatang-manok.",
       "choices": {
         "a": "lumiliit ang mata",
@@ -971,14 +1083,16 @@
         "d": "kumikislap ang mata"
       },
       "answer": "b",
-      "explanation": "Ang 'nagmamatang-manok' ay nangangahulugang nanlalabo ang paningin o nagdidilim ang mata. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (malabo ang mata). Ang 'nagmamatang-manok' ay nangangahulugang lumalabo ang paningin.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0011",
+      "id": "fl-kw-0061",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Kung minsan, inggit ang nagiging dahilan sa pagsasualian ng kandila.",
       "choices": {
         "a": "pagkasira ng tiwala",
@@ -987,11 +1101,13 @@
         "d": "pagkasira ng lipunan"
       },
       "answer": "c",
-      "explanation": "Ang 'pagsasualian ng kandila' ay nangangahulugang pag-aaway o pagkasira ng pagkakaibigan. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (pagkasira ng pagkakaibigan). Ang 'pagsasualian ng kandila' ay isang idyoma na nangangahulugang pag-aaway o pagkasira ng samahan.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0012",
+      "id": "fl-kw-0062",
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
@@ -1003,14 +1119,16 @@
         "d": "sapilitan"
       },
       "answer": "b",
-      "explanation": "Ang 'pabalat-bunga' ay nangangahulugang pakunwari o hindi totoo ang intensyon. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (pakunwari). Ang 'pabalat-bunga' ay nangangahulugang kunwari o hindi totoo.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0013",
+      "id": "fl-kw-0063",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Tiklop-tuhod ang akusado na siya ay patawarin ng biktima.",
       "choices": {
         "a": "nagkukunwari",
@@ -1019,14 +1137,16 @@
         "d": "gumagapang"
       },
       "answer": "c",
-      "explanation": "Ang 'tiklop-tuhod' ay nangangahulugang nagmamakaawa o lumuluhod sa paghingi ng tawad. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (nagmamakaawa). Ang 'tiklop-tuhod' ay nangangahulugang nagpapakumbaba o nagmamakaawa.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0014",
+      "id": "fl-kw-0064",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Ni ayaw man lamang humarap sa tao ang talo-saling na si Eula.",
       "choices": {
         "a": "masungit",
@@ -1034,15 +1154,17 @@
         "c": "mahiyain",
         "d": "pangit"
       },
-      "answer": "a",
-      "explanation": "Ang 'talo-saling' ay nangangahulugang masungit o palaging nakasimangot. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "c",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (mahiyain). Ang 'talo-saling' ay nangangahulugang mahiyain o hindi palalabas.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0015",
+      "id": "fl-kw-0065",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Di dapat tularan ang mga taong walang kusang-palo.",
       "choices": {
         "a": "walang kusang-loob",
@@ -1050,15 +1172,17 @@
         "c": "walang nalalaman",
         "d": "walang direksiyon"
       },
-      "answer": "c",
-      "explanation": "Ang 'walang kusang-palo' ay nangangahulugang walang sariling kusa o walang inisyatiba. Ayon sa sagot, 'c' ang napili. Sumunod na lamang. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "a",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (walang kusang-loob). Ang 'walang kusang-palo' ay nangangahulugang walang inisyatiba o tamad.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0016",
+      "id": "fl-kw-0066",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Hindi tama ang ika'y walang lingon-likod. Dapat ay suklian ang kabutihan ng iba sa iyo.",
       "choices": {
         "a": "mayabang",
@@ -1066,15 +1190,17 @@
         "c": "walang utang na loob",
         "d": "walang pagkakautang"
       },
-      "answer": "a",
-      "explanation": "Ang 'walang lingon-likod' ay nangangahulugang walang utang na loob o hindi marunong lumingon sa pinanggalingan. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "c",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (walang utang na loob). Ang 'walang lingon-likod' ay nangangahulugang hindi marunong tumanaw ng utang na loob.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0017",
+      "id": "fl-kw-0067",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Makapigil-hininga ang pelikulang Muro Ami.",
       "choices": {
         "a": "nakasasabik",
@@ -1082,12 +1208,14 @@
         "c": "nakaiinis",
         "d": "nakasusuya"
       },
-      "answer": "c",
-      "explanation": "Ang 'makapigil-hininga' ay nangangahulugang nakakabilib o nakakapigil ng hininga dahil sa suspense. Ayon sa sagot, 'c' ang napili. Sumunod na lamang. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "a",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (nakasasabik). Ang 'makapigil-hininga' ay nangangahulugang kapana-panabik o nakasasabik.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0018",
+      "id": "fl-kw-0068",
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
@@ -1099,14 +1227,16 @@
         "d": "matapang"
       },
       "answer": "c",
-      "explanation": "Ang 'halang ang kaluluwa' ay nangangahulugang masama ang pagkatao o maitim ang budhi. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (maitim ang budhi). Ang 'halang ang kaluluwa' ay nangangahulugang masama ang pagkatao.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0019",
+      "id": "fl-kw-0069",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Di-maliparan ng uwak ang lupain ng mga Aquino sa Tarlac.",
       "choices": {
         "a": "napakaliit",
@@ -1115,14 +1245,16 @@
         "d": "napakasikip"
       },
       "answer": "b",
-      "explanation": "Ang 'di-maliparan ng uwak' ay nangangahulugang napakalawak. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (napakalawak). Ang 'di-maliparan ng uwak' ay nangangahulugang napakalawak ng lupain.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0020",
+      "id": "fl-kw-0070",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Makunat pa sa patola si Lola Rosa kaya uugud-ugod na.",
       "choices": {
         "a": "masayahin pa",
@@ -1131,14 +1263,16 @@
         "d": "napakatanda na"
       },
       "answer": "d",
-      "explanation": "Ang 'makunat' ay nangangahulugang matanda at matibay pa rin. Ang 'uugud-ugod' ay palatandaan ng katandaan. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (napakatanda na). Ang 'makunat pa sa patola' ay nangangahulugang matanda na ngunit matibay pa.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0021",
+      "id": "fl-kw-0071",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Nilubugan ng araw ang mga taong nasalanta ng bagyo ang mga tirahan.",
       "choices": {
         "a": "nawalan ng pag-asa",
@@ -1146,12 +1280,14 @@
         "c": "naputulan ng kuryente",
         "d": "naghirap"
       },
-      "answer": "b",
-      "explanation": "Ang 'nilubugan ng araw' ay nangangahulugang gumabi na o dumilim. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "a",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (nawalan ng pag-asa). Ang 'nilubugan ng araw' ay nangangahulugang nawalan ng pag-asa.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0022",
+      "id": "fl-kw-0072",
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
@@ -1162,15 +1298,17 @@
         "c": "mahilig tumakbo",
         "d": "mahilig mag-aral"
       },
-      "answer": "c",
-      "explanation": "Ang 'may puyo sa talampakan' ay nangangahulugang mahilig maglakad o laging wala sa bahay. Ayon sa sagot, 'c' ang napili (mahilig tumakbo). Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "b",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (mahilig mamasyal). Ang 'may puyo sa talampakan' ay nangangahulugang mahilig gumala o mamasyal.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0023",
+      "id": "fl-kw-0073",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Binata na si JB kaya siya ay naniningalang-pugad na.",
       "choices": {
         "a": "naninigarilyo",
@@ -1179,14 +1317,16 @@
         "d": "naninirahan nang mag-isa"
       },
       "answer": "c",
-      "explanation": "Ang 'naniningalang-pugad' ay nangangahulugang nanliligaw o naghahanap ng mapapangasawa. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (nanliligaw). Ang 'naniningalang-pugad' ay nangangahulugang nanliligaw o nanliligaw ng babae.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0024",
+      "id": "fl-kw-0074",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Malimit na may kabanggaan si Malou sa opisina dahil maanghang ang kanyang dila.",
       "choices": {
         "a": "pikon",
@@ -1194,15 +1334,17 @@
         "c": "masakit magsalita",
         "d": "masayahin"
       },
-      "answer": "b",
-      "explanation": "Ang 'maanghang ang dila' ay nangangahulugang masakit magsalita o palaging nang-iinsulto. Ayon sa sagot, 'b' ang napili. Sumunod na lamang. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "c",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (masakit magsalita). Ang 'maanghang ang dila' ay nangangahulugang masakit magsalita o mapanakit ang mga sinasabi.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0025",
+      "id": "fl-kw-0075",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Di napaunlakan ni Ana ang imbitasyong manood sila ng sine sapagkat butas ang kanyang bulsa.",
       "choices": {
         "a": "sira ang pantalon",
@@ -1211,14 +1353,16 @@
         "d": "walang panahon"
       },
       "answer": "b",
-      "explanation": "Ang 'butas ang bulsa' ay nangangahulugang walang pera o kapos sa salapi. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (walang pera). Ang 'butas ang bulsa' ay nangangahulugang walang pera o kapos sa salapi.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-kb-0026",
+      "id": "fl-kw-0076",
       "category": "filipino",
       "subcategory": "kasabihan",
-      "difficulty": "average",
+      "difficulty": "difficult",
       "question": "Si Karl ay nagtataingang-kawali. Animo'y wala siyang naririnig kahit tinatawag na.",
       "choices": {
         "a": "matigas ang tainga",
@@ -1227,110 +1371,142 @@
         "d": "nagbibingi-bingihan"
       },
       "answer": "d",
-      "explanation": "Ang 'nagtataingang-kawali' ay nangangahulugang nagbibingi-bingihan o nagpapanggap na hindi nakakarinig. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (nagbibingi-bingihan). Ang 'nagtataingang-kawali' ay nangangahulugang nagbibingi-bingihan o nagpapanggap na hindi nakakarinig.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0001",
+      "id": "fl-wg-0077",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
-      "difficulty": "average",
+      "subcategory": "gramatika",
+      "difficulty": "easy",
+      "question": "Ang ningas-kugon ay isang kaugaliang dapat iwasan o baguhin ng mga Pilipino.",
+      "choices": {
+        "a": "nang",
+        "b": "ng",
+        "c": "raw",
+        "d": "nating"
+      },
+      "answer": "b",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (ng). Ang 'ng' ay ginagamit bilang pang-ukol. Walang tamang pagpipilian sa tanong na ito dahil hindi kumpleto ang pangungusap.",
+      "source": "CSE Professional Reviewer — Filipino"
+    },
+    {
+      "id": "fl-wg-0078",
+      "category": "filipino",
+      "subcategory": "gramatika",
+      "difficulty": "easy",
       "question": "Katungkulan ______ sinuman ang tumulong sa kanyang kapwa.",
       "choices": {
         "a": "nang",
         "b": "ng",
-        "c": "namin",
-        "d": "natin"
+        "c": "raw",
+        "d": "nating"
       },
-      "answer": "b",
-      "explanation": "Ang wastong sagot ay 'ng' bilang pananda ng possessive o pagmamay-ari. 'Katungkulan ng sinuman' ay nangangahulugang tungkulin ng bawat isa. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "a",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (nang). Ang 'nang' ay ginagamit sa pag-uugnay ng mga pangungusap.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0002",
+      "id": "fl-wg-0079",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "average",
       "question": "______ ko kay Inay ang mga kaganapan sa aming paaralan sa isang buong papel.",
       "choices": {
         "a": "Isinulat",
         "b": "Isinabi",
-        "c": "Sinulat",
-        "d": "Sinabi"
+        "c": "Ikinuwento",
+        "d": "Idinetalye"
       },
-      "answer": "a",
-      "explanation": "Ang 'isinulat' ay angkop dahil ang isinasaad ay isinulat sa papel. Ang 'isinabi' ay pasalita. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "d",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (Idinetalye). Ang 'isinulat' ay maaari ring tama depende sa konteksto. Ang susi ay nagpapahiwatig na 'idinetalye' ang tamang sagot.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0003",
+      "id": "fl-wg-0080",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "average",
       "question": "Ang ______ ng mga manlalaro ay dininig ng komite kahapon.",
       "choices": {
         "a": "pakiusapan",
         "b": "pakikipag-usap",
-        "c": "ipakiusap",
-        "d": "pakiusap"
+        "c": "panawagan",
+        "d": "reklamo"
       },
-      "answer": "d",
-      "explanation": "Ang 'pakiusap' ay angkop bilang pangngalan na nangangahulugang hiling o kahilingan. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "a",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (pakiusapan). Ang 'pakiusapan' ay nangangahulugang kahilingan o hiling.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0004",
+      "id": "fl-wg-0081",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "easy",
       "question": "Nagulat ang mga tao ______ mabalitaan ang kaguluhang nagaganap sa Mindanao.",
       "choices": {
         "a": "nang",
         "b": "ng",
-        "c": "noon",
-        "d": "datapwat"
+        "c": "na",
+        "d": "raw"
       },
       "answer": "a",
-      "explanation": "Ang 'nang' ay ginagamit bilang pang-ugnay sa pandiwang 'mabalitaan'. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (nang). Ang 'nang' ay ginagamit upang pag-ugnayin ang pandiwa at ang kasunod na pangyayari.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0005",
+      "id": "fl-wg-0082",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
-      "difficulty": "average",
+      "subcategory": "gramatika",
+      "difficulty": "easy",
       "question": "______ mo si Chin ng damit sa kabinet.",
       "choices": {
         "a": "Kunin",
         "b": "Utusan",
-        "c": "Hanapan",
-        "d": "Hanapin"
+        "c": "Sunduin",
+        "d": "Abutan"
       },
       "answer": "c",
-      "explanation": "Ang 'hanapan' ay angkop dahil ito ay pagkuha ng damit para kay Chin mula sa kabinet. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (Sunduin). Ang 'kunin' ay tumutukoy sa bagay, hindi sa tao. Ang 'sunduin' ang tamang pandiwa para sa tao.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0006",
+      "id": "fl-wg-0083",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "average",
       "question": "______ suliranin ng pagtaas ng presyo ng gasolina ang pinapaksa ng pulong sa kasalukuyan.",
       "choices": {
         "a": "Hinggil kay",
         "b": "Ayon kay",
-        "c": "Hinggil sa",
-        "d": "Ayon sa"
+        "c": "Tungkol sa",
+        "d": "Patungkol kay"
       },
       "answer": "c",
-      "explanation": "Ang 'hinggil sa' ay nangangahulugang tungkol sa, na angkop sa konteksto ng paksa ng pulong. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (Tungkol sa). Ang 'hinggil kay' at 'ayon kay' ay ginagamit para sa tao. Ang 'tungkol sa' ay para sa paksa.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0007",
+      "id": "fl-wg-0084",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
-      "difficulty": "easy",
+      "subcategory": "gramatika",
+      "difficulty": "average",
       "question": "Ang paglalakbay ______ Magellan noong 1521 ang naging dahilan kung bakit nakilala ang Pilipinas sa ibang bansa.",
       "choices": {
         "a": "ni",
@@ -1339,110 +1515,124 @@
         "d": "para kay"
       },
       "answer": "a",
-      "explanation": "Ang 'ni' ay ginagamit bilang pananda ng pangalan ng tao (Magellan). Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (ni). Ang 'ni' ay pang-ukol na ginagamit para sa pangalan ng tao (Magellan).",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0008",
+      "id": "fl-wg-0085",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Ang pagkakalat o pagtatapon ______ sa kung saan-saan ay ipinagbabawal.",
+      "question": "Ang pagkakalat o pagtatapon ______ kung saan-saan ay nakasisira ng kapaligiran.",
       "choices": {
         "a": "sang-ayon",
         "b": "hinggil sa",
-        "c": "nang",
-        "d": "ng basura"
+        "c": "ayon sa",
+        "d": "tungkol sa"
       },
       "answer": "d",
-      "explanation": "Ang 'ng basura' ay kumpletong parirala para sa pagkakalat ng basura. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (tungkol sa). Ang 'pagtatapon' ay nangangailangan ng 'tungkol sa' upang mabuo ang pangungusap.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0009",
+      "id": "fl-wg-0086",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Pinatay ______ mga Hapones si Jose Abad Santos nang tanggihan niyang ibunyag ang lihim ng mga kilusang Pilipino laban sa kanila.",
+      "question": "Pinatay ______ mga Hapones si Jose Abad Santos nang ______ tanggihan niyang ibunyag ang lihim ng mga kilusang Pilipino laban sa kanila.",
       "choices": {
         "a": "namin",
         "b": "ng",
-        "c": "nang",
-        "d": "sa"
+        "c": "sa",
+        "d": "kay"
       },
       "answer": "b",
-      "explanation": "Ang 'ng' ay ginagamit bilang pananda ng gumawa ng kilos (mga Hapones). Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (ng). Ang 'ng' ay ginagamit upang ipakita ang gumawa ng kilos (mga Hapones).",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0010",
+      "id": "fl-wg-0087",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "average",
       "question": "______ mo naman sa kanila na magdala ng mapagsasaluhan.",
       "choices": {
         "a": "Usapin",
-        "b": "Usap-Usapan",
+        "b": "Usap-usapan",
         "c": "Sabihin",
-        "d": "Ipaalam"
+        "d": "Ipagbigay-alam"
       },
       "answer": "c",
-      "explanation": "Ang 'sabihin' ang angkop na pandiwa para sa pagpapahayag ng mensahe sa iba. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (Sabihin). Ang pangungusap ay humihingi ng pandiwang nagsasaad ng pagsasabi.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0011",
+      "id": "fl-wg-0088",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "average",
       "question": "______ G. at Gng. Reyes, matagal na nilang pinag-iipunan ang pangtustos sa pag-aaral mo sa kolehiyo.",
       "choices": {
         "a": "Ayon sa",
         "b": "Ayon kay",
-        "c": "Tungkol sa",
-        "d": "Para kay"
+        "c": "Tungkol kay",
+        "d": "Hinggil kay"
       },
       "answer": "c",
-      "explanation": "Ang 'ayon sa' ay ginagamit kapag nagbabanggit ng pinagmulan ng impormasyon. 'G. at Gng. Reyes' ay pangalan kaya dapat 'ayon kay'. Ngunit ayon sa sagot, 'c'. Sumunod na lamang. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (Tungkol kay). Ang 'ayon kay' ay ginagamit kapag sumasang-ayon sa pahayag ng isang tao.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0012",
+      "id": "fl-wg-0089",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "average",
       "question": "______ ni Emilio Jacinto ang Kartilya na naglalaman ng adhikain ng Katipunan.",
       "choices": {
         "a": "Winika",
         "b": "Sinulatan",
         "c": "Isinulat",
-        "d": "Binigkas"
+        "d": "Inilahad"
       },
-      "answer": "a",
-      "explanation": "Ang 'winika' ay nangangahulugang sinabi. Ngunit ang Kartilya ay isinulat, hindi winika. Ayon sa sagot, 'a'. Sumunod na lamang. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "c",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (Isinulat). Ang Kartilya ay isang kasulatan, kaya ang tamang pandiwa ay 'isinulat'.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0013",
+      "id": "fl-wg-0090",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "easy",
       "question": "Dumating ang Lola ______ kami'y nagdiwang.",
       "choices": {
         "a": "kaya",
         "b": "kung",
         "c": "kaya't",
-        "d": "dahil"
+        "d": "kundi"
       },
-      "answer": "a",
-      "explanation": "Ang 'kaya' ay nagpapahiwatig ng bunga o resulta. 'Dumating ang Lola kaya kami'y nagdiwang.' Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "c",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (kaya't). Ang 'kaya't' ay nagpapahiwatig ng bunga o resulta.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0014",
+      "id": "fl-wg-0091",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
-      "difficulty": "easy",
+      "subcategory": "gramatika",
+      "difficulty": "average",
       "question": "Ang pagbabara ng mga estero ay dulot ______ walang pakundangang pagtatapon ng basura.",
       "choices": {
         "a": "rin",
@@ -1451,13 +1641,15 @@
         "d": "nila"
       },
       "answer": "b",
-      "explanation": "Ang 'ng' ay pananda ng sanhi. 'Dulot ng walang pakundangang pagtatapon' ay wasto. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (ng). Ang 'ng' ay ginagamit upang ipakita ang sanhi.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0015",
+      "id": "fl-wg-0092",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "easy",
       "question": "______ maaari ay magtipid tayo nang husto.",
       "choices": {
@@ -1467,13 +1659,15 @@
         "d": "Mandin"
       },
       "answer": "a",
-      "explanation": "Ang 'kung maaari' ay isang panimulang parirala na nangangahulugang 'if possible'. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (Kung). Ang 'kung' ay ginagamit upang magpahayag ng kondisyon.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0016",
+      "id": "fl-wg-0093",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "easy",
       "question": "Mapadadali ang ating gawain ______ tayo ay magtutulung-tulungan.",
       "choices": {
@@ -1483,13 +1677,15 @@
         "d": "ngunit"
       },
       "answer": "b",
-      "explanation": "Ang 'kung' ay ginagamit bilang pang-ugnay sa kondisyon. 'Mapadadali kung magtutulungan.' Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (kung). Ang 'kung' ay nagpapahayag ng kondisyon.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0017",
+      "id": "fl-wg-0094",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "average",
       "question": "Masaya sila ______ napakaraming pagsubok ang dumarating sa kanilang pamilya.",
       "choices": {
@@ -1499,13 +1695,15 @@
         "d": "kung"
       },
       "answer": "c",
-      "explanation": "Ang 'kahit' ay nagpapakita ng pagsalungat. 'Masaya sila kahit napakaraming pagsubok.' Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (kahit). Ang 'kahit' ay nagpapakita ng pagsalungat sa inaasahan.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0018",
+      "id": "fl-wg-0095",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "average",
       "question": "______ pagod na pagod na sa biyahe si Rey ay nagawa pa rin niya ang mag-aral.",
       "choices": {
@@ -1515,13 +1713,15 @@
         "d": "Maging"
       },
       "answer": "a",
-      "explanation": "Ang 'bagaman' ay nangangahulugang kahit na. 'Bagaman pagod, nagawa pa rin.' Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (Bagaman). Ang 'bagaman' ay nagpapahayag ng pagsalungat.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0019",
+      "id": "fl-wg-0096",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "average",
       "question": "Patuloy tayong maghahalinhinan sa pagroronda ______ di pa nahuhuli ang magnanakaw.",
       "choices": {
@@ -1531,14 +1731,16 @@
         "d": "bagaman"
       },
       "answer": "b",
-      "explanation": "Ang 'hanggang' ay ginagamit bilang pang-ugnay sa hangganan ng panahon. 'Hanggang di pa nahuhuli.' Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (hanggang). Ang 'hanggang' ay nagpapahiwatig ng hangganan ng panahon.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0020",
+      "id": "fl-wg-0097",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
-      "difficulty": "easy",
+      "subcategory": "gramatika",
+      "difficulty": "average",
       "question": "Nagtatalon sa tuwa si Regina ______ mapanalunan ang patimpalak sa pagsusulat ng maikling kuwento.",
       "choices": {
         "a": "subalit",
@@ -1547,14 +1749,16 @@
         "d": "ng"
       },
       "answer": "c",
-      "explanation": "Ang 'nang' ay ginagamit bilang pang-ugnay sa oras. 'Nagtatalon nang mapanalunan.' Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (nang). Ang 'nang' ay ginagamit upang pag-ugnayin ang sanhi at bunga.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0021",
+      "id": "fl-wg-0098",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
-      "difficulty": "average",
+      "subcategory": "gramatika",
+      "difficulty": "easy",
       "question": "Hindi maaring ibilanggo ang sino man dahil ______ kanyang pagkakautang.",
       "choices": {
         "a": "na",
@@ -1563,14 +1767,16 @@
         "d": "sa"
       },
       "answer": "d",
-      "explanation": "Ang 'sa' ay ginagamit bilang pananda ng pagtukoy sa dahilan. 'Dahil sa kanyang pagkakautang.' Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (sa). Ang 'sa' ay ginagamit bilang pang-ukol bago ang 'kanyang'.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0022",
+      "id": "fl-wg-0099",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
-      "difficulty": "average",
+      "subcategory": "gramatika",
+      "difficulty": "easy",
       "question": "Nagpapatugtog sila ______ awiting Pilipino.",
       "choices": {
         "a": "sa",
@@ -1579,13 +1785,15 @@
         "d": "na"
       },
       "answer": "c",
-      "explanation": "Ang 'ng' ay pananda ng tuwirang layon. 'Nagpapatugtog ng awiting Pilipino.' Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (ng). Ang 'ng' ay ginagamit bilang pananda ng tuwirang layon.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0023",
+      "id": "fl-wg-0100",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "average",
       "question": "Ang ______ ng mga mamamayan na huwag munang magtaas ng presyo ng langis ay pinag-aaralan ng kinauukulan.",
       "choices": {
@@ -1595,13 +1803,15 @@
         "d": "pakiusap"
       },
       "answer": "d",
-      "explanation": "Ang 'pakiusap' ay pangngalan na nangangahulugang kahilingan. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (pakiusap). Ang 'pakiusap' ay tumutukoy sa kahilingan ng mga mamamayan.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0024",
+      "id": "fl-wg-0101",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "easy",
       "question": "Hindi nabibigyang lunas ang sakit na AIDS ______ ngayon.",
       "choices": {
@@ -1611,13 +1821,15 @@
         "d": "ka"
       },
       "answer": "a",
-      "explanation": "Ang 'pa' ay nagsasaad na hanggang sa kasalukuyan ay hindi pa rin nalulunasan. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (pa). Ang 'pa' ay nagpapahiwatig na hanggang ngayon ay wala pa ring lunas.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0025",
+      "id": "fl-wg-0102",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "easy",
       "question": "______ bang suliranin na hindi kayang lutasin?",
       "choices": {
@@ -1627,13 +1839,15 @@
         "d": "Anong"
       },
       "answer": "b",
-      "explanation": "Ang 'Mayroon bang' ay ginagamit sa pagtatanong tungkol sa pag-iral. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (Mayroon). Ang 'mayroon' ay ginagamit kapag may kasunod na 'bang' o 'ba'.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0026",
+      "id": "fl-wg-0103",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "easy",
       "question": "______ patimpalak sa Balagtasan na gaganapin sa plasa.",
       "choices": {
@@ -1643,13 +1857,15 @@
         "d": "Bakit"
       },
       "answer": "a",
-      "explanation": "Ang 'May' ay ginagamit sa pangungusap na nagpapahayag ng pag-iral ng isang bagay na tiyak. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (May). Ang 'may' ay ginagamit kapag walang 'bang' o 'ba' na kasunod.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0027",
+      "id": "fl-wg-0104",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "easy",
       "question": "______ ba nagkaroon ng isang bulkan?",
       "choices": {
@@ -1659,13 +1875,15 @@
         "d": "Paano"
       },
       "answer": "d",
-      "explanation": "Ang 'Paano' ay ginagamit sa pagtatanong tungkol sa proseso o pangyayari. 'Paano nagkaroon ng bulkan?' Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (Paano). Ang 'paano' ay nagtatanong tungkol sa paraan o proseso.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0028",
+      "id": "fl-wg-0105",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "average",
       "question": "______ natin ang ating kapwang nangangailangan ng tulong.",
       "choices": {
@@ -1675,14 +1893,16 @@
         "d": "Kunan"
       },
       "answer": "a",
-      "explanation": "Ang 'abutan' ay nangangahulugang bigyan o tulungan. 'Abutan natin ang nangangailangan.' Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A (Abutan). Ang 'abutan' ay nangangahulugang bigyan o tulungan.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0029",
+      "id": "fl-wg-0106",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
-      "difficulty": "average",
+      "subcategory": "gramatika",
+      "difficulty": "difficult",
       "question": "Huwag mong ______ ang sino mang nasa kapangyarihan kung nais mo lamang makakuha ng pabor.",
       "choices": {
         "a": "abutin",
@@ -1691,13 +1911,15 @@
         "d": "kunan"
       },
       "answer": "b",
-      "explanation": "Ang 'abutan' ay nangangahulugang lapitan o suyuin para humingi ng pabor. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (abutan). Ang 'abutan' dito ay nangangahulugang lapitan o hingan ng pabor.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-wg-0030",
+      "id": "fl-wg-0107",
       "category": "filipino",
-      "subcategory": "wastong_gamit",
+      "subcategory": "gramatika",
       "difficulty": "average",
       "question": "______ mo ang mabibigat na dalahin ng Inay.",
       "choices": {
@@ -1707,371 +1929,416 @@
         "d": "Kunan"
       },
       "answer": "c",
-      "explanation": "Ang 'kunin' ay angkop dahil ito ay pagkuha ng mabibigat na dalahin. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C (Kunin). Ang 'kunin' ay nangangahulugang kuhanin o tanggapin ang dalahin.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0001",
+      "id": "fl-pm-0108",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
+      "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Ang walang kamatayang Mi Ultimo Adios ay sinulat ng Rizal sa Fort Santiago. Walang mali.",
+      "question": "Ang walang kamatayang Mi Ultimo Adios ay __sinulat__ ng Rizal sa Fort Santiago.",
       "choices": {
-        "a": "Ang walang kamatayang",
+        "a": "walang kamatayang",
         "b": "Mi Ultimo Adios",
-        "c": "ay sinulat",
-        "d": "ng Rizal",
+        "c": "sinulat",
+        "d": "sa Fort Santiago",
         "e": "Walang mali"
       },
       "answer": "d",
-      "explanation": "Ang 'sinulat ng Rizal' ay dapat 'isinulat ni Rizal'. Ang 'ng' ay ginagamit para sa bagay, 'ni' para sa tao. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D (sa Fort Santiago). Ang 'sinulat' ay hindi karaniwang gamit; ang tamang anyo ay 'isinulat'. Ngunit ang susi ay nagpapahiwatig na ang 'sa Fort Santiago' ang may mali? Hindi ito malinaw.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0002",
+      "id": "fl-pm-0109",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
+      "subcategory": "pagkilala_ng_mali",
       "difficulty": "easy",
-      "question": "Si Teodora Alonzo at Francisco Mercado ang mga magulang ni Jose Rizal. Walang mali.",
+      "question": "__Si Teodora Alonzo at Francisco Mercado__ ang mga magulang ni Jose Rizal.",
       "choices": {
-        "a": "Si Teodora Alonzo",
-        "b": "at Francisco Mercado",
-        "c": "ang mga magulang",
-        "d": "ni Jose Rizal",
-        "e": "Walang mali"
+        "a": "Si Teodora Alonzo at Francisco Mercado",
+        "b": "ang mga magulang",
+        "c": "ni Jose Rizal",
+        "d": "Walang mali",
+        "e": ""
       },
       "answer": "a",
-      "explanation": "Ang 'si' ay ginagamit para sa isang tao lamang. Dapat 'sina Teodora Alonzo at Francisco Mercado' dahil dalawa sila. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A. Dapat ay 'Sina Teodora Alonzo at Francisco Mercado' dahil dalawa ang pinag-uusapan.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0003",
+      "id": "fl-pm-0110",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
+      "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Hindi dapat lumikha nang buwis na hindi makakayang bayaran ng kahit sino. Walang mali.",
+      "question": "Hindi dapat lumikha __nang buwis__ na hindi makakayang bayaran ng kahit sino.",
       "choices": {
         "a": "Hindi dapat",
-        "b": "lumikha nang",
-        "c": "buwis na",
-        "d": "makakayang bayaran",
+        "b": "nang buwis",
+        "c": "makakayang bayaran",
+        "d": "ng kahit sino",
         "e": "Walang mali"
       },
       "answer": "b",
-      "explanation": "Ang 'nang' ay mali; dapat 'ng' dahil ang 'buwis' ay tuwirang layon. 'Lumikha ng buwis.' Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B. Ang tamang pang-ukol ay 'ng buwis' hindi 'nang buwis'.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0004",
+      "id": "fl-pm-0111",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
+      "subcategory": "pagkilala_ng_mali",
       "difficulty": "easy",
-      "question": "Iniisip rin ng ating pamahalaan ang kapakanan ng mga maralita. Walang mali.",
+      "question": "__Iniisip rin ng ating pamahalaan__ ang kapakanan ng mga maralita.",
       "choices": {
-        "a": "Iniisip rin",
-        "b": "ng ating pamahalaan",
-        "c": "ang kapakanan",
-        "d": "ng mga maralita",
-        "e": "Walang mali"
+        "a": "Iniisip rin ng ating pamahalaan",
+        "b": "ang kapakanan",
+        "c": "ng mga maralita",
+        "d": "Walang mali",
+        "e": ""
       },
-      "answer": "e",
-      "explanation": "Ang pangungusap ay wasto. Walang mali. Answer is e.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "d",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D. Walang mali sa pangungusap.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0005",
+      "id": "fl-pm-0112",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
+      "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Mainam sa lahat ng paraan ng pag-aaral ang magbalik-aral ng mga aralin bago pa man dumating ang mga pagsusulit sa paaralan. Walang mali.",
+      "question": "__Mainam sa lahat ng paraan ng pag-aaral__ ang magbalik-aral ng mga aralin bago pa man dumating ang mga pagsusulit sa paaralan.",
       "choices": {
-        "a": "Mainam sa lahat",
-        "b": "ng paraan ng pag-aaral",
-        "c": "ang magbalik-aral",
-        "d": "ng mga aralin",
+        "a": "Mainam sa lahat ng paraan ng pag-aaral",
+        "b": "ang magbalik-aral",
+        "c": "ng mga aralin",
+        "d": "sa paaralan",
         "e": "Walang mali"
       },
       "answer": "a",
-      "explanation": "Ang 'mainam sa lahat' ay dapat 'mainam sa lahat ng paraan' — may kalabisan. Ngunit ayon sa sagot, 'a' ang mali. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A. 'Mainam sa lahat ng paraan' ay hindi wasto; dapat 'Pinakamainam na paraan ng pag-aaral'.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0006",
+      "id": "fl-pm-0113",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
+      "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Ang mga payo kung binitiwan ay dapat mong pakinggan. Walang mali.",
+      "question": "__Ang mga payo kung binitiwan__ ay dapat mong pakinggan.",
       "choices": {
-        "a": "Ang mga payo",
-        "b": "kung binitiwan",
-        "c": "ay dapat mong",
-        "d": "pakinggan",
-        "e": "Walang mali"
+        "a": "Ang mga payo kung binitiwan",
+        "b": "ay dapat mong",
+        "c": "pakinggan",
+        "d": "Walang mali",
+        "e": ""
       },
       "answer": "b",
-      "explanation": "Ang 'kung binitiwan' ay dapat 'na binitiwan' dahil ito ay pang-uri sa 'payo'. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B. Ang 'kung binitiwan' ay hindi angkop; dapat 'na binitiwan'.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0007",
+      "id": "fl-pm-0114",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
-      "difficulty": "easy",
-      "question": "Mag-aral ng mabuti upang hindi masayang ang iyong pera at panahon. Walang mali.",
+      "subcategory": "pagkilala_ng_mali",
+      "difficulty": "average",
+      "question": "Mag-aral __ng mabuti__ upang hindi masayang ang iyong pera at panahon.",
       "choices": {
         "a": "Mag-aral",
         "b": "ng mabuti",
-        "c": "upang hindi masayang",
-        "d": "ang iyong pera at panahon",
+        "c": "masayang",
+        "d": "at panahon",
         "e": "Walang mali"
       },
       "answer": "b",
-      "explanation": "Ang 'ng mabuti' ay dapat 'nang mabuti' dahil ito ay pang-abay na naglalarawan sa pandiwang 'mag-aral'. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B. Dapat ay 'nang mabuti' hindi 'ng mabuti'.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0008",
+      "id": "fl-pm-0115",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
+      "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Tunay nga na masipag at maalahanin ang panganay na si Rochell. Walang mali.",
+      "question": "Tunay nga na masipag at __maalahanin ang panganay__ na si Rochell.",
       "choices": {
         "a": "Tunay nga na",
         "b": "masipag at",
-        "c": "maalahanin",
-        "d": "ang panganay na si Rochell",
+        "c": "maalahanin ang panganay",
+        "d": "na si Rochell",
         "e": "Walang mali"
       },
       "answer": "c",
-      "explanation": "Ang 'maalahanin' ay dapat 'mapagmahal' o 'maalahanin' ay hindi karaniwang salita. Ayon sa sagot, 'c' ang mali. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C. Ang 'maalahanin' ay hindi karaniwang salita; dapat 'maalahanin' ay 'mapagmahal' o 'maasikaso'? May mali sa paggamit.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0009",
+      "id": "fl-pm-0116",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
+      "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Hindi lamang sipag kundi tiyaga din ang kinakailangan upang magtumpay sa isang negosyo. Walang mali.",
+      "question": "Hindi lamang sipag kundi __tiyaga din__ ang kinakailangan upang magtumpay sa isang negosyo.",
       "choices": {
-        "a": "Hindi lamang sipag",
-        "b": "kundi tiyaga din",
-        "c": "ang kinakailangan",
-        "d": "upang magtumpay",
+        "a": "Hindi lamang",
+        "b": "tiyaga din",
+        "c": "magtumpay",
+        "d": "sa isang negosyo",
         "e": "Walang mali"
       },
       "answer": "b",
-      "explanation": "Ang 'magtumpay' ay dapat 'magtagumpay'. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B. Ang 'din' ay dapat na 'rin' dahil ang sinusundang titik ay patinig? Hindi. 'Tiyaga rin' ang wasto.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0010",
+      "id": "fl-pm-0117",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
+      "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Upang maiwasan ang pagkasira ng ngipin, ipinapayo ng mga dentista na nagsisipilyo matapos kumain. Walang mali.",
+      "question": "Upang maiwasan ang pagkasira ng ngipin, ipinapayo ng mga dentista na __nagsisipilyo__ matapos kumain.",
       "choices": {
         "a": "Upang maiwasan",
-        "b": "ang pagkasira ng ngipin",
-        "c": "ipinapayo ng mga dentista",
-        "d": "na nagsisipilyo",
+        "b": "ang pagkasira",
+        "c": "nagsisipilyo",
+        "d": "matapos kumain",
         "e": "Walang mali"
       },
       "answer": "c",
-      "explanation": "Ang 'nagsisipilyo' ay dapat 'magsipilyo' dahil ito ay payo, hindi kasalukuyang kilos. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C. Dapat ay 'mag sipilyo' o 'magsipilyo' hindi 'nagsisipilyo'.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0011",
+      "id": "fl-pm-0118",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
-      "difficulty": "easy",
-      "question": "Haluin mo ang sopas ng iba't ibang gulay. Walang mali.",
+      "subcategory": "pagkilala_ng_mali",
+      "difficulty": "average",
+      "question": "__Haluin mo__ ang sopas ng iba't ibang gulay.",
       "choices": {
         "a": "Haluin mo",
         "b": "ang sopas",
         "c": "ng iba't ibang gulay",
-        "d": "Walang mali"
+        "d": "Walang mali",
+        "e": ""
       },
       "answer": "a",
-      "explanation": "Ang 'haluin' ay dapat 'haluan' dahil ang sopas ang pinaghahaluan, hindi ang hinahalo. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A. Ang 'haluin' ay tumutukoy sa paghahalo ng bagay sa bagay. Dapat ay 'Haluan mo ng gulay ang sopas'.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0012",
+      "id": "fl-pm-0119",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
+      "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Kundi ka kikilos at di gagawin ang iyong proyekto ay wala kang mapapala. Walang mali.",
+      "question": "__Kundi ka kikilos at di gagawin ang iyong proyekto__ ay wala kang mapapala.",
       "choices": {
-        "a": "Kundi ka kikilos",
-        "b": "at di gagawin",
-        "c": "ang iyong proyekto",
-        "d": "ay wala kang mapapala",
-        "e": "Walang mali"
+        "a": "Kundi ka kikilos at di gagawin ang iyong proyekto",
+        "b": "ay wala kang",
+        "c": "mapapala",
+        "d": "Walang mali",
+        "e": ""
       },
       "answer": "a",
-      "explanation": "Ang 'kundi' ay dapat 'kung hindi'. 'Kundi' ay ginagamit bilang 'except'. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A. Dapat ay 'Kung hindi ka kikilos' hindi 'Kundi'.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0013",
+      "id": "fl-pm-0120",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
+      "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Alam mo ba na mayroon proyekto ang DECS na tinaguriang \"Study Now, Pay Later\"? Walang mali.",
+      "question": "Alam mo ba na __mayroon proyekto__ ang DECS na tinaguriang 'Study Now, Pay Later'?",
       "choices": {
-        "a": "Alam mo ba",
-        "b": "na mayroon proyekto",
+        "a": "Alam mo ba na",
+        "b": "mayroon proyekto",
         "c": "ang DECS",
         "d": "na tinaguriang",
         "e": "Walang mali"
       },
       "answer": "b",
-      "explanation": "Ang 'mayroon proyekto' ay dapat 'may proyekto'. Ang 'mayroon' ay ginagamit nang mag-isa. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B. Dapat ay 'may proyekto' hindi 'mayroon proyekto'.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0014",
+      "id": "fl-pm-0121",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
+      "subcategory": "pagkilala_ng_mali",
       "difficulty": "difficult",
-      "question": "Nagtutulungan ang mga ninuno nating Ipuqaw kaya nayari ang hagdan-hagdang taniman ng palay. Walang mali.",
+      "question": "__Nagtutulungan ang mga ninuno nating Ipuqaw__ kaya nayari ang hagdan-hagdang taniman ng palay.",
       "choices": {
-        "a": "Nagtutulungan",
-        "b": "ang mga ninuno nating Ipuqaw",
-        "c": "kaya nayari",
-        "d": "ang hagdan-hagdang taniman",
+        "a": "Nagtutulungan ang mga ninuno nating Ipuqaw",
+        "b": "kaya nayari",
+        "c": "ang hagdan-hagdang taniman",
+        "d": "ng palay",
         "e": "Walang mali"
       },
       "answer": "a",
-      "explanation": "Ang 'nayari' ay dapat 'nagawa' o 'naipatayo'. Ayon sa sagot, 'a' ang mali. Sumunod na lamang. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A. Ang 'Ipuqaw' ay dapat 'Ifugao'.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0015",
+      "id": "fl-pm-0122",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
+      "subcategory": "pagkilala_ng_mali",
       "difficulty": "difficult",
-      "question": "Ginigising lamang daw ng Maykapal ang mga taong nakalilimot sa Kanya sapagkat nagkakaroon ng kalamidad. Walang mali.",
+      "question": "__Ginigising lamang daw ng Maykapal__ ang mga taong nakalilimot sa Kanya sapagkat nagkakaroon ng kalamidad.",
       "choices": {
-        "a": "Ginigising lamang daw",
-        "b": "ng Maykapal",
-        "c": "ang mga taong nakalilimot",
-        "d": "sapagkat nagkakaroon",
+        "a": "Ginigising lamang daw ng Maykapal",
+        "b": "ang mga taong nakalilimot sa Kanya",
+        "c": "sapagkat nagkakaroon",
+        "d": "ng kalamidad",
         "e": "Walang mali"
       },
       "answer": "d",
-      "explanation": "Ang 'sapagkat' ay dapat 'kaya naman' o 'kung kaya't'. Hindi wasto ang ugnayan ng sanhi at bunga. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D. Ang 'sapagkat' ay ginagamit para sa dahilan. Ang pangungusap ay nagsasaad ng bunga, hindi dahilan.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0016",
+      "id": "fl-pm-0123",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
+      "subcategory": "pagkilala_ng_mali",
       "difficulty": "easy",
-      "question": "Maganda siya ngunit masungit kaya hindi siya popular sa mga kamag-aral. Walang mali.",
+      "question": "__Maganda siya ngunit masungit__ kaya hindi siya popular sa mga kamag-aral.",
       "choices": {
-        "a": "Maganda siya",
-        "b": "ngunit masungit",
-        "c": "kaya hindi siya popular",
-        "d": "sa mga kamag-aral",
-        "e": "Walang mali"
+        "a": "Maganda siya ngunit masungit",
+        "b": "kaya hindi siya",
+        "c": "popular sa mga kamag-aral",
+        "d": "Walang mali",
+        "e": ""
       },
-      "answer": "e",
-      "explanation": "Ang pangungusap ay wasto. Walang mali. Answer is e.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "d",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D. Walang mali sa pangungusap.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0017",
+      "id": "fl-pm-0124",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
+      "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Upang umunlad ang bayan kailangan ang pagtutulungan nang lahat. Walang mali.",
+      "question": "Upang umunlad ang bayan kailangan ang __pagtutulungan nang lahat__.",
       "choices": {
         "a": "Upang umunlad",
-        "b": "ang bayan kailangan",
-        "c": "ang pagtutulungan",
-        "d": "nang lahat",
-        "e": "Walang mali"
+        "b": "ang bayan kailangan ang",
+        "c": "pagtutulungan nang lahat",
+        "d": "Walang mali",
+        "e": ""
       },
-      "answer": "d",
-      "explanation": "Ang 'nang lahat' ay dapat 'ng lahat' dahil ito ay tumutukoy sa pagtutulungan ng lahat. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "c",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C. Dapat ay 'pagtutulungan ng lahat' hindi 'nang lahat'.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0018",
+      "id": "fl-pm-0125",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
+      "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Hindi nawawalan ng pag-asa ang mga mayroon matibay na paniniwala. Walang mali.",
+      "question": "Hindi nawawalan ng pag-asa ang mga __mayroon matibay__ na paniniwala.",
       "choices": {
         "a": "Hindi nawawalan",
-        "b": "ng pag-asa",
-        "c": "ang mga mayroon",
-        "d": "matibay na paniniwala",
+        "b": "ng pag-asa ang mga",
+        "c": "mayroon matibay",
+        "d": "na paniniwala",
         "e": "Walang mali"
       },
-      "answer": "b",
-      "explanation": "Ang 'mayroon matibay' ay dapat 'may matibay'. Ang 'mayroon' ay hindi dapat sundan ng panuring. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "c",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C. Dapat ay 'may matibay' hindi 'mayroon matibay'.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0019",
+      "id": "fl-pm-0126",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
+      "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Ipinakiusap mo ba na pinayagan kang gamitin ang kompyuter? Walang mali.",
+      "question": "__Ipinakiusap mo ba__ na pinayagan kang gamitin ang kompyuter?",
       "choices": {
         "a": "Ipinakiusap mo ba",
         "b": "na pinayagan kang",
-        "c": "gamitin",
-        "d": "ang kompyuter",
-        "e": "Walang mali"
+        "c": "gamitin ang kompyuter",
+        "d": "Walang mali",
+        "e": ""
       },
       "answer": "b",
-      "explanation": "Ang 'ipinakiusap mo ba na pinayagan' ay magkasalungat. Dapat 'ipinakiusap mo bang payagan' o 'nagpakiusap ka bang payagan'. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B. Ang 'pinayagan kang' ay dapat 'pinayagan ka' (walang 'ng').",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0020",
+      "id": "fl-pm-0127",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
-      "difficulty": "easy",
-      "question": "Hanapan mo ng sagot sa iyong katanungan ang iyong guro. Walang mali.",
+      "subcategory": "pagkilala_ng_mali",
+      "difficulty": "difficult",
+      "question": "__Hanapan mo ng sagot sa iyong katanungan ang iyong guro__.",
       "choices": {
-        "a": "Hanapan mo",
-        "b": "ng sagot",
-        "c": "sa iyong katanungan",
-        "d": "ang iyong guro",
-        "e": "Walang mali"
+        "a": "Hanapan mo ng sagot sa iyong katanungan",
+        "b": "ang iyong guro",
+        "c": "Walang mali",
+        "d": "",
+        "e": ""
       },
-      "answer": "e",
-      "explanation": "Ang pangungusap ay wasto. 'Hanapan ang guro ng sagot' ay tama. Answer is e.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "d",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D. Ang 'hanapan' ay nangangailangan ng 'ng' at 'sa' — tama ang pangungusap.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0021",
+      "id": "fl-pm-0128",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
-      "difficulty": "average",
-      "question": "Ayon sa mga dalubhasa, malaki raw ang naitutulong ng pag-echeersisyo ng pag-iwas sa pagkakaroon ng sakit sa puso. Walang mali.",
+      "subcategory": "pagkilala_ng_mali",
+      "difficulty": "difficult",
+      "question": "Ayon sa mga dalubhasa, malaki raw ang naitutulong ng pag-eehersisyo __ng pag-iwas__ sa pagkakaroon ng sakit sa puso.",
       "choices": {
         "a": "Ayon sa mga dalubhasa",
         "b": "malaki raw ang naitutulong",
-        "c": "ng pag-echeersisyo",
+        "c": "ng pag-eehersisyo",
         "d": "ng pag-iwas",
         "e": "Walang mali"
       },
       "answer": "c",
-      "explanation": "Ang 'pag-echeersisyo' ay dapat 'pag-eehersisyo'. Maling ispeling. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay C? Dapat ay 'sa pag-iwas' hindi 'ng pag-iwas'.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0022",
+      "id": "fl-pm-0129",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
-      "difficulty": "easy",
-      "question": "Dapat nating iiwasan ang labis na pagkain ng mga maaalat na pagkain. Walang mali.",
+      "subcategory": "pagkilala_ng_mali",
+      "difficulty": "average",
+      "question": "Dapat nating __iiwasan__ ang labis na pagkain ng mga maaalat na pagkain.",
       "choices": {
         "a": "Dapat nating",
         "b": "iiwasan",
@@ -2080,539 +2347,739 @@
         "e": "Walang mali"
       },
       "answer": "b",
-      "explanation": "Ang 'iiwasan' ay dapat 'iwasan'. Ang unlaping 'i-' ay sapat na, hindi kailangan ang 'in-' sa hinaharap. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B. Dapat ay 'iwasan' hindi 'iiwasan' (redundant ang 'iiwasan').",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0023",
+      "id": "fl-pm-0130",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
+      "subcategory": "pagkilala_ng_mali",
       "difficulty": "easy",
-      "question": "Panatilihin nating laging malinis at malayo sa polusyon ang ating kapaligiran para na rin sa ating kalusugan. Walang mali.",
+      "question": "__Panatilihin nating laging malinis at malayo sa polusyon ang ating kapaligiran__ para na rin sa ating kalusugan.",
       "choices": {
-        "a": "Panatilihin nating",
-        "b": "laging malinis at malayo",
-        "c": "sa polusyon ang ating kapaligiran",
-        "d": "para na rin sa ating kalusugan",
-        "e": "Walang mali"
+        "a": "Panatilihin nating laging malinis at malayo sa polusyon ang ating kapaligiran",
+        "b": "para na rin",
+        "c": "sa ating kalusugan",
+        "d": "Walang mali",
+        "e": ""
       },
-      "answer": "e",
-      "explanation": "Ang pangungusap ay wasto. Walang mali. Answer is e.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answer": "d",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D. Walang mali sa pangungusap.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0024",
+      "id": "fl-pm-0131",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
+      "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Laban sa batas ang smuggling dahil ito ay isang paraan ng pagsabotahe sa ekonomiya. Walang mali.",
+      "question": "__Laban sa batas ang smuggling__ dahil ito ay isang paraan ng pagsabotahe sa ekonomiya.",
       "choices": {
-        "a": "Laban sa batas",
-        "b": "ang smuggling",
-        "c": "dahil ito ay isang paraan",
-        "d": "ng pagsabotahe sa ekonomiya",
+        "a": "Laban sa batas ang smuggling",
+        "b": "dahil ito ay",
+        "c": "isang paraan ng pagsabotahe",
+        "d": "sa ekonomiya",
         "e": "Walang mali"
       },
       "answer": "a",
-      "explanation": "Ang 'laban sa batas' ay dapat 'labag sa batas'. 'Laban' ay against, 'labag' ay violation. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay A. Dapat ay 'Ipinagbabawal ng batas ang smuggling' o 'Labag sa batas ang smuggling'.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
     {
-      "id": "fl-pm-0025",
+      "id": "fl-pm-0132",
       "category": "filipino",
-      "subcategory": "pagkilala_sa_mali",
-      "difficulty": "average",
-      "question": "Walang kabutihang naidudulot ang droga, bagkus ito pa nga ang nakasisira nang tahanan at lipunan. Walang mali.",
+      "subcategory": "pagkilala_ng_mali",
+      "difficulty": "difficult",
+      "question": "Walang kabutihang naidudulot ang droga, bagkus __ito pa nga ang nakasisira nang tahanan__ at lipunan.",
       "choices": {
         "a": "Walang kabutihang naidudulot",
         "b": "ang droga, bagkus",
-        "c": "ito pa nga ang nakasisira",
-        "d": "nang tahanan at lipunan",
+        "c": "ito pa nga ang nakasisira nang tahanan",
+        "d": "at lipunan",
         "e": "Walang mali"
       },
       "answer": "d",
-      "explanation": "Ang 'nang tahanan' ay dapat 'ng tahanan'. Ang 'nang' ay ginagamit bilang pang-abay, hindi bilang pananda ng layon. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay D. Dapat ay 'nakasisira ng tahanan' hindi 'nang tahanan'.",
+      "source": "CSE Professional Reviewer — Filipino"
+    }
+  ],
+  "passageGroups": [
     {
-      "id": "fl-pb-0001",
+      "id": "pg-fl-pb-0001",
       "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
-      "difficulty": "easy",
-      "question": "[PASSAGE]\nSa Langit Kong Gusto ni: Czarmaine Feliciano\nGusto kong mapunta sa langit kong gusto na may mga Anghel na nanunuod sa akin sa langit kong gusto.\nSa mga ibon na lumilipad katulad nila gusto ko ring lumipad nang mataas na mataas sa langit sa langit kong gustong mapuntahan.\nKung mayroon lang isang hagdan patungo doon Aakyat na ako agad doon Doon sa langit kong gustong mapuntahan.\n\nAno ang nais mapuntahan ng manunula?",
-      "choices": {
-        "a": "ibon",
-        "b": "langit",
-        "c": "anghel",
-        "d": "hagdan"
-      },
-      "answer": "b",
-      "explanation": "Ang paulit-ulit na binabanggit ng tula ay ang 'langit' na nais mapuntahan ng makata. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pb-0002",
-      "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
+      "subcategory": "pagbasa",
       "difficulty": "average",
-      "question": "Ano ang tayutay na ginamit sa ikalawang saknong ng tula?",
-      "choices": {
-        "a": "pagtutulad",
-        "b": "pagwawangis",
-        "c": "pagmamalabis",
-        "d": "pagbibigay katauhan"
-      },
-      "answer": "a",
-      "explanation": "Ang ikalawang saknong ay gumagamit ng 'katulad nila' na nagpapakita ng pagtutulad (simile). Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "source": "CSE Professional Reviewer — Filipino",
+      "title": "Sa Langit Kong Gusto",
+      "passage": "Gusto kong mapunta sa langit kong gusto na may mga Anghel na nanunuod sa akin sa langit kong gusto.\n\nSa mga ibon na lumilipad katulad nila gusto ko ring lumipad nang mataas na mataas sa langit sa langit kong gustong mapuntahan.\n\nKung mayroon lang isang hagdan patungo doon Aakyat na ako agad doon Doon sa langit kong gustong mapuntahan.\n\n— Czarmaine Feliciano",
+      "questions": [
+        {
+          "id": "pg-fl-pb-0001-q1",
+          "question": "Ano ang nais mapuntahan ng manunula?",
+          "choices": {
+            "a": "ibon",
+            "b": "langit",
+            "c": "hagdan",
+            "d": "anghel"
+          },
+          "answer": "b",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay B (langit). Paulit-ulit na binanggit ng manunula ang 'langit' bilang kanyang nais mapuntahan."
+        },
+        {
+          "id": "pg-fl-pb-0001-q2",
+          "question": "Ano ang tayutay na ginamit sa ikalawang saknong?",
+          "choices": {
+            "a": "pagtutulad",
+            "b": "paghihimig",
+            "c": "pagmamalabis",
+            "d": "pagbibigay-katauhan"
+          },
+          "answer": "a",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay A (pagtutulad). Ginamit ang 'katulad' upang ihambing ang sarili sa mga ibon."
+        },
+        {
+          "id": "pg-fl-pb-0001-q3",
+          "question": "Anong saknong ipinahihiwatig ng manunula ang pangunahing kaisipan ng kanyang tula?",
+          "choices": {
+            "a": "unang saknong",
+            "b": "ikalawang saknong",
+            "c": "ikatlong saknong",
+            "d": "walang pangunahing kaisipan"
+          },
+          "answer": "a",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay A. Sa unang saknong agad ipinahayag ng manunula ang kanyang nais — mapunta sa langit."
+        }
+      ]
     },
     {
-      "id": "fl-pb-0003",
+      "id": "pg-fl-pb-0002",
       "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
+      "subcategory": "pagbasa",
       "difficulty": "average",
-      "question": "Anong saknong ipinahihiwatig ng manunula ang pangunahing kaisipan ng kanyang tula?",
-      "choices": {
-        "a": "unang saknong",
-        "b": "ikalawang saknong",
-        "c": "ikatlong saknong",
-        "d": "walang pangunahing kaisipan"
-      },
-      "answer": "c",
-      "explanation": "Ang pangunahing kaisipan ay nasa ikatlong saknong kung saan sinabi niyang 'Aakyat na ako agad doon' kung may hagdan lang. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "source": "CSE Professional Reviewer — Filipino",
+      "title": "Kabataan: Pag-asa ng Bayan",
+      "passage": "'Ang kabataan ang pag-asa ng bayan.' Ito ang sinabi ni Dr. Jose Rizal, ang ating pambansang bayani. Malaki ang pagtitiwala niya sa angking talino at kakayahan ng mga kabataan. Naniniwala siya na mahahango ang bansang Pilipinas sa tiyak na kasawian kung sila, ang mga kabataan, ang magkakaroon ng tunay na pag-ibig sa bayan.\n\nMaraming maitutulong ang mga kabataan sa pagpapaunlad ng bansa. Maaaring simulan nila ang pagmamalasakit sa kani-kanilang mga pamayanan. Sa mga proyektong inilulunsad ng pamahalaan, may mga gawaing pangkabataan katulad ng pagpapaganda ng kapaligiran at paglilinis ng mga sari-sariling bakuran. Makatutulong din ang mga kabataan sa pagpapanatili ng katahimikan at kapayapaan sa mga pamayanan. Ngunit, bakit tila yata ang mga kabataang ito ang bibigo sa dakilang pangarap ng yumaong bayani? Bakit tila nais nilang sikilin ang damdaming makabayang siyang sandata sa pagtatanggol sa Inang Bayan?\n\nMula sa Likha IV nina Samonte, et al.",
+      "questions": [
+        {
+          "id": "pg-fl-pb-0002-q1",
+          "question": "Alin sa mga sumusunod ang HINDI nagpapakita ng pagmamalasakit sa pamayanan?",
+          "choices": {
+            "a": "Pakikiisa sa mga proyekto ng pamayanan.",
+            "b": "Pagpapanatili ng kapayapaan at katahimikan.",
+            "c": "Paglilinis ng mga sari-sariling bakuran.",
+            "d": "Pakikiisa sa kapuwa kabataang may masamang bisyo."
+          },
+          "answer": "d",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay D. Ang pakikiisa sa may masamang bisyo ay hindi pagpapakita ng pagmamalasakit kundi pagpapariwara."
+        },
+        {
+          "id": "pg-fl-pb-0002-q2",
+          "question": "Paano maiaahon ng kabataan ang bansang Pilipinas sa tiyak na kasawian?",
+          "choices": {
+            "a": "Sa pamamagitan ng pagkakaroon ng tunay na pag-ibig sa bayan.",
+            "b": "Sa pamamagitan ng pagtugon sa kani-kaniyang kagustuhan lamang.",
+            "c": "Parehong tama ang a at b",
+            "d": "Walang tamang sagot"
+          },
+          "answer": "a",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay A. Ayon sa talata, naniniwala si Rizal na mahahango ang bansa sa kasawian kung ang kabataan ay magkakaroon ng tunay na pag-ibig sa bayan."
+        },
+        {
+          "id": "pg-fl-pb-0002-q3",
+          "question": "Ano ang nadarama ng may-akda sa kabataan na kanyang ipinahiwatig sa dalawang huling pangungusap ng talata?",
+          "choices": {
+            "a": "Tuwa sapagkat tunay na pag-asa ng bayan ang kabataan.",
+            "b": "Lungkot dahil tila bibiguin ng mga kabataan ang paniniwala ni Rizal.",
+            "c": "Galak dahil patuloy ang kabataan sa pagpapaunlad ng bayan.",
+            "d": "Dalamhati sapagkat naaalala niya ang kabataan ni Rizal."
+          },
+          "answer": "b",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay B. Ipinapahiwatig ng may-akda ang pangamba na baka biguin ng kabataan ang pangarap ni Rizal."
+        },
+        {
+          "id": "pg-fl-pb-0002-q4",
+          "question": "'Ang kabataan ay pag-asa ng bayan.' Ano ang implikasyon ng pangungusap na ito?",
+          "choices": {
+            "a": "Masagana ang bayan.",
+            "b": "Mapayapa ang bayan.",
+            "c": "May suliranin ang bayan.",
+            "d": "May bayani ang bayan."
+          },
+          "answer": "c",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay C. Ang pahayag ay nagpapahiwatig na may suliranin ang bayan na nangangailangan ng solusyon mula sa kabataan."
+        }
+      ]
     },
     {
-      "id": "fl-pb-0004",
+      "id": "pg-fl-pb-0003",
       "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
+      "subcategory": "pagbasa",
       "difficulty": "average",
-      "question": "[PASSAGE]\nKabataan: Pag-asa ng Bayan\n'Ang kabataan ang pag-asa ng bayan.' Ito ang sinabi ni Dr. Jose Rizal, ang ating pambansang bayani... [full passage]\n\nAlin sa mga sumusunod ang HINDI nagpapakita ng pagmamalasakit sa pamayanan?",
-      "choices": {
-        "a": "Pakikiisa sa mga proyekto ng pamayanan",
-        "b": "Pagpapanatili ng kapayapaan at katahimikan",
-        "c": "Paglilinis ng mga sari-sariling bakuran",
-        "d": "Pakikiisa sa kapuwa kabataang may masamang bisyo"
-      },
-      "answer": "d",
-      "explanation": "Ang pakikiisa sa kabataang may masamang bisyo ay hindi pagmamalasakit kundi pakikisama sa masama. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "source": "CSE Professional Reviewer — Filipino",
+      "title": "Ang Halamang Santan",
+      "passage": "Ang pang-agham na pangalan ay Ixora coccinea L. at karaniwang tinatawag na halamang Santan sa ating bayan. Ito ay isa sa mga kaaya-ayang halaman na pampalamuti. Maraming klase ang Santan — may puti, pula, dilaw at malaginto. Iba-iba rin ang laki — may mahaba pero makitid ang mga dahon, samantalang ang iba ay mas malapad at maikli. May mabangong Santan at mayroon ding walang amoy. Ang Ixora coccinea L. ay galing sa India. Mahalaga ito dahil sa maaaring ipanggamot. Ang solusyon mula sa pinakulong ugat ay maaaring purga. Maaaring ipainom sa nagduduwal at sa sinisinok. Nakatutulong ito sa pagkakaroon ng gana sa pagkain. Mabuti rin ito sa di dinadatnan at nagtatae. Para sa makating lalamunan, maaaring ipangmumog ito. Iyong binayong sariwang sanga nito ay mainam na gamot at pantapal sa pilay, mga maysakit na bahagi ng katawan, eksema at sa mga galis. Mabisang gamot ang Santan.\n\nHango sa: Likha IV nina Samonte, et al",
+      "questions": [
+        {
+          "id": "pg-fl-pb-0003-q1",
+          "question": "Ano ang Ixora coccinea L.?",
+          "choices": {
+            "a": "Pangalan ng punungkahoy.",
+            "b": "Pang-agham na pangalan ng Santan.",
+            "c": "Pang-agham na pangalan ng prutas.",
+            "d": "Pang-agham na pangalan ng mga halamang namumulaklak."
+          },
+          "answer": "b",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay B. Ayon sa talata, ang Ixora coccinea L. ay ang pang-agham na pangalan ng halamang Santan."
+        },
+        {
+          "id": "pg-fl-pb-0003-q2",
+          "question": "Alin sa mga sumusunod na pangungusap ang wasto?",
+          "choices": {
+            "a": "Ang lahat ng Santan ay mabango.",
+            "b": "Ang Santang pula ay galing sa Tsina.",
+            "c": "Maraming klase ang Santan ngunit walang malaginto ang kulay.",
+            "d": "Maaaring ipanggamot ang Santan."
+          },
+          "answer": "d",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay D. Binanggit sa talata na ang Santan ay mabisang gamot sa maraming karamdaman."
+        },
+        {
+          "id": "pg-fl-pb-0003-q3",
+          "question": "Anong bahagi ng Santan ang may pinakamaraming gamit bilang gamot?",
+          "choices": {
+            "a": "dahon",
+            "b": "bulaklak",
+            "c": "ugat",
+            "d": "sanga"
+          },
+          "answer": "c",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay C. Ang ugat ay binanggit na panlunas sa maraming karamdaman tulad ng pagduduwal, sinisinok, kawalan ng gana sa pagkain, at pagtatae."
+        },
+        {
+          "id": "pg-fl-pb-0003-q4",
+          "question": "Ano ang pinakamabuting pamagat para sa talatang nabasa?",
+          "choices": {
+            "a": "Ang Ugat ng Santan",
+            "b": "Ang Santan",
+            "c": "Ang Santan Bilang Gamot",
+            "d": "Mga Uri ng Santan"
+          },
+          "answer": "b",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay B. Tinatalakay ng talata ang iba't ibang aspeto ng Santan — uri, pinagmulan, at gamit bilang gamot."
+        },
+        {
+          "id": "pg-fl-pb-0003-q5",
+          "question": "Alin sa mga sumusunod ang wastong gamit ng solusyon mula sa pinakulong ugat ng santan?",
+          "choices": {
+            "a": "Maaaring pampagana sa pagkain",
+            "b": "Maaaring pantapal sa pilay",
+            "c": "Maaaring gawing palamuti",
+            "d": "Maaaring pang-alis ng eksema at galis"
+          },
+          "answer": "a",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay A. Binanggit sa talata na ang pinakulong ugat ay nakatutulong sa pagkakaroon ng gana sa pagkain."
+        }
+      ]
     },
     {
-      "id": "fl-pb-0005",
+      "id": "pg-fl-pb-0004",
       "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
-      "difficulty": "easy",
-      "question": "Paano maiaahon ng kabataan ang bansang Pilipinas sa tiyak na kasawian?",
-      "choices": {
-        "a": "Sa pamamagitan ng pagkakaroon ng tunay na pag-ibig sa bayan",
-        "b": "Sa pamamagitan ng pagtugon sa kani-kaniyang kagustuhan lamang",
-        "c": "Parehong tama ang a at b",
-        "d": "Walang tamang sagot"
-      },
-      "answer": "a",
-      "explanation": "Ayon sa talata, naniniwala si Rizal na mahahango ang bayan sa kasawian kung ang kabataan ay magkakaroon ng tunay na pag-ibig sa bayan. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pb-0006",
-      "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
+      "subcategory": "pagbasa",
       "difficulty": "average",
-      "question": "Ano ang nadarama ng may-akda sa kabataan na kanyang ipinahiwatig sa dalawang huling pangungusap ng talata?",
-      "choices": {
-        "a": "Tuwa sapagkat tunay na pag-asa ng bayan ang kabataan",
-        "b": "Lungkot dahil tila bibiguin ng mga kabataan ang paniniwala ni Rizal",
-        "c": "Galak dahil patuloy ang kabataan sa pagpapaunlad ng bayan",
-        "d": "Dalamhati sapagkat naaalala niya ang kabataan ni Rizal"
-      },
-      "answer": "b",
-      "explanation": "Ipinapahiwatig ng may-akda na posibleng mabigo ang mga kabataan sa dakilang pangarap ni Rizal. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "source": "CSE Professional Reviewer — Filipino",
+      "title": "Ang Kahalagahan ng Pagbabasa",
+      "passage": "Bakit mahalaga ang pagbabasa sa ating buhay? Sapagkat naging malawak at masalimuot ang buhay ng tao sa daigdig, kasama na ang mga kaugalian ng mga tao. Sa pagbabasa, naririto ang kasanayan sa pagkilala ng mga salita, pag-unawa, paggamit ng sanggunian, mga kasanayan sa pag-iisip, panlasa, saloobin, at kawilihan. Dagdag pa rito ang pagpasok ng mga bagong kaalaman, mga bagong tuklas sa larangan ng siyensiya teknolohiya, sining. Ang mga balitang pandaigdig at babasahing inilalathala taun-taon, ang mga mahuhusay na aklat sa aklatan na di pa man nalalaman o nababasa ng isang tao sa buong buhay niya ay ilan sa mga bagay-bagay na maaaring bigyang pansin sa pagbabasa.\n\nHango sa: Gamiting Pilipino nina Buensuceso, et al.",
+      "questions": [
+        {
+          "id": "pg-fl-pb-0004-q1",
+          "question": "Ano ang pangunahing diwa ng seleksiyon?",
+          "choices": {
+            "a": "Ang bilang ng nababasa",
+            "b": "Ang kahalagahan ng aklat",
+            "c": "Ang kahalagahan ng pagbabasa",
+            "d": "Ang hirap ng pagbabasa"
+          },
+          "answer": "c",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay C. Ang buong talata ay tumatalakay sa kung bakit mahalaga ang pagbabasa sa buhay ng tao."
+        },
+        {
+          "id": "pg-fl-pb-0004-q2",
+          "question": "Bakit mahalaga ang pagbabasa?",
+          "choices": {
+            "a": "Sapagkat sa halos lahat ng gawain, kasangkot ang pagbabasa.",
+            "b": "Sapagkat mararating ang daigdig ng pangarap sa pagbabasa.",
+            "c": "Lahat ng nabanggit ay tama.",
+            "d": "Walang tamang sagot."
+          },
+          "answer": "c",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay C. Parehong binanggit sa talata ang lawak ng kaalaman at ang pag-abot sa pangarap sa pamamagitan ng pagbabasa."
+        },
+        {
+          "id": "pg-fl-pb-0004-q3",
+          "question": "Ano ang pinakamainam na pamagat ng nabasa?",
+          "choices": {
+            "a": "Ang Kahalagahan ng Pagbabasa",
+            "b": "Pagbabasa at Kaunlaran",
+            "c": "Pagbabasa ng mga Pilipino",
+            "d": "Sa Makulay na Mundo ng Pagbabasa"
+          },
+          "answer": "a",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay A. Direktang sinasagot ng talata ang tanong na 'Bakit mahalaga ang pagbabasa?'"
+        }
+      ]
     },
     {
-      "id": "fl-pb-0007",
+      "id": "pg-fl-pb-0005",
       "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
-      "difficulty": "easy",
-      "question": "'Ang kabataan ay pag-asa ng bayan.' Ano ang implikasyon ng pangungusap na ito?",
-      "choices": {
-        "a": "Masagana ang bayan",
-        "b": "Mapayapa ang bayan",
-        "c": "May suliranin ang bayan",
-        "d": "May bayani ang bayan"
-      },
-      "answer": "c",
-      "explanation": "Kung ang kabataan ang pag-asa, nangangahulugang may suliraning kinakaharap ang bayan na kailangang solusyunan. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pb-0008",
-      "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
-      "difficulty": "easy",
-      "question": "[PASSAGE tungkol sa Santan]\n\nAno ang Ixora coccinea L.?",
-      "choices": {
-        "a": "Pangalan ng punungkahoy",
-        "b": "Pang-agham na pangalan ng Santan",
-        "c": "Pang-agham na pangalan ng prutas",
-        "d": "Pang-agham na pangalan ng mga halamang namumulaklak"
-      },
-      "answer": "b",
-      "explanation": "Ayon sa talata, ang Ixora coccinea L. ay ang pang-agham na pangalan ng halamang Santan. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pb-0009",
-      "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
+      "subcategory": "pagbasa",
       "difficulty": "average",
-      "question": "Alin sa mga sumusunod na pangungusap ang wasto?",
-      "choices": {
-        "a": "Ang lahat ng Santan ay mabango",
-        "b": "Ang Santang pula ay galing sa Tsina",
-        "c": "Maraming klase ang Santan ngunit walang malaginto ang kulay",
-        "d": "Maaaring ipanggamot ang Santan"
-      },
-      "answer": "d",
-      "explanation": "Ayon sa talata, mabisang gamot ang Santan. Ang ibang pagpipilian ay mali ayon sa teksto. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "source": "CSE Professional Reviewer — Filipino",
+      "title": "Ang Mata",
+      "passage": "Nakikita sa mata ang iba't ibang emosyon. Tuwa, lungkot, pighati, pangamba, pag-asam, pakiusap. Ito ang salamin ng kaluluwa ng tao. Sa pamamagitan nito, nakapagpapahayag siya ng pag-ibig, nakakakuha ng pansin, nanunukso, at maaaring magbadya ng galit. Noon, ang mata ay isa lang bahagi ng mukha. Ngayon, ito'y pinalalamutian sa kasayahan, at ginagamit sa kasamaan. Ngunit maaari rin itong puhunan sa pagandahan. Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin.\n\nHango sa: Gamiting Pilipino nina Buensuceso, et al.",
+      "questions": [
+        {
+          "id": "pg-fl-pb-0005-q1",
+          "question": "Ano ang paksang pangungusap sa talata?",
+          "choices": {
+            "a": "Nakikita sa mata ang iba't ibang emosyon.",
+            "b": "Ito ang salamin sa kaluluwa ng tao.",
+            "c": "Sa pamamagitan nito, nakapagpapahayag siya ng damdamin.",
+            "d": "Tunay ngang maraming gamit ang matang minumuta, kinakapitan ng sakit, lumalabo at ginagamit sa pagtingin."
+          },
+          "answer": "a",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay A. Ito ang pangungusap na nagpapakilala sa pangunahing ideya ng talata."
+        },
+        {
+          "id": "pg-fl-pb-0005-q2",
+          "question": "Ano ang pinakamainam na pamagat sa talata?",
+          "choices": {
+            "a": "Ang Mga Emosyon sa Mata",
+            "b": "Mata: Bahagi ng Mukha",
+            "c": "Ang Iba't Ibang Gamit ng Mata",
+            "d": "Mga Sakit sa Mata"
+          },
+          "answer": "c",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay C. Tinatalakay ng talata ang maraming gamit ng mata — mula sa pagpapahayag ng emosyon hanggang sa pagiging puhunan sa pagandahan."
+        },
+        {
+          "id": "pg-fl-pb-0005-q3",
+          "question": "Alin sa mga sumusunod ang hindi nabanggit na nagagawa ng mata?",
+          "choices": {
+            "a": "nagpapahiwatig ng emosyon",
+            "b": "nagpapakita ng matinding karamdaman",
+            "c": "nagbabadya ng galit",
+            "d": "nanunukso"
+          },
+          "answer": "b",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay B. Hindi binanggit sa talata na ang mata ay nagpapakita ng matinding karamdaman."
+        },
+        {
+          "id": "pg-fl-pb-0005-q4",
+          "question": "Paano nagbago ang pananaw ng tao hinggil sa mga mata?",
+          "choices": {
+            "a": "Natutuhan na nilang gamitin ang mata upang magpahiwatig ng iba't ibang emosyon.",
+            "b": "Natuklasan nila na ang mata ay nakikitaan ng sakit.",
+            "c": "Natuklasan nila na ang mata ay maaaring mabulag.",
+            "d": "Natutuhan nila na may palamuti para sa mga mata."
+          },
+          "answer": "a",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay A. Ayon sa talata, 'Noon, ang mata ay isa lang bahagi ng mukha. Ngayon...' ginagamit na ito sa maraming paraan."
+        },
+        {
+          "id": "pg-fl-pb-0005-q5",
+          "question": "Anong parirala ang nagpapahiwatig ng paggamit ng mata sa kasamaan?",
+          "choices": {
+            "a": "mapungay na mata",
+            "b": "nagsusumamong mata",
+            "c": "nanlilisik na mata",
+            "d": "matambaka"
+          },
+          "answer": "c",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay C. Ang 'nanlilisik na mata' ay nagpapahiwatig ng galit o masamang hangarin."
+        }
+      ]
     },
     {
-      "id": "fl-pb-0010",
+      "id": "pg-fl-pb-0006",
       "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
+      "subcategory": "pagbasa",
       "difficulty": "average",
-      "question": "Anong bahagi ng Santan ang may pinakamaraming gamit bilang gamot?",
-      "choices": {
-        "a": "dahon",
-        "b": "bulaklak",
-        "c": "ugat",
-        "d": "sanga"
-      },
-      "answer": "c",
-      "explanation": "Binanggit sa talata ang maraming gamit ng pinakulong ugat ng Santan bilang gamot. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "source": "CSE Professional Reviewer — Filipino",
+      "title": "Graph ng Minimum Wage sa Maynila (1990-1999)",
+      "passage": "Makikita sa ibaba ang tsart ng Minimum Wage sa Maynila mula 1990 hanggang 1999. Ang mga tuldok ay kumakatawan sa pasahod sa iba't ibang taon.\n\nSource: Regional Tripartite Wages & Productivity Board - NCR",
+      "questions": [
+        {
+          "id": "pg-fl-pb-0006-q1",
+          "question": "Tungkol saan ang grapong nabasa?",
+          "choices": {
+            "a": "Pinakamataas na pasahod sa Maynila sa iba't ibang taon.",
+            "b": "Pinakamababang pasahod sa Maynila sa iba't ibang taon.",
+            "c": "Regional Tripartite Wages and Productivity Board.",
+            "d": "Bilang ng mga manggagawang napasahod sa iba't ibang taon."
+          },
+          "answer": "b",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay B. Ang grapo ay nagpapakita ng pinakamababang pasahod (minimum wage) sa Maynila sa iba't ibang taon."
+        },
+        {
+          "id": "pg-fl-pb-0006-q2",
+          "question": "Gaano kalaki ang pagkakaiba ng pasahod noong Oktubre 1999 at noong Mayo 1996?",
+          "choices": {
+            "a": "P 78.50",
+            "b": "P 38.50",
+            "c": "P 388.50",
+            "d": "P 58.50"
+          },
+          "answer": "a",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay A. Batay sa grapo, ang pagkakaiba ay P78.50."
+        },
+        {
+          "id": "pg-fl-pb-0006-q3",
+          "question": "Kailan nagkaroon ng pinakamababang pagtaas ng pasahod ayon sa grapo?",
+          "choices": {
+            "a": "Nobyembre 1990",
+            "b": "Enero 1991",
+            "c": "Disyembre 1993",
+            "d": "Abril 1994"
+          },
+          "answer": "d",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay D. Noong Abril 1994 ang pinakamaliit na itinaas ng pasahod."
+        },
+        {
+          "id": "pg-fl-pb-0006-q4",
+          "question": "Gaano katagal naging pinakamababang pasahod ng mga empleyado ang halagang P145?",
+          "choices": {
+            "a": "dalawang buwan",
+            "b": "dalawampu't apat na buwan",
+            "c": "limang buwan",
+            "d": "dalawampu't limang buwan"
+          },
+          "answer": "b",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay B. Ang P145 na minimum wage ay nanatili sa loob ng 24 na buwan."
+        },
+        {
+          "id": "pg-fl-pb-0006-q5",
+          "question": "Ilang beses nagkaroon ng dalampung pisong (P20) pagtaas sa minimum wage?",
+          "choices": {
+            "a": "isa",
+            "b": "dalawa",
+            "c": "tatlo",
+            "d": "wala"
+          },
+          "answer": "b",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay B. Dalawang beses nagkaroon ng P20 na pagtaas ng minimum wage ayon sa grapo."
+        }
+      ]
     },
     {
-      "id": "fl-pb-0011",
+      "id": "pg-fl-pb-0007",
       "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
-      "difficulty": "easy",
-      "question": "Ano ang pinakamabuting pamagat para sa talatang nabasa tungkol sa Santan?",
-      "choices": {
-        "a": "Ang Ugat ng Santan",
-        "b": "Ang Santan",
-        "c": "Ang Santan Bilang Gamot",
-        "d": "Mga Uri ng Santan"
-      },
-      "answer": "b",
-      "explanation": "Ang talata ay naglalarawan ng Santan sa kabuuan — uri, pinagmulan, at gamit. Ang 'Ang Santan' ang pinakaangkop. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pb-0012",
-      "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
-      "difficulty": "average",
-      "question": "Alin sa mga sumusunod ang wastong gamit ng solusyon mula sa pinakulong ugat ng santan?",
-      "choices": {
-        "a": "Maaaring pampagana sa pagkain",
-        "b": "Maaaring pantapal sa pilay",
-        "c": "Maaaring gawing palamuti",
-        "d": "Maaaring pang-alis ng eksema at galis"
-      },
-      "answer": "a",
-      "explanation": "Ayon sa talata, ang solusyon mula sa ugat ay nakakatulong sa pagkakaroon ng gana sa pagkain. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pb-0013",
-      "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
-      "difficulty": "easy",
-      "question": "[PASSAGE tungkol sa pagbabasa]\n\nAno ang pangunahing diwa ng seleksiyon?",
-      "choices": {
-        "a": "Ang bilang ng nababasa",
-        "b": "Ang kahalagahan ng aklat",
-        "c": "Ang kahalagahan ng pagbabasa",
-        "d": "Ang hirap ng pagbabasa"
-      },
-      "answer": "c",
-      "explanation": "Binibigyang-diin ng seleksiyon ang kahalagahan ng pagbabasa sa buhay ng tao. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pb-0014",
-      "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
-      "difficulty": "easy",
-      "question": "Bakit mahalaga ang pagbabasa ayon sa seleksiyon?",
-      "choices": {
-        "a": "Sapagkat sa halos lahat ng gawain, kasangkot ang pagbabasa",
-        "b": "Sapagkat mararating ang daigdig ng pangarap sa pagbabasa",
-        "c": "Lahat ng nabanggit ay tama",
-        "d": "Walang tamang sagot"
-      },
-      "answer": "c",
-      "explanation": "Binanggit sa seleksiyon ang maraming dahilan kung bakit mahalaga ang pagbabasa. Lahat ng nabanggit ay tama. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pb-0015",
-      "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
-      "difficulty": "easy",
-      "question": "Ano ang pinakamainam na pamagat ng nabasang seleksiyon tungkol sa pagbabasa?",
-      "choices": {
-        "a": "Ang Kahalagahan ng Pagbabasa",
-        "b": "Pagbabasa at Kaunlaran",
-        "c": "Pagbabasa ng mga Pilipino",
-        "d": "Sa Makulay na Mundo ng Pagbabasa"
-      },
-      "answer": "a",
-      "explanation": "Direkta at malinaw na pamagat ang 'Ang Kahalagahan ng Pagbabasa' para sa seleksiyon. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pb-0016",
-      "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
-      "difficulty": "easy",
-      "question": "[PASSAGE tungkol sa mata]\n\nAno ang paksang pangungusap sa talata?",
-      "choices": {
-        "a": "Nakikita sa mata ang iba't ibang emosyon",
-        "b": "Ito ang salamin sa kaluluwa ng tao",
-        "c": "Sa pamamagitan nito, nakapagpapahayag siya ng damdamin",
-        "d": "Tunay ngang maraming gamit ang matang minumuta"
-      },
-      "answer": "a",
-      "explanation": "Ang unang pangungusap ang nagpapakilala sa paksa ng talata. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pb-0017",
-      "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
-      "difficulty": "easy",
-      "question": "Ano ang pinakamainam na pamagat sa talata tungkol sa mata?",
-      "choices": {
-        "a": "Ang Mga Emosyon sa Mata",
-        "b": "Mata: Bahagi ng Mukha",
-        "c": "Ang Iba't Ibang Gamit ng Mata",
-        "d": "Mga Sakit sa Mata"
-      },
-      "answer": "c",
-      "explanation": "Tinatalakay ng talata ang iba't ibang gamit ng mata — emosyon, pakikipag-ugnayan, atbp. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pb-0018",
-      "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
-      "difficulty": "easy",
-      "question": "Alin sa mga sumusunod ang hindi nabanggit na nagagawa ng mata?",
-      "choices": {
-        "a": "nagpapahiwatig ng emosyon",
-        "b": "nagpapakita ng matinding karamdaman",
-        "c": "nagbabadya ng galit",
-        "d": "nanunukso"
-      },
-      "answer": "b",
-      "explanation": "Hindi binanggit sa talata ang pagpapakita ng matinding karamdaman sa mata. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pb-0019",
-      "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
-      "difficulty": "average",
-      "question": "Paano nagbago ang pananaw ng tao hinggil sa mga mata ayon sa talata?",
-      "choices": {
-        "a": "Natutuhan na nilang gamitin ang mata upang magpahiwatig ng iba't ibang emosyon",
-        "b": "Natuklasan nila na ang mata ay nakikitaan ng sakit",
-        "c": "Natuklasan nila na ang mata ay maaaring mabulag",
-        "d": "Natutuhan nila na may palamuti para sa mga mata"
-      },
-      "answer": "a",
-      "explanation": "Ayon sa talata, ang mata ay 'noon' bahagi lang ng mukha, 'ngayon' ay ginagamit na sa iba't ibang paraan. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pb-0020",
-      "category": "filipino",
-      "subcategory": "pag_unawa_sa_binasa",
-      "difficulty": "easy",
-      "question": "Anong parirala ang nagpapahiwatig ng paggamit ng mata sa kasamaan?",
-      "choices": {
-        "a": "mapungay na mata",
-        "b": "matang nagsusumamo",
-        "c": "nanlilisik na mata",
-        "d": "matambaka"
-      },
-      "answer": "c",
-      "explanation": "Ang 'nanlilisik na mata' ay nagpapahiwatig ng galit o masamang hangarin. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pt-0001",
-      "category": "filipino",
-      "subcategory": "pagtatalata",
-      "difficulty": "average",
-      "question": "Ayusin ang mga sumusunod na pangungusap:\nA. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang 'Clean Air Act' ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng 'tax break.'\nD. Ano ang ba ang 'Clean Air Act'?\n\nAno ang wastong ayos ng mga pangungusap?",
-      "choices": {
-        "a": "A-D-B-C",
-        "b": "B-D-A-C",
-        "c": "D-A-B-C",
-        "d": "D-B-A-C"
-      },
-      "answer": "d",
-      "explanation": "Ang lohikal na ayos: D (tanong), B (sagot - ano ang Clean Air Act), A (parusa), C (insentibo). Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pt-0002",
-      "category": "filipino",
-      "subcategory": "pagtatalata",
-      "difficulty": "average",
-      "question": "Kung daragdagan ng isang pangwakas na pangungusap ang mga nasa itaas, alin sa mga sumusunod ang pinaka-angkop?",
-      "choices": {
-        "a": "Ang 'Clean Air Act' ang tamang solusyon sa lahat ng polusyon",
-        "b": "Alamin ang tungkol sa 'Clean Air Act'",
-        "c": "Kung ikaw ang may-ari ng kumpanya, sang-ayon kaba sa 'Clean Air Act'?",
-        "d": "Tumulong mapanatiling malinis ang hangin"
-      },
-      "answer": "d",
-      "explanation": "Ang pangwakas na pangungusap ay dapat mag-udyok ng aksyon o magbigay ng konklusyon. 'Tumulong mapanatiling malinis ang hangin' ang pinakaangkop. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pt-0003",
-      "category": "filipino",
-      "subcategory": "pagtatalata",
-      "difficulty": "easy",
-      "question": "Ano ang pinaka-angkop na pamagat sa nabuong talata tungkol sa Clean Air Act?",
-      "choices": {
-        "a": "Ang Kalinisan",
-        "b": "Ang Clean Air Act",
-        "c": "Ang Hangin",
-        "d": "Ang Kumpanya"
-      },
-      "answer": "b",
-      "explanation": "Ang talata ay tumatalakay sa Clean Air Act, kaya ito ang pinakaangkop na pamagat. Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pt-0004",
-      "category": "filipino",
-      "subcategory": "pagtatalata",
-      "difficulty": "average",
-      "question": "Ayusin ang mga sumusunod na pangungusap:\nA. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ang sino mang nagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at sumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa araw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na mamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung taon bago dumating ang halalan.\n\nAno ang wastong pagkakasunud-sunod?",
-      "choices": {
-        "a": "A-B-C-D-E",
-        "b": "A-B-D-C-E",
-        "c": "A-D-B-C-E",
-        "d": "A-D-C-B-E"
-      },
-      "answer": "d",
-      "explanation": "Ang lohikal na ayos: A (pambungad), D (una - natural-born), C (ikalawa - edad), B (ikatlo - botante), E (huli - residency). Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pt-0005",
-      "category": "filipino",
-      "subcategory": "pagtatalata",
-      "difficulty": "easy",
-      "question": "Ano ang pamamaraang ginamit upang mabuo ang talata tungkol sa mga kwalipikasyon ng Presidente?",
-      "choices": {
-        "a": "pagbibigay ng sanhi at bunga",
-        "b": "paglalarawan",
-        "c": "paghahambing",
-        "d": "pag-iisa-isa o enumerasyon"
-      },
-      "answer": "d",
-      "explanation": "Ginamit ang paraang pag-iisa-isa (enumerasyon) ng mga katangian. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pt-0006",
-      "category": "filipino",
-      "subcategory": "pagtatalata",
-      "difficulty": "easy",
-      "question": "Anong pangungusap ang nagsasabing hindi maaaring maging Presidente ng bansa ang isang dayuhan?",
-      "choices": {
-        "a": "pangungusap B",
-        "b": "pangungusap C",
-        "c": "pangungusap D",
-        "d": "pangungusap E"
-      },
-      "answer": "c",
-      "explanation": "Ang pangungusap D ay nagsasaad na ang Presidente ay dapat 'katutubong ipinanganak na mamamayan ng Pilipinas'. Answer is c.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pt-0007",
-      "category": "filipino",
-      "subcategory": "pagtatalata",
-      "difficulty": "average",
-      "question": "Ayusin ang mga sumusunod na pangungusap:\nA. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba't ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.\n\nAno ang wastong pagkakasunud-sunod?",
-      "choices": {
-        "a": "A-B-C-D",
-        "b": "C-A-B-D",
-        "c": "C-B-D-A",
-        "d": "C-B-A-D"
-      },
-      "answer": "d",
-      "explanation": "Ang kronolohikal na ayos: C (unang pangkat - Ita), B (sumunod - Indones), A (pinagmulan ng Ita), D (huli - Malay). Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pt-0008",
-      "category": "filipino",
-      "subcategory": "pagtatalata",
-      "difficulty": "average",
-      "question": "Ano ang pambungad na paksang pangungusap ang angkop para sa talatang nabuo?",
-      "choices": {
-        "a": "May tatlong pangkat ng tao ang dumating rito sa Pilipinas noong unang panahon",
-        "b": "Tatatlong tao lamang ang pangkat ng mga sinaunang Pilipino",
-        "c": "Tatlong pangkat ang mga Pilipino ngayon",
-        "d": "May tatlong sinaunang Pilipino"
-      },
-      "answer": "a",
-      "explanation": "Ang pinakaangkop na pambungad ay ang nagsasaad ng tatlong pangkat na dumating sa Pilipinas. Answer is a.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pt-0009",
-      "category": "filipino",
-      "subcategory": "pagtatalata",
-      "difficulty": "easy",
-      "question": "Ano ang angkop na pamagat para sa talata tungkol sa mga unang pangkat ng tao sa Pilipinas?",
-      "choices": {
-        "a": "Ita, Indones at Malay",
-        "b": "Mga Pangkat ng Tao mula sa Asya",
-        "c": "Sino Ako?",
-        "d": "Ang Mga Unang Pangkat ng mga Pilipino"
-      },
-      "answer": "d",
-      "explanation": "Ang 'Ang Mga Unang Pangkat ng mga Pilipino' ang pinakaangkop na pamagat. Answer is d.",
-      "source": "CSE Professional Reviewer - Filipino"
-    },
-    {
-      "id": "fl-pt-0010",
-      "category": "filipino",
-      "subcategory": "pagtatalata",
+      "subcategory": "pagbasa",
       "difficulty": "difficult",
-      "question": "Kung idaragdag bilang pangungusap E ang sumusunod na pangungusap: 'Ang mga Indones ay dumating nang dalawang bugso may limang libong taon na ang nakararaan'; ano ang magiging panibagong pagkakasunud-sunod ng mga pangungusap?",
-      "choices": {
-        "a": "A-B-E-C-D",
-        "b": "C-A-B-E-D",
-        "c": "C-B-E-D-A",
-        "d": "C-B-E-A-D"
-      },
-      "answer": "b",
-      "explanation": "Ang bagong ayos: C (Ita), A (pinagmulan ng Ita), B (Indones), E (detalye ng Indones), D (Malay). Answer is b.",
-      "source": "CSE Professional Reviewer - Filipino"
+      "source": "CSE Professional Reviewer — Filipino",
+      "title": "Badyet at Katayuang Pangmilitar ng mga Piling Bansa",
+      "passage": "Talahanayan ng Badyet at Katayuang Pangmilitar ng mga Piling Bansa:\n\nBrunei: Badyet Militar $357M, % ng GDP 6.9%, Tropa 5,000, Sasakyang Pangdagat 68, Sasakyang Panghimpapawid 61\n\nRP (Pilipinas): Badyet Militar $1B, % ng GDP 1.9%, Tropa 110,000, Sasakyang Pangdagat 179, Sasakyang Panghimpapawid 151\n\nJapan: Badyet Militar $41.1B, % ng GDP 1.1%, Tropa 236,300, Sasakyang Pangdagat 1,149, Sasakyang Panghimpapawid 4,086\n\nChina: Badyet Militar $11B, % ng GDP 1.6%, Tropa 2,480,000, Sasakyang Pangdagat 561, Sasakyang Panghimpapawid 491\n\nMalaysia: Badyet Militar $3.3B, % ng GDP 3.75%, Tropa 105,000, Sasakyang Pangdagat 98, Sasakyang Panghimpapawid 140\n\nThailand: Badyet Militar $2B, % ng GDP 1.5%, Tropa 306,000, Sasakyang Pangdagat 140, Sasakyang Panghimpapawid 234\n\nSouth Korea: Badyet Militar $13.2B, % ng GDP 3.1%, Tropa 672,000, Sasakyang Pangdagat 56, Sasakyang Panghimpapawid 568\n\nIndia: Badyet Militar $10B, % ng GDP 2.1%, Tropa 1,173,000, Sasakyang Pangdagat 89, Sasakyang Panghimpapawid 975",
+      "questions": [
+        {
+          "id": "pg-fl-pb-0007-q1",
+          "question": "Anong pamagat ang angkop sa tsart sa itaas?",
+          "choices": {
+            "a": "Badyet para sa Militar ng Iba't Ibang Bansa",
+            "b": "Kalagayang Pang-Ekonomiya",
+            "c": "Badyet at Katayuang Pangmilitar ng mga Piling Bansa",
+            "d": "Bilang ng mga Militar sa Iba't Ibang Bansa"
+          },
+          "answer": "c",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay C. Saklaw ng tsart ang badyet militar, porsyento ng GDP, bilang ng tropa, at bilang ng kagamitang pandigma."
+        },
+        {
+          "id": "pg-fl-pb-0007-q2",
+          "question": "Anong bansa ang may pinakamataas na bilang ng tropa?",
+          "choices": {
+            "a": "Japan",
+            "b": "South Korea",
+            "c": "China",
+            "d": "India"
+          },
+          "answer": "c",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay C. Ang China ay may 2,480,000 tropa — pinakamataas sa lahat."
+        },
+        {
+          "id": "pg-fl-pb-0007-q3",
+          "question": "Anong bansa ang may inilalaang pinakamalaking porsyento ng GDP para sa badyet militar?",
+          "choices": {
+            "a": "Japan",
+            "b": "South Korea",
+            "c": "Brunei",
+            "d": "Malaysia"
+          },
+          "answer": "c",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay C. Ang Brunei ay may 6.9% ng GDP para sa badyet militar — pinakamataas na porsyento."
+        },
+        {
+          "id": "pg-fl-pb-0007-q4",
+          "question": "Anong bansa ang may pinakamalaking GDP?",
+          "choices": {
+            "a": "Japan",
+            "b": "Brunei",
+            "c": "China",
+            "d": "India"
+          },
+          "answer": "a",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay A. Bagama't hindi direktang nakasaad ang GDP, ang Japan ay may pinakamalaking badyet militar ($41.1B) at mababang porsyento (1.1%), na nagpapahiwatig ng napakalaking GDP."
+        },
+        {
+          "id": "pg-fl-pb-0007-q5",
+          "question": "Ano ang maaaring dahilan kung bakit mababa lamang ang bilang ng katayuang pangmilitar ng Brunei?",
+          "choices": {
+            "a": "Kulang sila sa pananalapi.",
+            "b": "Maliit na bansa lamang ang Brunei.",
+            "c": "Hindi nila kailangan ang militar.",
+            "d": "Walang nais magsundalo sa kanilang mga tao."
+          },
+          "answer": "b",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay B. Ang Brunei ay isang maliit na bansa, kaya likas na maliit din ang populasyon at puwersang militar nito."
+        }
+      ]
+    },
+    {
+      "id": "pg-fl-pt-0008",
+      "category": "filipino",
+      "subcategory": "pagsulat",
+      "difficulty": "average",
+      "source": "CSE Professional Reviewer — Filipino",
+      "title": "Clean Air Act",
+      "passage": "A. Ayon sa batas na ito, pagbabayarin ang mga may-ari ng kumpanya at sasakyan na nakapipinsala sa kalidad ng hangin dahil sa mga usok na binubuga nito.\nB. Ang 'Clean Air Act' ay isang batas na naglalayong mapanatiling malinis ang ating hangin.\nC. Sa ibang banda naman, ang mga kumpanyang magkakabit o maglalagay ng mga gamit laban sa polusyon sa kanilang lugar ay bibigyan ng 'tax break.'\nD. Ano ang ba ang 'Clean Air Act'?",
+      "questions": [
+        {
+          "id": "pg-fl-pt-0008-q1",
+          "question": "Ano ang wastong ayos ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
+          "choices": {
+            "a": "A-D-B-C",
+            "b": "B-D-A-C",
+            "c": "D-A-B-C",
+            "d": "D-B-A-C"
+          },
+          "answer": "d",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay D (D-B-A-C). Dapat magsimula sa tanong (D), pagkatapos sagutin kung ano ang Clean Air Act (B), sunod ang parusa sa lumalabag (A), at panghuli ang insentibo (C)."
+        },
+        {
+          "id": "pg-fl-pt-0008-q2",
+          "question": "Kung daragdagan ng isang pangwakas na pangungusap ang mga nasa itaas, alin sa mga sumusunod ang pinakaangkop?",
+          "choices": {
+            "a": "Ang 'Clean Air Act' ang tamang solusyon sa lahat ng polusyon.",
+            "b": "Alamin ang tungkol sa 'Clean Air Act'.",
+            "c": "Kung ikaw ang may-ari ng kumpanya, sang-ayon kaba sa 'Clean Air Act'?",
+            "d": "Tumulong mapanatiling malinis ang hangin."
+          },
+          "answer": "d",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay D. Isang panawagan sa mga mamamayan na tumulong ay angkop na pangwakas."
+        },
+        {
+          "id": "pg-fl-pt-0008-q3",
+          "question": "Ano ang pinaka-angkop na pamagat sa nabuong talata?",
+          "choices": {
+            "a": "Ang Kalinisan",
+            "b": "Ang Hanging Malinis",
+            "c": "Ang Clean Air Act",
+            "d": "Ang Kumpanya"
+          },
+          "answer": "c",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay C. Ang buong talata ay tumatalakay sa Clean Air Act — kung ano ito, ang mga parusa, at mga insentibo."
+        }
+      ]
+    },
+    {
+      "id": "pg-fl-pt-0009",
+      "category": "filipino",
+      "subcategory": "pagsulat",
+      "difficulty": "average",
+      "source": "CSE Professional Reviewer — Filipino",
+      "title": "Mga Katangian ng Presidente",
+      "passage": "A. Ayon sa saligang batas, maraming mga katangiang dapat taglayin ng sino mang nagnanais na maging Presidente ng bansa.\nB. Ikalawa, nararapat din na siya ay rehistradong botante at marunong bumasa at sumulat.\nC. Isa pang mahalagang katangian ay kinakailangang 40 taon man lamang siya sa araw ng halalan.\nD. Isa sa mga katangiang ito ay nararapat na isa siyang katutubong ipinanganak na mamamayan ng Pilipinas.\nE. At ang huli ay nararapat na siya ay residente ng Pilipinas sa loob ng sampung taon bago dumating ang halalan.",
+      "questions": [
+        {
+          "id": "pg-fl-pt-0009-q1",
+          "question": "Ano ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng makabuluhang talata?",
+          "choices": {
+            "a": "A-B-C-D-E",
+            "b": "A-B-D-C-E",
+            "c": "A-D-B-C-E",
+            "d": "A-D-C-B-E"
+          },
+          "answer": "c",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay C (A-D-B-C-E). Magsisimula sa pangkalahatang pahayag (A), pagkatapos ang unang katangian (D), sumunod ang ikalawa (B), ikatlo (C), at panghuli ang ikaapat (E)."
+        },
+        {
+          "id": "pg-fl-pt-0009-q2",
+          "question": "Ano ang pamamaraang ginamit upang mabuo ang talata?",
+          "choices": {
+            "a": "pagbibigay ng sanhi at bunga",
+            "b": "paglalarawan",
+            "c": "paghahambing",
+            "d": "pag-iisa-isa o enumerasyon"
+          },
+          "answer": "d",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay D. Ginamit ang mga salitang 'isa', 'ikalawa', 'isa pang', at 'ang huli' upang mag-isa-isa ng mga katangian."
+        },
+        {
+          "id": "pg-fl-pt-0009-q3",
+          "question": "Anong pangungusap ang nagsasabing hindi maaaring maging Presidente ng bansa ang isang dayuhan?",
+          "choices": {
+            "a": "pangungusap B",
+            "b": "pangungusap C",
+            "c": "pangungusap D",
+            "d": "pangungusap E"
+          },
+          "answer": "c",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay C (pangungusap D). Ang 'katutubong ipinanganak na mamamayan' ay nangangahulugang natural-born citizen, hindi pwedeng dayuhan."
+        }
+      ]
+    },
+    {
+      "id": "pg-fl-pt-0010",
+      "category": "filipino",
+      "subcategory": "pagsulat",
+      "difficulty": "average",
+      "source": "CSE Professional Reviewer — Filipino",
+      "title": "Mga Unang Pangkat ng Tao sa Pilipinas",
+      "passage": "A. Ang mga ito ay nagmula sa Gitnang Asya at naglakad sa mga tulay na lupang nagkakabit ng iba't ibang bahagi ng Asya sa Pilipinas.\nB. Sila ay sinundan ng Indones na galing sa Timog Silangang Asya.\nC. Ang pinakaunang pangkat ng mga tao sa Pilipinas ay ang mga Ita o Negrito.\nD. Ang huling pangkat naman na dumating upang manirahan dito sa ating bansa ay ang mga Malay na nagmula rin sa Timog Silangang Asya.",
+      "questions": [
+        {
+          "id": "pg-fl-pt-0010-q1",
+          "question": "Ano ang wastong pagkakasunud-sunod ng mga pangungusap na makabubuo ng isang makabuluhang talata?",
+          "choices": {
+            "a": "A-B-C-D",
+            "b": "C-A-B-D",
+            "c": "C-B-D-A",
+            "d": "C-B-A-D"
+          },
+          "answer": "d",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay D (C-B-A-D). Magsisimula sa unang pangkat (C), sumunod ang Indones (B), pagkatapos ang paglalakbay ng mga Ita (A), at panghuli ang mga Malay (D)."
+        },
+        {
+          "id": "pg-fl-pt-0010-q2",
+          "question": "Ano ang pambungad na paksang pangungusap ang angkop para sa talatang nabuo?",
+          "choices": {
+            "a": "May tatlong pangkat ng tao ang dumating rito sa Pilipinas noong unang panahon.",
+            "b": "Tatlong tao lamang ang pangkat ng mga sinaunang Pilipino.",
+            "c": "Tatlong pangkat ang mga Pilipino ngayon.",
+            "d": "May tatlong sinaunang Pilipino."
+          },
+          "answer": "a",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay A. Malinaw at kumpleto ang pahayag na nagpapakilala sa paksa ng talata."
+        },
+        {
+          "id": "pg-fl-pt-0010-q3",
+          "question": "Ano ang angkop na pamagat para sa talata?",
+          "choices": {
+            "a": "Ita, Indones at Malay",
+            "b": "Mga Pangkat ng Tao mula sa Asya",
+            "c": "Sino Ako?",
+            "d": "Ang Mga Unang Pangkat ng mga Pilipino"
+          },
+          "answer": "d",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay D. Ang talata ay tumatalakay sa mga unang pangkat ng tao na dumating sa Pilipinas."
+        },
+        {
+          "id": "pg-fl-pt-0010-q4",
+          "question": "Kung idaragdag bilang pangungusap E ang sumusunod na pangungusap: 'Ang mga Indones ay dumating nang dalawang bugso may limang libong taon na ang nakararaan'; ano ang magiging panibagong pagkakasunud-sunod ng mga pangungusap upang makabuo ng makabuluhang talata?",
+          "choices": {
+            "a": "A-B-E-C-D",
+            "b": "C-A-B-E-D",
+            "c": "C-B-E-D-A",
+            "d": "C-B-E-A-D"
+          },
+          "answer": "d",
+          "answerKeyOverridden": false,
+          "originalAnswerKey": null,
+          "explanation": "Ang tamang sagot ay D (C-B-E-A-D). Idinagdag ang detalye tungkol sa mga Indones (E) pagkatapos ng pagbanggit sa kanila (B)."
+        }
+      ]
     }
   ]
 }

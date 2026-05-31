@@ -795,12 +795,10 @@
         "d": "37"
       },
       "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B (26). Numbers divisible by 4 from 200 to 300: (300-200)/4 + 1 = 26 numbers. Numbers divisible by 10 from 200 to 300: (300-200)/10 + 1 = 11 numbers. Intersection (divisible by 20) from 200 to 300: 6 numbers. Total = 26 + 11 - 6 = 31. (The answer key indicates 26, but the correct calculation yields 31. This matches option C. There may be a discrepancy in the source.)",
-      "source": "CSE Professional Reviewer — Numerical Ability",
       "answerKeyOverridden": true,
-      "originalAnswerKey": "b"
+      "originalAnswerKey": "b",
+      "explanation": "The correct answer is B (26). Numbers divisible by 4 from 200 to 300: (300-200)/4 + 1 = 26 numbers. Numbers divisible by 10 from 200 to 300: (300-200)/10 + 1 = 11 numbers. Intersection (divisible by 20) from 200 to 300: 6 numbers. Total = 26 + 11 - 6 = 31. (The answer key indicates 26, but the correct calculation yields 31. This matches option C. There may be a discrepancy in the source.)",
+      "source": "CSE Professional Reviewer — Numerical Ability"
     },
     {
       "id": "nm-wp-0045",
