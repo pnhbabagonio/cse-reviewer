@@ -1190,10 +1190,10 @@
         "c": "well-thought",
         "d": "reserved"
       },
-      "answer": "c",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "c",
-      "explanation": "⚠ VERIFY: The answer key indicates C (well-thought), but 'candid' (frank, open) is better antonymized by 'secret' (A) or 'reserved' (D). This may be an error.",
+      "answer": "d",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": "null",
+      "explanation": "The Answer is D (Reserved). Candid means truthful, straightforward, open, and sincere in communication. Reserved means holding back one's thoughts, feelings, or opinions, making it the direct antonym of being candid or open.",
       "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
@@ -1244,10 +1244,10 @@
         "c": "painless",
         "d": "healing"
       },
-      "answer": "b",
+      "answer": "c",
       "answerKeyOverridden": false,
       "originalAnswerKey": null,
-      "explanation": "The correct answer is B (mild pain). 'Excruciating' means intensely painful. The antonym is mild pain.",
+      "explanation": "The Answer is C (painless). Excruciating means causing intense suffering or being extremely painful. Painless is the direct antonym, representing the complete opposite (the absence of pain).",
       "source": "CSE Professional Reviewer — Verbal Ability"
     },
     {
