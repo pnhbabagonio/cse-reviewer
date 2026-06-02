@@ -2564,1086 +2564,906 @@
       "explanation": "The correct answer is C (a piece of advice). The theme is the main idea of a story. The moral is a piece of advice or lesson taught by a story.",
       "source": "CSE Professional Reviewer — Verbal Ability"
     },
-    {
-      "id": "vb-ie-0143",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "__No one__ __were__ __happy__ __about__ the Mindanao crisis.",
-      "choices": {
-        "a": "No one",
-        "b": "were",
-        "c": "happy",
-        "d": "about"
-      },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B. 'No one' is singular, so the verb should be 'was,' not 'were.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+  {
+    "id": "vb-ie-0143",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__No one__ __were__ __happy__ __about__ the Mindanao crisis.",
+    "choices": {
+      "a": "No one",
+      "b": "were",
+      "c": "happy",
+      "d": "about"
     },
-    {
-      "id": "vb-ie-0144",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__The House of Representatives__ __decision__ to decrease the budget for the __Department of Education__ __was met__ with protests.",
-      "choices": {
-        "a": "The House of Representatives",
-        "b": "decision",
-        "c": "Department of Education",
-        "d": "was met"
-      },
-      "answer": "a",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is A. 'House of Representatives' should be in possessive form: 'House of Representatives' decision' → 'House of Representatives' decision' (add apostrophe after s).",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The indefinite pronoun 'No one' is singular and requires a singular verb. The correct verb form is 'was.' The error is in choice B: 'were' should be replaced with 'was' to achieve subject-verb agreement."
+  },
+  {
+    "id": "vb-ie-0144",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__The House of Representatives__ __decision__ to decrease the budget for the __Department of Education__ __was met__ with protests.",
+    "choices": {
+      "a": "The House of Representatives",
+      "b": "decision",
+      "c": "Department of Education",
+      "d": "was met"
     },
-    {
-      "id": "vb-ie-0145",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "__The Cabinet__ __regularly__ __meet__ __once__ a week.",
-      "choices": {
-        "a": "The Cabinet",
-        "b": "regularly",
-        "c": "meet",
-        "d": "once"
-      },
-      "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C. 'The Cabinet' is a collective noun treated as singular, so the verb should be 'meets,' not 'meet.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "a",
+    "explanation": "The phrase 'The House of Representatives' must be in the possessive form to modify 'decision.' The correct form is 'The House of Representatives' decision' (with an apostrophe after the 's'). Choice A contains the error because it lacks the necessary apostrophe."
+  },
+  {
+    "id": "vb-ie-0145",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__The Cabinet__ __regularly__ __meet__ __once__ a week.",
+    "choices": {
+      "a": "The Cabinet",
+      "b": "regularly",
+      "c": "meet",
+      "d": "once"
     },
-    {
-      "id": "vb-ie-0146",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__Both__ the Senators and the Congressmen __legislates__ __laws__.",
-      "choices": {
-        "a": "Both",
-        "b": "legislates",
-        "c": "laws",
-        "d": "No error"
-      },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B. The subject is plural (Senators and Congressmen), so the verb should be 'legislate,' not 'legislates.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "c",
+    "explanation": "The collective noun 'The Cabinet' is treated as singular in this context. The verb must agree with a singular subject, so 'meet' should be 'meets.' The error is in choice C."
+  },
+  {
+    "id": "vb-ie-0146",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__Both__ the Senators and the Congressmen __legislates__ __laws__.",
+    "choices": {
+      "a": "Both",
+      "b": "legislates",
+      "c": "laws",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0147",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "__The Philippine government__ __have__ three branches of powers: the executive, the legislative and the judicial.",
-      "choices": {
-        "a": "The Philippine government",
-        "b": "have",
-        "c": "judicial",
-        "d": "No error"
-      },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B. 'Government' is singular, so the verb should be 'has,' not 'have.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The compound subject 'the Senators and the Congressmen' is plural. The verb must be the plural form 'legislate,' not the singular 'legislates.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0147",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__The Philippine government__ __have__ three branches of powers: the executive, the legislative and the __judicial__.",
+    "choices": {
+      "a": "The Philippine government",
+      "b": "have",
+      "c": "judicial",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0148",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__The Supreme Court__ upholds the highest principles and standards of morality as embodied in the __Constitution__.",
-      "choices": {
-        "a": "The Supreme Court",
-        "b": "upholds",
-        "c": "Constitution",
-        "d": "No error"
-      },
-      "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is D. The sentence has no grammatical error.",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The subject 'The Philippine government' is singular. The verb should be 'has,' not 'have.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0148",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__The Supreme Court__ __upholds__ the highest principles and standards of morality as embodied in the __Constitution__.",
+    "choices": {
+      "a": "The Supreme Court",
+      "b": "upholds",
+      "c": "Constitution",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0149",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__Some historians__ __contests__ the __origin__ of the __Filipino flag__.",
-      "choices": {
-        "a": "Some historians",
-        "b": "contests",
-        "c": "origin",
-        "d": "Filipino flag"
-      },
-      "answer": "c",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "c",
-      "explanation": "⚠ VERIFY: The answer key indicates C (origin), but the subject-verb agreement error is in B (contests should be contest).",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "d",
+    "explanation": "The sentence is grammatically correct. The singular subject 'The Supreme Court' agrees with the singular verb 'upholds,' and all other elements are properly constructed."
+  },
+  {
+    "id": "vb-ie-0149",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__Some historians__ __contests__ the __origin__ of the __Filipino flag__.",
+    "choices": {
+      "a": "Some historians",
+      "b": "contests",
+      "c": "origin",
+      "d": "Filipino flag"
     },
-    {
-      "id": "vb-ie-0150",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__Some believe__ that the flag we use now is __not the same__ as the one made by __Marcella Agoncillo__.",
-      "choices": {
-        "a": "Some believe",
-        "b": "not the same",
-        "c": "Marcella Agoncillo",
-        "d": "No error"
-      },
-      "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is D. The sentence has no grammatical error.",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The subject 'Some historians' is plural, so the verb should be the plural form 'contest' (without the -s). The error is in choice B, which incorrectly uses the singular verb 'contests.'"
+  },
+  {
+    "id": "vb-ie-0150",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__Some believe__ that the flag we use now is __not the same__ as the one made by __Marcella Agoncillo__.",
+    "choices": {
+      "a": "Some believe",
+      "b": "not the same",
+      "c": "Marcella Agoncillo",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0151",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__Either Prof. Teodoro Agoncillo or Dr. Gregorio F. Zaide__ __affirm__ the history of our flag.",
-      "choices": {
-        "a": "Either Prof. Teodoro Agoncillo or Dr. Gregorio F. Zaide",
-        "b": "affirm",
-        "c": "our flag",
-        "d": "No error"
-      },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B. With 'either...or,' the verb agrees with the nearer subject. 'Dr. Gregorio F. Zaide' is singular, so the verb should be 'affirms,' not 'affirm.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "d",
+    "explanation": "The sentence contains no grammatical error. The indefinite pronoun 'Some' correctly takes the plural verb 'believe,' and the rest of the sentence is well-formed."
+  },
+  {
+    "id": "vb-ie-0151",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__Either Prof. Teodoro Agoncillo or Dr. Gregorio F. Zaide__ __affirm__ the history of __our flag__.",
+    "choices": {
+      "a": "Either Prof. Teodoro Agoncillo or Dr. Gregorio F. Zaide",
+      "b": "affirm",
+      "c": "our flag",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0152",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "__The news__ __are__ written immediately to meet the previous deadline.",
-      "choices": {
-        "a": "The news",
-        "b": "are",
-        "c": "deadline",
-        "d": "No error"
-      },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B. 'News' is singular in form, so the verb should be 'is,' not 'are.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "With the correlative conjunction 'either...or,' the verb agrees with the nearer subject. 'Dr. Gregorio F. Zaide' is singular, so the verb should be the singular form 'affirms.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0152",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__The news__ __are__ written immediately to meet the previous __deadline__.",
+    "choices": {
+      "a": "The news",
+      "b": "are",
+      "c": "deadline",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0153",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__Attempts__ __is made__ to locate and restore the last original Filipino flag.",
-      "choices": {
-        "a": "Attempts",
-        "b": "is made",
-        "c": "locate",
-        "d": "No error"
-      },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B. 'Attempts' is plural, so the verb should be 'are made,' not 'is made.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The noun 'news' is singular in form and meaning, even though it ends in -s. It requires the singular verb 'is' instead of 'are.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0153",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__Attempts__ __is made__ to __locate__ and restore the last original Filipino flag.",
+    "choices": {
+      "a": "Attempts",
+      "b": "is made",
+      "c": "locate",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0154",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "__Both Chelle and Charm__ __enjoys__ __reading__.",
-      "choices": {
-        "a": "Both Chelle and Charm",
-        "b": "enjoys",
-        "c": "reading",
-        "d": "No error"
-      },
-      "answer": "c",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "c",
-      "explanation": "⚠ VERIFY: The answer key indicates C (reading), but the error is in B (enjoys should be enjoy).",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The subject 'Attempts' is plural, so the verb should be the plural form 'are made.' The error is in choice B, which incorrectly uses the singular verb 'is made.'"
+  },
+  {
+    "id": "vb-ie-0154",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__Both Chelle and Charm__ __enjoys__ __reading__.",
+    "choices": {
+      "a": "Both Chelle and Charm",
+      "b": "enjoys",
+      "c": "reading",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0155",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "__Reading books__ __widens__ one's __horizons__.",
-      "choices": {
-        "a": "Reading books",
-        "b": "widens",
-        "c": "horizons",
-        "d": "No error"
-      },
-      "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is D. The sentence is grammatically correct.",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The phrase 'Both Chelle and Charm' forms a plural subject. The verb must be the plural form 'enjoy' rather than the singular 'enjoys.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0155",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__Reading books__ __widens__ one's __horizons__.",
+    "choices": {
+      "a": "Reading books",
+      "b": "widens",
+      "c": "horizons",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0156",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "__If everybody__ __know__ how to read, __then books will__ never cease to be useful.",
-      "choices": {
-        "a": "If everybody",
-        "b": "know",
-        "c": "then books will",
-        "d": "No error"
-      },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B. 'Everybody' is singular, so the verb should be 'knows,' not 'know.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "d",
+    "explanation": "The subject is the gerund phrase 'Reading books,' which functions as a singular noun. The singular verb 'widens' correctly agrees with it. The sentence is grammatically correct."
+  },
+  {
+    "id": "vb-ie-0156",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__If everybody__ __know__ how to read, __then books will__ never cease to be useful.",
+    "choices": {
+      "a": "If everybody",
+      "b": "know",
+      "c": "then books will",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0157",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__No one__ __dares__ to question how __invaluable__ books are.",
-      "choices": {
-        "a": "No one",
-        "b": "dares",
-        "c": "invaluable",
-        "d": "No error"
-      },
-      "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is D. The sentence is grammatically correct.",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The indefinite pronoun 'everybody' is singular and requires the singular verb 'knows.' The error is in choice B, where the plural form 'know' is used."
+  },
+  {
+    "id": "vb-ie-0157",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__No one__ __dares__ to question how __invaluable__ books are.",
+    "choices": {
+      "a": "No one",
+      "b": "dares",
+      "c": "invaluable",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0158",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__Great literary works__ __enriches__ the __vocabulary__ of their readers.",
-      "choices": {
-        "a": "Great literary works",
-        "b": "enriches",
-        "c": "vocabulary",
-        "d": "No error"
-      },
-      "answer": "c",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "c",
-      "explanation": "⚠ VERIFY: The answer key indicates C (vocabulary), but the error is in B (enriches should be enrich).",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "d",
+    "explanation": "The sentence is grammatically correct. The singular subject 'No one' agrees with the singular verb 'dares,' and 'invaluable' is the correct word choice."
+  },
+  {
+    "id": "vb-ie-0158",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__Great literary works__ __enriches__ the __vocabulary__ of their readers.",
+    "choices": {
+      "a": "Great literary works",
+      "b": "enriches",
+      "c": "vocabulary",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0159",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__Have either of the books__ __been returned__?",
-      "choices": {
-        "a": "Have either of the books",
-        "b": "been returned",
-        "c": "No error",
-        "d": ""
-      },
-      "answer": "a",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is A. With 'either,' the verb should be singular: 'Has either of the books been returned?'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The subject 'Great literary works' is plural, so the verb should be the plural form 'enrich.' The error is in choice B, which uses the singular verb 'enriches.'"
+  },
+  {
+    "id": "vb-ie-0159",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__Have either__ of the __books__ __been returned__?",
+    "choices": {
+      "a": "Have either",
+      "b": "books",
+      "c": "been returned",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0160",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__One hundred fifty pesos__ __are__ the average selling price of one textbook.",
-      "choices": {
-        "a": "One hundred fifty pesos",
-        "b": "are",
-        "c": "selling price",
-        "d": "No error"
-      },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B. When referring to a sum of money as a single amount, the verb should be singular: 'is,' not 'are.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "a",
+    "explanation": "The indefinite pronoun 'either' is singular, so the auxiliary verb should be 'Has,' not 'Have.' The correct phrasing is 'Has either of the books been returned?' The error is in choice A."
+  },
+  {
+    "id": "vb-ie-0160",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__One hundred fifty pesos__ __are__ the average __selling price__ of one textbook.",
+    "choices": {
+      "a": "One hundred fifty pesos",
+      "b": "are",
+      "c": "selling price",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0161",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__One of the machines in the printing press__ __weren't__ __working__.",
-      "choices": {
-        "a": "One of the machines in the printing press",
-        "b": "weren't",
-        "c": "working",
-        "d": "No error"
-      },
-      "answer": "c",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "c",
-      "explanation": "⚠ VERIFY: The answer key indicates C (working), but the error is in B (weren't should be wasn't).",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "When a sum of money is treated as a single amount, it takes a singular verb. 'One hundred fifty pesos' is singular in this context, so the verb should be 'is,' not 'are.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0161",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__One of the machines in the printing press__ __weren't__ __working__.",
+    "choices": {
+      "a": "One of the machines in the printing press",
+      "b": "weren't",
+      "c": "working",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0162",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__Either the teachers or the librarian__ __take care__ of the books.",
-      "choices": {
-        "a": "Either the teachers or the librarian",
-        "b": "take care",
-        "c": "of the books",
-        "d": "No error"
-      },
-      "answer": "d",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "d",
-      "explanation": "⚠ VERIFY: The answer key indicates D, but the verb should be 'takes care' (singular) to agree with 'librarian.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The subject is 'One,' which is singular. The verb must agree, so the correct form is 'wasn't' instead of the plural 'weren't.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0162",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__Either the teachers or the librarian__ __take care__ __of the books__.",
+    "choices": {
+      "a": "Either the teachers or the librarian",
+      "b": "take care",
+      "c": "of the books",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0163",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__A number of books__ __is regularly__ donated to public schools.",
-      "choices": {
-        "a": "A number of books",
-        "b": "is regularly",
-        "c": "to public schools",
-        "d": "No error"
-      },
-      "answer": "c",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "c",
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (is should be are).",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "In an 'either...or' construction, the verb agrees with the subject closer to it. 'The librarian' is singular, so the verb should be the singular form 'takes care.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0163",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__A number of books__ __is regularly__ donated __to public schools__.",
+    "choices": {
+      "a": "A number of books",
+      "b": "is regularly",
+      "c": "to public schools",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0164",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__The number of readers__ __continually rise__ each year.",
-      "choices": {
-        "a": "The number of readers",
-        "b": "continually rise",
-        "c": "each year",
-        "d": "No error"
-      },
-      "answer": "d",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "d",
-      "explanation": "⚠ VERIFY: The answer key indicates D, but the verb should be 'rises' (singular) to agree with 'the number.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The phrase 'A number of' is an idiomatic expression meaning 'several' and takes a plural verb. The verb should be 'are' instead of 'is.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0164",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__The number of readers__ __continually rise__ __each year__.",
+    "choices": {
+      "a": "The number of readers",
+      "b": "continually rise",
+      "c": "each year",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0165",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "__For I__, Reader's Digest is __informative__ as well as entertaining.",
-      "choices": {
-        "a": "For I",
-        "b": "informative",
-        "c": "entertaining",
-        "d": "No error"
-      },
-      "answer": "a",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is A. 'For I' should be 'For me' because the pronoun is the object of the preposition 'for.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The phrase 'The number' is singular and requires a singular verb. The verb should be 'rises,' not the plural 'rise.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0165",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__For I__, Reader's Digest is __informative__ as well as __entertaining__.",
+    "choices": {
+      "a": "For I",
+      "b": "informative",
+      "c": "entertaining",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0166",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__The Manila Bulletin__ __has been published__ the Panorama magazine for over a hundred years.",
-      "choices": {
-        "a": "The Manila Bulletin",
-        "b": "has been published",
-        "c": "for over",
-        "d": "No error"
-      },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B. The Manila Bulletin is the publisher, so it should be 'has been publishing,' not 'has been published.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "a",
+    "explanation": "The pronoun is the object of the preposition 'for' and must be in the objective case. 'For I' should be 'For me.' The error is in choice A."
+  },
+  {
+    "id": "vb-ie-0166",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__The Manila Bulletin__ __has been published__ the Panorama magazine __for over__ a hundred years.",
+    "choices": {
+      "a": "The Manila Bulletin",
+      "b": "has been published",
+      "c": "for over",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0167",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "__All children__ __has__ inherent rights that must be protected.",
-      "choices": {
-        "a": "All children",
-        "b": "has",
-        "c": "that must be protected",
-        "d": "No error"
-      },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B. 'Children' is plural, so the verb should be 'have,' not 'has.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The intended meaning is that The Manila Bulletin is the publisher, so the active voice is needed. The correct phrase is 'has been publishing,' not the passive 'has been published.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0167",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__All children__ __has__ inherent rights __that must be protected__.",
+    "choices": {
+      "a": "All children",
+      "b": "has",
+      "c": "that must be protected",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0168",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__The editor-in-chief, together with the writers,__ __confers__ about the contents of their newspaper.",
-      "choices": {
-        "a": "The editor-in-chief, together with the writers",
-        "b": "confers",
-        "c": "about the contents",
-        "d": "No error"
-      },
-      "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is D. The subject is 'editor-in-chief' (singular), and 'together with the writers' does not make the subject plural. The sentence is correct.",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The subject 'All children' is plural. The verb must be the plural form 'have,' not the singular 'has.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0168",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__The editor-in-chief, together with the writers,__ __confers__ __about the contents__ of their newspaper.",
+    "choices": {
+      "a": "The editor-in-chief, together with the writers",
+      "b": "confers",
+      "c": "about the contents",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0169",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__Gorio and Tecla, in addition to Captain Barbel,__ __was__ a popular comic book during the '70s.",
-      "choices": {
-        "a": "Gorio and Tecla, in addition to Captain Barbel",
-        "b": "was",
-        "c": "comic book",
-        "d": "No error"
-      },
-      "answer": "c",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "c",
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (was should be were).",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "d",
+    "explanation": "The subject is 'The editor-in-chief,' which is singular. The phrase 'together with the writers' is a prepositional modifier and does not make the subject plural. The singular verb 'confers' agrees correctly. The sentence is grammatically correct."
+  },
+  {
+    "id": "vb-ie-0169",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__Gorio and Tecla, in addition to Captain Barbel,__ __was__ a popular __comic book__ during the '70s.",
+    "choices": {
+      "a": "Gorio and Tecla, in addition to Captain Barbel",
+      "b": "was",
+      "c": "comic book",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0170",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__Pol Medina__ __has drew__ the very famous Pugad Baboy characters.",
-      "choices": {
-        "a": "Pol Medina",
-        "b": "has drew",
-        "c": "Pugad Baboy",
-        "d": "No error"
-      },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B. The past participle of 'draw' is 'drawn.' It should be 'has drawn,' not 'has drew.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The compound subject 'Gorio and Tecla' is plural. The phrase 'in addition to Captain Barbel' does not affect the number of the subject. The verb should be the plural form 'were.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0170",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__Pol Medina__ __has drew__ the very famous __Pugad Baboy__ characters.",
+    "choices": {
+      "a": "Pol Medina",
+      "b": "has drew",
+      "c": "Pugad Baboy",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0171",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "__Pugad Baboy__ __first appear__ in the Philippine Daily Inquirer during the late '80s.",
-      "choices": {
-        "a": "Pugad Baboy",
-        "b": "first appear",
-        "c": "Philippine Daily Inquirer",
-        "d": "No error"
-      },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B. The past tense of 'appear' is 'appeared.' It should be 'first appeared.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The present perfect tense requires the past participle. The past participle of 'draw' is 'drawn,' not 'drew.' The correct form is 'has drawn.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0171",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__Pugad Baboy__ __first appear__ in the __Philippine Daily__ Inquirer during the late '80s.",
+    "choices": {
+      "a": "Pugad Baboy",
+      "b": "first appear",
+      "c": "Philippine Daily Inquirer",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0172",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__Neither Pol Medina nor his friends__ __thinks__ he will become successful.",
-      "choices": {
-        "a": "Neither Pol Medina nor his friends",
-        "b": "thinks",
-        "c": "will become",
-        "d": "No error"
-      },
-      "answer": "c",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "c",
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (thinks should be think).",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The sentence refers to a past event ('during the late '80s'), so the past tense is required. The verb should be 'first appeared,' not the base form 'appear.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0172",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__Neither Pol Medina nor his friends__ __thinks__ he __will become__ successful.",
+    "choices": {
+      "a": "Neither Pol Medina nor his friends",
+      "b": "thinks",
+      "c": "will become",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0173",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__Some believes__ that Mr. Medina's works satirize the socio-economic condition of the people in our country.",
-      "choices": {
-        "a": "Some believes",
-        "b": "satirize",
-        "c": "socio-economic",
-        "d": "No error"
-      },
-      "answer": "a",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is A. 'Some' (referring to people) is plural, so the verb should be 'believe,' not 'believes.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "With the correlative conjunction 'neither...nor,' the verb agrees with the nearer subject. 'His friends' is plural, so the verb should be the plural form 'think,' not the singular 'thinks.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0173",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__Some believes__ that Mr. Medina's works __satirize__ the __socio-economic__ condition of the people in our country.",
+    "choices": {
+      "a": "Some believes",
+      "b": "satirize",
+      "c": "socio-economic",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0174",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__The youth delegates__ __have been sang__ the National Anthem.",
-      "choices": {
-        "a": "The youth delegates",
-        "b": "have been sang",
-        "c": "the National Anthem",
-        "d": "No error"
-      },
-      "answer": "c",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "c",
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (sang should be sung or singing).",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "a",
+    "explanation": "The pronoun 'Some' refers to people and is plural. The verb should be the plural form 'believe,' not 'believes.' The error is in choice A."
+  },
+  {
+    "id": "vb-ie-0174",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__The youth delegates__ __have been sang__ __the National Anthem__.",
+    "choices": {
+      "a": "The youth delegates",
+      "b": "have been sang",
+      "c": "the National Anthem",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0175",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__That house and lot in the corner__ __are__ government-owned.",
-      "choices": {
-        "a": "That house and lot in the corner",
-        "b": "are",
-        "c": "government-owned",
-        "d": "No error"
-      },
-      "answer": "c",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "c",
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (are should be is).",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The verb form 'sang' is the simple past of 'sing,' not the past participle. After 'have been,' the past participle is required. The correct form is 'have been sung' (passive) or 'have been singing' (progressive). The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0175",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__That house and lot in the corner__ __are__ __government-owned__.",
+    "choices": {
+      "a": "That house and lot in the corner",
+      "b": "are",
+      "c": "government-owned",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0176",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__The number of socialized housing units sponsored by the government__ __increases__ each year.",
-      "choices": {
-        "a": "The number of socialized housing units sponsored by the government",
-        "b": "increases",
-        "c": "each year",
-        "d": "No error"
-      },
-      "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is D. 'The number of' is singular, so 'increases' is correct.",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The phrase 'That house and lot' refers to a single property considered as one unit. It takes a singular verb, so 'are' should be replaced with 'is.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0176",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__The number of socialized housing units sponsored by the government__ __increases__ __each year__.",
+    "choices": {
+      "a": "The number of socialized housing units sponsored by the government",
+      "b": "increases",
+      "c": "each year",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0177",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__A quarter of the government tax collections__ __goes__ to infrastructure projects.",
-      "choices": {
-        "a": "A quarter of the government tax collections",
-        "b": "goes",
-        "c": "infrastructure",
-        "d": "No error"
-      },
-      "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is D. 'A quarter of' with a plural noun ('collections') can take a plural verb, but 'goes' is also acceptable. The sentence is fine.",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "d",
+    "explanation": "The subject is 'The number,' which is singular. The singular verb 'increases' correctly agrees with it. The sentence is grammatically correct."
+  },
+  {
+    "id": "vb-ie-0177",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__A quarter of the government tax collections__ __goes__ to __infrastructure__ projects.",
+    "choices": {
+      "a": "A quarter of the government tax collections",
+      "b": "goes",
+      "c": "infrastructure",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0178",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__The beneficiaries of the study grant given by the government__ will be __them__.",
-      "choices": {
-        "a": "The beneficiaries of the study grant given by the government",
-        "b": "them",
-        "c": "No error",
-        "d": ""
-      },
-      "answer": "d",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "d",
-      "explanation": "⚠ VERIFY: The answer key indicates D, but 'them' (objective case) should be 'they' (subjective case) as a predicate nominative.",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "d",
+    "explanation": "When a fraction like 'a quarter of' precedes a plural noun, the verb can be singular if the fraction is thought of as a unit. Here, 'goes' is acceptable, and the sentence contains no grammatical error."
+  },
+  {
+    "id": "vb-ie-0178",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__The beneficiaries__ of the study grant given by the government__ __will be__ __them__.",
+    "choices": {
+      "a": "The beneficiaries",
+      "b": "will be",
+      "c": "them",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0179",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__Studies suggests__ that exposure to too much violence on television makes one equally violent.",
-      "choices": {
-        "a": "Studies suggests",
-        "b": "exposure to",
-        "c": "makes",
-        "d": "No error"
-      },
-      "answer": "a",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is A. 'Studies' is plural, so the verb should be 'suggest,' not 'suggests.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "c",
+    "explanation": "The pronoun follows the linking verb 'will be' and serves as a predicate nominative. It must be in the subjective case: 'they,' not the objective 'them.' The error is in choice C."
+  },
+  {
+    "id": "vb-ie-0179",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__Studies suggests__ that __exposure to__ too much violence on television __makes__ one equally violent.",
+    "choices": {
+      "a": "Studies suggests",
+      "b": "exposure to",
+      "c": "makes",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0180",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__The possible effects of television viewing__ __needs__ to be explored further.",
-      "choices": {
-        "a": "The possible effects of television viewing",
-        "b": "needs",
-        "c": "to be explored",
-        "d": "No error"
-      },
-      "answer": "c",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "c",
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (needs should be need).",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "a",
+    "explanation": "The subject 'Studies' is plural, so the verb should be the plural form 'suggest,' not 'suggests.' The error is in choice A."
+  },
+  {
+    "id": "vb-ie-0180",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__The possible effects of television viewing__ __needs__ __to be explored__ further.",
+    "choices": {
+      "a": "The possible effects of television viewing",
+      "b": "needs",
+      "c": "to be explored",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0181",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "__Every weekdays__, Chel and Charm __goes__ to school together.",
-      "choices": {
-        "a": "Every weekdays",
-        "b": "goes",
-        "c": "together",
-        "d": "No error"
-      },
-      "answer": "c",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "c",
-      "explanation": "⚠ VERIFY: The answer key indicates C, but there are multiple errors: 'Every weekdays' should be 'Every weekday,' and 'goes' should be 'go.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The subject is 'effects,' which is plural. The verb should be the plural form 'need,' not the singular 'needs.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0181",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__Every weekdays__, Chel and Charm __goes__ to school __together__.",
+    "choices": {
+      "a": "Every weekdays",
+      "b": "goes",
+      "c": "together",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0182",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__The Scent of Apples__, a story about a Filipino who immigrated to the United States, __are written__ by Bienvenido Santos.",
-      "choices": {
-        "a": "The Scent of Apples",
-        "b": "are written",
-        "c": "immigrated",
-        "d": "No error"
-      },
-      "answer": "c",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "c",
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (are written should be is written).",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "a",
+    "explanation": "The determiner 'every' is followed by a singular noun. The correct phrase is 'Every weekday,' not the plural 'weekdays.' The error is in choice A. (Note: the verb 'goes' is also incorrect for the compound subject, but the designated answer points to the determiner-noun agreement error.)"
+  },
+  {
+    "id": "vb-ie-0182",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__The Scent of Apples__, a story about a Filipino who __immigrated__ to the United States, __are written__ by Bienvenido Santos.",
+    "choices": {
+      "a": "The Scent of Apples",
+      "b": "are written",
+      "c": "immigrated",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0183",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "Nick Joaquin, one of the exceptional Filipino __writers, is__ also __known__ __for__ Quijano de Manila.",
-      "choices": {
-        "a": "writers, is",
-        "b": "known",
-        "c": "for",
-        "d": "No error"
-      },
-      "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is D. The sentence is grammatically correct, though note that 'known for' would typically be 'known as' when referring to a pen name. The key indicates no error.",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The title of a single work, 'The Scent of Apples,' is singular. The verb must be the singular form 'is written,' not 'are written.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0183",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "Nick Joaquin, one of the exceptional Filipino __writers, is__ also __known__ __for__ Quijano de Manila.",
+    "choices": {
+      "a": "writers, is",
+      "b": "known",
+      "c": "for",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0184",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__Some people believes__ that one could see his future mate by looking into a mirror on May day eve.",
-      "choices": {
-        "a": "Some people believes",
-        "b": "could see",
-        "c": "looking into",
-        "d": "No error"
-      },
-      "answer": "a",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is A. 'People' is plural, so the verb should be 'believe,' not 'believes.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "d",
+    "explanation": "The sentence is grammatically correct. The singular verb 'is' agrees with the singular subject 'Nick Joaquin,' and the appositive 'one of the exceptional Filipino writers' does not change the subject-verb agreement. 'Known for' is idiomatic and acceptable."
+  },
+  {
+    "id": "vb-ie-0184",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__Some people believes__ that one __could see__ his future mate by __looking into__ a mirror on May day eve.",
+    "choices": {
+      "a": "Some people believes",
+      "b": "could see",
+      "c": "looking into",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0185",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__Jose Garcia Villa__ was a recipient of numerous awards. __between them__, the \"National Artist Award for Literature\".",
-      "choices": {
-        "a": "Jose Garcia Villa",
-        "b": "between them",
-        "c": "National Artist Award for Literature",
-        "d": "No error"
-      },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B. 'Between' is used for two items, but 'among' should be used for more than two. The phrase should be 'among them.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "a",
+    "explanation": "The noun 'people' is plural. The verb should be the plural form 'believe,' not the singular 'believes.' The error is in choice A."
+  },
+  {
+    "id": "vb-ie-0185",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__Jose Garcia Villa__ was a recipient of numerous awards. __between them__, the __\"National Artist Award for Literature\"__.",
+    "choices": {
+      "a": "Jose Garcia Villa",
+      "b": "between them",
+      "c": "\"National Artist Award for Literature\"",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0186",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__The Far Eastern University (FEU) also gave he__ a Doctor of Literature honoris causa in 1959, aside from asking him to be a visiting professor.",
-      "choices": {
-        "a": "The Far Eastern University (FEU) also gave he",
-        "b": "Doctor of Literature",
-        "c": "honoris causa",
-        "d": "No error"
-      },
-      "answer": "a",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is A. 'Gave' takes an indirect object in objective case: 'gave him,' not 'gave he.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The preposition 'between' is used for two entities. Since 'numerous awards' refers to more than two, 'among' should be used. The error is in choice B: 'between them' should be 'among them.'"
+  },
+  {
+    "id": "vb-ie-0186",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__The Far Eastern University (FEU) also gave he__ a __Doctor of Literature__ __honoris causa__ in 1959, aside from asking him to be a visiting professor.",
+    "choices": {
+      "a": "The Far Eastern University (FEU) also gave he",
+      "b": "Doctor of Literature",
+      "c": "honoris causa",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0187",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__Between the numerous prose writers__, I think Nick Joaquin is the best.",
-      "choices": {
-        "a": "Between the numerous prose writers",
-        "b": "think",
-        "c": "the best",
-        "d": "No error"
-      },
-      "answer": "a",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is A. 'Between' is used for two; for more than two, use 'among.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "a",
+    "explanation": "The indirect object of the verb 'gave' must be in the objective case. The correct pronoun is 'him,' not the subjective 'he.' The error is in choice A."
+  },
+  {
+    "id": "vb-ie-0187",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__Between the numerous prose writers__, I __think__ Nick Joaquin is __the best__.",
+    "choices": {
+      "a": "Between the numerous prose writers",
+      "b": "think",
+      "c": "the best",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0188",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "__Those__ __are work__ of famous authors.",
-      "choices": {
-        "a": "Those",
-        "b": "are work",
-        "c": "famous authors",
-        "d": "No error"
-      },
-      "answer": "c",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "c",
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (work should be works).",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "a",
+    "explanation": "The preposition 'Between' is used for two items; for more than two, 'Among' is required. Since there are 'numerous prose writers,' 'Between' should be replaced with 'Among.' The error is in choice A."
+  },
+  {
+    "id": "vb-ie-0188",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__Those__ __are work__ of __famous authors__.",
+    "choices": {
+      "a": "Those",
+      "b": "are work",
+      "c": "famous authors",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0189",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "The professor asked her a question about __they__.",
-      "choices": {
-        "a": "The professor",
-        "b": "about",
-        "c": "they",
-        "d": "No error"
-      },
-      "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C. 'About' is a preposition, so it should be followed by the objective case 'them,' not 'they.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The subject 'Those' is plural, so the complement should also be plural. 'Work' should be the plural form 'works' to agree. The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0189",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__The professor__ asked her a question __about__ __they__.",
+    "choices": {
+      "a": "The professor",
+      "b": "about",
+      "c": "they",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0190",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "__Literature__ __seem__ elusive to people who profess indifference to it.",
-      "choices": {
-        "a": "Literature",
-        "b": "seem",
-        "c": "who profess",
-        "d": "No error"
-      },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B. 'Literature' is singular, so the verb should be 'seems,' not 'seem.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "c",
+    "explanation": "The pronoun follows the preposition 'about' and must be in the objective case. The correct form is 'them,' not the subjective 'they.' The error is in choice C."
+  },
+  {
+    "id": "vb-ie-0190",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__Literature__ __seem__ elusive to people __who profess__ indifference to it.",
+    "choices": {
+      "a": "Literature",
+      "b": "seem",
+      "c": "who profess",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0191",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "It appeals both to the __readers intellect__ and passion.",
-      "choices": {
-        "a": "It appeals both",
-        "b": "readers intellect",
-        "c": "and passion",
-        "d": "No error"
-      },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B. It should be 'reader's intellect' (possessive) or 'readers' intellects.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The subject 'Literature' is singular. The verb must agree and should be the singular form 'seems,' not 'seem.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0191",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__It appeals both__ to the __readers intellect__ __and passion__.",
+    "choices": {
+      "a": "It appeals both",
+      "b": "readers intellect",
+      "c": "and passion",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0192",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "__Robert Frost, an American poet,__ defines literature as \"performance in words\".",
-      "choices": {
-        "a": "Robert Frost, an American poet",
-        "b": "defines",
-        "c": "\"performance in words\"",
-        "d": "No error"
-      },
-      "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is D. The sentence is grammatically correct.",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The phrase 'readers intellect' requires a possessive form. It should be 'reader's intellect' (singular possessive) or 'readers' intellects' (plural possessive). The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0192",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__Robert Frost, an American poet,__ __defines__ literature as __\"performance in words\"__.",
+    "choices": {
+      "a": "Robert Frost, an American poet",
+      "b": "defines",
+      "c": "\"performance in words\"",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0193",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__Either of the authors__ __have received__ citations for their remarkable works.",
-      "choices": {
-        "a": "Either of the authors",
-        "b": "have received",
-        "c": "their remarkable works",
-        "d": "No error"
-      },
-      "answer": "c",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "c",
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (have received should be has received).",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "d",
+    "explanation": "The sentence is grammatically correct. The appositive 'an American poet' correctly modifies the subject, and the singular verb 'defines' agrees with the singular subject."
+  },
+  {
+    "id": "vb-ie-0193",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__Either of the authors__ __have received__ citations for __their remarkable works__.",
+    "choices": {
+      "a": "Either of the authors",
+      "b": "have received",
+      "c": "their remarkable works",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0194",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__Just like Edgar Allan Poe, it is believed that Nick Joaquin starts getting ideas after he has drank alcoholic beverages.",
-      "choices": {
-        "a": "Just like Edgar Allan Poe",
-        "b": "starts getting",
-        "c": "has drank",
-        "d": "No error"
-      },
-      "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is C. The past participle of 'drink' is 'drunk.' It should be 'has drunk,' not 'has drank.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The indefinite pronoun 'Either' is singular and requires a singular auxiliary verb. 'Have received' should be 'has received.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0194",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__Just like Edgar Allan Poe__, it is believed that Nick Joaquin __starts getting__ ideas after he __has drank__ alcoholic beverages.",
+    "choices": {
+      "a": "Just like Edgar Allan Poe",
+      "b": "starts getting",
+      "c": "has drank",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0195",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "__Computers__ __are widely use__ nowadays even in preschools.",
-      "choices": {
-        "a": "Computers",
-        "b": "are widely use",
-        "c": "preschools",
-        "d": "No error"
-      },
-      "answer": "c",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "c",
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (use should be used).",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "c",
+    "explanation": "The past participle of 'drink' is 'drunk,' not 'drank.' The present perfect form should be 'has drunk.' The error is in choice C."
+  },
+  {
+    "id": "vb-ie-0195",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__Computers__ __are widely use__ nowadays even in __preschools__.",
+    "choices": {
+      "a": "Computers",
+      "b": "are widely use",
+      "c": "preschools",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0196",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__The number of Computer Science students__ __steadily increases__.",
-      "choices": {
-        "a": "The number of Computer Science students",
-        "b": "steadily increases",
-        "c": "No error",
-        "d": ""
-      },
-      "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is D. The sentence is correct.",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The passive voice requires the past participle. The correct form is 'are widely used,' not the base form 'use.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0196",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__The number__ of Computer Science __students__ __steadily increases__.",
+    "choices": {
+      "a": "The number",
+      "b": "students",
+      "c": "steadily increases",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0197",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__AMA, in addition to STI,__ __train__ students to be proficient in computer use.",
-      "choices": {
-        "a": "AMA, in addition to STI",
-        "b": "train",
-        "c": "proficient",
-        "d": "No error"
-      },
-      "answer": "a",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is A. The subject is 'AMA' (singular), so the verb should be 'trains,' not 'train.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "d",
+    "explanation": "The phrase 'The number' is singular and takes the singular verb 'increases.' The sentence is grammatically correct."
+  },
+  {
+    "id": "vb-ie-0197",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__AMA, in addition to STI,__ __train__ students to be __proficient__ in computer use.",
+    "choices": {
+      "a": "AMA, in addition to STI",
+      "b": "train",
+      "c": "proficient",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0198",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "__Knowledge__ should always be __put to good use__.",
-      "choices": {
-        "a": "Knowledge",
-        "b": "put to good use",
-        "c": "No error",
-        "d": ""
-      },
-      "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is D. The sentence is correct.",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The subject is the singular noun 'AMA.' The prepositional phrase 'in addition to STI' does not make the subject plural. The verb should be the singular form 'trains,' not 'train.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0198",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__Knowledge__ __should__ always __be put__ to good use.",
+    "choices": {
+      "a": "Knowledge",
+      "b": "should",
+      "c": "be put",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0199",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "average",
-      "question": "__One of the viruses__ __has infect__ my brother's brand new laptop computer.",
-      "choices": {
-        "a": "One of the viruses",
-        "b": "has infect",
-        "c": "brand new",
-        "d": "No error"
-      },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B. The past participle of 'infect' is 'infected.' It should be 'has infected,' not 'has infect.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "d",
+    "explanation": "The sentence is grammatically correct. The modal verb 'should' is followed by the base form, and 'be put' correctly forms the passive infinitive. There is no error."
+  },
+  {
+    "id": "vb-ie-0199",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "average",
+    "question": "__One of the viruses__ __has infect__ my brother's __brand new__ laptop computer.",
+    "choices": {
+      "a": "One of the viruses",
+      "b": "has infect",
+      "c": "brand new",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0200",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "__Internet access__ __allow__ us to communicate with other people anywhere in the world.",
-      "choices": {
-        "a": "Internet access",
-        "b": "allow",
-        "c": "to communicate",
-        "d": "No error"
-      },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B. 'Access' is singular, so the verb should be 'allows,' not 'allow.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The present perfect tense requires the past participle. The correct form is 'has infected,' not the base form 'infect.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0200",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__Internet access__ __allow__ us __to communicate__ with other people anywhere in the world.",
+    "choices": {
+      "a": "Internet access",
+      "b": "allow",
+      "c": "to communicate",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0201",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "__All of the pens__ __are spent__ yesterday.",
-      "choices": {
-        "a": "All of the pens",
-        "b": "are spent",
-        "c": "yesterday",
-        "d": "No error"
-      },
-      "answer": "c",
-      "answerKeyOverridden": true,
-      "originalAnswerKey": "c",
-      "explanation": "⚠ VERIFY: The answer key indicates C, but the error is in B (are should be were).",
-      "source": "CSE Professional Reviewer — Verbal Ability"
+    "answer": "b",
+    "explanation": "The subject 'Internet access' is singular. The verb must be the singular form 'allows,' not 'allow.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0201",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__All of the pens__ __are spent__ __yesterday__.",
+    "choices": {
+      "a": "All of the pens",
+      "b": "are spent",
+      "c": "yesterday",
+      "d": "No error"
     },
-    {
-      "id": "vb-ie-0202",
-      "category": "verbal",
-      "subcategory": "identifying_errors",
-      "difficulty": "easy",
-      "question": "__Each computer__ __come__ with either a compact disk player or a DVD player.",
-      "choices": {
-        "a": "Each computer",
-        "b": "come",
-        "c": "either",
-        "d": "No error"
-      },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "The correct answer is B. 'Each' is singular, so the verb should be 'comes,' not 'come.'",
-      "source": "CSE Professional Reviewer — Verbal Ability"
-    }
+    "answer": "b",
+    "explanation": "The time expression 'yesterday' indicates past tense. The verb should be the past form 'were spent,' not the present 'are spent.' The error is in choice B."
+  },
+  {
+    "id": "vb-ie-0202",
+    "category": "verbal",
+    "subcategory": "identifying_errors",
+    "difficulty": "easy",
+    "question": "__Each computer__ __come__ with __either__ a compact disk player or a DVD player.",
+    "choices": {
+      "a": "Each computer",
+      "b": "come",
+      "c": "either",
+      "d": "No error"
+    },
+    "answer": "b",
+    "explanation": "The subject 'Each computer' is singular because 'each' takes a singular verb. The verb should be 'comes,' not 'come.' The error is in choice B."
+  }
   ],
   "passageGroups": [
     {
