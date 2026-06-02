@@ -1,6 +1,7 @@
 import ChoiceButton from './ChoiceButton'
 import CategoryBadge from './CategoryBadge'
 import DifficultyBadge from './DifficultyBadge'
+import SubcategoryBadge from './SubcategoryBadge'
 import FormattedText from './FormattedText'
 import { Bookmark, BookmarkCheck } from 'lucide-react'
 
@@ -20,6 +21,7 @@ export default function QuestionCard({
       <div className="flex justify-between items-start">
         <div className="flex gap-2 flex-wrap">
           <CategoryBadge category={question.category} />
+          <SubcategoryBadge subcategory={question.subcategory} />
           <DifficultyBadge difficulty={question.difficulty} />
         </div>
         <button
@@ -33,6 +35,20 @@ export default function QuestionCard({
           )}
         </button>
       </div>
+
+      {(question.subcategory === 'synonym' || question.subcategory === 'synonyms' || question.subcategory === 'kasingkahulugan') && (
+        <div className="flex items-center gap-1.5 text-xs text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20 rounded-lg px-3 py-1.5">
+          <span>🔵</span>
+          <span className="font-medium">Find the word with the SAME meaning</span>
+        </div>
+      )}
+
+      {(question.subcategory === 'antonym' || question.subcategory === 'antonyms' || question.subcategory === 'kasalungat') && (
+        <div className="flex items-center gap-1.5 text-xs text-rose-600 dark:text-rose-400 bg-rose-50 dark:bg-rose-900/20 rounded-lg px-3 py-1.5">
+          <span>🔴</span>
+          <span className="font-medium">Find the word with the OPPOSITE meaning</span>
+        </div>
+      )}
 
       <FormattedText text={question.question} className="text-lg font-medium leading-relaxed whitespace-pre-wrap" as="div" />
 

@@ -3,6 +3,9 @@ import { Navigate, useLocation, useNavigate } from 'react-router-dom'
 import useExamStore from '../store/examStore'
 import PassagePanel from '../components/PassagePanel'
 import FormattedText from '../components/FormattedText'
+import CategoryBadge from '../components/CategoryBadge'
+import DifficultyBadge from '../components/DifficultyBadge'
+import SubcategoryBadge from '../components/SubcategoryBadge'
 
 
 export default function AnswerReview() {
@@ -56,16 +59,23 @@ export default function AnswerReview() {
       )}
 
       <div className="flex justify-between items-start mb-2">
-        <span className={`text-xs font-bold px-2 py-1 rounded ${question.isCorrect ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>
-          {question.isCorrect ? 'Correct' : 'Incorrect'}
-        </span>
+        <div className="flex items-center flex-wrap gap-2">
+          <CategoryBadge category={question.category} />
+          <SubcategoryBadge subcategory={question.subcategory} />
+          <DifficultyBadge difficulty={question.difficulty} />
+        </div>
         <button
           onClick={() => bookmarkQuestion(question.id)}
-          className="text-sm text-gold"
+          className="text-sm text-gold ml-2"
         >
           {isBookmarked(question.id) ? 'Bookmarked' : 'Bookmark'}
         </button>
       </div>
+
+      <span className={`text-xs font-bold px-2 py-1 rounded ${question.isCorrect ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>
+        {question.isCorrect ? 'Correct' : 'Incorrect'}
+      </span>
+
       <p className="font-medium mb-3"><FormattedText text={question.question} /></p>
       <div className="space-y-1 text-sm">
         {Object.entries(question.choices).map(([key, text]) => {

@@ -250,6 +250,13 @@ export default function ExamSetup() {
               ))}
             </div>
           )}
+
+          {!retryWrongIds && selectedCategories.includes('verbal') && (
+            <div className="p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200 dark:border-blue-800 text-sm text-blue-700 dark:text-blue-300">
+              <p className="font-medium mb-1">Verbal questions include:</p>
+              <p className="text-xs leading-relaxed">Synonym, Antonym, Vocabulary, Grammar, Reading Comprehension, Analogy, Paragraph Organization, Sentence Completion, and Identifying Errors</p>
+            </div>
+          )}
         </div>
 
         <div className="space-y-6 mt-6 lg:mt-0">
