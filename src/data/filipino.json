@@ -11,9 +11,9 @@
     {
       "id": "fl-ks-0001",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "easy",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\n__Nauulinigan__ ang pag-uusap ng grupo dahil sa lakas ng tinig nila.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\n__Nauulinigan__ ang pag-uusap ng grupo dahil sa lakas ng tinig nila.",
       "choices": {
         "a": "nahihimigan",
         "b": "napakikinggan",
@@ -29,9 +29,9 @@
     {
       "id": "fl-ks-0002",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "easy",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nKarapatan ng bawat batang Pilipino ang magkaroon ng pamilyang __mag-aaruga__ sa kanya.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\nKarapatan ng bawat batang Pilipino ang magkaroon ng pamilyang __mag-aaruga__ sa kanya.",
       "choices": {
         "a": "mag-aalaga",
         "b": "magsasaway",
@@ -47,9 +47,9 @@
     {
       "id": "fl-ks-0003",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\n__Nagugulumihan__ si Rochelle kung anong kurso ang kanyang kukunin sa kolehiyo.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\n__Nagugulumihan__ si Rochelle kung anong kurso ang kanyang kukunin sa kolehiyo.",
       "choices": {
         "a": "nagtataka",
         "b": "natutuwa",
@@ -65,9 +65,9 @@
     {
       "id": "fl-ks-0004",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "easy",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\n__Tigib__ na ng pasahero ang dyip nang ito ay umalis.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\n__Tigib__ na ng pasahero ang dyip nang ito ay umalis.",
       "choices": {
         "a": "punung-puno",
         "b": "kulang-kulang",
@@ -83,9 +83,9 @@
     {
       "id": "fl-ks-0005",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "difficult",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nHindi na nakapagpigil ang kaawa-awang katulong kaya __ibinulalas__ ang sama ng loob sa mapag-aping amo.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\nHindi na nakapagpigil ang kaawa-awang katulong kaya __ibinulalas__ ang sama ng loob sa mapag-aping amo.",
       "choices": {
         "a": "isinabi",
         "b": "inilahad",
@@ -101,9 +101,9 @@
     {
       "id": "fl-ks-0006",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\n__Iminungkahi__ ang pagbabawal magtapon ng basura sa di-wastong lugar.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\n__Iminungkahi__ ang pagbabawal magtapon ng basura sa di-wastong lugar.",
       "choices": {
         "a": "ipinatupad",
         "b": "inilahad",
@@ -119,9 +119,9 @@
     {
       "id": "fl-ks-0007",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nMadalas silang mapaaway dahil sa kanilang __kapalaluan__.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\nMadalas silang mapaaway dahil sa kanilang __kapalaluan__.",
       "choices": {
         "a": "kalabisan",
         "b": "kayabangan",
@@ -137,9 +137,9 @@
     {
       "id": "fl-ks-0008",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nPakiramdam niya ay labis-labis ang kanyang suliranin kung kaya siya ay __maligalig__.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\nPakiramdam niya ay labis-labis ang kanyang suliranin kung kaya siya ay __maligalig__.",
       "choices": {
         "a": "matalino",
         "b": "masaya",
@@ -155,9 +155,9 @@
     {
       "id": "fl-ks-0009",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "easy",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\n__Maalwan__ lamang ang nararapat na dalahin ng isang bata.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\n__Maalwan__ lamang ang nararapat na dalahin ng isang bata.",
       "choices": {
         "a": "magaan",
         "b": "maganda",
@@ -173,9 +173,9 @@
     {
       "id": "fl-ks-0010",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nSa __palihan__ nagagawa ang mga itak, espada at iba pang yari sa bakal.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\nSa __palihan__ nagagawa ang mga itak, espada at iba pang yari sa bakal.",
       "choices": {
         "a": "palikuran",
         "b": "pamilihang-bayan",
@@ -191,9 +191,9 @@
     {
       "id": "fl-ks-0011",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nHindi mo dapat gawing katuwaan ang __pagkutya__ sa kapwa.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\nHindi mo dapat gawing katuwaan ang __pagkutya__ sa kapwa.",
       "choices": {
         "a": "pagsumbong",
         "b": "panunukso",
@@ -209,9 +209,9 @@
     {
       "id": "fl-ks-0012",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "difficult",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nAng pag-eensayo ng banda ay __nakabubulahaw__.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\nAng pag-eensayo ng banda ay __nakabubulahaw__.",
       "choices": {
         "a": "nakaiinis",
         "b": "nakagugulo",
@@ -227,9 +227,9 @@
     {
       "id": "fl-ks-0013",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nDapat kang __magkamal__ ng salapi sa mabuting paraan lamang.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\nDapat kang __magkamal__ ng salapi sa mabuting paraan lamang.",
       "choices": {
         "a": "magmana",
         "b": "magnakaw",
@@ -245,9 +245,9 @@
     {
       "id": "fl-ks-0014",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nIlan taon ding __sinil__ ng mga dayuhan ang mga Pilipino.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\nIlan taon ding __sinil__ ng mga dayuhan ang mga Pilipino.",
       "choices": {
         "a": "tinago",
         "b": "inapi",
@@ -263,9 +263,9 @@
     {
       "id": "fl-ks-0015",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nAng anumang __alitan__ ay di dapat hayaang magtagal.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\nAng anumang __alitan__ ay di dapat hayaang magtagal.",
       "choices": {
         "a": "proyekto",
         "b": "pagkakaibigan",
@@ -281,9 +281,9 @@
     {
       "id": "fl-ks-0016",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\n__Laganap__ ang krisis kaya tayo ay dapat magtipid.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\n__Laganap__ ang krisis kaya tayo ay dapat magtipid.",
       "choices": {
         "a": "kalat",
         "b": "kapos",
@@ -299,9 +299,9 @@
     {
       "id": "fl-ks-0017",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "difficult",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nMadaling __nababalino__ sa lihis na gawain ang mga kabataang laki sa lansangan.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\nMadaling __nababalino__ sa lihis na gawain ang mga kabataang laki sa lansangan.",
       "choices": {
         "a": "natutuwa",
         "b": "namamalik-mata",
@@ -317,9 +317,9 @@
     {
       "id": "fl-ks-0018",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "difficult",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nMaraming __himutok__ ang mga manggagawa laban sa kanilang kumpanya gaya ng di pagtaas ng kanilang sahod.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\nMaraming __himutok__ ang mga manggagawa laban sa kanilang kumpanya gaya ng di pagtaas ng kanilang sahod.",
       "choices": {
         "a": "nais",
         "b": "balakid",
@@ -335,9 +335,9 @@
     {
       "id": "fl-ks-0019",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nWalang __minimithi__ ang iyong magulang kungdi ang mabigyan ka ng magandang kinabukasan.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\nWalang __minimithi__ ang iyong magulang kungdi ang mabigyan ka ng magandang kinabukasan.",
       "choices": {
         "a": "dinadalangin",
         "b": "ninanais",
@@ -353,9 +353,9 @@
     {
       "id": "fl-ks-0020",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nIwasang __sumugba__ sa alanganin.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\nIwasang __sumugba__ sa alanganin.",
       "choices": {
         "a": "lumusong",
         "b": "tumigil",
@@ -371,9 +371,9 @@
     {
       "id": "fl-ks-0021",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nHuwag mong __pukawin__ ang batang nahihimlay.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\nHuwag mong __pukawin__ ang batang nahihimlay.",
       "choices": {
         "a": "libangin",
         "b": "palayain",
@@ -389,9 +389,9 @@
     {
       "id": "fl-ks-0022",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nHindi ka dapat __magmaktol__ kung ika'y napagsasabihan.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\nHindi ka dapat __magmaktol__ kung ika'y napagsasabihan.",
       "choices": {
         "a": "umiyak",
         "b": "magtampo",
@@ -407,9 +407,9 @@
     {
       "id": "fl-ks-0023",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "difficult",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nTuwing Marso, ang puno ng mangga ay __namumutiktik__ sa bunga.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\nTuwing Marso, ang puno ng mangga ay __namumutiktik__ sa bunga.",
       "choices": {
         "a": "maraming-marami",
         "b": "bilang na bilang",
@@ -425,9 +425,9 @@
     {
       "id": "fl-ks-0024",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "difficult",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\n__Kumipot__ ang Maynila sa dami ng taong naninirahan dito.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\n__Kumipot__ ang Maynila sa dami ng taong naninirahan dito.",
       "choices": {
         "a": "lumuwag",
         "b": "lumaki",
@@ -443,9 +443,9 @@
     {
       "id": "fl-ks-0025",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasingkahulugan",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\n__Patang-pata__ siya nang marating ang tuktok ng bundok Apo.",
+      "question": "Piliin ang kasingkahulugan ng salitang may salungguhit.\n\n__Patang-pata__ siya nang marating ang tuktok ng bundok Apo.",
       "choices": {
         "a": "pagod na pagod",
         "b": "masiglang-masigla",
@@ -461,9 +461,9 @@
     {
       "id": "fl-kl-0026",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nAng pag-iibigan nina Florante at Laura ay __matimyas__.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nAng pag-iibigan nina Florante at Laura ay __matimyas__.",
       "choices": {
         "a": "di-magmamaliw",
         "b": "di-totoo",
@@ -479,9 +479,9 @@
     {
       "id": "fl-kl-0027",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nDinidiligan ng pataba ang halaman upang ito'y __yumabong__.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nDinidiligan ng pataba ang halaman upang ito'y __yumabong__.",
       "choices": {
         "a": "lumago",
         "b": "dumami",
@@ -497,9 +497,9 @@
     {
       "id": "fl-kl-0028",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nNamamasyal siya sa parke upang mapawi ang __lumbay__.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nNamamasyal siya sa parke upang mapawi ang __lumbay__.",
       "choices": {
         "a": "galak",
         "b": "lungkot",
@@ -515,9 +515,9 @@
     {
       "id": "fl-kl-0029",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nHinintay namin ang __pagdaong__ ng Superferry upang salubungin si Ate.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nHinintay namin ang __pagdaong__ ng Superferry upang salubungin si Ate.",
       "choices": {
         "a": "pag-alis",
         "b": "paglapag",
@@ -533,9 +533,9 @@
     {
       "id": "fl-kl-0030",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\n__Palasak__ na ang paggamit ng kompyuter.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\n__Palasak__ na ang paggamit ng kompyuter.",
       "choices": {
         "a": "pambihira",
         "b": "pangkaraniwan",
@@ -551,9 +551,9 @@
     {
       "id": "fl-kl-0031",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "difficult",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\n__Nabaghan__ siya nang dumating ang kanyang amang dalawang taong naghanap-buhay sa ibang bansa.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\n__Nabaghan__ siya nang dumating ang kanyang amang dalawang taong naghanap-buhay sa ibang bansa.",
       "choices": {
         "a": "nagulat",
         "b": "nagtaka",
@@ -569,9 +569,9 @@
     {
       "id": "fl-kl-0032",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nHuwag mong ugaliin ang __umalipusta__ ng iyong kapwa.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nHuwag mong ugaliin ang __umalipusta__ ng iyong kapwa.",
       "choices": {
         "a": "laitin",
         "b": "purihin",
@@ -587,9 +587,9 @@
     {
       "id": "fl-kl-0033",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\n__Pahapay__ na ang mga maliliit na kumpanya dahil sa pagbagsak ng ekonomiya.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\n__Pahapay__ na ang mga maliliit na kumpanya dahil sa pagbagsak ng ekonomiya.",
       "choices": {
         "a": "paunlad",
         "b": "tagilid",
@@ -605,9 +605,9 @@
     {
       "id": "fl-kl-0034",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nMakapal at __magalas__ ang palad ng mga mason at karpintero.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nMakapal at __magalas__ ang palad ng mga mason at karpintero.",
       "choices": {
         "a": "mabuto",
         "b": "magaspang",
@@ -623,9 +623,9 @@
     {
       "id": "fl-kl-0035",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "difficult",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\n__Masalimuot__ man ang buhay natin, di tayo dapat mawalan ng pag-asa.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\n__Masalimuot__ man ang buhay natin, di tayo dapat mawalan ng pag-asa.",
       "choices": {
         "a": "mahirap",
         "b": "magulo",
@@ -641,9 +641,9 @@
     {
       "id": "fl-kl-0036",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "difficult",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\n__Sinalputan__ man lamang sana nila ang sanggol bago ito ginamit sa paglilimos.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\n__Sinalputan__ man lamang sana nila ang sanggol bago ito ginamit sa paglilimos.",
       "choices": {
         "a": "binalutan",
         "b": "tinakpan",
@@ -659,9 +659,9 @@
     {
       "id": "fl-kl-0037",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "difficult",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nHindi dapat pagkatiwalaan ang mga taong __taksil__ na mabait lamang kung kaharap mo.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nHindi dapat pagkatiwalaan ang mga taong __taksil__ na mabait lamang kung kaharap mo.",
       "choices": {
         "a": "suwail",
         "b": "matapat",
@@ -677,9 +677,9 @@
     {
       "id": "fl-kl-0038",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nTila walang kapaguran ang __mabungalngal__ na bibig ni Lina.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nTila walang kapaguran ang __mabungalngal__ na bibig ni Lina.",
       "choices": {
         "a": "tahimik",
         "b": "masalita",
@@ -695,9 +695,9 @@
     {
       "id": "fl-kl-0039",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nNapaka__kupad__ ng takbo ng karitela kung ikukumpara sa traysikel at dyip.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nNapaka__kupad__ ng takbo ng karitela kung ikukumpara sa traysikel at dyip.",
       "choices": {
         "a": "napakabilis",
         "b": "napakabagal",
@@ -713,9 +713,9 @@
     {
       "id": "fl-kl-0040",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nPatuloy na __magdarahop__ ang taong tamad.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nPatuloy na __magdarahop__ ang taong tamad.",
       "choices": {
         "a": "aasenso",
         "b": "maghihikahos",
@@ -731,9 +731,9 @@
     {
       "id": "fl-kl-0041",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "difficult",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nMahirap pakinggan and sinasabi ng taong __garil__.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nMahirap pakinggan and sinasabi ng taong __garil__.",
       "choices": {
         "a": "utal",
         "b": "bulol",
@@ -749,9 +749,9 @@
     {
       "id": "fl-kl-0042",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "difficult",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nKumain ka ng masustansiyang pagkain nang hindi maging __hawas__.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nKumain ka ng masustansiyang pagkain nang hindi maging __hawas__.",
       "choices": {
         "a": "payat",
         "b": "matipuno",
@@ -767,9 +767,9 @@
     {
       "id": "fl-kl-0043",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "difficult",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nAng labis na pagiging __hidhid__ ay nakasasama rin lalo pa't hindi ka marunong magbigay sa nangangailangan.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nAng labis na pagiging __hidhid__ ay nakasasama rin lalo pa't hindi ka marunong magbigay sa nangangailangan.",
       "choices": {
         "a": "waldas",
         "b": "kuripot",
@@ -785,9 +785,9 @@
     {
       "id": "fl-kl-0044",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\n__Hungkag__ ang bigasan dahil nasira ng bagyo ang mga palay.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\n__Hungkag__ ang bigasan dahil nasira ng bagyo ang mga palay.",
       "choices": {
         "a": "salat",
         "b": "puno",
@@ -803,9 +803,9 @@
     {
       "id": "fl-kl-0045",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nAng mga bulaklak ng orkidya ay __naluoy__ sa tindi ng init.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nAng mga bulaklak ng orkidya ay __naluoy__ sa tindi ng init.",
       "choices": {
         "a": "nabulok",
         "b": "natuyo",
@@ -821,9 +821,9 @@
     {
       "id": "fl-kl-0046",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "difficult",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nTotoo bang walang __lutoy__ ang pagkain sa ospital?",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nTotoo bang __walang lutoy__ ang pagkain sa ospital?",
       "choices": {
         "a": "walang lasa",
         "b": "walang sangkap",
@@ -839,9 +839,9 @@
     {
       "id": "fl-kl-0047",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "difficult",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nHindi __linubayan__ ng mga manunulat ang pagtatanong sa panauhing pandangal.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nHindi __linubayan__ ng mga manunulat ang pagtatanong sa panauhing pandangal.",
       "choices": {
         "a": "tinigilan",
         "b": "iniwasan",
@@ -857,9 +857,9 @@
     {
       "id": "fl-kl-0048",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "difficult",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nAng mga tirahan ng mayayaman ay __maagwat__ sa isa't isa.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nAng mga tirahan ng mayayaman ay __maagwat__ sa isa't isa.",
       "choices": {
         "a": "hiwa-hiwalay",
         "b": "magkakadikit",
@@ -875,9 +875,9 @@
     {
       "id": "fl-kl-0049",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\n__Maantak__ ang sugat kapag napatakan ng kalamansi.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\n__Maantak__ ang sugat kapag napatakan ng kalamansi.",
       "choices": {
         "a": "malaki",
         "b": "maliit",
@@ -893,9 +893,9 @@
     {
       "id": "fl-kl-0050",
       "category": "filipino",
-      "subcategory": "talasalitaan",
+      "subcategory": "kasalungat",
       "difficulty": "average",
-      "question": "Piliin ang kahulugan ng salitang may salungguhit.\n\nTunay na __mabalasik__ ang leon at ang tigre.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nTunay na __mabalasik__ ang leon at ang tigre.",
       "choices": {
         "a": "maamo",
         "b": "matapang",
