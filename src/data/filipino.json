@@ -380,10 +380,10 @@
         "c": "gisingin",
         "d": "saktan"
       },
-      "answer": "d",
+      "answer": "c",
       "answerKeyOverridden": true,
       "originalAnswerKey": "d",
-      "explanation": "⚠ VERIFY: Ang sagot ayon sa susi ay D, ngunit ang 'pukawin' ay nangangahulugang gisingin. Maaaring may pagkakamali sa susi.",
+      "explanation": "Ang tamang sagot ay C. Ang salitang 'pukawin' ay kasingkahulugan ng 'gisingin'. Sa konteksto ng pangungusap, ang 'nahihimlay' ay nangangahulugang natutulog, kaya ang paalala ay huwag gisingin ang batang natutulog.",
       "source": "CSE Professional Reviewer — Filipino"
     },
     {
