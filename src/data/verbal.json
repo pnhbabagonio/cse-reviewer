@@ -3473,7 +3473,7 @@
       "difficulty": "average",
       "source": "CSE Professional Reviewer — Verbal Ability",
       "title": "How a Bill Becomes a Law",
-      "passage": "A. The first procedure is that the bill passes through three readings on separate days.\nB. Otherwise, the bill will go back to the House from where it originated, and it will be deliberated upon again.\nC. If the President approves the bill, then it shall be deemed a law.\nD. A bill, before becoming a law, undergoes several procedures.\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is approved, it goes to the President for approval or veto.",
+      "passage": "A. The first procedure is that the bill passes through three readings on separate days.\n\nB. Otherwise, the bill will go back to the House from where it originated, and it will be deliberated upon again.\n\nC. If the President approves the bill, then it shall be deemed a law.\n\nD. A bill, before becoming a law, undergoes several procedures.\n\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is approved, it goes to the President for approval or veto.",
       "questions": [
         {
           "id": "pg-vb-po-0001-q1",
@@ -3482,12 +3482,13 @@
             "a": "A",
             "b": "B",
             "c": "C",
-            "d": "D"
+            "d": "D",
+            "e": "E"
           },
           "answer": "d",
           "answerKeyOverridden": false,
           "originalAnswerKey": null,
-          "explanation": "The correct answer is D. Sentence D introduces the topic by stating that a bill undergoes several procedures before becoming law, making it the logical opening sentence."
+          "explanation": "The correct order is D-A-E-C-B because:\n\nD. A bill, before becoming a law, undergoes several procedures. — introduces the general topic of the bill becoming law\nA. The first procedure is that the bill passes through three readings on separate days. — begins the step-by-step process with the first procedure\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is approved, it goes to the President for approval or veto. — continues the process through the third reading and sends the bill to the President\nC. If the President approves the bill, then it shall be deemed a law. — gives the approval outcome after the President receives the bill\nB. Otherwise, the bill will go back to the House from where it originated, and it will be deliberated upon again. — gives the alternative outcome if the bill is not approved\n\nTherefore, the correct answer is D."
         },
         {
           "id": "pg-vb-po-0001-q2",
@@ -3496,12 +3497,13 @@
             "a": "A",
             "b": "B",
             "c": "C",
-            "d": "D"
+            "d": "D",
+            "e": "E"
           },
           "answer": "c",
           "answerKeyOverridden": false,
           "originalAnswerKey": null,
-          "explanation": "The correct answer is C. After explaining the three readings (A and E), the logical sequence ends with the President's approval (C). The order is D (intro), A (first reading/process), E (third reading), C (President's action), with B as an alternative path."
+          "explanation": "The correct order is D-A-E-C-B because:\n\nD. A bill, before becoming a law, undergoes several procedures. — introduces the general topic of the bill becoming law\nA. The first procedure is that the bill passes through three readings on separate days. — begins the step-by-step process with the first procedure\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is approved, it goes to the President for approval or veto. — continues the process through the third reading and sends the bill to the President\nC. If the President approves the bill, then it shall be deemed a law. — gives the approval outcome and is the fourth sentence\nB. Otherwise, the bill will go back to the House from where it originated, and it will be deliberated upon again. — gives the alternative outcome if the bill is not approved\n\nTherefore, the correct answer is C."
         },
         {
           "id": "pg-vb-po-0001-q3",
@@ -3516,7 +3518,7 @@
           "answer": "c",
           "answerKeyOverridden": false,
           "originalAnswerKey": null,
-          "explanation": "The correct answer is C (D-A-E-C-B-F). The logical sequence: D introduces the process; A describes the first three readings; E covers the third reading and presidential approval; C states that if approved it becomes law; B addresses the alternative (if not approved); F adds a note about the veto timeline."
+          "explanation": "The correct order is D-A-E-C-B-F because:\n\nD. A bill, before becoming a law, undergoes several procedures. — introduces the general topic of the bill becoming law\nA. The first procedure is that the bill passes through three readings on separate days. — begins the step-by-step process with the first procedure\nE. On the third reading, the votes of the lawmakers shall be recorded and if the bill is approved, it goes to the President for approval or veto. — continues the process through the third reading and introduces presidential approval or veto\nC. If the President approves the bill, then it shall be deemed a law. — gives the approval outcome after the President receives the bill\nB. Otherwise, the bill will go back to the House from where it originated, and it will be deliberated upon again. — gives the alternative outcome if the bill is not approved\nF. It should be noted, however, that the President must communicate his veto within thirty days from receipt of the bill, otherwise, the bill is considered to have been approved by him. — adds the timing rule for the veto alternative\n\nTherefore, the correct answer is C."
         }
       ]
     },
@@ -3527,7 +3529,7 @@
       "difficulty": "average",
       "source": "CSE Professional Reviewer — Verbal Ability",
       "title": "The Importance of Listening",
-      "passage": "A. Learning to listen is one way of keeping friends.\nB. Although listening can really be very tiring on the listener, it may, on the other hand, be comforting to the speaker.\nC. So learn how to listen, and gain more friends.\nD. We also show that we care about what goes on in their lives.\nE. By listening, we show our friends that they are important to us.",
+      "passage": "A. Learning to listen is one way of keeping friends.\n\nB. Although listening can really be very tiring on the listener, it may, on the other hand, be comforting to the speaker.\n\nC. So learn how to listen, and gain more friends.\n\nD. We also show that we care about what goes on in their lives.\n\nE. By listening, we show our friends that they are important to us.",
       "questions": [
         {
           "id": "pg-vb-po-0002-q1",
@@ -3539,10 +3541,10 @@
             "d": "D",
             "e": "E"
           },
-          "answer": "c",
-          "answerKeyOverridden": false,
-          "originalAnswerKey": null,
-          "explanation": "The correct answer is C? Wait, the logical order is A (thesis), E (explanation), D (further explanation), B (concession), C (conclusion). The third sentence would be D. The source key may differ."
+          "answer": "d",
+          "answerKeyOverridden": true,
+          "originalAnswerKey": "c",
+          "explanation": "The correct order is A-E-D-B-C because:\n\nA. Learning to listen is one way of keeping friends. — introduces the main idea that listening helps maintain friendships\nE. By listening, we show our friends that they are important to us. — explains the first way listening supports friendship\nD. We also show that we care about what goes on in their lives. — adds a second related benefit and is the third sentence\nB. Although listening can really be very tiring on the listener, it may, on the other hand, be comforting to the speaker. — gives a concession while still showing listening helps the speaker\nC. So learn how to listen, and gain more friends. — concludes with a direct recommendation based on the previous points\n\nTherefore, the correct answer is D."
         }
       ]
     },
