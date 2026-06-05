@@ -5,9 +5,16 @@ const difficultyColors = {
 }
 
 export default function DifficultyBadge({ difficulty }) {
+  const normalized = (typeof difficulty === 'string' ? difficulty.trim().toLowerCase() : '')
+  const label = normalized || 'unknown'
+
   return (
-    <span className={`px-2 py-1 rounded-md text-xs font-medium capitalize ${difficultyColors[difficulty] || 'bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-200'}`}>
-      {difficulty || 'unknown'}
+    <span
+      className={`px-2 py-1 rounded-md text-xs font-medium capitalize ${
+        difficultyColors[label] || 'bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-200'
+      }`}
+    >
+      {label}
     </span>
   )
 }

@@ -10,7 +10,9 @@ const buildPassageQuestion = ({ group, groupIndex, q, questionIndexWithinGroup }
     id: q.id,
     category: group.category,
     subcategory: group.subcategory,
-    difficulty: q.difficulty,
+    // Passage group question items often don't include their own difficulty.
+    // Fall back to the parent passage group's difficulty to keep UI labels consistent.
+    difficulty: q?.difficulty ?? group?.difficulty,
     source: group.source,
 
     passageId: group.id,
