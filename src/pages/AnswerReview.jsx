@@ -16,11 +16,16 @@ export default function AnswerReview() {
   const [filter, setFilter] = useState('all')
   const [selectedIndex, setSelectedIndex] = useState(0)
 
+  // Use session.questions as the source of truth.
+  // session.questions already contains synthetic `passage_question` items produced by buildExamPool,
+  // so relying on `allQuestions` can drop them (making review look incomplete, especially for
+  // passage-based subcategories).
   let reviewQuestions = session
-    ? session.results.map(r => {
-      const q = allQuestions.find(q => q.id === r.questionId)
-      return q ? { ...q, userAnswer: r.userAnswer, isCorrect: r.isCorrect } : null
-    }).filter(Boolean)
+    ? session.questions.map((q) => {
+        const r = session.results.find((x) => x.questionId === q.id)
+        if (!r) return null
+        return { ...q, userAnswer: r.userAnswer, isCorrect: r.isCorrect }
+      }).filter(Boolean)
     : []
 
   if (filter === 'correct') reviewQuestions = reviewQuestions.filter(q => q.isCorrect)
