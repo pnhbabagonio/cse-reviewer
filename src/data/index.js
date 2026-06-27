@@ -24,7 +24,36 @@ const updateAllBanks = () => {
  * Use this when no category filter is applied.
  */
 export const getAllQuestions = () => {
-  return Object.values(currentData.allBanks).flatMap(b => b.questions)
+  const standalone = Object.values(currentData.allBanks).flatMap(b => b.questions)
+  
+  // Flatten passage group questions with passage metadata attached
+  const passageGroups = Object.values(currentData.allBanks).flatMap(b => b.passageGroups ?? [])
+  const passageQuestions = passageGroups.flatMap((group, groupIndex) => {
+    const qs = group.questions ?? []
+    return qs.map((q, questionIndexWithinGroup) => ({
+      type: 'passage_question',
+      id: q.id,
+      category: group.category,
+      subcategory: group.subcategory || 'uncategorized',
+      difficulty: q.difficulty || group.difficulty || 'average',
+      source: group.source,
+
+      passageId: group.id,
+      passageTitle: group.title,
+      passageText: group.passage,
+
+      isFirstInGroup: questionIndexWithinGroup === 0,
+      groupSize: qs.length,
+      groupIndex,
+
+      question: q.question,
+      choices: q.choices,
+      answer: q.answer,
+      explanation: q.explanation,
+    }))
+  })
+  
+  return [...standalone, ...passageQuestions]
 }
 
 export const allQuestions = getAllQuestions()

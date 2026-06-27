@@ -35,7 +35,7 @@ const getImportedQuestions = () => {
   try {
     const parsed = JSON.parse(stored)
     return Array.isArray(parsed) ? parsed : []
-  } catch(e) {
+  } catch (e) {
     return []
   }
 }
@@ -43,7 +43,7 @@ const getImportedQuestions = () => {
 const getBundledQuestionPool = (selectedCategories = []) => {
   const questionsData = getQuestionsByCategory()
   const allQs = getAllQuestions()
-  
+
   if (selectedCategories.length === 0) return allQs
 
   return selectedCategories.flatMap(cat => questionsData[cat] ?? [])
@@ -59,25 +59,11 @@ const getSubcategoryKey = (question) => (
 // - standalone questions: use as-is (each item is one question)
 // - passage groups: expand into N synthetic items, where N = number of questions in that group
 //   so that subcategory totals match the real passage-group question counts.
+
 const getFilterableQuestionsForSubcategoryUI = () => {
-  const standalone = getMergedQuestionPool()
-
-  const passageExpanded = (allPassageGroups ?? []).flatMap((g) => {
-    const groupQuestionCount = g?.questions?.length ?? 0
-    if (groupQuestionCount <= 0) return []
-
-    // One synthetic UI item per question in the passage group
-    return Array.from({ length: groupQuestionCount }, (_, idx) => ({
-      // unique/stable-ish id for UI filtering (retry mode uses ids too, but retryWrongIds
-      // only targets real question ids; this selector is only for chip counts/options)
-      id: `pg-ui::${g.id}::q${idx}`,
-      category: g.category,
-      subcategory: g.subcategory || 'uncategorized',
-      difficulty: g.difficulty,
-    }))
-  })
-
-  return [...standalone, ...passageExpanded]
+  // getAllQuestions() now includes passage group questions,
+  // so getMergedQuestionPool() already has everything we need.
+  return getMergedQuestionPool()
 }
 
 const getMergedQuestionPool = (selectedCategories = []) => {
@@ -147,20 +133,24 @@ const useExamStore = create(
         const standaloneQuestions = retryWrongIds
           ? getMergedQuestionPool().filter((q) => retryWrongIds.includes(q.id))
           : getMergedQuestionPool(selectedCategories).filter((q) => {
-              const catOk = selectedCategories.length === 0 || selectedCategories.includes(q.category)
-              const diffOk = selectedDiff === 'all' || q.difficulty === selectedDiff
-              const subOk =
-                !subcategoryKeys ||
-                subcategoryKeys.length === 0 ||
-                subcategoryKeys.includes(getSubcategoryKey(q))
-              return catOk && diffOk && subOk
-            })
+            const catOk = selectedCategories.length === 0 || selectedCategories.includes(q.category)
+            const diffOk = selectedDiff === 'all' || q.difficulty === selectedDiff
+            const subOk =
+              !subcategoryKeys ||
+              subcategoryKeys.length === 0 ||
+              subcategoryKeys.includes(getSubcategoryKey(q))
+            return catOk && diffOk && subOk
+          })
+
+        // Remove passage-type questions from standalone pool —
+        // they'll be included via passageGroups to avoid duplicate IDs in the exam pool
+        const standaloneOnly = standaloneQuestions.filter(q => q.type !== 'passage_question')
 
         const passageGroups = retryWrongIds
           ? (selectedCategories.length === 0 ? allPassageGroups : selectedCategories.flatMap((cat) => passageGroupsByCategory[cat] ?? []))
           : (selectedCategories.length === 0
-              ? allPassageGroups
-              : selectedCategories.flatMap((cat) => passageGroupsByCategory[cat] ?? []))
+            ? allPassageGroups
+            : selectedCategories.flatMap((cat) => passageGroupsByCategory[cat] ?? []))
 
         // Difficulty filter for passage groups
         const filteredPassageGroups = (passageGroups ?? []).filter((g) => {
@@ -181,7 +171,7 @@ const useExamStore = create(
         })
 
         const pool = buildExamPool({
-          questions: standaloneQuestions,
+          questions: standaloneOnly,
           passageGroups: filteredPassageGroups,
           categories: selectedCategories,
           difficulty: selectedDiff,
@@ -213,6 +203,7 @@ const useExamStore = create(
       },
 
       submitAnswer: (questionId, answer) => {
+        console.trace('📝 submitAnswer called:', { questionId, answer })
         const { session } = get()
         if (!session) return
         const newAnswers = { ...session.answers, [questionId]: answer }
@@ -290,7 +281,7 @@ const useExamStore = create(
     }),
     {
       name: 'cse_exam_store',
-      partialize: (state) => ({ 
+      partialize: (state) => ({
         bookmarks: state.bookmarks,
         session: state.session,
         currentQuestionIndex: state.currentQuestionIndex,
@@ -304,7 +295,7 @@ if (typeof window !== 'undefined') {
   window.addEventListener('data-refresh', () => {
     // Reload all questions without categories to refresh the data
     useExamStore.getState().loadQuestions()
-    
+
     // If there's an active session, close it and return to dashboard
     const currentSession = useExamStore.getState().session
     if (currentSession) {

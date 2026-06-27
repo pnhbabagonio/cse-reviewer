@@ -33,6 +33,22 @@ export default function ExamSession() {
   const totalQuestions = session?.questions.length || 0
   const selectedAnswer = session?.answers[currentQuestion?.id]
 
+  // DEBUG: Track what's happening with selectedAnswer
+  useEffect(() => {
+    if (!session || !currentQuestion) return
+    console.log('🔍 ExamSession state:', {
+      currentQuestionId: currentQuestion.id,
+      currentQuestionType: currentQuestion.type,
+      currentQuestionSubcategory: currentQuestion.subcategory,
+      currentQuestionAnswer: currentQuestion.answer,
+      selectedAnswer: selectedAnswer,
+      selectedAnswerType: typeof selectedAnswer,
+      sessionAnswersKeys: Object.keys(session.answers),
+      sessionAnswersFull: session.answers,
+      mode: session.mode,
+    })
+  }, [currentQuestion?.id, session?.answers, session?.mode])
+
   const handleSelectAnswer = (answer) => {
     if (!session || !currentQuestion) return
 
@@ -146,7 +162,6 @@ export default function ExamSession() {
 
         <QuestionCard
           question={currentQuestion}
-
           selectedAnswer={selectedAnswer}
           onSelectAnswer={handleSelectAnswer}
           mode={session.mode}

@@ -10,7 +10,7 @@ const buildPassageQuestion = ({ group, groupIndex, q, questionIndexWithinGroup }
     id: q.id,
     category: group.category,
     subcategory: group.subcategory,
-    difficulty: q.difficulty,
+    difficulty: q.difficulty || group.difficulty || 'average',
     source: group.source,
 
     passageId: group.id,
@@ -60,15 +60,15 @@ export function buildExamPool({
     // Retry wrong answers mode
     standalonePool = (questions ?? []).filter((q) => specificIds.includes(q.id))
 
-    ;(passageGroups ?? []).forEach((g) => {
-      const matchingQs = (g.questions ?? []).filter((q) => specificIds.includes(q.id))
-      if (matchingQs.length > 0) {
-        groupPool.push({
-          ...g,
-          questions: matchingQs,
-        })
-      }
-    })
+      ; (passageGroups ?? []).forEach((g) => {
+        const matchingQs = (g.questions ?? []).filter((q) => specificIds.includes(q.id))
+        if (matchingQs.length > 0) {
+          groupPool.push({
+            ...g,
+            questions: matchingQs,
+          })
+        }
+      })
   } else {
     // Normal mode
     standalonePool = (questions ?? []).filter(
