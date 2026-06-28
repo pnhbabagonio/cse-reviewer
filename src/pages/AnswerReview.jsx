@@ -16,11 +16,26 @@ export default function AnswerReview() {
   const [filter, setFilter] = useState('all')
   const [selectedIndex, setSelectedIndex] = useState(0)
 
+  // Use session.questions as the source of truth.
+  // session.questions already contains synthetic `passage_question` items produced by buildExamPool,
+  // so relying on `allQuestions` can drop them (making review look incomplete, especially for
+  // passage-based subcategories).
   let reviewQuestions = session
-    ? session.results.map(r => {
-      const q = allQuestions.find(q => q.id === r.questionId)
-      return q ? { ...q, userAnswer: r.userAnswer, isCorrect: r.isCorrect } : null
-    }).filter(Boolean)
+    ? session.questions.map((q) => {
+        const r = session.results?.find((x) => x.questionId === q.id)
+        if (!r) return null
+
+        // Ensure required fields exist to avoid runtime crashes during render
+        return {
+          ...q,
+          question: q?.question ?? '',
+          choices: q?.choices ?? {},
+          answer: q?.answer ?? '',
+          explanation: q?.explanation ?? '',
+          userAnswer: r.userAnswer,
+          isCorrect: r.isCorrect,
+        }
+      }).filter(Boolean)
     : []
 
   if (filter === 'correct') reviewQuestions = reviewQuestions.filter(q => q.isCorrect)
@@ -117,9 +132,9 @@ export default function AnswerReview() {
         <button onClick={() => navigate(-1)} className="text-sm text-gold">Back</button>
       </div>
 
-      <div className="lg:grid lg:grid-cols-[320px_1fr] lg:gap-0 lg:h-[calc(100vh-160px)] bg-transparent lg:bg-white lg:dark:bg-gray-900 lg:rounded-xl lg:shadow-md lg:overflow-hidden">
+      <div className="lg:grid lg:grid-cols-[320px_1fr] lg:gap-0 lg:h-[calc(100vh-160px)] bg-gray-50 dark:bg-gray-900 lg:rounded-xl lg:shadow-md lg:overflow-hidden">
         <div className="lg:overflow-y-auto lg:border-r lg:border-gray-200 lg:dark:border-gray-700">
-          <div className="sticky top-0 bg-white dark:bg-gray-900 p-3 border-b border-gray-200 dark:border-gray-700 z-10">
+          <div className="sticky top-0 bg-gray-50 dark:bg-gray-900 p-3 border-b border-gray-200 dark:border-gray-700 z-10">
             <FilterChips />
           </div>
 
