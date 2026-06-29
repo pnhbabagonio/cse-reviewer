@@ -25,7 +25,6 @@ export default function PassagePanel({ title, passageText, groupIndex, groupSize
         </div>
 
         <div className="flex items-center gap-3">
-
           <button
             onClick={() => setCollapsed((c) => !c)}
             className="p-1 rounded-md text-blue-500 hover:bg-blue-100
@@ -41,13 +40,13 @@ export default function PassagePanel({ title, passageText, groupIndex, groupSize
         <div className="px-4 py-3 max-h-56 overflow-y-auto">
           {String(passageText || '')
             .split('\n\n')
-            .map((para, i) => (
+            .map((stanza, i) => (
               <p
                 key={i}
                 className="text-sm text-gray-700 dark:text-gray-300
-                                  leading-relaxed mb-3 last:mb-0"
+                                  leading-relaxed mb-3 last:mb-0 whitespace-pre-line"
               >
-                {para}
+                {stanza}
               </p>
             ))}
         </div>
@@ -63,4 +62,3 @@ export default function PassagePanel({ title, passageText, groupIndex, groupSize
     </div>
   )
 }
-
