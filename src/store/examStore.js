@@ -266,6 +266,7 @@ const useExamStore = create(
           categories: session.categories,
           difficulty: session.difficulty,
           totalQuestions: session.totalQuestions,
+          questions: session.questions,
           score,
           percentage,
           passed,
