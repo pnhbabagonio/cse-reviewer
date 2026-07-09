@@ -53,16 +53,7 @@ const getSubcategoryKey = (question) => (
   `${question.category}::${question.subcategory || 'uncategorized'}`
 )
 
-// UI filter needs to include passage-group subcategories that don't exist in allQuestions (standalone-only).
-// This returns a flattened list of "filterable" question-shaped objects for ExamSetup counts.
-// IMPORTANT: Do NOT dedupe, because ExamSetup shows actual question counts.
-// - standalone questions: use as-is (each item is one question)
-// - passage groups: expand into N synthetic items, where N = number of questions in that group
-//   so that subcategory totals match the real passage-group question counts.
-
 const getFilterableQuestionsForSubcategoryUI = () => {
-  // getAllQuestions() now includes passage group questions,
-  // so getMergedQuestionPool() already has everything we need.
   return getMergedQuestionPool()
 }
 
@@ -80,10 +71,10 @@ const getMergedQuestionPool = (selectedCategories = []) => {
 const useExamStore = create(
   persist(
     (set, get) => ({
-      allQuestions: [],      // merged bundled + imported
-      bookmarks: [],         // array of question IDs
-      session: null,         // active session object
-      currentQuestionIndex: 0, // track current question index
+      allQuestions: [],
+      bookmarks: [],
+      session: null,
+      currentQuestionIndex: 0,
 
       loadQuestions: (selectedCategories = []) => {
         set({ allQuestions: getMergedQuestionPool(selectedCategories) })
@@ -95,7 +86,6 @@ const useExamStore = create(
 
       getQuestions: () => get().allQuestions,
 
-      // Used by ExamSetup to build the subcategory chip list including passage-group derived subcategories.
       getFilterableQuestionsForSubcategoryUI: () => {
         return getFilterableQuestionsForSubcategoryUI()
       },
@@ -124,9 +114,6 @@ const useExamStore = create(
           subcategoryKeys,
         } = config
 
-        // Apply existing subcategory filtering to standalone questions.
-        // Passage groups do not have subcategoryKeys inside their questions,
-        // so we approximate by group.subcategory.
         const selectedCategories = categories || []
         const selectedDiff = difficulty || 'all'
 
@@ -142,8 +129,6 @@ const useExamStore = create(
             return catOk && diffOk && subOk
           })
 
-        // Remove passage-type questions from standalone pool —
-        // they'll be included via passageGroups to avoid duplicate IDs in the exam pool
         const standaloneOnly = standaloneQuestions.filter(q => q.type !== 'passage_question')
 
         const passageGroups = retryWrongIds
@@ -152,7 +137,6 @@ const useExamStore = create(
             ? allPassageGroups
             : selectedCategories.flatMap((cat) => passageGroupsByCategory[cat] ?? []))
 
-        // Difficulty filter for passage groups
         const filteredPassageGroups = (passageGroups ?? []).filter((g) => {
           const diffOk = selectedDiff === 'all' || g.difficulty === selectedDiff
           const subOk =
@@ -161,7 +145,6 @@ const useExamStore = create(
             subcategoryKeys.includes(`${g.category}::${g.subcategory || 'uncategorized'}`)
 
           if (retryWrongIds) {
-            // Retry mode: keep only groups that contain at least one question in retryWrongIds
             const hasAny = (g.questions ?? []).some((q) => retryWrongIds.includes(q.id))
             return hasAny && diffOk && subOk
           }
@@ -197,13 +180,11 @@ const useExamStore = create(
         return sessionObj
       },
 
-
       setCurrentQuestionIndex: (index) => {
         set({ currentQuestionIndex: index })
       },
 
       submitAnswer: (questionId, answer) => {
-        console.trace('📝 submitAnswer called:', { questionId, answer })
         const { session } = get()
         if (!session) return
         const newAnswers = { ...session.answers, [questionId]: answer }
@@ -249,7 +230,6 @@ const useExamStore = create(
         const passed = percentage >= 80
         const timeTakenSeconds = Math.floor((Date.now() - session.startTime) / 1000)
 
-        // Category breakdown
         const categoryBreakdown = {}
         results.forEach((r, idx) => {
           const q = session.questions[idx]
@@ -287,17 +267,19 @@ const useExamStore = create(
         session: state.session,
         currentQuestionIndex: state.currentQuestionIndex,
       }),
+      onRehydrateStorage: () => (state) => {
+        if (state) {
+          state.allQuestions = getMergedQuestionPool()
+        }
+      },
     }
   )
 )
 
-// Listen for data changes and reload questions automatically
 if (typeof window !== 'undefined') {
   window.addEventListener('data-refresh', () => {
-    // Reload all questions without categories to refresh the data
     useExamStore.getState().loadQuestions()
 
-    // If there's an active session, close it and return to dashboard
     const currentSession = useExamStore.getState().session
     if (currentSession) {
       useExamStore.getState().clearSession()
