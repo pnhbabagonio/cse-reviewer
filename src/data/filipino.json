@@ -1376,24 +1376,24 @@
       "explanation": "Ang tamang sagot ay D (nagbibingi-bingihan). Ang 'nagtataingang-kawali' ay nangangahulugang nagbibingi-bingihan o nagpapanggap na hindi nakakarinig.",
       "source": "CSE Professional Reviewer — Filipino"
     },
-    {
-      "id": "fl-wg-0077",
-      "category": "filipino",
-      "subcategory": "gramatika",
-      "difficulty": "easy",
-      "question": "Ang ningas-kugon ay isang kaugaliang dapat iwasan o baguhin ng mga Pilipino.",
-      "choices": {
-        "a": "nang",
-        "b": "ng",
-        "c": "raw",
-        "d": "nating"
-      },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay B (ng). Ang 'ng' ay ginagamit bilang pang-ukol. Walang tamang pagpipilian sa tanong na ito dahil hindi kumpleto ang pangungusap.",
-      "source": "CSE Professional Reviewer — Filipino"
+  {
+    "id": "fl-wg-0077",
+    "category": "filipino",
+    "subcategory": "gramatika",
+    "difficulty": "easy",
+    "question": "Ang ningas-kugon ay isang kaugaliang dapat iwasan o baguhin _____ mga Pilipino.",
+    "choices": {
+      "a": "nang",
+      "b": "ng",
+      "c": "raw",
+      "d": "nating"
     },
+    "answer": "b",
+    "answerKeyOverridden": false,
+    "originalAnswerKey": null,
+    "explanation": "Ang tamang sagot ay B (ng). Ginagamit ang 'ng' bilang pananda sa tagaganap (doer) ng pandiwa. Sa pangungusap, ang 'mga Pilipino' ang tagaganap ng pandiwang 'baguhin'.",
+    "source": "CSE Professional Reviewer — Filipino"
+  },
     {
       "id": "fl-wg-0078",
       "category": "filipino",
