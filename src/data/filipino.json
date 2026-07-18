@@ -733,7 +733,7 @@
       "category": "filipino",
       "subcategory": "kasalungat",
       "difficulty": "difficult",
-      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nMahirap pakinggan and sinasabi ng taong __garil__.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nMahirap pakinggan ang sinasabi ng taong __garil__.",
       "choices": {
         "a": "utal",
         "b": "bulol",
@@ -913,7 +913,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "average",
-      "question": "Kung hindi ka maliligo, mangangamoy-kambing ka.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Kung hindi ka maliligo, mangangamoy-kambing ka?",
       "choices": {
         "a": "mamamaho",
         "b": "dudungis",
@@ -931,7 +931,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "average",
-      "question": "Nag-alsa balutan ang katulong sa bahay dahil sa kalupitan ng kanyang amo.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Nag-alsa balutan ang katulong sa bahay dahil sa kalupitan ng kanyang amo?",
       "choices": {
         "a": "nagtampo",
         "b": "lumayas",
@@ -949,7 +949,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Hindi totoo ang kanyang katapangan sapagkat bahag ang buntot niya sa harap ng paghihirap.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Hindi totoo ang kanyang katapangan sapagkat bahag ang buntot niya sa harap ng paghihirap?",
       "choices": {
         "a": "malakas ang loob",
         "b": "matapang",
@@ -967,7 +967,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Dahil sa paulit-ulit na pagsisinungaling, basa ang papel niya sa karamihan.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Dahil sa paulit-ulit na pagsisinungaling, basa ang papel niya sa karamihan?",
       "choices": {
         "a": "ayaw nang paniwalaan",
         "b": "ayaw nang pagbigyan",
@@ -985,7 +985,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Kumukulo ang dugo ng ina ni Robin sa kanya sapagkat hindi siya nag-aral nang mabuti.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Kumukulo ang dugo ng ina ni Robin sa kanya sapagkat hindi siya nag-aral nang mabuti?",
       "choices": {
         "a": "tuwa-tuwa",
         "b": "galit na galit",
@@ -1003,7 +1003,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Di-mahapayang gatang ang pagpapalitan ng kuru-kuro ng mga mambabatas.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Di-mahapayang gatang ang pagpapalitan ng kuru-kuro ng mga mambabatas?",
       "choices": {
         "a": "hindi maumpisahan",
         "b": "hindi magulo",
@@ -1021,7 +1021,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Noong panahon ng pananakop ng Kastila, ang mga Pilipino ay hawak sa tainga ng mga ito.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Noong panahon ng pananakop ng Kastila, ang mga Pilipino ay hawak sa tainga ng mga ito?",
       "choices": {
         "a": "sunud-sunuran",
         "b": "katuwang",
@@ -1039,7 +1039,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Mabulaklak ang landas ng taong masikap.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Mabulaklak ang landas ng taong masikap?",
       "choices": {
         "a": "malabo ang kinabukasan",
         "b": "makulay ang kinabukasan",
@@ -1057,7 +1057,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Maliit ang sisidlan ni Mhon kaya iniwasan siyang biruin.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Maliit ang sisidlan ni Mhon kaya iniwasan siyang biruin?",
       "choices": {
         "a": "walang lakas-loob",
         "b": "walang galang",
@@ -1075,7 +1075,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Mahilig kasing magbasa kahit sa madilim si Tina kaya siya ay nagmamatang-manok.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Mahilig kasing magbasa kahit sa madilim si Tina kaya siya ay nagmamatang-manok?",
       "choices": {
         "a": "lumiliit ang mata",
         "b": "malabo ang mata",
@@ -1093,7 +1093,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Kung minsan, inggit ang nagiging dahilan sa pagsasualian ng kandila.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Kung minsan, inggit ang nagiging dahilan sa pagsasualian ng kandila?",
       "choices": {
         "a": "pagkasira ng tiwala",
         "b": "pagkasira ng pamilya",
@@ -1111,7 +1111,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Pabalat-bunga lang pala ang pagiging bukas-palad niya; may pulitikal pala itong kadahilanan kaya siya mapagbigay.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Pabalat-bunga lang pala ang pagiging bukas-palad niya; may pulitikal pala itong kadahilanan kaya siya mapagbigay?",
       "choices": {
         "a": "taos-puso",
         "b": "pakunwari",
@@ -1129,7 +1129,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Tiklop-tuhod ang akusado na siya ay patawarin ng biktima.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Tiklop-tuhod ang akusado na siya ay patawarin ng biktima?",
       "choices": {
         "a": "nagkukunwari",
         "b": "nananakot",
@@ -1147,7 +1147,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Ni ayaw man lamang humarap sa tao ang talo-saling na si Eula.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Ni ayaw man lamang humarap sa tao ang talo-saling na si Eula?",
       "choices": {
         "a": "masungit",
         "b": "isnabera",
@@ -1165,7 +1165,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Di dapat tularan ang mga taong walang kusang-palo.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Di dapat tularan ang mga taong walang kusang-palo?",
       "choices": {
         "a": "walang kusang-loob",
         "b": "walang bait sa sarili",
@@ -1183,7 +1183,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Hindi tama ang ika'y walang lingon-likod. Dapat ay suklian ang kabutihan ng iba sa iyo.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Hindi tama ang ika'y walang lingon-likod. Dapat ay suklian ang kabutihan ng iba sa iyo?",
       "choices": {
         "a": "mayabang",
         "b": "mapagmataas",
@@ -1201,7 +1201,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Makapigil-hininga ang pelikulang Muro Ami.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Makapigil-hininga ang pelikulang Muro Ami?",
       "choices": {
         "a": "nakasasabik",
         "b": "nakaaantok",
@@ -1219,7 +1219,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Halang ang kaluluwa ng taong gumagawa ng karumal-dumal na krimen.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Halang ang kaluluwa ng taong gumagawa ng karumal-dumal na krimen?",
       "choices": {
         "a": "mabait",
         "b": "bastos",
@@ -1237,7 +1237,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Di-maliparan ng uwak ang lupain ng mga Aquino sa Tarlac.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Di-maliparan ng uwak ang lupain ng mga Aquino sa Tarlac?",
       "choices": {
         "a": "napakaliit",
         "b": "napakalawak",
@@ -1255,7 +1255,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Makunat pa sa patola si Lola Rosa kaya uugud-ugod na.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Makunat pa sa patola si Lola Rosa kaya uugud-ugod na?",
       "choices": {
         "a": "masayahin pa",
         "b": "masigla pa",
@@ -1273,7 +1273,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Nilubugan ng araw ang mga taong nasalanta ng bagyo ang mga tirahan.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Nilubugan ng araw ang mga taong nasalanta ng bagyo ang mga tirahan?",
       "choices": {
         "a": "nawalan ng pag-asa",
         "b": "dumilim ang paligid",
@@ -1291,7 +1291,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Hindi mo matatagpuan sa kanilang bahay si Cecile, palibhasa ay may puyo sa talampakan.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Hindi mo matatagpuan sa kanilang bahay si Cecile, palibhasa ay may puyo sa talampakan?",
       "choices": {
         "a": "mahilig matulog",
         "b": "mahilig mamasyal",
@@ -1309,7 +1309,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Binata na si JB kaya siya ay naniningalang-pugad na.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Binata na si JB kaya siya ay naniningalang-pugad na?",
       "choices": {
         "a": "naninigarilyo",
         "b": "nagbabarkada",
@@ -1327,7 +1327,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Malimit na may kabanggaan si Malou sa opisina dahil maanghang ang kanyang dila.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Malimit na may kabanggaan si Malou sa opisina dahil maanghang ang kanyang dila?",
       "choices": {
         "a": "pikon",
         "b": "walang pakialam",
@@ -1345,7 +1345,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Di napaunlakan ni Ana ang imbitasyong manood sila ng sine sapagkat butas ang kanyang bulsa.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Di napaunlakan ni Ana ang imbitasyong manood sila ng sine sapagkat butas ang kanyang bulsa?",
       "choices": {
         "a": "sira ang pantalon",
         "b": "walang pera",
@@ -1363,7 +1363,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Si Karl ay nagtataingang-kawali. Animo'y wala siyang naririnig kahit tinatawag na.",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Si Karl ay nagtataingang-kawali. Animo'y wala siyang naririnig kahit tinatawag na?",
       "choices": {
         "a": "matigas ang tainga",
         "b": "mahina ang pandinig",
@@ -1376,30 +1376,30 @@
       "explanation": "Ang tamang sagot ay D (nagbibingi-bingihan). Ang 'nagtataingang-kawali' ay nangangahulugang nagbibingi-bingihan o nagpapanggap na hindi nakakarinig.",
       "source": "CSE Professional Reviewer — Filipino"
     },
-  {
-    "id": "fl-wg-0077",
-    "category": "filipino",
-    "subcategory": "gramatika",
-    "difficulty": "easy",
-    "question": "Ang ningas-kugon ay isang kaugaliang dapat iwasan o baguhin _____ mga Pilipino.",
-    "choices": {
-      "a": "nang",
-      "b": "ng",
-      "c": "raw",
-      "d": "nating"
+    {
+      "id": "fl-wg-0077",
+      "category": "filipino",
+      "subcategory": "gramatika",
+      "difficulty": "easy",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng ningas-kugon ay isang kaugaliang dapat iwasan o baguhin _____ mga Pilipino?",
+      "choices": {
+        "a": "nang",
+        "b": "ng",
+        "c": "raw",
+        "d": "nating"
+      },
+      "answer": "b",
+      "answerKeyOverridden": false,
+      "originalAnswerKey": null,
+      "explanation": "Ang tamang sagot ay B (ng). Ginagamit ang 'ng' bilang pananda sa tagaganap (doer) ng pandiwa. Sa pangungusap, ang 'mga Pilipino' ang tagaganap ng pandiwang 'baguhin'.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
-    "answer": "b",
-    "answerKeyOverridden": false,
-    "originalAnswerKey": null,
-    "explanation": "Ang tamang sagot ay B (ng). Ginagamit ang 'ng' bilang pananda sa tagaganap (doer) ng pandiwa. Sa pangungusap, ang 'mga Pilipino' ang tagaganap ng pandiwang 'baguhin'.",
-    "source": "CSE Professional Reviewer — Filipino"
-  },
     {
       "id": "fl-wg-0078",
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "Katungkulan ______ sinuman ang tumulong sa kanyang kapwa.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nKatungkulan ______ sinuman ang tumulong sa kanyang kapwa?",
       "choices": {
         "a": "nang",
         "b": "ng",
@@ -1417,7 +1417,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "______ ko kay Inay ang mga kaganapan sa aming paaralan sa isang buong papel.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ ko kay Inay ang mga kaganapan sa aming paaralan sa isang buong papel?",
       "choices": {
         "a": "Isinulat",
         "b": "Isinabi",
@@ -1435,7 +1435,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Ang ______ ng mga manlalaro ay dininig ng komite kahapon.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng ______ ng mga manlalaro ay dininig ng komite kahapon?",
       "choices": {
         "a": "pakiusapan",
         "b": "pakikipag-usap",
@@ -1453,7 +1453,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "Nagulat ang mga tao ______ mabalitaan ang kaguluhang nagaganap sa Mindanao.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nNagulat ang mga tao ______ mabalitaan ang kaguluhang nagaganap sa Mindanao?",
       "choices": {
         "a": "nang",
         "b": "ng",
@@ -1471,7 +1471,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "______ mo si Chin ng damit sa kabinet.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ mo si Chin ng damit sa kabinet?",
       "choices": {
         "a": "Kunin",
         "b": "Utusan",
@@ -1489,7 +1489,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "______ suliranin ng pagtaas ng presyo ng gasolina ang pinapaksa ng pulong sa kasalukuyan.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ suliranin ng pagtaas ng presyo ng gasolina ang pinapaksa ng pulong sa kasalukuyan?",
       "choices": {
         "a": "Hinggil kay",
         "b": "Ayon kay",
@@ -1507,7 +1507,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Ang paglalakbay ______ Magellan noong 1521 ang naging dahilan kung bakit nakilala ang Pilipinas sa ibang bansa.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng paglalakbay ______ Magellan noong 1521 ang naging dahilan kung bakit nakilala ang Pilipinas sa ibang bansa?",
       "choices": {
         "a": "ni",
         "b": "daw",
@@ -1525,7 +1525,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Ang pagkakalat o pagtatapon ______ kung saan-saan ay nakasisira ng kapaligiran.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng pagkakalat o pagtatapon ______ kung saan-saan ay nakasisira ng kapaligiran?",
       "choices": {
         "a": "sang-ayon",
         "b": "hinggil sa",
@@ -1543,7 +1543,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Pinatay ______ mga Hapones si Jose Abad Santos nang ______ tanggihan niyang ibunyag ang lihim ng mga kilusang Pilipino laban sa kanila.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nPinatay ______ mga Hapones si Jose Abad Santos nang ______ tanggihan niyang ibunyag ang lihim ng mga kilusang Pilipino laban sa kanila?",
       "choices": {
         "a": "namin",
         "b": "ng",
@@ -1561,7 +1561,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "______ mo naman sa kanila na magdala ng mapagsasaluhan.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ mo naman sa kanila na magdala ng mapagsasaluhan?",
       "choices": {
         "a": "Usapin",
         "b": "Usap-usapan",
@@ -1579,7 +1579,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "______ G. at Gng. Reyes, matagal na nilang pinag-iipunan ang pangtustos sa pag-aaral mo sa kolehiyo.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ G. at Gng. Reyes, matagal na nilang pinag-iipunan ang pangtustos sa pag-aaral mo sa kolehiyo?",
       "choices": {
         "a": "Ayon sa",
         "b": "Ayon kay",
@@ -1597,7 +1597,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "______ ni Emilio Jacinto ang Kartilya na naglalaman ng adhikain ng Katipunan.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ ni Emilio Jacinto ang Kartilya na naglalaman ng adhikain ng Katipunan?",
       "choices": {
         "a": "Winika",
         "b": "Sinulatan",
@@ -1615,7 +1615,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "Dumating ang Lola ______ kami'y nagdiwang.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nDumating ang Lola ______ kami'y nagdiwang?",
       "choices": {
         "a": "kaya",
         "b": "kung",
@@ -1633,7 +1633,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Ang pagbabara ng mga estero ay dulot ______ walang pakundangang pagtatapon ng basura.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng pagbabara ng mga estero ay dulot ______ walang pakundangang pagtatapon ng basura?",
       "choices": {
         "a": "rin",
         "b": "ng",
@@ -1651,7 +1651,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "______ maaari ay magtipid tayo nang husto.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ maaari ay magtipid tayo nang husto?",
       "choices": {
         "a": "Kung",
         "b": "Dahil",
@@ -1669,7 +1669,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "Mapadadali ang ating gawain ______ tayo ay magtutulung-tulungan.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nMapadadali ang ating gawain ______ tayo ay magtutulung-tulungan?",
       "choices": {
         "a": "upang",
         "b": "kung",
@@ -1687,7 +1687,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Masaya sila ______ napakaraming pagsubok ang dumarating sa kanilang pamilya.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nMasaya sila ______ napakaraming pagsubok ang dumarating sa kanilang pamilya?",
       "choices": {
         "a": "sapagkat",
         "b": "marahil",
@@ -1705,7 +1705,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "______ pagod na pagod na sa biyahe si Rey ay nagawa pa rin niya ang mag-aral.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ pagod na pagod na sa biyahe si Rey ay nagawa pa rin niya ang mag-aral?",
       "choices": {
         "a": "Bagaman",
         "b": "Maliban",
@@ -1723,7 +1723,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Patuloy tayong maghahalinhinan sa pagroronda ______ di pa nahuhuli ang magnanakaw.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nPatuloy tayong maghahalinhinan sa pagroronda ______ di pa nahuhuli ang magnanakaw?",
       "choices": {
         "a": "samantala",
         "b": "hanggang",
@@ -1741,7 +1741,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Nagtatalon sa tuwa si Regina ______ mapanalunan ang patimpalak sa pagsusulat ng maikling kuwento.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nNagtatalon sa tuwa si Regina ______ mapanalunan ang patimpalak sa pagsusulat ng maikling kuwento?",
       "choices": {
         "a": "subalit",
         "b": "disin sana'y",
@@ -1759,7 +1759,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "Hindi maaring ibilanggo ang sino man dahil ______ kanyang pagkakautang.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nHindi maaring ibilanggo ang sino man dahil ______ kanyang pagkakautang?",
       "choices": {
         "a": "na",
         "b": "ng",
@@ -1777,7 +1777,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "Nagpapatugtog sila ______ awiting Pilipino.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nNagpapatugtog sila ______ awiting Pilipino?",
       "choices": {
         "a": "sa",
         "b": "nang",
@@ -1795,7 +1795,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Ang ______ ng mga mamamayan na huwag munang magtaas ng presyo ng langis ay pinag-aaralan ng kinauukulan.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng ______ ng mga mamamayan na huwag munang magtaas ng presyo ng langis ay pinag-aaralan ng kinauukulan?",
       "choices": {
         "a": "usapin",
         "b": "pakiusapan",
@@ -1813,7 +1813,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "Hindi nabibigyang lunas ang sakit na AIDS ______ ngayon.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nHindi nabibigyang lunas ang sakit na AIDS ______ ngayon?",
       "choices": {
         "a": "pa",
         "b": "na",
@@ -1831,7 +1831,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "______ bang suliranin na hindi kayang lutasin?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ bang suliranin na hindi kayang lutasin?",
       "choices": {
         "a": "May",
         "b": "Mayroon",
@@ -1849,7 +1849,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "______ patimpalak sa Balagtasan na gaganapin sa plasa.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ patimpalak sa Balagtasan na gaganapin sa plasa?",
       "choices": {
         "a": "May",
         "b": "Mayroon",
@@ -1867,7 +1867,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "______ ba nagkaroon ng isang bulkan?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ ba nagkaroon ng isang bulkan?",
       "choices": {
         "a": "Sino",
         "b": "Alin",
@@ -1885,7 +1885,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "______ natin ang ating kapwang nangangailangan ng tulong.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ natin ang ating kapwang nangangailangan ng tulong?",
       "choices": {
         "a": "Abutan",
         "b": "Kunin",
@@ -1903,7 +1903,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "difficult",
-      "question": "Huwag mong ______ ang sino mang nasa kapangyarihan kung nais mo lamang makakuha ng pabor.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nHuwag mong ______ ang sino mang nasa kapangyarihan kung nais mo lamang makakuha ng pabor?",
       "choices": {
         "a": "abutin",
         "b": "abutan",
@@ -1921,7 +1921,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "______ mo ang mabibigat na dalahin ng Inay.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ mo ang mabibigat na dalahin ng Inay?",
       "choices": {
         "a": "Abutan",
         "b": "Tanawin",
@@ -1939,7 +1939,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Ang walang kamatayang Mi Ultimo Adios ay __sinulat__ ng Rizal sa Fort Santiago.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nAng walang kamatayang Mi Ultimo Adios ay __sinulat__ ng Rizal sa Fort Santiago?",
       "choices": {
         "a": "walang kamatayang",
         "b": "Mi Ultimo Adios",
@@ -1958,7 +1958,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "easy",
-      "question": "__Si Teodora Alonzo at Francisco Mercado__ ang mga magulang ni Jose Rizal.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Si Teodora Alonzo at Francisco Mercado__ ang mga magulang ni Jose Rizal?",
       "choices": {
         "a": "Si Teodora Alonzo at Francisco Mercado",
         "b": "ang mga magulang",
@@ -1977,7 +1977,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Hindi dapat lumikha __nang buwis__ na hindi makakayang bayaran ng kahit sino.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nHindi dapat lumikha __nang buwis__ na hindi makakayang bayaran ng kahit sino?",
       "choices": {
         "a": "Hindi dapat",
         "b": "nang buwis",
@@ -1996,7 +1996,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "easy",
-      "question": "__Iniisip rin ng ating pamahalaan__ ang kapakanan ng mga maralita.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Iniisip rin ng ating pamahalaan__ ang kapakanan ng mga maralita?",
       "choices": {
         "a": "Iniisip rin ng ating pamahalaan",
         "b": "ang kapakanan",
@@ -2015,7 +2015,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "__Mainam sa lahat ng paraan ng pag-aaral__ ang magbalik-aral ng mga aralin bago pa man dumating ang mga pagsusulit sa paaralan.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Mainam sa lahat ng paraan ng pag-aaral__ ang magbalik-aral ng mga aralin bago pa man dumating ang mga pagsusulit sa paaralan?",
       "choices": {
         "a": "Mainam sa lahat ng paraan ng pag-aaral",
         "b": "ang magbalik-aral",
@@ -2034,7 +2034,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "__Ang mga payo kung binitiwan__ ay dapat mong pakinggan.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Ang mga payo kung binitiwan__ ay dapat mong pakinggan?",
       "choices": {
         "a": "Ang mga payo kung binitiwan",
         "b": "ay dapat mong",
@@ -2053,7 +2053,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Mag-aral __ng mabuti__ upang hindi masayang ang iyong pera at panahon.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nMag-aral __ng mabuti__ upang hindi masayang ang iyong pera at panahon?",
       "choices": {
         "a": "Mag-aral",
         "b": "ng mabuti",
@@ -2072,7 +2072,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Tunay nga na masipag at __maalahanin ang panganay__ na si Rochell.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nTunay nga na masipag at __maalahanin ang panganay__ na si Rochell?",
       "choices": {
         "a": "Tunay nga na",
         "b": "masipag at",
@@ -2091,7 +2091,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Hindi lamang sipag kundi __tiyaga din__ ang kinakailangan upang magtumpay sa isang negosyo.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nHindi lamang sipag kundi __tiyaga din__ ang kinakailangan upang magtumpay sa isang negosyo?",
       "choices": {
         "a": "Hindi lamang",
         "b": "tiyaga din",
@@ -2110,7 +2110,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Upang maiwasan ang pagkasira ng ngipin, ipinapayo ng mga dentista na __nagsisipilyo__ matapos kumain.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nUpang maiwasan ang pagkasira ng ngipin, ipinapayo ng mga dentista na __nagsisipilyo__ matapos kumain?",
       "choices": {
         "a": "Upang maiwasan",
         "b": "ang pagkasira",
@@ -2129,7 +2129,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "__Haluin mo__ ang sopas ng iba't ibang gulay.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Haluin mo__ ang sopas ng iba't ibang gulay?",
       "choices": {
         "a": "Haluin mo",
         "b": "ang sopas",
@@ -2148,7 +2148,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "__Kundi ka kikilos at di gagawin ang iyong proyekto__ ay wala kang mapapala.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Kundi ka kikilos at di gagawin ang iyong proyekto__ ay wala kang mapapala?",
       "choices": {
         "a": "Kundi ka kikilos at di gagawin ang iyong proyekto",
         "b": "ay wala kang",
@@ -2167,7 +2167,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Alam mo ba na __mayroon proyekto__ ang DECS na tinaguriang 'Study Now, Pay Later'?",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nAlam mo ba na __mayroon proyekto__ ang DECS na tinaguriang 'Study Now, Pay Later'?",
       "choices": {
         "a": "Alam mo ba na",
         "b": "mayroon proyekto",
@@ -2186,7 +2186,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "difficult",
-      "question": "__Nagtutulungan ang mga ninuno nating Ipuqaw__ kaya nayari ang hagdan-hagdang taniman ng palay.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Nagtutulungan ang mga ninuno nating Ipuqaw__ kaya nayari ang hagdan-hagdang taniman ng palay?",
       "choices": {
         "a": "Nagtutulungan ang mga ninuno nating Ipuqaw",
         "b": "kaya nayari",
@@ -2205,7 +2205,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "difficult",
-      "question": "__Ginigising lamang daw ng Maykapal__ ang mga taong nakalilimot sa Kanya sapagkat nagkakaroon ng kalamidad.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Ginigising lamang daw ng Maykapal__ ang mga taong nakalilimot sa Kanya sapagkat nagkakaroon ng kalamidad?",
       "choices": {
         "a": "Ginigising lamang daw ng Maykapal",
         "b": "ang mga taong nakalilimot sa Kanya",
@@ -2224,7 +2224,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "easy",
-      "question": "__Maganda siya ngunit masungit__ kaya hindi siya popular sa mga kamag-aral.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Maganda siya ngunit masungit__ kaya hindi siya popular sa mga kamag-aral?",
       "choices": {
         "a": "Maganda siya ngunit masungit",
         "b": "kaya hindi siya",
@@ -2243,7 +2243,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Upang umunlad ang bayan kailangan ang __pagtutulungan nang lahat__.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nUpang umunlad ang bayan kailangan ang __pagtutulungan nang lahat__?",
       "choices": {
         "a": "Upang umunlad",
         "b": "ang bayan kailangan ang",
@@ -2262,7 +2262,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Hindi nawawalan ng pag-asa ang mga __mayroon matibay__ na paniniwala.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nHindi nawawalan ng pag-asa ang mga __mayroon matibay__ na paniniwala?",
       "choices": {
         "a": "Hindi nawawalan",
         "b": "ng pag-asa ang mga",
@@ -2281,7 +2281,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "__Ipinakiusap mo ba__ na pinayagan kang gamitin ang kompyuter?",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Ipinakiusap mo ba__ na pinayagan kang gamitin ang kompyuter?",
       "choices": {
         "a": "Ipinakiusap mo ba",
         "b": "na pinayagan kang",
@@ -2300,7 +2300,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "difficult",
-      "question": "__Hanapan mo ng sagot sa iyong katanungan ang iyong guro__.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Hanapan mo ng sagot sa iyong katanungan ang iyong guro__?",
       "choices": {
         "a": "Hanapan mo ng sagot sa iyong katanungan",
         "b": "ang iyong guro",
@@ -2319,7 +2319,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "difficult",
-      "question": "Ayon sa mga dalubhasa, malaki raw ang naitutulong ng pag-eehersisyo __ng pag-iwas__ sa pagkakaroon ng sakit sa puso.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nAyon sa mga dalubhasa, malaki raw ang naitutulong ng pag-eehersisyo __ng pag-iwas__ sa pagkakaroon ng sakit sa puso?",
       "choices": {
         "a": "Ayon sa mga dalubhasa",
         "b": "malaki raw ang naitutulong",
@@ -2338,7 +2338,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Dapat nating __iiwasan__ ang labis na pagkain ng mga maaalat na pagkain.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nDapat nating __iiwasan__ ang labis na pagkain ng mga maaalat na pagkain?",
       "choices": {
         "a": "Dapat nating",
         "b": "iiwasan",
@@ -2357,7 +2357,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "easy",
-      "question": "__Panatilihin nating laging malinis at malayo sa polusyon ang ating kapaligiran__ para na rin sa ating kalusugan.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Panatilihin nating laging malinis at malayo sa polusyon ang ating kapaligiran__ para na rin sa ating kalusugan?",
       "choices": {
         "a": "Panatilihin nating laging malinis at malayo sa polusyon ang ating kapaligiran",
         "b": "para na rin",
@@ -2376,7 +2376,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "__Laban sa batas ang smuggling__ dahil ito ay isang paraan ng pagsabotahe sa ekonomiya.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Laban sa batas ang smuggling__ dahil ito ay isang paraan ng pagsabotahe sa ekonomiya?",
       "choices": {
         "a": "Laban sa batas ang smuggling",
         "b": "dahil ito ay",
@@ -2395,7 +2395,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "difficult",
-      "question": "Walang kabutihang naidudulot ang droga, bagkus __ito pa nga ang nakasisira nang tahanan__ at lipunan.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nWalang kabutihang naidudulot ang droga, bagkus __ito pa nga ang nakasisira nang tahanan__ at lipunan?",
       "choices": {
         "a": "Walang kabutihang naidudulot",
         "b": "ang droga, bagkus",
