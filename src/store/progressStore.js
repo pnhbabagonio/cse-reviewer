@@ -32,7 +32,7 @@ const useProgressStore = create(
         return {
           overallAccuracy,
           totalQuestions: totalAnswered,
-          streak: dates.size, // simplified streak
+          streak: dates.size,
         }
       },
 
@@ -48,7 +48,6 @@ const useProgressStore = create(
             }
           }
         }
-        // compute accuracy percentages
         const result = {}
         for (const [cat, data] of Object.entries(catStats)) {
           result[cat] = {
@@ -57,6 +56,40 @@ const useProgressStore = create(
           }
         }
         return result
+      },
+
+      getWeakestCategory: () => {
+        const { sessions } = get()
+        if (sessions.length === 0) return null
+
+        const subStats = {}
+        for (const session of sessions) {
+          if (session.subcategoryBreakdown) {
+            for (const [key, data] of Object.entries(session.subcategoryBreakdown)) {
+              if (!subStats[key]) {
+                subStats[key] = { ...data, correct: 0, total: 0 }
+              }
+              subStats[key].correct += data.correct
+              subStats[key].total += data.total
+            }
+          }
+        }
+
+        if (Object.keys(subStats).length === 0) return null
+
+        let weakest = null
+        let lowestAccuracy = Infinity
+
+        for (const [key, data] of Object.entries(subStats)) {
+          if (data.total < 3) continue
+          const accuracy = data.total === 0 ? 0 : (data.correct / data.total) * 100
+          if (accuracy < lowestAccuracy) {
+            lowestAccuracy = accuracy
+            weakest = { key, ...data, accuracy }
+          }
+        }
+
+        return weakest
       },
     }),
     {

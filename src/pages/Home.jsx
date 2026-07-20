@@ -8,6 +8,7 @@ import StatCard from '../components/StatCard'
 import ProgressBar from '../components/ProgressBar'
 import CategoryBadge from '../components/CategoryBadge'
 import CountdownCard from '../components/CountdownCard'
+import WeakestAreaCard from '../components/WeakestAreaCard'
 import useSettingsStore from '../store/settingsStore'
 
 const formatPercentage = (value) => {
@@ -33,7 +34,8 @@ const RANGES = [
 export default function Home() {
   const navigate = useNavigate()
   const [chartRange, setChartRange] = useState(7)
-  const { sessions, getStats, getCategoryStats } = useProgressStore()
+  const { sessions, getStats, getCategoryStats, getWeakestCategory } = useProgressStore()
+  const weakest = getWeakestCategory()
   const {
     dailyGoalMinutes,
     getTotalSeconds,
@@ -66,6 +68,8 @@ export default function Home() {
   return (
     <div className="w-full space-y-6">
       <CountdownCard />
+
+      {weakest && <WeakestAreaCard weakest={weakest} />}
 
       <div className="flex justify-between items-center">
         <div>

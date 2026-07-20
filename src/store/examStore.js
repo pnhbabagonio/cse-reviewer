@@ -223,6 +223,8 @@ const useExamStore = create(
             userAnswer: userAnswer || null,
             correctAnswer: q.answer,
             isCorrect: isCorrect || false,
+            category: q.category,
+            subcategory: q.subcategory || 'uncategorized',
           }
         })
         const score = results.filter(r => r.isCorrect).length
@@ -230,13 +232,29 @@ const useExamStore = create(
         const passed = percentage >= 80
         const timeTakenSeconds = Math.floor((Date.now() - session.startTime) / 1000)
 
+        // Category breakdown
         const categoryBreakdown = {}
-        results.forEach((r, idx) => {
-          const q = session.questions[idx]
-          const cat = q.category
+        results.forEach((r) => {
+          const cat = r.category
           if (!categoryBreakdown[cat]) categoryBreakdown[cat] = { correct: 0, total: 0 }
           categoryBreakdown[cat].total++
           if (r.isCorrect) categoryBreakdown[cat].correct++
+        })
+
+        // Subcategory breakdown
+        const subcategoryBreakdown = {}
+        results.forEach((r) => {
+          const key = `${r.category}::${r.subcategory}`
+          if (!subcategoryBreakdown[key]) {
+            subcategoryBreakdown[key] = {
+              correct: 0,
+              total: 0,
+              category: r.category,
+              subcategory: r.subcategory,
+            }
+          }
+          subcategoryBreakdown[key].total++
+          if (r.isCorrect) subcategoryBreakdown[key].correct++
         })
 
         const completed = {
@@ -253,6 +271,7 @@ const useExamStore = create(
           timeTakenSeconds,
           results,
           categoryBreakdown,
+          subcategoryBreakdown,
         }
         set({ session: null, currentQuestionIndex: 0 })
         return completed
