@@ -1,3 +1,4 @@
+// src/pages/Results.jsx
 import { Navigate, useLocation, useNavigate } from 'react-router-dom'
 import ScoreRing from '../components/ScoreRing'
 import ProgressBar from '../components/ProgressBar'
