@@ -1,8 +1,7 @@
-// src/pages/Results.jsx
 import { Navigate, useLocation, useNavigate } from 'react-router-dom'
 import ScoreRing from '../components/ScoreRing'
 import ProgressBar from '../components/ProgressBar'
-import { Home, RotateCcw, Eye, FileText } from 'lucide-react'
+import { Home, RotateCcw, Eye, FileText, Trophy } from 'lucide-react'
 
 export default function Results() {
   const { state } = useLocation()
@@ -14,6 +13,7 @@ export default function Results() {
   }
 
   const wrongQuestionIds = session.results.filter(r => !r.isCorrect).map(r => r.questionId)
+  const isSimulator = session.mode === 'simulator'
 
   return (
     <div className="w-full space-y-6">
@@ -27,10 +27,27 @@ export default function Results() {
             <p className="text-gray-600 dark:text-gray-400 mt-1">
               {session.score} out of {session.totalQuestions} correct
             </p>
-            {session.mode === 'timed' && (
+            {(session.mode === 'timed' || isSimulator) && (
               <p className="text-sm text-gray-500 mt-2">
                 Time taken: {Math.floor(session.timeTakenSeconds / 60)} min {session.timeTakenSeconds % 60} sec
               </p>
+            )}
+            {isSimulator && (
+              <div className="mt-3">
+                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-bold bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300">
+                  <Trophy className="w-3 h-3" /> FULL SIMULATOR
+                </span>
+                {session.passed && (
+                  <p className="text-sm text-green-600 dark:text-green-400 mt-2 font-medium">
+                    You're on track to pass the real CSE! Keep it up.
+                  </p>
+                )}
+                {!session.passed && (
+                  <p className="text-sm text-red-600 dark:text-red-400 mt-2 font-medium">
+                    Don't be discouraged — use the Weakest Area card on the home page to target your gaps.
+                  </p>
+                )}
+              </div>
             )}
           </div>
         </div>

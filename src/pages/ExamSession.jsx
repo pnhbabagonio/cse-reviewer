@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useLocation } from 'react-router-dom'
 import useExamStore from '../store/examStore'
 import useProgressStore from '../store/progressStore'
 import useTimer from '../hooks/useTimer'
 import { useStudyTimer } from '../hooks/useStudyTimer'
 import QuestionCard from '../components/QuestionCard'
+import QuestionImage from '../components/QuestionImage'
 import ProgressBar from '../components/ProgressBar'
 import PassagePanel from '../components/PassagePanel'
 import Modal from '../components/Modal'
@@ -13,14 +14,31 @@ import { ArrowLeft, ArrowRight, Pause, Play, Clock, X } from 'lucide-react'
 
 export default function ExamSession() {
   const navigate = useNavigate()
-  const { session, currentQuestionIndex, setCurrentQuestionIndex, submitAnswer, completeSession, bookmarkQuestion, isBookmarked, clearSession } = useExamStore()
+  const location = useLocation()
+  const { session, currentQuestionIndex, setCurrentQuestionIndex, submitAnswer, completeSession, bookmarkQuestion, isBookmarked, clearSession, startSession } = useExamStore()
   const { addSession } = useProgressStore()
   const [isPaused, setIsPaused] = useState(false)
   const [showQuitModal, setShowQuitModal] = useState(false)
   const isTimed = session?.mode === 'timed'
+  const isSimulator = session?.mode === 'simulator'
   const { isPaused: isStudyTimerPaused } = useStudyTimer({
     categories: session?.categories ?? [],
   })
+
+  // Auto-start simulator if navigated directly with config
+  useEffect(() => {
+    if (!session && location.state?.mode === 'simulator') {
+      const config = {
+        mode: location.state.mode,
+        categories: location.state.categories,
+        difficulty: 'all',
+        questionCount: location.state.questionCount || 150,
+        retryWrongIds: null,
+        subcategoryKeys: [],
+      }
+      startSession(config)
+    }
+  }, [session, location.state, startSession])
 
   useEffect(() => {
     if (!session) {
@@ -33,32 +51,9 @@ export default function ExamSession() {
   const totalQuestions = session?.questions.length || 0
   const selectedAnswer = session?.answers[currentQuestion?.id]
 
-  // DEBUG: Track what's happening with selectedAnswer
-  useEffect(() => {
-    if (!session || !currentQuestion) return
-    console.log('🔍 ExamSession state:', {
-      currentQuestionId: currentQuestion.id,
-      currentQuestionType: currentQuestion.type,
-      currentQuestionSubcategory: currentQuestion.subcategory,
-      currentQuestionAnswer: currentQuestion.answer,
-      selectedAnswer: selectedAnswer,
-      selectedAnswerType: typeof selectedAnswer,
-      sessionAnswersKeys: Object.keys(session.answers),
-      sessionAnswersFull: session.answers,
-      mode: session.mode,
-    })
-  }, [currentQuestion?.id, session?.answers, session?.mode])
-
   const handleSelectAnswer = (answer) => {
     if (!session || !currentQuestion) return
-
-    if (isTimed) {
-      submitAnswer(currentQuestion.id, answer)
-    } else {
-      // Practice mode: immediate feedback + auto-advance after delay?
-      submitAnswer(currentQuestion.id, answer)
-      // Automatically show next after 1 second? Or keep as is with Next button
-    }
+    submitAnswer(currentQuestion.id, answer)
   }
 
   const handleNext = () => {
@@ -67,7 +62,6 @@ export default function ExamSession() {
     if (currentQuestionIndex < totalQuestions - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1)
     } else {
-      // Complete exam
       const completedSession = completeSession()
       if (completedSession) {
         addSession(completedSession)
@@ -85,8 +79,8 @@ export default function ExamSession() {
     navigate('/', { replace: true })
   }
 
-  const timePerQuestion = 1.5 * 60 // 1.5 minutes in seconds
-  const totalDuration = totalQuestions * timePerQuestion
+  const timePerQuestion = 1.5 * 60
+  const totalDuration = isSimulator ? 225 * 60 : totalQuestions * timePerQuestion
   const { timeLeft, isRunning, pause, resume } = useTimer({
     durationSeconds: totalDuration,
     onExpire: () => {
@@ -96,15 +90,15 @@ export default function ExamSession() {
         navigate('/results', { state: { session: completedSession } })
       }
     },
-    autoStart: isTimed && !isPaused,
+    autoStart: (isTimed || isSimulator) && !isPaused,
   })
 
   useEffect(() => {
-    if (!isTimed) return
+    if (!isTimed && !isSimulator) return
 
     if (isPaused) pause()
     else resume()
-  }, [isPaused, isTimed, pause, resume])
+  }, [isPaused, isTimed, isSimulator, pause, resume])
 
   const formatTime = (seconds) => {
     const mins = Math.floor(seconds / 60)
@@ -121,7 +115,9 @@ export default function ExamSession() {
         <div className="flex justify-between items-center">
           <div>
             <span className="text-sm text-gray-500">Question {currentQuestionIndex + 1} of {totalQuestions}</span>
-            <h2 className="text-lg font-semibold">CSE Exam</h2>
+            <h2 className="text-lg font-semibold">
+              {isSimulator ? 'CSE Simulator' : 'CSE Exam'}
+            </h2>
           </div>
           <div className="flex items-center gap-2">
             <button
@@ -131,7 +127,7 @@ export default function ExamSession() {
             >
               <X className="w-5 h-5" />
             </button>
-            {isTimed && (
+            {(isTimed || isSimulator) && !isSimulator && (
               <>
                 <button
                   onClick={() => setIsPaused(!isPaused)}
@@ -139,6 +135,10 @@ export default function ExamSession() {
                 >
                   {isPaused ? <Play className="w-4 h-4" /> : <Pause className="w-4 h-4" />}
                 </button>
+              </>
+            )}
+            {(isTimed || isSimulator) && (
+              <>
                 <div className={`flex items-center gap-1 font-mono text-lg ${timeLeft < 120 ? 'text-red-600' : ''}`}>
                   <Clock className="w-4 h-4" />
                   {formatTime(timeLeft)}
@@ -150,6 +150,10 @@ export default function ExamSession() {
         </div>
 
         <ProgressBar value={currentQuestionIndex + 1} max={totalQuestions} />
+
+        {currentQuestion?.hasImage && (
+          <QuestionImage questionId={currentQuestion.id} alt="Question diagram" />
+        )}
 
         {currentQuestion?.type === 'passage_question' && (
           <PassagePanel
@@ -192,11 +196,14 @@ export default function ExamSession() {
       <Modal
         isOpen={showQuitModal}
         onClose={() => setShowQuitModal(false)}
-        title="Quit Exam?"
+        title={isSimulator ? 'Quit Simulator?' : 'Quit Exam?'}
       >
         <div className="space-y-4">
           <p className="text-gray-600 dark:text-gray-400">
-            Are you sure you want to quit this exam? Your progress will not be saved.
+            {isSimulator
+              ? 'Are you sure you want to quit the simulator? Your progress will not be saved and this will count as an incomplete attempt.'
+              : 'Are you sure you want to quit this exam? Your progress will not be saved.'
+            }
           </p>
           <div className="flex gap-3">
             <button
@@ -209,7 +216,7 @@ export default function ExamSession() {
               onClick={handleQuit}
               className="flex-1 py-2 rounded-lg bg-red-600 text-white hover:bg-red-700"
             >
-              Quit Exam
+              {isSimulator ? 'Quit Simulator' : 'Quit Exam'}
             </button>
           </div>
         </div>
