@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { CheckCircle, Calendar, BookOpen, Clock, Moon, Sun } from 'lucide-react'
+import { CheckCircle, Calendar, BookOpen, Clock, Moon, Sun, Trophy } from 'lucide-react'
 import useProgressStore from '../store/progressStore'
 import { useStudyTimeStore } from '../store/studyTimeStore'
 import ScoreRing from '../components/ScoreRing'
@@ -10,7 +10,6 @@ import CategoryBadge from '../components/CategoryBadge'
 import CountdownCard from '../components/CountdownCard'
 import WeakestAreaCard from '../components/WeakestAreaCard'
 import useSettingsStore from '../store/settingsStore'
-import { CheckCircle, Calendar, BookOpen, Clock, Moon, Sun, Trophy } from 'lucide-react'
 
 const formatPercentage = (value) => {
   if (!Number.isFinite(value)) return '0.00'
@@ -104,7 +103,7 @@ export default function Home() {
           <Trophy className="w-4 h-4" />
           Start Full Simulator
         </button>
-      </div>      
+      </div>
 
       <div className="flex justify-between items-center">
         <div>
@@ -272,7 +271,7 @@ export default function Home() {
                     </p>
                     <div className="flex gap-1 mt-1 flex-wrap">
                       <span className="text-xs px-2 py-0.5 bg-gray-100 dark:bg-gray-700 rounded">
-                        {session.mode === 'timed' ? 'Timed' : 'Practice'}
+                        {session.mode === 'simulator' ? 'Simulator' : session.mode === 'timed' ? 'Timed' : 'Practice'}
                       </span>
                       {session.categories.slice(0, 2).map(cat => (
                         <CategoryBadge key={cat} category={cat} />
@@ -334,32 +333,32 @@ export default function Home() {
         </div>
       )}
 
-    <div className="grid grid-cols-2 gap-3 pt-4 lg:hidden">
-      <button
-        onClick={() => navigate('/exam', { 
-          state: { 
-            mode: 'simulator',
-            categories: ['verbal', 'analytical', 'numerical', 'general_info', 'filipino'],
-            questionCount: 150,
-          } 
-        })}
-        className="w-full btn-primary bg-red-600 hover:bg-red-700"
-      >
-        Simulator
-      </button>
-      <button
-        onClick={() => navigate('/setup', { state: { mode: 'timed' } })}
-        className="w-full btn-primary"
-      >
-        Take Exam
-      </button>
-      <button
-        onClick={() => navigate('/setup', { state: { mode: 'practice' } })}
-        className="w-full btn-outline"
-      >
-        Practice Mode
-      </button>
-    </div>
+      <div className="grid grid-cols-3 gap-3 pt-4 lg:hidden">
+        <button
+          onClick={() => navigate('/exam', { 
+            state: { 
+              mode: 'simulator',
+              categories: ['verbal', 'analytical', 'numerical', 'general_info', 'filipino'],
+              questionCount: 150,
+            } 
+          })}
+          className="w-full btn-primary bg-red-600 hover:bg-red-700 text-xs"
+        >
+          Simulator
+        </button>
+        <button
+          onClick={() => navigate('/setup', { state: { mode: 'timed' } })}
+          className="w-full btn-primary text-xs"
+        >
+          Timed
+        </button>
+        <button
+          onClick={() => navigate('/setup', { state: { mode: 'practice' } })}
+          className="w-full btn-outline text-xs"
+        >
+          Practice
+        </button>
+      </div>
     </div>
   )
 }
