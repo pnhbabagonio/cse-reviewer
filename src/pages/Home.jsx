@@ -69,42 +69,6 @@ export default function Home() {
     <div className="w-full space-y-6">
       <CountdownCard />
 
-      {weakest && <WeakestAreaCard weakest={weakest} />}
-
-      {/* Full Simulator Card */}
-      <div className="rounded-2xl p-5 border-l-4 border-red-500 bg-red-50 dark:bg-red-950/20">
-        <div className="flex items-start gap-3 mb-3">
-          <Trophy className="w-6 h-6 text-red-500 mt-0.5 flex-shrink-0" />
-          <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">
-              Full Simulator
-            </h3>
-            <p className="text-lg font-bold text-[#1e3a5f] dark:text-white mt-1">
-              150-Question CSE Professional Simulator
-            </p>
-            <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">
-              Verbal 45 • Analytical 53 • Numerical 45 • General Info 7
-            </p>
-            <p className="text-sm font-medium text-[#1e3a5f] dark:text-gray-100 mt-2 leading-relaxed">
-              No pauses. No instant feedback. Just like the real exam. Are you ready?
-            </p>
-          </div>
-        </div>
-        <button
-          onClick={() => navigate('/exam', { 
-            state: { 
-              mode: 'simulator',
-              categories: ['verbal', 'analytical', 'numerical', 'general_info', 'filipino'],
-              questionCount: 150,
-            } 
-          })}
-          className="mt-3 inline-flex items-center gap-2 rounded-lg bg-red-600 px-4 py-2.5 text-sm font-medium text-white hover:bg-red-700 transition-colors"
-        >
-          <Trophy className="w-4 h-4" />
-          Start Full Simulator
-        </button>
-      </div>
-
       <div className="flex justify-between items-center">
         <div>
           <h1 className="text-2xl font-bold text-navy dark:text-white">CSE Pro</h1>
@@ -140,6 +104,45 @@ export default function Home() {
               </div>
             )
           })}
+        </div>
+      </div>
+
+      {/* Action Cards */}
+      <div className="space-y-3">
+        {weakest && <WeakestAreaCard weakest={weakest} />}
+
+        <div className="rounded-xl bg-white dark:bg-gray-800 p-4 shadow-sm">
+          <div className="flex items-center justify-between gap-4">
+            <div className="flex items-center gap-3 min-w-0">
+              <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-red-100 dark:bg-red-900/30 flex items-center justify-center">
+                <Trophy className="w-5 h-5 text-red-600 dark:text-red-400" />
+              </div>
+              <div className="min-w-0">
+                <p className="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wide">
+                  Full Simulator
+                </p>
+                <p className="text-sm font-semibold text-gray-900 dark:text-white">
+                  150-Question CSE Exam
+                </p>
+                <p className="text-xs text-gray-500 dark:text-gray-400">
+                  No pauses. No feedback. Just like the real thing.
+                </p>
+              </div>
+            </div>
+            <button
+              onClick={() => navigate('/exam', {
+                state: {
+                  mode: 'simulator',
+                  categories: ['verbal', 'analytical', 'numerical', 'general_info', 'filipino'],
+                  questionCount: 150,
+                }
+              })}
+              className="flex-shrink-0 inline-flex items-center gap-1.5 rounded-lg bg-red-600 px-3 py-2 text-xs font-medium text-white hover:bg-red-700 transition-colors"
+            >
+              Start
+              <Trophy className="w-3.5 h-3.5" />
+            </button>
+          </div>
         </div>
       </div>
 
@@ -335,12 +338,12 @@ export default function Home() {
 
       <div className="grid grid-cols-3 gap-3 pt-4 lg:hidden">
         <button
-          onClick={() => navigate('/exam', { 
-            state: { 
+          onClick={() => navigate('/exam', {
+            state: {
               mode: 'simulator',
               categories: ['verbal', 'analytical', 'numerical', 'general_info', 'filipino'],
               questionCount: 150,
-            } 
+            }
           })}
           className="w-full btn-primary bg-red-600 hover:bg-red-700 text-xs"
         >

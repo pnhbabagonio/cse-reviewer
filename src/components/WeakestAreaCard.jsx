@@ -30,19 +30,10 @@ const SUBCATEGORY_LABELS = {
   'filipino::kasalungat': 'Kasalungat',
 }
 
-const CATEGORY_CONFIG = {
-  verbal: { label: 'Verbal', color: 'bg-blue-500', border: 'border-blue-400', bg: 'bg-blue-50 dark:bg-blue-950/20' },
-  analytical: { label: 'Analytical', color: 'bg-purple-500', border: 'border-purple-400', bg: 'bg-purple-50 dark:bg-purple-950/20' },
-  numerical: { label: 'Numerical', color: 'bg-green-500', border: 'border-green-400', bg: 'bg-green-50 dark:bg-green-950/20' },
-  general_info: { label: 'General Info', color: 'bg-orange-500', border: 'border-orange-400', bg: 'bg-orange-50 dark:bg-orange-950/20' },
-  filipino: { label: 'Filipino', color: 'bg-red-500', border: 'border-red-400', bg: 'bg-red-50 dark:bg-red-950/20' },
-}
-
-const getMessage = (accuracy) => {
-  if (accuracy < 30) return "This is your biggest opportunity. Every minute you spend here directly translates to more points on exam day."
-  if (accuracy < 50) return "You're leaving easy points on the table. A few focused sessions here could change your score."
-  if (accuracy < 70) return "You're close, but close doesn't pass the CSE. Lock this down."
-  return "This area needs polish. Don't let it be the reason you fall short."
+const getAccuracyColor = (accuracy) => {
+  if (accuracy < 40) return 'text-red-600 dark:text-red-400'
+  if (accuracy < 70) return 'text-amber-600 dark:text-amber-400'
+  return 'text-yellow-600 dark:text-yellow-400'
 }
 
 export default function WeakestAreaCard({ weakest }) {
@@ -51,47 +42,46 @@ export default function WeakestAreaCard({ weakest }) {
   if (!weakest) return null
 
   const label = SUBCATEGORY_LABELS[weakest.key] || weakest.subcategory || weakest.key
-  const catConfig = CATEGORY_CONFIG[weakest.category] || CATEGORY_CONFIG.verbal
-  const message = getMessage(weakest.accuracy)
+  const accuracyColor = getAccuracyColor(weakest.accuracy)
 
   const handlePractice = () => {
-    const subcategoryKey = weakest.key
     navigate('/setup', {
       state: {
         mode: 'practice',
         categories: [weakest.category],
-        subcategoryKeys: [subcategoryKey],
+        subcategoryKeys: [weakest.key],
       },
     })
   }
 
   return (
-    <div className={`rounded-2xl p-5 border-l-4 ${catConfig.border} ${catConfig.bg}`}>
-      <div className="flex items-start gap-3 mb-3">
-        <Target className="w-5 h-5 text-red-500 mt-0.5 flex-shrink-0" aria-hidden="true" />
-        <div>
-          <h3 className="text-sm font-semibold uppercase tracking-wide text-gray-500 dark:text-gray-400">
-            Weakest Area
-          </h3>
-          <p className="text-lg font-bold text-[#1e3a5f] dark:text-white mt-1">
-            {label}
-          </p>
-          <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">
-            {weakest.correct}/{weakest.total} correct — {Math.round(weakest.accuracy)}% accuracy
-          </p>
-          <p className="text-sm font-medium text-[#1e3a5f] dark:text-gray-100 mt-3 leading-relaxed">
-            {message}
-          </p>
+    <div className="rounded-xl bg-white dark:bg-gray-800 p-4 shadow-sm">
+      <div className="flex items-center justify-between gap-4">
+        <div className="flex items-center gap-3 min-w-0">
+          <div className={`flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center ${weakest.accuracy < 40 ? 'bg-red-100 dark:bg-red-900/30' : 'bg-amber-100 dark:bg-amber-900/30'
+            }`}>
+            <Target className={`w-5 h-5 ${accuracyColor}`} />
+          </div>
+          <div className="min-w-0">
+            <p className="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wide">
+              Weakest Area
+            </p>
+            <p className="text-sm font-semibold text-gray-900 dark:text-white truncate">
+              {label}
+            </p>
+            <p className={`text-xs font-medium ${accuracyColor}`}>
+              {weakest.correct}/{weakest.total} correct — {Math.round(weakest.accuracy)}%
+            </p>
+          </div>
         </div>
+        <button
+          onClick={handlePractice}
+          className="flex-shrink-0 inline-flex items-center gap-1.5 rounded-lg bg-[#1e3a5f] px-3 py-2 text-xs font-medium text-white hover:bg-[#152a4a] transition-colors"
+        >
+          Practice
+          <ArrowRight className="w-3.5 h-3.5" />
+        </button>
       </div>
-
-      <button
-        onClick={handlePractice}
-        className="mt-3 inline-flex items-center gap-2 rounded-lg bg-[#1e3a5f] px-4 py-2.5 text-sm font-medium text-white hover:bg-[#152a4a] transition-colors"
-      >
-        Practice {label}
-        <ArrowRight className="w-4 h-4" />
-      </button>
     </div>
   )
 }
