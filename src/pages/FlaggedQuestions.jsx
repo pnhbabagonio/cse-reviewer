@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Flag, X, Eye } from 'lucide-react'
+import { Flag, X, Eye, ArrowLeft } from 'lucide-react'
 import useFlagStore, { FLAG_REASONS } from '../store/flagStore'
 import useExamStore from '../store/examStore'
 import CategoryBadge from '../components/CategoryBadge'
@@ -31,10 +31,23 @@ export default function FlaggedQuestions() {
 
   if (flaggedQuestions.length === 0) {
     return (
-      <div className="w-full max-w-2xl mx-auto py-12 text-center">
-        <Flag className="w-12 h-12 text-gray-300 dark:text-gray-600 mx-auto mb-4" />
-        <h2 className="text-xl font-bold mb-2">No Flagged Questions</h2>
-        <p className="text-gray-500">Flag questions during exams or review to track issues.</p>
+      <div className="w-full space-y-4">
+        <div className="flex items-center gap-3">
+          <button
+            onClick={() => navigate(-1)}
+            className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-500 transition-colors"
+            aria-label="Go back"
+          >
+            <ArrowLeft className="w-5 h-5" />
+          </button>
+          <h1 className="text-2xl font-bold text-navy dark:text-white">Flagged Questions</h1>
+        </div>
+
+        <div className="max-w-2xl mx-auto py-12 text-center">
+          <Flag className="w-12 h-12 text-gray-300 dark:text-gray-600 mx-auto mb-4" />
+          <h2 className="text-xl font-bold mb-2">No Flagged Questions</h2>
+          <p className="text-gray-500">Flag questions during exams or review to track issues.</p>
+        </div>
       </div>
     )
   }
@@ -42,7 +55,16 @@ export default function FlaggedQuestions() {
   return (
     <div className="w-full space-y-4">
       <div className="flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-navy dark:text-white">Flagged Questions</h1>
+        <div className="flex items-center gap-3">
+          <button
+            onClick={() => navigate(-1)}
+            className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-500 transition-colors"
+            aria-label="Go back"
+          >
+            <ArrowLeft className="w-5 h-5" />
+          </button>
+          <h1 className="text-2xl font-bold text-navy dark:text-white">Flagged Questions</h1>
+        </div>
         <span className="text-sm text-gray-500">{flaggedQuestions.length} flagged</span>
       </div>
 
