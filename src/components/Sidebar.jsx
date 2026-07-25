@@ -1,8 +1,10 @@
 import { NavLink, useNavigate } from 'react-router-dom'
-import { Bookmark, History, Home, Settings } from 'lucide-react'
+import { Bookmark, History, Home, Settings, Flag } from 'lucide-react'
+import useFlagStore from '../store/flagStore'
 
 const navItems = [
   { path: '/', icon: Home, label: 'Home' },
+  { path: '/flagged', icon: Flag, label: 'Flagged', badge: true },
   { path: '/history', icon: History, label: 'History' },
   { path: '/bookmarks', icon: Bookmark, label: 'Bookmarks' },
   { path: '/settings', icon: Settings, label: 'Settings' },
@@ -10,6 +12,7 @@ const navItems = [
 
 export default function Sidebar() {
   const navigate = useNavigate()
+  const flaggedCount = useFlagStore((state) => Object.keys(state.flags || {}).length)
 
   return (
     <aside className="hidden lg:flex flex-col fixed top-0 left-0 h-screen w-60 bg-[#f8f9fb] dark:bg-[#0f1f35] border-r border-gray-200 dark:border-gray-800 z-40">
@@ -21,13 +24,13 @@ export default function Sidebar() {
       </div>
 
       <nav className="flex-1 px-3 py-4 space-y-1 overflow-y-auto">
-        {navItems.map(({ path, icon: Icon, label }) => (
+        {navItems.map(({ path, icon: Icon, label, badge }) => (
           <NavLink
             key={path}
             to={path}
             end={path === '/'}
             className={({ isActive }) =>
-              `px-3 py-2.5 flex items-center gap-3 rounded-lg text-sm font-medium transition-colors ${
+              `px-3 py-2.5 flex items-center gap-3 rounded-lg text-sm font-medium transition-colors relative ${
                 isActive
                   ? 'bg-[#1e3a5f] text-white'
                   : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800'
@@ -36,6 +39,11 @@ export default function Sidebar() {
           >
             <Icon className="w-5 h-5" />
             <span>{label}</span>
+            {badge && flaggedCount > 0 && (
+              <span className="ml-auto min-w-[20px] h-5 rounded-full bg-red-500 text-white text-[10px] font-bold flex items-center justify-center px-1.5">
+                {flaggedCount > 99 ? '99+' : flaggedCount}
+              </span>
+            )}
           </NavLink>
         ))}
       </nav>
