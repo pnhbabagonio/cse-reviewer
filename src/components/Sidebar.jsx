@@ -1,4 +1,4 @@
-import { NavLink, useNavigate } from 'react-router-dom'
+import { NavLink, useNavigate, useLocation } from 'react-router-dom'
 import { Bookmark, History, Home, Settings, Flag } from 'lucide-react'
 import useFlagStore from '../store/flagStore'
 
@@ -12,7 +12,13 @@ const navItems = [
 
 export default function Sidebar() {
   const navigate = useNavigate()
+  const location = useLocation()
   const flaggedCount = useFlagStore((state) => Object.keys(state.flags || {}).length)
+
+  const handleNavigate = (path) => {
+    sessionStorage.setItem('flagged_prev_path', location.pathname)
+    navigate(path)
+  }
 
   return (
     <aside className="hidden lg:flex flex-col fixed top-0 left-0 h-screen w-60 bg-[#f8f9fb] dark:bg-[#0f1f35] border-r border-gray-200 dark:border-gray-800 z-40">
@@ -29,11 +35,13 @@ export default function Sidebar() {
             key={path}
             to={path}
             end={path === '/'}
+            onClick={() => {
+              sessionStorage.setItem('flagged_prev_path', location.pathname)
+            }}
             className={({ isActive }) =>
-              `px-3 py-2.5 flex items-center gap-3 rounded-lg text-sm font-medium transition-colors relative ${
-                isActive
-                  ? 'bg-[#1e3a5f] text-white'
-                  : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800'
+              `px-3 py-2.5 flex items-center gap-3 rounded-lg text-sm font-medium transition-colors relative ${isActive
+                ? 'bg-[#1e3a5f] text-white'
+                : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800'
               }`
             }
           >

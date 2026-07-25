@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 import { Home, History, Bookmark, Settings, Flag } from 'lucide-react'
 import useFlagStore from '../store/flagStore'
 
@@ -11,6 +11,7 @@ const navItems = [
 ]
 
 export default function BottomNav() {
+  const location = useLocation()
   const flaggedCount = useFlagStore((state) => Object.keys(state.flags).length)
 
   return (
@@ -21,11 +22,13 @@ export default function BottomNav() {
             key={path}
             to={path}
             end={path === '/'}
+            onClick={() => {
+              sessionStorage.setItem('flagged_prev_path', location.pathname)
+            }}
             className={({ isActive }) =>
-              `flex flex-col items-center gap-1 p-2 rounded-lg transition-colors relative ${
-                isActive
-                  ? 'text-gold dark:text-gold'
-                  : 'text-gray-500 dark:text-gray-400 hover:text-navy dark:hover:text-gold'
+              `flex flex-col items-center gap-1 p-2 rounded-lg transition-colors relative ${isActive
+                ? 'text-gold dark:text-gold'
+                : 'text-gray-500 dark:text-gray-400 hover:text-navy dark:hover:text-gold'
               }`
             }
           >
