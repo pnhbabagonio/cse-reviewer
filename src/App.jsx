@@ -7,6 +7,7 @@ import Results from './pages/Results'
 import AnswerReview from './pages/AnswerReview'
 import History from './pages/History'
 import Bookmarks from './pages/Bookmarks'
+import FlaggedQuestions from './pages/FlaggedQuestions'
 import Settings from './pages/Settings'
 import { useEffect } from 'react'
 import useSettingsStore from './store/settingsStore'
@@ -28,11 +29,9 @@ function App() {
     loadAllQuestions()
   }, [loadAllQuestions])
 
-  // Listen for data file changes and reload questions
   useEffect(() => {
     const handleDataRefresh = () => {
       console.log('Data files changed, reloading questions...')
-      // Clear any active session to prevent stale question data
       if (session) {
         clearSession()
       }
@@ -54,6 +53,7 @@ function App() {
           <Route path="review" element={<AnswerReview />} />
           <Route path="history" element={<History />} />
           <Route path="bookmarks" element={<Bookmarks />} />
+          <Route path="flagged" element={<FlaggedQuestions />} />
           <Route path="settings" element={<Settings />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>

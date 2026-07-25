@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Navigate, useLocation, useNavigate } from 'react-router-dom'
 import useExamStore from '../store/examStore'
 import PassagePanel from '../components/PassagePanel'
+import FlagButton from '../components/FlagButton'
 import FormattedText from '../components/FormattedText'
 import CategoryBadge from '../components/CategoryBadge'
 import DifficultyBadge from '../components/DifficultyBadge'
@@ -16,16 +17,11 @@ export default function AnswerReview() {
   const [filter, setFilter] = useState('all')
   const [selectedIndex, setSelectedIndex] = useState(0)
 
-  // Use session.questions as the source of truth.
-  // session.questions already contains synthetic `passage_question` items produced by buildExamPool,
-  // so relying on `allQuestions` can drop them (making review look incomplete, especially for
-  // passage-based subcategories).
   let reviewQuestions = session
     ? session.questions.map((q) => {
         const r = session.results?.find((x) => x.questionId === q.id)
         if (!r) return null
 
-        // Ensure required fields exist to avoid runtime crashes during render
         return {
           ...q,
           question: q?.question ?? '',
@@ -79,12 +75,15 @@ export default function AnswerReview() {
           <SubcategoryBadge subcategory={question.subcategory} />
           <DifficultyBadge difficulty={question.difficulty} />
         </div>
-        <button
-          onClick={() => bookmarkQuestion(question.id)}
-          className="text-sm text-gold ml-2"
-        >
-          {isBookmarked(question.id) ? 'Bookmarked' : 'Bookmark'}
-        </button>
+        <div className="flex items-center gap-1">
+          <FlagButton questionId={question.id} />
+          <button
+            onClick={() => bookmarkQuestion(question.id)}
+            className="text-sm text-gold ml-2"
+          >
+            {isBookmarked(question.id) ? 'Bookmarked' : 'Bookmark'}
+          </button>
+        </div>
       </div>
 
       <span className={`text-xs font-bold px-2 py-1 rounded ${question.isCorrect ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>

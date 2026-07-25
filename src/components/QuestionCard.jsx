@@ -3,6 +3,7 @@ import CategoryBadge from './CategoryBadge'
 import DifficultyBadge from './DifficultyBadge'
 import SubcategoryBadge from './SubcategoryBadge'
 import FormattedText from './FormattedText'
+import FlagButton from './FlagButton'
 import { Bookmark, BookmarkCheck } from 'lucide-react'
 
 export default function QuestionCard({
@@ -24,16 +25,19 @@ export default function QuestionCard({
           <SubcategoryBadge subcategory={question.subcategory} />
           <DifficultyBadge difficulty={question.difficulty} />
         </div>
-        <button
-          onClick={onToggleBookmark}
-          className="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors"
-        >
-          {isBookmarked ? (
-            <BookmarkCheck className="w-5 h-5 text-gold" />
-          ) : (
-            <Bookmark className="w-5 h-5 text-gray-400" />
-          )}
-        </button>
+        <div className="flex items-center gap-1">
+          <FlagButton questionId={question.id} />
+          <button
+            onClick={onToggleBookmark}
+            className="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors"
+          >
+            {isBookmarked ? (
+              <BookmarkCheck className="w-5 h-5 text-gold" />
+            ) : (
+              <Bookmark className="w-5 h-5 text-gray-400" />
+            )}
+          </button>
+        </div>
       </div>
 
       {(question.subcategory === 'synonym' || question.subcategory === 'synonyms' || question.subcategory === 'kasingkahulugan') && (
