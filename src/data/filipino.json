@@ -1327,7 +1327,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Malimit na may kabanggaan si Malou sa opisina dahil maanghang ang kanyang dila?",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Malimit na may kabanggaan si Malou sa opisina dahil maanghang ang kanyang dila.",
       "choices": {
         "a": "pikon",
         "b": "walang pakialam",
@@ -1345,7 +1345,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Di napaunlakan ni Ana ang imbitasyong manood sila ng sine sapagkat butas ang kanyang bulsa?",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Di napaunlakan ni Ana ang imbitasyong manood sila ng sine sapagkat butas ang kanyang bulsa.",
       "choices": {
         "a": "sira ang pantalon",
         "b": "walang pera",
@@ -1363,7 +1363,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "difficult",
-      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Si Karl ay nagtataingang-kawali. Animo'y wala siyang naririnig kahit tinatawag na?",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Si Karl ay nagtataingang-kawali. Animo'y wala siyang naririnig kahit tinatawag na.",
       "choices": {
         "a": "matigas ang tainga",
         "b": "mahina ang pandinig",
@@ -1381,7 +1381,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng ningas-kugon ay isang kaugaliang dapat iwasan o baguhin _____ mga Pilipino?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng ningas-kugon ay isang kaugaliang dapat iwasan o baguhin _____ mga Pilipino.",
       "choices": {
         "a": "nang",
         "b": "ng",
@@ -1417,7 +1417,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ ko kay Inay ang mga kaganapan sa aming paaralan sa isang buong papel?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ ko kay Inay ang mga kaganapan sa aming paaralan sa isang buong papel.",
       "choices": {
         "a": "Isinulat",
         "b": "Isinabi",
@@ -1435,7 +1435,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng ______ ng mga manlalaro ay dininig ng komite kahapon?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng ______ ng mga manlalaro ay dininig ng komite kahapon.",
       "choices": {
         "a": "pakiusapan",
         "b": "pakikipag-usap",
@@ -1453,7 +1453,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nNagulat ang mga tao ______ mabalitaan ang kaguluhang nagaganap sa Mindanao?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nNagulat ang mga tao ______ mabalitaan ang kaguluhang nagaganap sa Mindanao.",
       "choices": {
         "a": "nang",
         "b": "ng",
@@ -1471,7 +1471,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ mo si Chin ng damit sa kabinet?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ mo si Chin ng damit sa kabinet.",
       "choices": {
         "a": "Kunin",
         "b": "Utusan",
@@ -1489,7 +1489,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ suliranin ng pagtaas ng presyo ng gasolina ang pinapaksa ng pulong sa kasalukuyan?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ suliranin ng pagtaas ng presyo ng gasolina ang pinapaksa ng pulong sa kasalukuyan.",
       "choices": {
         "a": "Hinggil kay",
         "b": "Ayon kay",
@@ -1507,7 +1507,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng paglalakbay ______ Magellan noong 1521 ang naging dahilan kung bakit nakilala ang Pilipinas sa ibang bansa?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng paglalakbay ______ Magellan noong 1521 ang naging dahilan kung bakit nakilala ang Pilipinas sa ibang bansa.",
       "choices": {
         "a": "ni",
         "b": "daw",
@@ -1525,7 +1525,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng pagkakalat o pagtatapon ______ kung saan-saan ay nakasisira ng kapaligiran?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng pagkakalat o pagtatapon ______ kung saan-saan ay nakasisira ng kapaligiran.",
       "choices": {
         "a": "sang-ayon",
         "b": "hinggil sa",
@@ -1543,7 +1543,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nPinatay ______ mga Hapones si Jose Abad Santos nang ______ tanggihan niyang ibunyag ang lihim ng mga kilusang Pilipino laban sa kanila?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nPinatay ______ mga Hapones si Jose Abad Santos nang ______ tanggihan niyang ibunyag ang lihim ng mga kilusang Pilipino laban sa kanila.",
       "choices": {
         "a": "namin",
         "b": "ng",
@@ -1561,7 +1561,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ mo naman sa kanila na magdala ng mapagsasaluhan?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ mo naman sa kanila na magdala ng mapagsasaluhan.",
       "choices": {
         "a": "Usapin",
         "b": "Usap-usapan",
@@ -1579,7 +1579,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ G. at Gng. Reyes, matagal na nilang pinag-iipunan ang pangtustos sa pag-aaral mo sa kolehiyo?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ G. at Gng. Reyes, matagal na nilang pinag-iipunan ang pangtustos sa pag-aaral mo sa kolehiyo.",
       "choices": {
         "a": "Ayon sa",
         "b": "Ayon kay",
@@ -1597,7 +1597,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ ni Emilio Jacinto ang Kartilya na naglalaman ng adhikain ng Katipunan?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ ni Emilio Jacinto ang Kartilya na naglalaman ng adhikain ng Katipunan.",
       "choices": {
         "a": "Winika",
         "b": "Sinulatan",
@@ -1615,7 +1615,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nDumating ang Lola ______ kami'y nagdiwang?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nDumating ang Lola ______ kami'y nagdiwang.",
       "choices": {
         "a": "kaya",
         "b": "kung",
@@ -1633,7 +1633,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng pagbabara ng mga estero ay dulot ______ walang pakundangang pagtatapon ng basura?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng pagbabara ng mga estero ay dulot ______ walang pakundangang pagtatapon ng basura.",
       "choices": {
         "a": "rin",
         "b": "ng",
@@ -1651,7 +1651,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ maaari ay magtipid tayo nang husto?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ maaari ay magtipid tayo nang husto.",
       "choices": {
         "a": "Kung",
         "b": "Dahil",
