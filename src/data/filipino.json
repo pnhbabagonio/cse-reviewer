@@ -1777,7 +1777,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nNagpapatugtog sila ______ awiting Pilipino?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nNagpapatugtog sila ______ awiting Pilipino.",
       "choices": {
         "a": "sa",
         "b": "nang",
@@ -1795,7 +1795,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng ______ ng mga mamamayan na huwag munang magtaas ng presyo ng langis ay pinag-aaralan ng kinauukulan?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng ______ ng mga mamamayan na huwag munang magtaas ng presyo ng langis ay pinag-aaralan ng kinauukulan.",
       "choices": {
         "a": "usapin",
         "b": "pakiusapan",
@@ -1813,7 +1813,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nHindi nabibigyang lunas ang sakit na AIDS ______ ngayon?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nHindi nabibigyang lunas ang sakit na AIDS ______ ngayon.",
       "choices": {
         "a": "pa",
         "b": "na",
@@ -1831,7 +1831,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ bang suliranin na hindi kayang lutasin?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ bang suliranin na hindi kayang lutasin.",
       "choices": {
         "a": "May",
         "b": "Mayroon",
@@ -1849,7 +1849,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ patimpalak sa Balagtasan na gaganapin sa plasa?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ patimpalak sa Balagtasan na gaganapin sa plasa.",
       "choices": {
         "a": "May",
         "b": "Mayroon",
@@ -1867,7 +1867,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ ba nagkaroon ng isang bulkan?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ ba nagkaroon ng isang bulkan.",
       "choices": {
         "a": "Sino",
         "b": "Alin",
@@ -1885,7 +1885,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ natin ang ating kapwang nangangailangan ng tulong?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ natin ang ating kapwang nangangailangan ng tulong.",
       "choices": {
         "a": "Abutan",
         "b": "Kunin",
@@ -1903,7 +1903,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "difficult",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nHuwag mong ______ ang sino mang nasa kapangyarihan kung nais mo lamang makakuha ng pabor?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nHuwag mong ______ ang sino mang nasa kapangyarihan kung nais mo lamang makakuha ng pabor.",
       "choices": {
         "a": "abutin",
         "b": "abutan",
@@ -1921,7 +1921,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ mo ang mabibigat na dalahin ng Inay?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ mo ang mabibigat na dalahin ng Inay.",
       "choices": {
         "a": "Abutan",
         "b": "Tanawin",
@@ -1934,25 +1934,25 @@
       "explanation": "Ang tamang sagot ay C (Kunin). Ang 'kunin' ay nangangahulugang kuhanin o tanggapin ang dalahin.",
       "source": "CSE Professional Reviewer — Filipino"
     },
-    {
-      "id": "fl-pm-0108",
-      "category": "filipino",
-      "subcategory": "pagkilala_ng_mali",
-      "difficulty": "average",
-      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nAng walang kamatayang Mi Ultimo Adios ay __sinulat__ ng Rizal sa Fort Santiago?",
-      "choices": {
-        "a": "walang kamatayang",
-        "b": "Mi Ultimo Adios",
-        "c": "sinulat",
-        "d": "sa Fort Santiago",
-        "e": "Walang mali"
-      },
-      "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay D (sa Fort Santiago). Ang 'sinulat' ay hindi karaniwang gamit; ang tamang anyo ay 'isinulat'. Ngunit ang susi ay nagpapahiwatig na ang 'sa Fort Santiago' ang may mali? Hindi ito malinaw.",
-      "source": "CSE Professional Reviewer — Filipino"
+  {
+    "id": "fl-pm-0108",
+    "category": "filipino",
+    "subcategory": "pagkilala_ng_mali",
+    "difficulty": "average",
+    "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nAng walang kamatayang Mi Ultimo Adios ay __sinulat__ ng Rizal sa Fort Santiago.",
+    "choices": {
+      "a": "walang kamatayang",
+      "b": "Mi Ultimo Adios",
+      "c": "sinulat",
+      "d": "sa Fort Santiago",
+      "e": "Walang mali"
     },
+    "answer": "c",
+    "answerKeyOverridden": true,
+    "originalAnswerKey": "d",
+    "explanation": "Ang tamang sagot ay C (sinulat). Sa pormal na balarilang Filipino, ang tamang perpektibong anyo ng pandiwang 'isulat' (object focus) ay 'isinulat', hindi 'sinulat'. Bukod dito, ang panandang 'ng' ay dapat maging 'ni' (ni Rizal) sapagkat ito ay pangngalang pantangi para sa tao, ngunit 'sinulat' ang pangunahing pagkakamaling nasa mga pagpipilian.",
+    "source": "CSE Professional Reviewer — Filipino"
+  },
     {
       "id": "fl-pm-0109",
       "category": "filipino",
