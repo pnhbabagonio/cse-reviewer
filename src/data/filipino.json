@@ -697,7 +697,7 @@
       "category": "filipino",
       "subcategory": "kasalungat",
       "difficulty": "average",
-      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\nNapaka__kupad__ ng takbo ng karitela kung ikukumpara sa traysikel at dyip.",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\n__Napakakupad__ ng takbo ng karitela kung ikukumpara sa traysikel at dyip.",
       "choices": {
         "a": "napakabilis",
         "b": "napakabagal",
@@ -913,7 +913,7 @@
       "category": "filipino",
       "subcategory": "kasabihan",
       "difficulty": "average",
-      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Kung hindi ka maliligo, mangangamoy-kambing ka?",
+      "question": "Alin sa sumusunod ang kahulugan ng pahayag na: Kung hindi ka maliligo, mangangamoy-kambing ka.",
       "choices": {
         "a": "mamamaho",
         "b": "dudungis",
@@ -1430,24 +1430,24 @@
       "explanation": "Ang tamang sagot ay D (Idinetalye). Ang 'isinulat' ay maaari ring tama depende sa konteksto. Ang susi ay nagpapahiwatig na 'idinetalye' ang tamang sagot.",
       "source": "CSE Professional Reviewer — Filipino"
     },
-    {
-      "id": "fl-wg-0080",
-      "category": "filipino",
-      "subcategory": "gramatika",
-      "difficulty": "average",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng ______ ng mga manlalaro ay dininig ng komite kahapon.",
-      "choices": {
-        "a": "pakiusapan",
-        "b": "pakikipag-usap",
-        "c": "panawagan",
-        "d": "reklamo"
-      },
-      "answer": "a",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay A (pakiusapan). Ang 'pakiusapan' ay nangangahulugang kahilingan o hiling.",
-      "source": "CSE Professional Reviewer — Filipino"
+  {
+    "id": "fl-wg-0080",
+    "category": "filipino",
+    "subcategory": "gramatika",
+    "difficulty": "average",
+    "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng ______ ng mga manlalaro ay dininig ng komite kahapon.",
+    "choices": {
+      "a": "pakiusapan",
+      "b": "pakikipag-usap",
+      "c": "panawagan",
+      "d": "reklamo"
     },
+    "answer": "d",
+    "answerKeyOverridden": true,
+    "originalAnswerKey": "a",
+    "explanation": "Ang tamang sagot ay D (reklamo). Ang 'reklamo' (complaint) ang pinakaangkop na pangngalan (noun) na kadalasang sumasailalim sa 'pagdinig' (hearing) ng isang pormal na komite. Ang inisyal na sagot na 'pakiusapan' ay isang pandiwa (verb) kaya hindi ito grammatically tama bilang simuno (subject) ng pangungusap.",
+    "source": "CSE Professional Reviewer — Filipino"
+  },
     {
       "id": "fl-wg-0081",
       "category": "filipino",
