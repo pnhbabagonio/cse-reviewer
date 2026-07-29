@@ -548,24 +548,24 @@
       "explanation": "Ang tamang sagot ay A (pambihira). Ang 'palasak' ay nangangahulugang laganap o karaniwan. Ang kasalungat ay pambihira.",
       "source": "CSE Professional Reviewer — Filipino"
     },
-    {
-      "id": "fl-kl-0031",
-      "category": "filipino",
-      "subcategory": "kasalungat",
-      "difficulty": "difficult",
-      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\n__Nabaghan__ siya nang dumating ang kanyang amang dalawang taong naghanap-buhay sa ibang bansa.",
-      "choices": {
-        "a": "nagulat",
-        "b": "nagtaka",
-        "c": "nainis",
-        "d": "nahimatay"
-      },
-      "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay C? Ang 'nabaghan' ay nangangahulugang nagulat. Ang kasalungat ay nainis? Hindi ito tugma.",
-      "source": "CSE Professional Reviewer — Filipino"
+  {
+    "id": "fl-kl-0031",
+    "category": "filipino",
+    "subcategory": "kasalungat",
+    "difficulty": "difficult",
+    "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\n__Nabaghan__ siya nang dumating ang kanyang amang dalawang taong naghanap-buhay sa ibang bansa.",
+    "choices": {
+      "a": "nagulat",
+      "b": "nagtaka",
+      "c": "inasahan",
+      "d": "nahimatay"
     },
+    "answer": "c",
+    "answerKeyOverridden": true,
+    "originalAnswerKey": "c",
+    "explanation": "Ang salitang 'nabaghan' ay nangangahulugang nagulat, nabigla, o namangha. Dahil ang hinahanap ay ang kasalungat (antonym), ang tamang sagot ay C, 'inasahan' (expected), na siyang kabaligtaran ng pagkagulat.",
+    "source": "CSE Professional Reviewer — Filipino"
+  },
     {
       "id": "fl-kl-0032",
       "category": "filipino",
@@ -920,10 +920,10 @@
         "c": "magiging malahayop",
         "d": "mangangati"
       },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay B (dudungis). Ang 'mangangamoy-kambing' ay isang idyoma na nangangahulugang magiging mabaho o dudungis.",
+      "answer": "a",
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "b",
+      "explanation": "Ang idyomang 'amoy-kambing' o 'mangangamoy-kambing' ay tumutukoy sa pagkakaroon ng masamang amoy sa katawan (body odor). Samakatuwid, ang pinakaangkop na sagot ay 'mamamaho'. Ang 'dudungis' ay tumutukoy lamang sa pisikal na dumi at hindi sa amoy.",
       "source": "CSE Professional Reviewer — Filipino"
     },
     {
@@ -1406,10 +1406,10 @@
         "c": "raw",
         "d": "nating"
       },
-      "answer": "a",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay A (nang). Ang 'nang' ay ginagamit sa pag-uugnay ng mga pangungusap.",
+      "answer": "b",
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "a",
+      "explanation": "Ang tamang sagot ay B (ng). Ang 'ng' ay ginagamit kapag tumutukoy sa pagmamay-ari o kaugnayan (katumbas ng 'of' sa Ingles). Sa pangungusap na ito, sinasagot nito ang tanong na 'Kaninong katungkulan?' kaya 'katungkulan ng sinuman' ang wasto. Ang 'nang' ay ginagamit bilang kasingkahulugan ng 'noong', 'upang', o pang-ugnay sa mga pang-abay.",
       "source": "CSE Professional Reviewer — Filipino"
     },
     {
