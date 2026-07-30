@@ -1687,7 +1687,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nMasaya sila ______ napakaraming pagsubok ang dumarating sa kanilang pamilya?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nMasaya sila ______ napakaraming pagsubok ang dumarating sa kanilang pamilya.",
       "choices": {
         "a": "sapagkat",
         "b": "marahil",
@@ -1705,7 +1705,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ pagod na pagod na sa biyahe si Rey ay nagawa pa rin niya ang mag-aral?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\n______ pagod na pagod na sa biyahe si Rey ay nagawa pa rin niya ang mag-aral.",
       "choices": {
         "a": "Bagaman",
         "b": "Maliban",
@@ -1723,7 +1723,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nPatuloy tayong maghahalinhinan sa pagroronda ______ di pa nahuhuli ang magnanakaw?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nPatuloy tayong maghahalinhinan sa pagroronda ______ di pa nahuhuli ang magnanakaw.",
       "choices": {
         "a": "samantala",
         "b": "hanggang",
@@ -1741,7 +1741,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nNagtatalon sa tuwa si Regina ______ mapanalunan ang patimpalak sa pagsusulat ng maikling kuwento?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nNagtatalon sa tuwa si Regina ______ mapanalunan ang patimpalak sa pagsusulat ng maikling kuwento.",
       "choices": {
         "a": "subalit",
         "b": "disin sana'y",
@@ -1759,7 +1759,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "easy",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nHindi maaring ibilanggo ang sino man dahil ______ kanyang pagkakautang?",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nHindi maaring ibilanggo ang sino man dahil ______ kanyang pagkakautang.",
       "choices": {
         "a": "na",
         "b": "ng",
@@ -1958,7 +1958,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "easy",
-      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Si Teodora Alonzo at Francisco Mercado__ ang mga magulang ni Jose Rizal?",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Si Teodora Alonzo at Francisco Mercado__ ang mga magulang ni Jose Rizal.",
       "choices": {
         "a": "Si Teodora Alonzo at Francisco Mercado",
         "b": "ang mga magulang",
@@ -1977,7 +1977,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nHindi dapat lumikha __nang buwis__ na hindi makakayang bayaran ng kahit sino?",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nHindi dapat lumikha __nang buwis__ na hindi makakayang bayaran ng kahit sino.",
       "choices": {
         "a": "Hindi dapat",
         "b": "nang buwis",
@@ -1996,7 +1996,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "easy",
-      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Iniisip rin ng ating pamahalaan__ ang kapakanan ng mga maralita?",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Iniisip rin ng ating pamahalaan__ ang kapakanan ng mga maralita.",
       "choices": {
         "a": "Iniisip rin ng ating pamahalaan",
         "b": "ang kapakanan",
