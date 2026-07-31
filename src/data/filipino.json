@@ -1478,10 +1478,10 @@
         "c": "Sunduin",
         "d": "Abutan"
       },
-      "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay C (Sunduin). Ang 'kunin' ay tumutukoy sa bagay, hindi sa tao. Ang 'sunduin' ang tamang pandiwa para sa tao.",
+      "answer": "d",
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "Ang tamang sagot ay D (Abutan). Ang pandiwang 'abutan' ay akma sa estruktura ng pangungusap dahil ito ay nasa pokus sa direksyon o tagatanggap, kaya tama ang paggamit ng panandang 'si' para kay Chin (tagatanggap ng damit). Mali ang 'kunin' dahil ang pokus nito ay sa layon (bagay), kaya kung ito ang gagamitin, dapat ay 'Kunin mo ang damit para kay Chin'. Ang orihinal na sagot na 'sunduin' (fetch a person) ay malinaw na walang katuturan sa konteksto ng pagkuha ng damit sa kabinet.",
       "source": "CSE Professional Reviewer — Filipino"
     },
     {
@@ -1527,15 +1527,15 @@
       "difficulty": "average",
       "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng pagkakalat o pagtatapon ______ kung saan-saan ay nakasisira ng kapaligiran.",
       "choices": {
-        "a": "sang-ayon",
-        "b": "hinggil sa",
-        "c": "ayon sa",
-        "d": "tungkol sa"
+        "a": "nang basura",
+        "b": "ng basura",
+        "c": "sa basura",
+        "d": "ang basura"
       },
-      "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay D (tungkol sa). Ang 'pagtatapon' ay nangangailangan ng 'tungkol sa' upang mabuo ang pangungusap.",
+      "answer": "b",
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "d",
+      "explanation": "Ang tamang sagot ay B (ng basura). Ginagamit ang 'ng' upang magpakilala ng tuwirang layon (direct object) para sa isang pangngalang-diwa (verbal noun) tulad ng 'pagkakalat' o 'pagtatapon'. Hindi maaaring gamitin ang 'nang' dahil ito ay karaniwang ginagamit bilang pang-abay (adverb), pangatnig (conjunction), o kasingkahulugan ng 'noong'.",
       "source": "CSE Professional Reviewer — Filipino"
     },
     {
