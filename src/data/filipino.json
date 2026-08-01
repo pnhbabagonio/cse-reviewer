@@ -1543,7 +1543,7 @@
       "category": "filipino",
       "subcategory": "gramatika",
       "difficulty": "average",
-      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nPinatay ______ mga Hapones si Jose Abad Santos nang ______ tanggihan niyang ibunyag ang lihim ng mga kilusang Pilipino laban sa kanila.",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nPinatay ______ mga Hapones si Jose Abad Santos nang tanggihan niyang ibunyag ang lihim ng mga kilusang Pilipino laban sa kanila.",
       "choices": {
         "a": "namin",
         "b": "ng",
@@ -1553,7 +1553,7 @@
       "answer": "b",
       "answerKeyOverridden": false,
       "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay B (ng). Ang 'ng' ay ginagamit upang ipakita ang gumawa ng kilos (mga Hapones).",
+      "explanation": "Ang tamang sagot ay B (ng). Ang 'ng' ay ginagamit bilang pananda upang ipakita ang gumawa ng kilos o aktor (mga Hapones) ng pandiwang balintiyak (pinatay).",
       "source": "CSE Professional Reviewer — Filipino"
     },
     {
@@ -1583,13 +1583,13 @@
       "choices": {
         "a": "Ayon sa",
         "b": "Ayon kay",
-        "c": "Tungkol kay",
-        "d": "Hinggil kay"
+        "c": "Ayon kina",
+        "d": "Tungkol kina"
       },
       "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay C (Tungkol kay). Ang 'ayon kay' ay ginagamit kapag sumasang-ayon sa pahayag ng isang tao.",
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "Ang tamang sagot ay C (Ayon kina). Ang pangungusap ay nagsasaad ng pinagmulan ng impormasyon ('According to'), kaya 'Ayon' ang dapat gamitin. Dahil dalawa o higit pang tiyak na tao ang tinutukoy (G. at Gng. Reyes), ang tamang pananda ay ang pangmaramihang 'kina' sa halip na isahang 'kay'.",
       "source": "CSE Professional Reviewer — Filipino"
     },
     {
@@ -1815,15 +1815,15 @@
       "difficulty": "easy",
       "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nHindi nabibigyang lunas ang sakit na AIDS ______ ngayon.",
       "choices": {
-        "a": "pa",
-        "b": "na",
-        "c": "sa",
-        "d": "ka"
+        "a": "hanggang",
+        "b": "mula",
+        "c": "pating",
+        "d": "samantala"
       },
       "answer": "a",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay A (pa). Ang 'pa' ay nagpapahiwatig na hanggang ngayon ay wala pa ring lunas.",
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "a",
+      "explanation": "Ang tamang sagot ay A (hanggang). Ang pariralang 'hanggang ngayon' ay ginagamit upang tukuyin ang isang kalagayan na nagsimula sa nakaraan at nagpapatuloy pa rin sa kasalukuyan (until now).",
       "source": "CSE Professional Reviewer — Filipino"
     },
     {
@@ -1913,7 +1913,7 @@
       "answer": "b",
       "answerKeyOverridden": false,
       "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay B (abutan). Ang 'abutan' dito ay nangangahulugang lapitan o hingan ng pabor.",
+      "explanation": "Ang tamang sagot ay B (abutan). Sa kontekstong ito, ang 'abutan' ay ginagamit na idyoma na nangangahulugang 'suhulan' o bigyan ng pera/lagay nang patago kapalit ng pabor. Wasto rin ito sa gramatika dahil ang 'abutan' ay may pokus sa pinaglalaanan o tagatanggap ng kilos (ang taong nasa kapangyarihan).",
       "source": "CSE Professional Reviewer — Filipino"
     },
     {
