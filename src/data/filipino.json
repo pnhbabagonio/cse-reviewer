@@ -1939,7 +1939,7 @@
     "category": "filipino",
     "subcategory": "pagkilala_ng_mali",
     "difficulty": "average",
-    "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nAng walang kamatayang Mi Ultimo Adios ay __sinulat__ ng Rizal sa Fort Santiago.",
+    "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nAng __walang kamatayang__ __Mi Ultimo Adios__ ay __sinulat__ ni Rizal __sa Fort Santiago.__",
     "choices": {
       "a": "walang kamatayang",
       "b": "Mi Ultimo Adios",
@@ -1950,7 +1950,7 @@
     "answer": "c",
     "answerKeyOverridden": true,
     "originalAnswerKey": "d",
-    "explanation": "Ang tamang sagot ay C (sinulat). Sa pormal na balarilang Filipino, ang tamang perpektibong anyo ng pandiwang 'isulat' (object focus) ay 'isinulat', hindi 'sinulat'. Bukod dito, ang panandang 'ng' ay dapat maging 'ni' (ni Rizal) sapagkat ito ay pangngalang pantangi para sa tao, ngunit 'sinulat' ang pangunahing pagkakamaling nasa mga pagpipilian.",
+    "explanation": "Ang tamang sagot ay C (sinulat). Sa pormal na balarilang Filipino, ang tamang perpektibong anyo ng pandiwang 'isulat' (object focus) ay 'isinulat', hindi 'sinulat'.",
     "source": "CSE Professional Reviewer — Filipino"
   },
     {
@@ -1996,18 +1996,17 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "easy",
-      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Iniisip rin ng ating pamahalaan__ ang kapakanan ng mga maralita.",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Iniisip rin__ ng ating pamahalaan __ang kapakanan__ __ng mga maralita.__",
       "choices": {
-        "a": "Iniisip rin ng ating pamahalaan",
+        "a": "Iniisip rin",
         "b": "ang kapakanan",
         "c": "ng mga maralita",
-        "d": "Walang mali",
-        "e": ""
+        "d": "Walang mali"
       },
-      "answer": "d",
-      "answerKeyOverridden": false,
+      "answer": "a",
+      "answerKeyOverridden": true,
       "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay D. Walang mali sa pangungusap.",
+      "explanation": "Ang tamang sagot ay A (Iniisip rin). Ayon sa tuntunin ng balarilang Filipino, ginagamit ang 'din' kapag ang sinusundang salita ay nagtatapos sa katinig (consonant) maliban sa 'w' at 'y'. Dahil ang salitang 'Iniisip' ay nagtatapos sa katinig na 'p', ang dapat gamitin ay 'din' (Iniisip din) at hindi 'rin'.",
       "source": "CSE Professional Reviewer — Filipino"
     },
     {
@@ -2034,18 +2033,17 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Ang mga payo kung binitiwan__ ay dapat mong pakinggan?",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Ang mga payo kung__ __binitiwan__ ay dapat mong __pakinggan.__",
       "choices": {
-        "a": "Ang mga payo kung binitiwan",
-        "b": "ay dapat mong",
+        "a": "Ang mga payo kung",
+        "b": "binitiwan",
         "c": "pakinggan",
-        "d": "Walang mali",
-        "e": ""
+        "d": "Walang mali"
       },
-      "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay B. Ang 'kung binitiwan' ay hindi angkop; dapat 'na binitiwan'.",
+      "answer": "a",
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "b",
+      "explanation": "Ang tamang sagot ay A (Ang mga payo kung). Ang pagkakamali ay nasa paggamit ng salitang 'kung'. Ang 'kung' ay isang pangatnig (conjunction) na katumbas ng 'if' sa Ingles. Ang dapat gamitin ay 'kong' na nagmula sa panghalip na 'ko' na nilagyan ng pang-angkop na 'ng' (payo ko + ng = payo kong). Ang tamang pangungusap ay: 'Ang mga payo kong binitiwan ay dapat mong pakinggan.'",
       "source": "CSE Professional Reviewer — Filipino"
     },
     {
@@ -2072,7 +2070,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nTunay nga na masipag at __maalahanin ang panganay__ na si Rochell?",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Tunay nga na__ __masipag at__ __maalahanin ang panganay__ __na si Rochell.__",
       "choices": {
         "a": "Tunay nga na",
         "b": "masipag at",
@@ -2080,10 +2078,10 @@
         "d": "na si Rochell",
         "e": "Walang mali"
       },
-      "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay C. Ang 'maalahanin' ay hindi karaniwang salita; dapat 'maalahanin' ay 'mapagmahal' o 'maasikaso'? May mali sa paggamit.",
+      "answer": "e",
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "Ang tamang sagot ay E (Walang mali). Ang salitang 'maalahanin' ay isang ganap at tamang pang-uri sa wikang Filipino na nangangahulugang 'atentibo', 'mapagkalinga', o 'nagpapakita ng pag-aalala sa iba'. Wasto ang balarila, pagkakabuo, at gamit ng mga salita sa buong pangungusap.",
       "source": "CSE Professional Reviewer — Filipino"
     },
     {
@@ -2129,13 +2127,12 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Haluin mo__ ang sopas ng iba't ibang gulay?",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Haluin mo__ __ang sopas__ __ng iba't ibang gulay.__",
       "choices": {
         "a": "Haluin mo",
         "b": "ang sopas",
         "c": "ng iba't ibang gulay",
-        "d": "Walang mali",
-        "e": ""
+        "d": "Walang mali"
       },
       "answer": "a",
       "answerKeyOverridden": false,
@@ -2205,18 +2202,18 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "difficult",
-      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Ginigising lamang daw ng Maykapal__ ang mga taong nakalilimot sa Kanya sapagkat nagkakaroon ng kalamidad?",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Ginigising lamang daw ng Maykapal__ ang mga taong __nakalilimot sa Kanya__ __sapagkat nagkakaroon__ __ng kalamidad.__",
       "choices": {
         "a": "Ginigising lamang daw ng Maykapal",
-        "b": "ang mga taong nakalilimot sa Kanya",
+        "b": "nakalilimot sa Kanya",
         "c": "sapagkat nagkakaroon",
         "d": "ng kalamidad",
         "e": "Walang mali"
       },
-      "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay D. Ang 'sapagkat' ay ginagamit para sa dahilan. Ang pangungusap ay nagsasaad ng bunga, hindi dahilan.",
+      "answer": "c",
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "d",
+      "explanation": "Ang tamang sagot ay C (sapagkat nagkakaroon). Ang pangatnig na 'sapagkat' ay ginagamit upang magpakilala ng dahilan (cause). Subalit, sa lohika ng pangungusap, ang unang sugnay ('Ginigising lamang daw ng Maykapal...') ang siyang dahilan, at ang pagkakaroon ng kalamidad ang bunga (effect). Dahil dito, ang dapat gamitin na pang-ugnay ay 'kaya' upang magpakita ng resulta, sa halip na 'sapagkat'.",
       "source": "CSE Professional Reviewer — Filipino"
     },
     {
@@ -2281,18 +2278,17 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Ipinakiusap mo ba__ na pinayagan kang gamitin ang kompyuter?",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Ipinakiusap mo ba__ na __pinayagan__ kang __gamitin ang kompyuter?__",
       "choices": {
         "a": "Ipinakiusap mo ba",
-        "b": "na pinayagan kang",
+        "b": "pinayagan",
         "c": "gamitin ang kompyuter",
-        "d": "Walang mali",
-        "e": ""
+        "d": "Walang mali"
       },
       "answer": "b",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay B. Ang 'pinayagan kang' ay dapat 'pinayagan ka' (walang 'ng').",
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "b",
+      "explanation": "Ang tamang sagot ay B (pinayagan). Dahil ang unang bahagi ng pangungusap ay nagsasaad ng isang pakiusap ('Ipinakiusap mo ba na...'), ang susunod na pandiwa ay dapat nasa anyong pawatas (infinitive) at hindi perpektibo (past tense). Ang tamang salita ay 'payagan'. Wasto ang pang-angkop na '-ng' sa 'kang', kaya ang tamang kabuuan ng parirala ay 'payagan kang gamitin'.",
       "source": "CSE Professional Reviewer — Filipino"
     },
     {
@@ -2300,18 +2296,18 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "difficult",
-      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Hanapan mo ng sagot sa iyong katanungan ang iyong guro__?",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Hanapan mo__ __ng sagot__ __sa iyong katanungan__ __ang iyong guro.__",
       "choices": {
-        "a": "Hanapan mo ng sagot sa iyong katanungan",
-        "b": "ang iyong guro",
-        "c": "Walang mali",
-        "d": "",
-        "e": ""
+        "a": "Hanapan mo",
+        "b": "ng sagot",
+        "c": "sa iyong katanungan",
+        "d": "ang iyong guro",
+        "e": "Walang mali"
       },
-      "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay D. Ang 'hanapan' ay nangangailangan ng 'ng' at 'sa' — tama ang pangungusap.",
+      "answer": "e",
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "d",
+      "explanation": "Ang tamang sagot ay E (Walang mali). Ang orihinal na paliwanag ay sumasalungat sa sarili nito dahil sinabi nitong 'tama ang pangungusap' ngunit pinili ang D. Sa balarilang Filipino, ang pandiwang 'hanapan' ay nasa pokus sa ganapan o direksiyon. Wasto itong sinundan ng tagaganap ('mo'), ng tuwirang layon ('ng sagot'), at ng simuno o taong pinagmumulan ('ang iyong guro'). Ang pangungusap ay ganap na tama at walang mali sa gramatika.",
       "source": "CSE Professional Reviewer — Filipino"
     },
     {
