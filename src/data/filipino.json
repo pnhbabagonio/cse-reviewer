@@ -2315,7 +2315,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "difficult",
-      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nAyon sa mga dalubhasa, malaki raw ang naitutulong ng pag-eehersisyo __ng pag-iwas__ sa pagkakaroon ng sakit sa puso?",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Ayon sa mga dalubhasa,__ __malaki raw ang naitutulong__ __ng pag-eehersisyo__ __ng pag-iwas__ sa pagkakaroon ng sakit sa puso.",
       "choices": {
         "a": "Ayon sa mga dalubhasa",
         "b": "malaki raw ang naitutulong",
@@ -2323,10 +2323,10 @@
         "d": "ng pag-iwas",
         "e": "Walang mali"
       },
-      "answer": "c",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay C? Dapat ay 'sa pag-iwas' hindi 'ng pag-iwas'.",
+      "answer": "d",
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "Ang tamang sagot ay D. Dapat ay 'sa pag-iwas' sa halip na 'ng pag-iwas' upang maging wasto ang ugnayan ng mga salita sa pangungusap.",
       "source": "CSE Professional Reviewer — Filipino"
     },
     {
@@ -2353,18 +2353,17 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "easy",
-      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Panatilihin nating laging malinis at malayo sa polusyon ang ating kapaligiran__ para na rin sa ating kalusugan?",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Panatilihin nating laging malinis at malayo sa polusyon ang ating kapaligiran__ __para na rin__ __sa ating kalusugan__.",
       "choices": {
         "a": "Panatilihin nating laging malinis at malayo sa polusyon ang ating kapaligiran",
         "b": "para na rin",
         "c": "sa ating kalusugan",
-        "d": "Walang mali",
-        "e": ""
+        "d": "Walang mali"
       },
       "answer": "d",
       "answerKeyOverridden": false,
       "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay D. Walang mali sa pangungusap.",
+      "explanation": "Ang tamang sagot ay D. Walang mali sa gramatika at pagkakabuo ng pangungusap.",
       "source": "CSE Professional Reviewer — Filipino"
     },
     {
@@ -2372,18 +2371,18 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "average",
-      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Laban sa batas ang smuggling__ dahil ito ay isang paraan ng pagsabotahe sa ekonomiya?",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Labag sa batas ang smuggling__ __dahil ito ay__ __isang paraan ng pagsabotahe__ __sa ekonomiya__.",
       "choices": {
-        "a": "Laban sa batas ang smuggling",
+        "a": "Labag sa batas ang smuggling",
         "b": "dahil ito ay",
         "c": "isang paraan ng pagsabotahe",
         "d": "sa ekonomiya",
         "e": "Walang mali"
       },
-      "answer": "a",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay A. Dapat ay 'Ipinagbabawal ng batas ang smuggling' o 'Labag sa batas ang smuggling'.",
+      "answer": "e",
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "a",
+      "explanation": "Ang tamang sagot ay E. Walang mali sa gramatika at pagkakabuo ng pangungusap.",
       "source": "CSE Professional Reviewer — Filipino"
     },
     {
@@ -2391,7 +2390,7 @@
       "category": "filipino",
       "subcategory": "pagkilala_ng_mali",
       "difficulty": "difficult",
-      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nWalang kabutihang naidudulot ang droga, bagkus __ito pa nga ang nakasisira nang tahanan__ at lipunan?",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\n__Walang kabutihang naidudulot__ __ang droga, bagkus__ __ito pa nga ang nakasisira nang tahanan__ __at lipunan__.",
       "choices": {
         "a": "Walang kabutihang naidudulot",
         "b": "ang droga, bagkus",
@@ -2399,10 +2398,10 @@
         "d": "at lipunan",
         "e": "Walang mali"
       },
-      "answer": "d",
-      "answerKeyOverridden": false,
-      "originalAnswerKey": null,
-      "explanation": "Ang tamang sagot ay D. Dapat ay 'nakasisira ng tahanan' hindi 'nang tahanan'.",
+      "answer": "c",
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "d",
+      "explanation": "Ang tamang sagot ay C. Dapat ay 'nakasisira ng tahanan' sa halip na 'nang tahanan'. Ginagamit ang 'ng' kapag tumutukoy sa layon (object) na sumasagot sa tanong na 'ano' (ano ang sinisira: tahanan), samantalang ang 'nang' ay kadalasang ginagamit bilang pang-abay (adverb) o kasingkahulugan ng 'noong' at 'upang'.",
       "source": "CSE Professional Reviewer — Filipino"
     }
   ],
