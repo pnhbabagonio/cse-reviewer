@@ -56,17 +56,12 @@ export default function AnswerReview() {
   const QuestionReviewCard = ({ question }) => (
     <div className="card">
       {question.type === 'passage_question' && question.isFirstInGroup && (
-        <>
-          <PassagePanel
-            title={question.passageTitle}
-            passageText={question.passageText}
-            groupIndex={question.groupIndex}
-            groupSize={question.groupSize}
-          />
-          {question.hasImage && (
-            <QuestionImage questionId={question.passageId || question.id} alt="Question diagram" />
-          )}
-        </>
+        <PassagePanel
+          title={question.passageTitle}
+          passageText={question.passageText}
+          groupIndex={question.groupIndex}
+          groupSize={question.groupSize}
+        />
       )}
 
       {question.type === 'passage_question' && !question.isFirstInGroup && (
@@ -75,8 +70,8 @@ export default function AnswerReview() {
         </p>
       )}
 
-      {question.type !== 'passage_question' && question.hasImage && (
-        <QuestionImage questionId={question.id} alt="Question diagram" />
+      {question.hasImage && (
+        <QuestionImage questionId={question.passageId || question.id} alt="Question diagram" />
       )}
 
       <div className="flex justify-between items-start mb-2">
