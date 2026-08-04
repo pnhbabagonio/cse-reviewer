@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Navigate, useLocation, useNavigate } from 'react-router-dom'
 import useExamStore from '../store/examStore'
 import PassagePanel from '../components/PassagePanel'
+import QuestionImage from '../components/QuestionImage'
 import FlagButton from '../components/FlagButton'
 import FormattedText from '../components/FormattedText'
 import CategoryBadge from '../components/CategoryBadge'
@@ -55,18 +56,27 @@ export default function AnswerReview() {
   const QuestionReviewCard = ({ question }) => (
     <div className="card">
       {question.type === 'passage_question' && question.isFirstInGroup && (
-        <PassagePanel
-          title={question.passageTitle}
-          passageText={question.passageText}
-          groupIndex={question.groupIndex}
-          groupSize={question.groupSize}
-        />
+        <>
+          <PassagePanel
+            title={question.passageTitle}
+            passageText={question.passageText}
+            groupIndex={question.groupIndex}
+            groupSize={question.groupSize}
+          />
+          {question.hasImage && (
+            <QuestionImage questionId={question.passageId || question.id} alt="Question diagram" />
+          )}
+        </>
       )}
 
       {question.type === 'passage_question' && !question.isFirstInGroup && (
         <p className="text-xs text-blue-500 dark:text-blue-400 italic mb-3">
           This question refers to the passage shown above.
         </p>
+      )}
+
+      {question.type !== 'passage_question' && question.hasImage && (
+        <QuestionImage questionId={question.id} alt="Question diagram" />
       )}
 
       <div className="flex justify-between items-start mb-2">

@@ -12,6 +12,7 @@ const buildPassageQuestion = ({ group, groupIndex, q, questionIndexWithinGroup }
     subcategory: group.subcategory,
     difficulty: q.difficulty || group.difficulty || 'average',
     source: group.source,
+    hasImage: q.hasImage || false,
 
     passageId: group.id,
     passageTitle: group.title,

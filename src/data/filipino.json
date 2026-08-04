@@ -548,24 +548,24 @@
       "explanation": "Ang tamang sagot ay A (pambihira). Ang 'palasak' ay nangangahulugang laganap o karaniwan. Ang kasalungat ay pambihira.",
       "source": "CSE Professional Reviewer — Filipino"
     },
-  {
-    "id": "fl-kl-0031",
-    "category": "filipino",
-    "subcategory": "kasalungat",
-    "difficulty": "difficult",
-    "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\n__Nabaghan__ siya nang dumating ang kanyang amang dalawang taong naghanap-buhay sa ibang bansa.",
-    "choices": {
-      "a": "nagulat",
-      "b": "nagtaka",
-      "c": "inasahan",
-      "d": "nahimatay"
+    {
+      "id": "fl-kl-0031",
+      "category": "filipino",
+      "subcategory": "kasalungat",
+      "difficulty": "difficult",
+      "question": "Piliin ang kasalungat ng salitang may salungguhit.\n\n__Nabaghan__ siya nang dumating ang kanyang amang dalawang taong naghanap-buhay sa ibang bansa.",
+      "choices": {
+        "a": "nagulat",
+        "b": "nagtaka",
+        "c": "inasahan",
+        "d": "nahimatay"
+      },
+      "answer": "c",
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "c",
+      "explanation": "Ang salitang 'nabaghan' ay nangangahulugang nagulat, nabigla, o namangha. Dahil ang hinahanap ay ang kasalungat (antonym), ang tamang sagot ay C, 'inasahan' (expected), na siyang kabaligtaran ng pagkagulat.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
-    "answer": "c",
-    "answerKeyOverridden": true,
-    "originalAnswerKey": "c",
-    "explanation": "Ang salitang 'nabaghan' ay nangangahulugang nagulat, nabigla, o namangha. Dahil ang hinahanap ay ang kasalungat (antonym), ang tamang sagot ay C, 'inasahan' (expected), na siyang kabaligtaran ng pagkagulat.",
-    "source": "CSE Professional Reviewer — Filipino"
-  },
     {
       "id": "fl-kl-0032",
       "category": "filipino",
@@ -1430,24 +1430,24 @@
       "explanation": "Ang tamang sagot ay D (Idinetalye). Ang 'isinulat' ay maaari ring tama depende sa konteksto. Ang susi ay nagpapahiwatig na 'idinetalye' ang tamang sagot.",
       "source": "CSE Professional Reviewer — Filipino"
     },
-  {
-    "id": "fl-wg-0080",
-    "category": "filipino",
-    "subcategory": "gramatika",
-    "difficulty": "average",
-    "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng ______ ng mga manlalaro ay dininig ng komite kahapon.",
-    "choices": {
-      "a": "pakiusapan",
-      "b": "pakikipag-usap",
-      "c": "panawagan",
-      "d": "reklamo"
+    {
+      "id": "fl-wg-0080",
+      "category": "filipino",
+      "subcategory": "gramatika",
+      "difficulty": "average",
+      "question": "Piliin ang angkop na salita upang mabuo ang pangungusap.\n\nAng ______ ng mga manlalaro ay dininig ng komite kahapon.",
+      "choices": {
+        "a": "pakiusapan",
+        "b": "pakikipag-usap",
+        "c": "panawagan",
+        "d": "reklamo"
+      },
+      "answer": "d",
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "a",
+      "explanation": "Ang tamang sagot ay D (reklamo). Ang 'reklamo' (complaint) ang pinakaangkop na pangngalan (noun) na kadalasang sumasailalim sa 'pagdinig' (hearing) ng isang pormal na komite. Ang inisyal na sagot na 'pakiusapan' ay isang pandiwa (verb) kaya hindi ito grammatically tama bilang simuno (subject) ng pangungusap.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
-    "answer": "d",
-    "answerKeyOverridden": true,
-    "originalAnswerKey": "a",
-    "explanation": "Ang tamang sagot ay D (reklamo). Ang 'reklamo' (complaint) ang pinakaangkop na pangngalan (noun) na kadalasang sumasailalim sa 'pagdinig' (hearing) ng isang pormal na komite. Ang inisyal na sagot na 'pakiusapan' ay isang pandiwa (verb) kaya hindi ito grammatically tama bilang simuno (subject) ng pangungusap.",
-    "source": "CSE Professional Reviewer — Filipino"
-  },
     {
       "id": "fl-wg-0081",
       "category": "filipino",
@@ -1934,25 +1934,25 @@
       "explanation": "Ang tamang sagot ay C (Kunin). Ang 'kunin' ay nangangahulugang kuhanin o tanggapin ang dalahin.",
       "source": "CSE Professional Reviewer — Filipino"
     },
-  {
-    "id": "fl-pm-0108",
-    "category": "filipino",
-    "subcategory": "pagkilala_ng_mali",
-    "difficulty": "average",
-    "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nAng __walang kamatayang__ __Mi Ultimo Adios__ ay __sinulat__ ni Rizal __sa Fort Santiago.__",
-    "choices": {
-      "a": "walang kamatayang",
-      "b": "Mi Ultimo Adios",
-      "c": "sinulat",
-      "d": "sa Fort Santiago",
-      "e": "Walang mali"
+    {
+      "id": "fl-pm-0108",
+      "category": "filipino",
+      "subcategory": "pagkilala_ng_mali",
+      "difficulty": "average",
+      "question": "Alin sa bahagi ng pangungusap ang may mali?\n\nAng __walang kamatayang__ __Mi Ultimo Adios__ ay __sinulat__ ni Rizal __sa Fort Santiago.__",
+      "choices": {
+        "a": "walang kamatayang",
+        "b": "Mi Ultimo Adios",
+        "c": "sinulat",
+        "d": "sa Fort Santiago",
+        "e": "Walang mali"
+      },
+      "answer": "c",
+      "answerKeyOverridden": true,
+      "originalAnswerKey": "d",
+      "explanation": "Ang tamang sagot ay C (sinulat). Sa pormal na balarilang Filipino, ang tamang perpektibong anyo ng pandiwang 'isulat' (object focus) ay 'isinulat', hindi 'sinulat'.",
+      "source": "CSE Professional Reviewer — Filipino"
     },
-    "answer": "c",
-    "answerKeyOverridden": true,
-    "originalAnswerKey": "d",
-    "explanation": "Ang tamang sagot ay C (sinulat). Sa pormal na balarilang Filipino, ang tamang perpektibong anyo ng pandiwang 'isulat' (object focus) ay 'isinulat', hindi 'sinulat'.",
-    "source": "CSE Professional Reviewer — Filipino"
-  },
     {
       "id": "fl-pm-0109",
       "category": "filipino",
@@ -2752,6 +2752,7 @@
       "questions": [
         {
           "id": "pg-fl-pb-0006-q1",
+          "hasImage": true,
           "question": "Tungkol saan ang grapong nabasa?",
           "choices": {
             "a": "Pinakamataas na pasahod sa Maynila sa iba't ibang taon.",
@@ -2766,6 +2767,7 @@
         },
         {
           "id": "pg-fl-pb-0006-q2",
+          "hasImage": true,
           "question": "Gaano kalaki ang pagkakaiba ng pasahod noong Oktubre 1999 at noong Mayo 1996?",
           "choices": {
             "a": "P 78.50",
@@ -2780,6 +2782,7 @@
         },
         {
           "id": "pg-fl-pb-0006-q3",
+          "hasImage": true,
           "question": "Kailan nagkaroon ng pinakamababang pagtaas ng pasahod ayon sa grapo?",
           "choices": {
             "a": "Nobyembre 1990",
@@ -2794,6 +2797,7 @@
         },
         {
           "id": "pg-fl-pb-0006-q4",
+          "hasImage": true,
           "question": "Gaano katagal naging pinakamababang pasahod ng mga empleyado ang halagang P145?",
           "choices": {
             "a": "dalawang buwan",
@@ -2808,6 +2812,7 @@
         },
         {
           "id": "pg-fl-pb-0006-q5",
+          "hasImage": true,
           "question": "Ilang beses nagkaroon ng dalampung pisong (P20) pagtaas sa minimum wage?",
           "choices": {
             "a": "isa",

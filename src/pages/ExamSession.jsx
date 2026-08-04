@@ -151,8 +151,8 @@ export default function ExamSession() {
 
         <ProgressBar value={currentQuestionIndex + 1} max={totalQuestions} />
 
-        {currentQuestion?.hasImage && (
-          <QuestionImage questionId={currentQuestion.id} alt="Question diagram" />
+        {currentQuestion?.hasImage && currentQuestion?.isFirstInGroup && (
+          <QuestionImage questionId={currentQuestion.passageId || currentQuestion.id} alt="Question diagram" />
         )}
 
         {currentQuestion?.type === 'passage_question' && (

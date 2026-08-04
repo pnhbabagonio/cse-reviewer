@@ -26,7 +26,6 @@ const updateAllBanks = () => {
 export const getAllQuestions = () => {
   const standalone = Object.values(currentData.allBanks).flatMap(b => b.questions)
   
-  // Flatten passage group questions with passage metadata attached
   const passageGroups = Object.values(currentData.allBanks).flatMap(b => b.passageGroups ?? [])
   const passageQuestions = passageGroups.flatMap((group, groupIndex) => {
     const qs = group.questions ?? []
@@ -37,6 +36,7 @@ export const getAllQuestions = () => {
       subcategory: group.subcategory || 'uncategorized',
       difficulty: q.difficulty || group.difficulty || 'average',
       source: group.source,
+      hasImage: q.hasImage || false,
 
       passageId: group.id,
       passageTitle: group.title,
