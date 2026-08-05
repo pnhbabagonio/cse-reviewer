@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import useExamStore from '../store/examStore'
 import useProgressStore from '../store/progressStore'
@@ -65,54 +65,22 @@ export default function ExamSession() {
     }
   }, [session, navigate])
 
-  // Keyboard shortcuts: 1-5 maps to choices a-e
-  useEffect(() => {
-    const handleKeyDown = (e) => {
-      // Ignore if user is typing in an input
-      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return
-      // Ignore if modal is open
-      if (showQuitModal) return
-
-      const key = e.key
-      
-      // Number keys 1-5 to select answers
-      if (KEY_MAP[key] && session && currentQuestion) {
-        e.preventDefault()
-        const choiceKeys = Object.keys(currentQuestion.choices)
-        if (choiceKeys.includes(KEY_MAP[key])) {
-          handleSelectAnswer(KEY_MAP[key])
-        }
-      }
-
-      // Arrow keys for navigation
-      if (key === 'ArrowRight' || key === 'ArrowLeft') {
-        e.preventDefault()
-        if (key === 'ArrowRight') {
-          handleNext()
-        } else if (key === 'ArrowLeft' && currentQuestionIndex > 0) {
-          handlePrevious()
-        }
-      }
-    }
-
-    window.addEventListener('keydown', handleKeyDown)
-    return () => window.removeEventListener('keydown', handleKeyDown)
-  }, [session, currentQuestion, currentQuestionIndex, showQuitModal])
-
   const currentQuestion = session?.questions[currentQuestionIndex]
   const totalQuestions = session?.questions.length || 0
   const selectedAnswer = session?.answers[currentQuestion?.id]
 
-  const handleSelectAnswer = (answer) => {
+  const handleSelectAnswer = useCallback((answer) => {
     if (!session || !currentQuestion) return
     submitAnswer(currentQuestion.id, answer)
-  }
+  }, [session, currentQuestion, submitAnswer])
 
-  const handleNext = () => {
-    if (!session) return
+  const handleNext = useCallback(() => {
+    const currentSession = useExamStore.getState().session
+    const currentIndex = useExamStore.getState().currentQuestionIndex
+    const total = currentSession?.questions?.length || 0
 
-    if (currentQuestionIndex < totalQuestions - 1) {
-      setCurrentQuestionIndex(currentQuestionIndex + 1)
+    if (currentIndex < total - 1) {
+      setCurrentQuestionIndex(currentIndex + 1)
     } else {
       const completedSession = completeSession()
       if (completedSession) {
@@ -120,16 +88,63 @@ export default function ExamSession() {
         navigate('/results', { state: { session: completedSession } })
       }
     }
-  }
+  }, [setCurrentQuestionIndex, completeSession, addSession, navigate])
 
-  const handlePrevious = () => {
-    if (currentQuestionIndex > 0) setCurrentQuestionIndex(currentQuestionIndex - 1)
-  }
+  const handlePrevious = useCallback(() => {
+    const currentIndex = useExamStore.getState().currentQuestionIndex
+    if (currentIndex > 0) setCurrentQuestionIndex(currentIndex - 1)
+  }, [setCurrentQuestionIndex])
 
-  const handleQuit = () => {
+  const handleQuit = useCallback(() => {
     clearSession()
     navigate('/', { replace: true })
-  }
+  }, [clearSession, navigate])
+
+  // Keyboard shortcuts: 1-5 maps to choices a-e
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return
+
+      const key = e.key
+      const currentSession = useExamStore.getState().session
+      const currentIndex = useExamStore.getState().currentQuestionIndex
+      const currentQ = currentSession?.questions?.[currentIndex]
+      const modalOpen = showQuitModal
+
+      if (modalOpen) return
+
+      // Number keys 1-5 to select answers
+      if (KEY_MAP[key] && currentQ) {
+        e.preventDefault()
+        const choiceKeys = Object.keys(currentQ.choices || {})
+        if (choiceKeys.includes(KEY_MAP[key])) {
+          submitAnswer(currentQ.id, KEY_MAP[key])
+        }
+      }
+
+      // Arrow keys for navigation
+      if (key === 'ArrowRight' || key === 'ArrowLeft') {
+        e.preventDefault()
+        if (key === 'ArrowRight') {
+          const total = currentSession?.questions?.length || 0
+          if (currentIndex < total - 1) {
+            setCurrentQuestionIndex(currentIndex + 1)
+          } else {
+            const completedSession = completeSession()
+            if (completedSession) {
+              addSession(completedSession)
+              navigate('/results', { state: { session: completedSession } })
+            }
+          }
+        } else if (key === 'ArrowLeft' && currentIndex > 0) {
+          setCurrentQuestionIndex(currentIndex - 1)
+        }
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [showQuitModal, submitAnswer, setCurrentQuestionIndex, completeSession, addSession, navigate])
 
   const handleDismissKeyboardHint = () => {
     localStorage.setItem(KEYBOARD_HINT_KEY, 'true')
