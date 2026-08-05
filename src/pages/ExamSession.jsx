@@ -100,52 +100,6 @@ export default function ExamSession() {
     navigate('/', { replace: true })
   }, [clearSession, navigate])
 
-  // Keyboard shortcuts: 1-5 maps to choices a-e
-  useEffect(() => {
-    const handleKeyDown = (e) => {
-      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return
-
-      const key = e.key
-      const currentSession = useExamStore.getState().session
-      const currentIndex = useExamStore.getState().currentQuestionIndex
-      const currentQ = currentSession?.questions?.[currentIndex]
-      const modalOpen = showQuitModal
-
-      if (modalOpen) return
-
-      // Number keys 1-5 to select answers
-      if (KEY_MAP[key] && currentQ) {
-        e.preventDefault()
-        const choiceKeys = Object.keys(currentQ.choices || {})
-        if (choiceKeys.includes(KEY_MAP[key])) {
-          submitAnswer(currentQ.id, KEY_MAP[key])
-        }
-      }
-
-      // Arrow keys for navigation
-      if (key === 'ArrowRight' || key === 'ArrowLeft') {
-        e.preventDefault()
-        if (key === 'ArrowRight') {
-          const total = currentSession?.questions?.length || 0
-          if (currentIndex < total - 1) {
-            setCurrentQuestionIndex(currentIndex + 1)
-          } else {
-            const completedSession = completeSession()
-            if (completedSession) {
-              addSession(completedSession)
-              navigate('/results', { state: { session: completedSession } })
-            }
-          }
-        } else if (key === 'ArrowLeft' && currentIndex > 0) {
-          setCurrentQuestionIndex(currentIndex - 1)
-        }
-      }
-    }
-
-    window.addEventListener('keydown', handleKeyDown)
-    return () => window.removeEventListener('keydown', handleKeyDown)
-  }, [showQuitModal, submitAnswer, setCurrentQuestionIndex, completeSession, addSession, navigate])
-
   const handleDismissKeyboardHint = () => {
     localStorage.setItem(KEYBOARD_HINT_KEY, 'true')
     setShowKeyboardHint(false)
@@ -172,6 +126,70 @@ export default function ExamSession() {
     else resume()
   }, [isPaused, isTimed, isSimulator, pause, resume])
 
+  // Keyboard shortcuts
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return
+
+      const key = e.key
+      const currentSession = useExamStore.getState().session
+      const currentIndex = useExamStore.getState().currentQuestionIndex
+      const currentQ = currentSession?.questions?.[currentIndex]
+      const total = currentSession?.questions?.length || 0
+      const modalOpen = showQuitModal
+
+      if (modalOpen) return
+
+      // Number keys 1-5 to select answers
+      if (KEY_MAP[key] && currentQ) {
+        e.preventDefault()
+        const choiceKeys = Object.keys(currentQ.choices || {})
+        if (choiceKeys.includes(KEY_MAP[key])) {
+          submitAnswer(currentQ.id, KEY_MAP[key])
+        }
+      }
+
+      // Space or Enter: confirm and go to next question (or finish)
+      if (key === ' ' || key === 'Enter') {
+        e.preventDefault()
+        if (currentIndex < total - 1) {
+          setCurrentQuestionIndex(currentIndex + 1)
+        } else {
+          const completedSession = completeSession()
+          if (completedSession) {
+            addSession(completedSession)
+            navigate('/results', { state: { session: completedSession } })
+          }
+        }
+      }
+
+      // Left Arrow: previous question
+      if (key === 'ArrowLeft') {
+        e.preventDefault()
+        if (currentIndex > 0) {
+          setCurrentQuestionIndex(currentIndex - 1)
+        }
+      }
+
+      // Right Arrow: next question (or finish)
+      if (key === 'ArrowRight') {
+        e.preventDefault()
+        if (currentIndex < total - 1) {
+          setCurrentQuestionIndex(currentIndex + 1)
+        } else {
+          const completedSession = completeSession()
+          if (completedSession) {
+            addSession(completedSession)
+            navigate('/results', { state: { session: completedSession } })
+          }
+        }
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [showQuitModal, submitAnswer, setCurrentQuestionIndex, completeSession, addSession, navigate])
+
   const formatTime = (seconds) => {
     const mins = Math.floor(seconds / 60)
     const secs = seconds % 60
@@ -192,7 +210,7 @@ export default function ExamSession() {
                 Keyboard Shortcuts Available
               </p>
               <p className="text-xs text-blue-600 dark:text-blue-400 mt-1">
-                Press <kbd className="px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/50 text-xs font-mono">1</kbd>–<kbd className="px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/50 text-xs font-mono">5</kbd> to select choices, <kbd className="px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/50 text-xs font-mono">←</kbd> <kbd className="px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/50 text-xs font-mono">→</kbd> to navigate questions.
+                Press <kbd className="px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/50 text-xs font-mono">1</kbd>–<kbd className="px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/50 text-xs font-mono">5</kbd> to select, <kbd className="px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/50 text-xs font-mono">Space</kbd> to confirm, <kbd className="px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/50 text-xs font-mono">←</kbd> <kbd className="px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/50 text-xs font-mono">→</kbd> to navigate.
               </p>
             </div>
             <button
