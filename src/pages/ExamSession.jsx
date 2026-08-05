@@ -9,8 +9,17 @@ import QuestionImage from '../components/QuestionImage'
 import ProgressBar from '../components/ProgressBar'
 import PassagePanel from '../components/PassagePanel'
 import Modal from '../components/Modal'
-import { ArrowLeft, ArrowRight, Pause, Play, Clock, X } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Pause, Play, Clock, X, Keyboard } from 'lucide-react'
 
+const KEYBOARD_HINT_KEY = 'cse_keyboard_hint_dismissed'
+
+const KEY_MAP = {
+  '1': 'a',
+  '2': 'b',
+  '3': 'c',
+  '4': 'd',
+  '5': 'e',
+}
 
 export default function ExamSession() {
   const navigate = useNavigate()
@@ -19,11 +28,20 @@ export default function ExamSession() {
   const { addSession } = useProgressStore()
   const [isPaused, setIsPaused] = useState(false)
   const [showQuitModal, setShowQuitModal] = useState(false)
+  const [showKeyboardHint, setShowKeyboardHint] = useState(false)
   const isTimed = session?.mode === 'timed'
   const isSimulator = session?.mode === 'simulator'
   const { isPaused: isStudyTimerPaused } = useStudyTimer({
     categories: session?.categories ?? [],
   })
+
+  // Show keyboard hint on first exam ever
+  useEffect(() => {
+    const dismissed = localStorage.getItem(KEYBOARD_HINT_KEY)
+    if (!dismissed && session) {
+      setShowKeyboardHint(true)
+    }
+  }, [session])
 
   // Auto-start simulator if navigated directly with config
   useEffect(() => {
@@ -46,6 +64,40 @@ export default function ExamSession() {
       return
     }
   }, [session, navigate])
+
+  // Keyboard shortcuts: 1-5 maps to choices a-e
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      // Ignore if user is typing in an input
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return
+      // Ignore if modal is open
+      if (showQuitModal) return
+
+      const key = e.key
+      
+      // Number keys 1-5 to select answers
+      if (KEY_MAP[key] && session && currentQuestion) {
+        e.preventDefault()
+        const choiceKeys = Object.keys(currentQuestion.choices)
+        if (choiceKeys.includes(KEY_MAP[key])) {
+          handleSelectAnswer(KEY_MAP[key])
+        }
+      }
+
+      // Arrow keys for navigation
+      if (key === 'ArrowRight' || key === 'ArrowLeft') {
+        e.preventDefault()
+        if (key === 'ArrowRight') {
+          handleNext()
+        } else if (key === 'ArrowLeft' && currentQuestionIndex > 0) {
+          handlePrevious()
+        }
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [session, currentQuestion, currentQuestionIndex, showQuitModal])
 
   const currentQuestion = session?.questions[currentQuestionIndex]
   const totalQuestions = session?.questions.length || 0
@@ -77,6 +129,11 @@ export default function ExamSession() {
   const handleQuit = () => {
     clearSession()
     navigate('/', { replace: true })
+  }
+
+  const handleDismissKeyboardHint = () => {
+    localStorage.setItem(KEYBOARD_HINT_KEY, 'true')
+    setShowKeyboardHint(false)
   }
 
   const timePerQuestion = 1.5 * 60
@@ -111,6 +168,27 @@ export default function ExamSession() {
   return (
     <div className="w-full">
       <div className="max-w-2xl mx-auto space-y-4 lg:[&_.card>div.space-y-2]:grid lg:[&_.card>div.space-y-2]:grid-cols-2 lg:[&_.card>div.space-y-2]:gap-3 lg:[&_.card>div.space-y-2]:space-y-0">
+        {/* Keyboard Shortcut Hint */}
+        {showKeyboardHint && (
+          <div className="flex items-start gap-3 p-4 rounded-xl bg-blue-50 dark:bg-blue-950/30 border border-blue-200 dark:border-blue-800">
+            <Keyboard className="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" />
+            <div className="flex-1">
+              <p className="text-sm font-semibold text-blue-700 dark:text-blue-300">
+                Keyboard Shortcuts Available
+              </p>
+              <p className="text-xs text-blue-600 dark:text-blue-400 mt-1">
+                Press <kbd className="px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/50 text-xs font-mono">1</kbd>–<kbd className="px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/50 text-xs font-mono">5</kbd> to select choices, <kbd className="px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/50 text-xs font-mono">←</kbd> <kbd className="px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/50 text-xs font-mono">→</kbd> to navigate questions.
+              </p>
+            </div>
+            <button
+              onClick={handleDismissKeyboardHint}
+              className="text-blue-400 hover:text-blue-600 dark:hover:text-blue-200 flex-shrink-0"
+            >
+              <X className="w-4 h-4" />
+            </button>
+          </div>
+        )}
+
         {/* Header */}
         <div className="flex justify-between items-center">
           <div>
