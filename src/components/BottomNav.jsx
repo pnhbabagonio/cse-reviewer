@@ -1,3 +1,4 @@
+//BottomNav.jsx
 import { NavLink, useLocation } from 'react-router-dom'
 import { Home, History, Bookmark, Settings, Flag } from 'lucide-react'
 import useFlagStore from '../store/flagStore'
