@@ -308,8 +308,8 @@ export default function Settings() {
       </div>
 
       <div className="card text-center text-sm text-gray-500">
-        <p>CSE Pro Reviewer v1.0</p>
-        <p>Made By ThinSlicedPipino</p>
+        <p>CSE Pro Reviewer v2.0</p>
+        <p>Made By Philip The Great</p>
       </div>
 
       <Modal isOpen={showResetModal} onClose={() => setShowResetModal(false)} title="Reset Progress">
