@@ -2,7 +2,7 @@
 - dist
   - assets
     - index-BumkKZ3B.css
-    - index-NAtEiWfP.js
+    - index-CQQhqgUN.js
   - icons
     - icon-192.png
     - icon-512.png
@@ -10,8 +10,6 @@
   - manifest.json
   - manifest.webmanifest
   - registerSW.js
-  - sw.js
-  - workbox-dcde9eb3.js
 - index.html
 - netlify.toml
 - package-lock.json
@@ -21,9 +19,13 @@
   - icons
     - icon-192.png
     - icon-512.png
+  - images
+    - questions
+      - pg-fl-pb-0006.png
   - manifest.json
 - scripts
   - build.mjs
+  - fix_filipino_questions.py
 - src
   - App.jsx
   - components
@@ -32,16 +34,19 @@
     - ChoiceButton.jsx
     - CountdownCard.jsx
     - DifficultyBadge.jsx
+    - FlagButton.jsx
     - FormattedText.jsx
     - Layout.jsx
     - Modal.jsx
     - PassagePanel.jsx
     - ProgressBar.jsx
     - QuestionCard.jsx
+    - QuestionImage.jsx
     - ScoreRing.jsx
     - Sidebar.jsx
     - StatCard.jsx
     - SubcategoryBadge.jsx
+    - WeakestAreaCard.jsx
   - data
     - analytical.json
     - filipino.json
@@ -61,12 +66,14 @@
     - Bookmarks.jsx
     - ExamSession.jsx
     - ExamSetup.jsx
+    - FlaggedQuestions.jsx
     - History.jsx
     - Home.jsx
     - Results.jsx
     - Settings.jsx
   - store
     - examStore.js
+    - flagStore.js
     - progressStore.js
     - settingsStore.js
     - studyTimeStore.js
