@@ -9,13 +9,16 @@ import History from './pages/History'
 import Bookmarks from './pages/Bookmarks'
 import FlaggedQuestions from './pages/FlaggedQuestions'
 import Settings from './pages/Settings'
+import Login from './pages/Login'
 import { useEffect } from 'react'
 import useSettingsStore from './store/settingsStore'
 import useExamStore from './store/examStore'
+import useAuthStore from './store/authStore'
 
 function App() {
   const { darkMode } = useSettingsStore()
   const { loadAllQuestions, session, clearSession } = useExamStore()
+  const initAuth = useAuthStore((state) => state.init)
 
   useEffect(() => {
     if (darkMode) {
@@ -27,7 +30,8 @@ function App() {
 
   useEffect(() => {
     loadAllQuestions()
-  }, [loadAllQuestions])
+    initAuth()
+  }, [loadAllQuestions, initAuth])
 
   useEffect(() => {
     const handleDataRefresh = () => {
@@ -55,6 +59,7 @@ function App() {
           <Route path="bookmarks" element={<Bookmarks />} />
           <Route path="flagged" element={<FlaggedQuestions />} />
           <Route path="settings" element={<Settings />} />
+          <Route path="login" element={<Login />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>
