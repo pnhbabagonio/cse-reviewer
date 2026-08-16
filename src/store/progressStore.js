@@ -1,5 +1,7 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
+import { sessionsAPI } from '../services/api'
+import useAuthStore from './authStore'
 
 const useProgressStore = create(
   persist(
@@ -90,6 +92,45 @@ const useProgressStore = create(
         }
 
         return weakest
+      },
+
+      // Fetch remote sessions from API and merge with local
+      fetchRemoteSessions: async () => {
+        const isAuthenticated = useAuthStore.getState().isAuthenticated
+        if (!isAuthenticated) return
+
+        try {
+          const response = await sessionsAPI.getAll()
+          const remoteSessions = response.data || []
+          
+          const localSessions = get().sessions
+          const localIds = new Set(localSessions.map(s => s.id))
+          const newRemoteSessions = remoteSessions.filter(s => !localIds.has(String(s.id)))
+
+          if (newRemoteSessions.length > 0) {
+            const merged = [...localSessions, ...newRemoteSessions.map(s => ({
+              id: String(s.id),
+              date: s.completed_at,
+              mode: s.mode,
+              categories: s.categories,
+              difficulty: s.difficulty,
+              totalQuestions: s.total_questions,
+              score: s.score,
+              percentage: Number(s.percentage),
+              passed: s.passed,
+              timeTakenSeconds: s.time_taken_sec,
+              results: (s.answers || []).map(a => ({
+                questionId: a.question_id,
+                userAnswer: a.user_answer,
+                correctAnswer: a.correct_answer,
+                isCorrect: a.is_correct,
+              })),
+            }))]
+            set({ sessions: merged })
+          }
+        } catch (error) {
+          console.warn('Failed to fetch remote sessions:', error.message)
+        }
       },
     }),
     {

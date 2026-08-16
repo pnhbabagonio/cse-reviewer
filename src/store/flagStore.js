@@ -1,5 +1,7 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
+import { flagsAPI } from '../services/api'
+import useAuthStore from './authStore'
 
 export const FLAG_REASONS = [
   { value: 'wrong_answer', label: 'Wrong Answer', icon: '❌' },
@@ -21,6 +23,11 @@ const useFlagStore = create(
             [questionId]: { reason, timestamp: Date.now() },
           },
         }))
+
+        // Sync to API
+        if (useAuthStore.getState().isAuthenticated) {
+          flagsAPI.add(questionId, reason).catch(() => {})
+        }
       },
 
       unflagQuestion: (questionId) => {
@@ -29,6 +36,11 @@ const useFlagStore = create(
           delete newFlags[questionId]
           return { flags: newFlags }
         })
+
+        // Sync removal to API
+        if (useAuthStore.getState().isAuthenticated) {
+          flagsAPI.remove(questionId).catch(() => {})
+        }
       },
 
       isFlagged: (questionId) => {
@@ -45,6 +57,33 @@ const useFlagStore = create(
 
       getFlaggedCount: () => {
         return Object.keys(get().flags).length
+      },
+
+      // Fetch flags from API and merge with local
+      fetchRemoteFlags: async () => {
+        const isAuthenticated = useAuthStore.getState().isAuthenticated
+        if (!isAuthenticated) return
+
+        try {
+          const response = await flagsAPI.getAll()
+          const remoteFlags = response.data || []
+          
+          const localFlags = get().flags
+          const merged = { ...localFlags }
+
+          for (const flag of remoteFlags) {
+            if (!merged[flag.question_id]) {
+              merged[flag.question_id] = {
+                reason: flag.reason,
+                timestamp: new Date(flag.created_at).getTime(),
+              }
+            }
+          }
+
+          set({ flags: merged })
+        } catch (error) {
+          console.warn('Failed to fetch remote flags:', error.message)
+        }
       },
     }),
     {

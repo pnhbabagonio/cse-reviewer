@@ -6,8 +6,9 @@ import {
   allPassageGroups,
   passageGroupsByCategory,
 } from '../data/index.js'
-
 import { buildExamPool } from '../utils/examBuilder'
+import { bookmarksAPI, sessionsAPI, setGuestToken, getGuestToken } from '../services/api'
+import useAuthStore from './authStore'
 
 
 const createSessionId = () => {
@@ -75,6 +76,7 @@ const useExamStore = create(
       bookmarks: [],
       session: null,
       currentQuestionIndex: 0,
+      syncedBookmarks: false,
 
       loadQuestions: (selectedCategories = []) => {
         set({ allQuestions: getMergedQuestionPool(selectedCategories) })
@@ -196,8 +198,16 @@ const useExamStore = create(
         let newBookmarks
         if (bookmarks.includes(questionId)) {
           newBookmarks = bookmarks.filter(id => id !== questionId)
+          // Sync removal to API
+          if (useAuthStore.getState().isAuthenticated) {
+            bookmarksAPI.remove(questionId).catch(() => {})
+          }
         } else {
           newBookmarks = [...bookmarks, questionId]
+          // Sync addition to API
+          if (useAuthStore.getState().isAuthenticated) {
+            bookmarksAPI.add(questionId).catch(() => {})
+          }
         }
         set({ bookmarks: newBookmarks })
         localStorage.setItem('cse_bookmarks', JSON.stringify(newBookmarks))
@@ -210,6 +220,31 @@ const useExamStore = create(
       clearBookmarks: () => {
         set({ bookmarks: [] })
         localStorage.removeItem('cse_bookmarks')
+      },
+
+      // Sync local bookmarks to API (called after login)
+      syncBookmarksToAPI: async () => {
+        const { bookmarks } = get()
+        try {
+          await bookmarksAPI.sync(bookmarks)
+          set({ syncedBookmarks: true })
+        } catch (error) {
+          console.warn('Failed to sync bookmarks:', error.message)
+        }
+      },
+
+      // Fetch bookmarks from API and merge with local
+      fetchBookmarksFromAPI: async () => {
+        try {
+          const response = await bookmarksAPI.getAll()
+          const apiBookmarks = response.data || []
+          const localBookmarks = get().bookmarks
+          const merged = [...new Set([...localBookmarks, ...apiBookmarks])]
+          set({ bookmarks: merged })
+          localStorage.setItem('cse_bookmarks', JSON.stringify(merged))
+        } catch (error) {
+          console.warn('Failed to fetch bookmarks:', error.message)
+        }
       },
 
       completeSession: () => {
@@ -232,7 +267,6 @@ const useExamStore = create(
         const passed = percentage >= 80
         const timeTakenSeconds = Math.floor((Date.now() - session.startTime) / 1000)
 
-        // Category breakdown
         const categoryBreakdown = {}
         results.forEach((r) => {
           const cat = r.category
@@ -241,7 +275,6 @@ const useExamStore = create(
           if (r.isCorrect) categoryBreakdown[cat].correct++
         })
 
-        // Subcategory breakdown
         const subcategoryBreakdown = {}
         results.forEach((r) => {
           const key = `${r.category}::${r.subcategory}`
@@ -273,8 +306,48 @@ const useExamStore = create(
           categoryBreakdown,
           subcategoryBreakdown,
         }
+
+        // Sync session to API in background
+        get().syncSessionToAPI(completed)
+
         set({ session: null, currentQuestionIndex: 0 })
         return completed
+      },
+
+      // Sync completed session to API
+      syncSessionToAPI: async (completed) => {
+        const isAuthenticated = useAuthStore.getState().isAuthenticated
+        const guestToken = getGuestToken()
+
+        if (!isAuthenticated && !guestToken) return
+
+        try {
+          const sessionData = {
+            mode: completed.mode,
+            categories: completed.categories,
+            subcategory_keys: completed.subcategoryKeys || [],
+            difficulty: completed.difficulty || 'all',
+            total_questions: completed.totalQuestions,
+            score: completed.score,
+            percentage: completed.percentage,
+            passed: completed.passed,
+            time_taken_sec: completed.timeTakenSeconds,
+            answers: completed.results.map(r => ({
+              question_id: r.questionId,
+              user_answer: r.userAnswer,
+              correct_answer: r.correctAnswer,
+              is_correct: r.isCorrect,
+            })),
+          }
+
+          if (isAuthenticated) {
+            await sessionsAPI.save(sessionData)
+          } else {
+            await sessionsAPI.saveGuest(sessionData)
+          }
+        } catch (error) {
+          console.warn('Failed to sync session to API:', error.message)
+        }
       },
 
       clearSession: () => set({ session: null, currentQuestionIndex: 0 }),
