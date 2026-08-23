@@ -14,6 +14,7 @@ import { useEffect } from 'react'
 import useSettingsStore from './store/settingsStore'
 import useExamStore from './store/examStore'
 import useAuthStore from './store/authStore'
+import Leaderboard from './pages/Leaderboard'
 
 function App() {
   const { darkMode } = useSettingsStore()
@@ -61,6 +62,7 @@ function App() {
           <Route path="settings" element={<Settings />} />
           <Route path="login" element={<Login />} />
           <Route path="*" element={<Navigate to="/" replace />} />
+          <Route path="leaderboard" element={<Leaderboard />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -1,10 +1,11 @@
 import { NavLink, useNavigate, useLocation } from 'react-router-dom'
-import { Bookmark, History, Home, Settings, Flag, LogIn, LogOut, User } from 'lucide-react'
+import { Bookmark, History, Home, Settings, Flag, LogIn, LogOut, Trophy } from 'lucide-react'
 import useFlagStore from '../store/flagStore'
 import useAuthStore from '../store/authStore'
 
 const navItems = [
   { path: '/', icon: Home, label: 'Home' },
+  { path: '/leaderboard', icon: Trophy, label: 'Leaderboard' },
   { path: '/flagged', icon: Flag, label: 'Flagged', badge: true },
   { path: '/history', icon: History, label: 'History' },
   { path: '/bookmarks', icon: Bookmark, label: 'Bookmarks' },
