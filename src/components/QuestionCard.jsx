@@ -4,6 +4,7 @@ import DifficultyBadge from './DifficultyBadge'
 import SubcategoryBadge from './SubcategoryBadge'
 import FormattedText from './FormattedText'
 import FlagButton from './FlagButton'
+import QuestionImage from './QuestionImage'
 import { Bookmark, BookmarkCheck } from 'lucide-react'
 
 export default function QuestionCard({
@@ -39,6 +40,10 @@ export default function QuestionCard({
           </button>
         </div>
       </div>
+
+      {question.hasImage && (
+        <QuestionImage questionId={question.passageId || question.id} alt="Question diagram" />
+      )}
 
       {(question.subcategory === 'synonym' || question.subcategory === 'synonyms' || question.subcategory === 'kasingkahulugan') && (
         <div className="flex items-center gap-1.5 text-xs text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20 rounded-lg px-3 py-1.5">
