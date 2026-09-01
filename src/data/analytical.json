@@ -1255,6 +1255,7 @@
       "category": "analytical",
       "subcategory": "pattern_recognition",
       "difficulty": "difficult",
+      "hasImage": true,
       "question": "Which of the circles marked a, b, c, d fits logically into the blank top circle in the diagram? There is a logical sequence to how the diagram is built up, starting at the bottom row.",
       "choices": {
         "a": "Circle A",
@@ -1273,6 +1274,7 @@
       "category": "analytical",
       "subcategory": "pattern_recognition",
       "difficulty": "difficult",
+      "hasImage": true,
       "question": "Which of the circles marked a, b, c, d fits logically into the blank top circle in the diagram? There is a logical sequence to how the diagram is built up, starting at the bottom row.",
       "choices": {
         "a": "Circle A",
