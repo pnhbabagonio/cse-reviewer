@@ -1293,6 +1293,7 @@
       "category": "analytical",
       "subcategory": "pattern_recognition",
       "difficulty": "difficult",
+      "hasImage": true,
       "question": "Study the pyramid on the left and in particular, the lines which appear in each hexagon. Moving up the pyramid from the bottom row, these lines appear in each hexagon according to a set rule, depending on the lines which appear in the two hexagons directly below it. Which of a, b, c, d below should replace the hexagon with the question mark at the top of the pyramid?",
       "choices": {
         "a": "Hexagon A",
