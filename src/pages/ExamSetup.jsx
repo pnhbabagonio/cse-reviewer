@@ -1,3 +1,4 @@
+//src/pages/ExamSetup.jsx
 import { useState, useEffect, useMemo } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import useExamStore from '../store/examStore'
@@ -10,7 +11,7 @@ const categories = [
   { id: 'filipino', label: 'Filipino' },
 ]
 
-const questionCounts = [10, 20, 30, 50, 100]
+const questionCounts = [10, 20, 30, 50, 100, 150]
 const difficulties = ['all', 'easy', 'average', 'difficult']
 
 const getSubcategoryKey = (question) => (
@@ -41,6 +42,7 @@ export default function ExamSetup() {
   const [questionCount, setQuestionCount] = useState(30)
   const [answerAll, setAnswerAll] = useState(false)
   const [availableCount, setAvailableCount] = useState(0)
+  const [customInput, setCustomInput] = useState('')
 
   const filterableQuestions = useMemo(() => {
     return typeof getFilterableQuestionsForSubcategoryUI === 'function'
@@ -139,6 +141,45 @@ export default function ExamSetup() {
     ))
   }
 
+  const handleSelectPreset = (count) => {
+    setAnswerAll(false)
+    setQuestionCount(count)
+    setCustomInput('')
+  }
+
+  const handleSelectAll = () => {
+    setAnswerAll(true)
+    setQuestionCount(availableCount)
+    setCustomInput('')
+  }
+
+  const handleCustomChange = (e) => {
+    const raw = e.target.value
+    setCustomInput(raw)
+
+    if (raw === '') return
+
+    const parsed = parseInt(raw, 10)
+    if (isNaN(parsed)) return
+
+    // Clamp between 1 and availableCount
+    const clamped = Math.max(1, Math.min(parsed, availableCount))
+    setAnswerAll(false)
+    setQuestionCount(clamped)
+  }
+
+  const handleCustomBlur = () => {
+    if (customInput === '') return
+    const parsed = parseInt(customInput, 10)
+    if (isNaN(parsed)) {
+      setCustomInput('')
+      return
+    }
+    const clamped = Math.max(1, Math.min(parsed, availableCount))
+    setCustomInput(String(clamped))
+    setQuestionCount(clamped)
+  }
+
   const handleStart = () => {
     const config = {
       mode,
@@ -155,7 +196,6 @@ export default function ExamSetup() {
   const timerPreview = mode === 'timed' ? questionCount * 1.5 : 0
   const minutes = Math.floor(timerPreview)
   const seconds = Math.round((timerPreview - minutes) * 60)
-  const customQuestionCount = availableCount > 0 && !questionCounts.includes(questionCount)
 
   return (
     <div className="w-full space-y-6">
@@ -283,11 +323,7 @@ export default function ExamSetup() {
             <label className="font-semibold">Number of Questions</label>
             <div className="flex flex-wrap gap-2">
               <button
-                key="all"
-                onClick={() => {
-                  setAnswerAll(true)
-                  setQuestionCount(availableCount)
-                }}
+                onClick={handleSelectAll}
                 className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${
                   answerAll
                     ? 'bg-navy text-white dark:bg-gold dark:text-navy'
@@ -299,13 +335,10 @@ export default function ExamSetup() {
               {questionCounts.map(count => (
                 <button
                   key={count}
-                  onClick={() => {
-                    setAnswerAll(false)
-                    setQuestionCount(count)
-                  }}
+                  onClick={() => handleSelectPreset(count)}
                   disabled={count > availableCount}
                   className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${
-                    !answerAll && questionCount === count
+                    !answerAll && customInput === '' && questionCount === count
                       ? 'bg-navy text-white dark:bg-gold dark:text-navy'
                       : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300'
                   } ${count > availableCount ? 'opacity-50 cursor-not-allowed' : ''}`}
@@ -313,15 +346,31 @@ export default function ExamSetup() {
                   {count}
                 </button>
               ))}
-              {customQuestionCount && !answerAll && (
-                <button
-                  type="button"
-                  className="px-4 py-1.5 rounded-full text-sm font-medium bg-navy text-white dark:bg-gold dark:text-navy"
-                >
-                  {questionCount}
-                </button>
+            </div>
+
+            {/* Custom input */}
+            <div className="flex items-center gap-2 mt-2">
+              <label className="text-xs text-gray-500 dark:text-gray-400 whitespace-nowrap">
+                Or enter custom:
+              </label>
+              <input
+                type="number"
+                min="1"
+                max={availableCount}
+                value={customInput}
+                onChange={handleCustomChange}
+                onBlur={handleCustomBlur}
+                placeholder={`1–${availableCount}`}
+                disabled={availableCount === 0}
+                className="w-28 px-3 py-1.5 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-navy dark:focus:ring-gold disabled:opacity-50"
+              />
+              {customInput !== '' && !answerAll && (
+                <span className="text-xs text-gray-500">
+                  → {questionCount} question{questionCount !== 1 ? 's' : ''}
+                </span>
               )}
             </div>
+
             <p className="text-xs text-gray-500">{availableCount} questions available</p>
           </div>
 
